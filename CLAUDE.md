@@ -8,15 +8,15 @@ Daily-updated tournament-prediction web app for the 2026 FIFA World Cup (USA/Can
 
 ## Current state
 
-- **Phase 0 (scaffolding): in progress.**
-- Next.js 15 + Tailwind app scaffolded, static export verified (`make build`), "Hello WC26" page in place.
+- **Phase 0 (scaffolding): done.**
+- Next.js 15 + Tailwind app scaffolded, static export verified (`make build`), "Hello WC26" page live.
 - `.venv` + `requirements.txt` (requests, beautifulsoup4, numpy, pandas) set up.
 - `Makefile` (`dev`, `build`, `venv`, `update`) and `scripts/update.py` heartbeat stub in place.
 - launchd plist drafted at `launchd/com.shradayshakya.wc26predictor.update.plist` — **not yet installed/loaded** (deferred until there's a real pipeline to run daily).
-- Cloudflare hosting connected via the Workers Git-integration flow (`wrangler.jsonc`, static assets from `out/`) — **not classic Pages**; production URL is `*.workers.dev`, not `*.pages.dev` (see Locked decisions below).
-- **Next concrete steps** (per PRD §11 Phase 0):
-  1. Confirm the Cloudflare deploy is live at its `*.workers.dev` URL.
-  2. Move on to Phase 1 (data pipeline scrapers: `eloratings.net`, Wikipedia).
+- Cloudflare hosting connected via the Workers Git-integration flow (`wrangler.jsonc`, static assets from `out/`) — **not classic Pages**; production URL is `*.workers.dev`, not `*.pages.dev` (see Locked decisions below). Live at https://world-cup-2026-predictor.shradayshakya.workers.dev, auto-deploy on push to `main` confirmed.
+- **Next concrete steps** (per PRD §11 Phase 1 — data pipeline):
+  1. Scraper for `eloratings.net` → `elo.json`.
+  2. Scraper for Wikipedia results + group tables → `results.json`, `groups.json`.
 
 When you finish a phase, update this section to reflect the new "next".
 
