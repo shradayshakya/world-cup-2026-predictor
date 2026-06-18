@@ -1,5 +1,4 @@
 {
-	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "world-cup-2026-predictor",
 	"compatibility_date": "2025-06-18",
 	"assets": {
