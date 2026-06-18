@@ -1,6 +1,6 @@
 # World Cup 2026 Predictor — PRD
 
-**Status:** Draft v0.4
+**Status:** Draft v0.5
 **Last updated:** 2026-06-18
 **Owner:** Shraday Shakya
 
@@ -179,7 +179,7 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
                          │
                          ▼
 ┌──────────────────────────────────────────────────────────┐
-│  Cloudflare Pages (auto-deploys on push)                 │
+│  Cloudflare Workers static assets (auto-deploys on push) │
 │  Static Next.js site reads /public/data/*.json           │
 └──────────────────────────────────────────────────────────┘
 ```
@@ -189,13 +189,13 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 - **Compute:** Python 3.12 — `requests`, `beautifulsoup4`, `numpy`, `pandas`. Monte Carlo vectorized in numpy.
 - **LLM layer:** local Ollama running `gemma4:e4b-mlx`. Called once per daily run.
 - **Storage:** JSON files in the repo. No database.
-- **Hosting:** Cloudflare Pages (frontend, free permanent tier). Production URL: a free `*.pages.dev` subdomain (final slug TBD at scaffold time, e.g., `worldcup2026.pages.dev`). Custom domain can be added later without code changes.
+- **Hosting:** Cloudflare Workers static assets, Git-connected deploy (frontend, free permanent tier). Production URL: a free `*.workers.dev` subdomain (final slug TBD at scaffold time, e.g., `world-cup-2026-predictor.<account>.workers.dev`). Custom domain can be added later without code changes. (Classic Cloudflare Pages with `*.pages.dev` is no longer the default Git-integration flow in the dashboard as of scaffold time — Workers static assets is the equivalent free, permanent option.)
 - **Scheduler:** macOS launchd at 06:00 local daily. Manual fallback: `make update`.
 
 ### What we explicitly chose NOT to use
 - **GitHub Actions cron / cloud compute** — would require a second code path without Ollama; the only failure mode it covers (Mac offline >24h during a 30-day tournament you're actively watching) is rare enough not to justify the complexity.
 - **Cloudflare Tunnel / ngrok / remote trigger API** — solves a problem we don't have. If a manual refresh is ever needed while away, Tailscale SSH + `make update` is enough.
-- **AWS** — free tier expires after 12 months; Cloudflare Pages is permanently free.
+- **AWS** — free tier expires after 12 months; Cloudflare's static hosting is permanently free.
 - **Database** — read-only static site; JSON files in git are simpler and version-controlled for free.
 
 ### Why static + JSON
@@ -222,9 +222,9 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 ## 11. Phasing
 
 ### Phase 0 — Scaffolding (day 1)
-- Repo, Next.js skeleton, Tailwind, deploy "Hello WC26" to Cloudflare Pages.
+- Repo, Next.js skeleton, Tailwind, deploy "Hello WC26" to Cloudflare (Workers static assets).
 - launchd plist + `make update` target that runs a dummy script, commits a `heartbeat.json`, and pushes.
-- Verify auto-deploy on Cloudflare Pages picks up the push.
+- Verify auto-deploy on Cloudflare picks up the push.
 
 ### Phase 1 — Data pipeline (days 2–4)
 - Scraper for eloratings.net.
@@ -268,7 +268,7 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 - ~~**Scheduler**~~ — Locked: macOS launchd. No GitHub Actions, no Cloudflare Tunnel, no AWS.
 - ~~**Home page tournament-winner display**~~ — Locked: all remaining teams in a single stacked horizontal bar, ranked. Eliminated teams excluded from the bar.
 - ~~**Probability change UX**~~ — Locked: green ↑ / red ↓ arrows next to every probability (suppressed below 0.1pp jitter threshold). "Biggest movers" panel on home = top 5 teams by absolute pp change since yesterday.
-- ~~**Domain**~~ — Locked: free `*.pages.dev` subdomain on Cloudflare Pages. Custom domain deferred.
+- ~~**Domain**~~ — Locked: free `*.workers.dev` subdomain on Cloudflare (Workers static assets, Git-connected — the dashboard's classic Pages flow with `*.pages.dev` was unavailable at scaffold time). Custom domain deferred.
 - ~~**Eliminated teams**~~ — Locked: kept visible everywhere with an "ELIMINATED" badge and greyed styling; probabilities collapse to 0% advance / 100% eliminated. Excluded from the home stacked bar (which only ranks live contenders).
 
 ---

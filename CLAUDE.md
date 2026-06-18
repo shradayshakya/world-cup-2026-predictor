@@ -8,14 +8,15 @@ Daily-updated tournament-prediction web app for the 2026 FIFA World Cup (USA/Can
 
 ## Current state
 
-- **Phase 0 (scaffolding): not yet started.**
-- Repo contains only `PRD.md` (v0.4) and this file.
+- **Phase 0 (scaffolding): in progress.**
+- Next.js 15 + Tailwind app scaffolded, static export verified (`make build`), "Hello WC26" page in place.
+- `.venv` + `requirements.txt` (requests, beautifulsoup4, numpy, pandas) set up.
+- `Makefile` (`dev`, `build`, `venv`, `update`) and `scripts/update.py` heartbeat stub in place.
+- launchd plist drafted at `launchd/com.shradayshakya.wc26predictor.update.plist` — **not yet installed/loaded** (deferred until there's a real pipeline to run daily).
+- Cloudflare hosting connected via the Workers Git-integration flow (`wrangler.jsonc`, static assets from `out/`) — **not classic Pages**; production URL is `*.workers.dev`, not `*.pages.dev` (see Locked decisions below).
 - **Next concrete steps** (per PRD §11 Phase 0):
-  1. Initialize Next.js 15 + Tailwind app.
-  2. Deploy a "Hello WC26" page to Cloudflare Pages on a free `*.pages.dev` subdomain.
-  3. Add a `make update` target that runs a dummy script, writes `public/data/heartbeat.json`, commits, and pushes.
-  4. Add a launchd plist that runs `make update` at 06:00 local daily.
-  5. Verify the auto-deploy on Cloudflare Pages picks up the push.
+  1. Confirm the Cloudflare deploy is live at its `*.workers.dev` URL.
+  2. Move on to Phase 1 (data pipeline scrapers: `eloratings.net`, Wikipedia).
 
 When you finish a phase, update this section to reflect the new "next".
 
@@ -23,7 +24,7 @@ When you finish a phase, update this section to reflect the new "next".
 
 ## Architecture in one paragraph
 
-Owner's Mac runs a launchd job daily at 06:00 local. The job scrapes data (eloratings.net, Wikipedia, news RSS), enriches with a local Ollama LLM (`gemma4:e4b-mlx`) for injuries and editorial blurbs, runs a Poisson-per-match + Monte Carlo tournament simulation (50k runs), writes JSON to `public/data/`, and `git push`es. Cloudflare Pages auto-deploys a static Next.js site that reads the JSON. **No backend, no database, no cloud compute, no inbound API.**
+Owner's Mac runs a launchd job daily at 06:00 local. The job scrapes data (eloratings.net, Wikipedia, news RSS), enriches with a local Ollama LLM (`gemma4:e4b-mlx`) for injuries and editorial blurbs, runs a Poisson-per-match + Monte Carlo tournament simulation (50k runs), writes JSON to `public/data/`, and `git push`es. Cloudflare (Workers static assets, Git-connected) auto-deploys a static Next.js site that reads the JSON. **No backend, no database, no cloud compute, no inbound API.**
 
 ---
 
@@ -37,7 +38,7 @@ These were resolved across multiple PRD revisions. The PRD §12 "Resolved" block
 | Compute | Python 3.12, `requests` + `beautifulsoup4` + `numpy` + `pandas` |
 | LLM | local Ollama `gemma4:e4b-mlx` (bake-off vs `qwen2.5:14b` planned pre-launch) |
 | Storage | JSON files in `public/data/`, versioned in git. No database. |
-| Hosting | Cloudflare Pages (free permanent tier), `*.pages.dev` subdomain |
+| Hosting | Cloudflare Workers static assets, Git-connected (free permanent tier), `*.workers.dev` subdomain |
 | Scheduler | macOS launchd, 06:00 local daily |
 | Cost ceiling | $0 — no paid APIs, no AWS, no paid hosting |
 | Scope | Read-only viewer. No accounts, no pools, no what-if simulator |
