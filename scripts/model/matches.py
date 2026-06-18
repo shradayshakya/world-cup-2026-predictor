@@ -4,7 +4,23 @@ from .poisson import expected_goals, score_grid, summarize
 from .teams import resolve_rating
 
 
-def build_matches(elo: dict, groups: dict, results: dict) -> dict:
+def _elo_win_expectancy(home: str, away: str, win_expectancy: dict):
+    """win_expectancy maps (home_name, away_name) -> eloratings.net's published home win-expectancy %.
+
+    This is their "expected score" metric (win=1, draw=0.5, loss=0), not a 3-way W/D/L split like
+    our own model -- shown for comparison ("according to Elo" vs "what we calculated"), see CLAUDE.md.
+    """
+    if (home, away) in win_expectancy:
+        home_pct = win_expectancy[(home, away)]
+    elif (away, home) in win_expectancy:
+        home_pct = 100 - win_expectancy[(away, home)]
+    else:
+        return None
+    return {"home": home_pct, "away": round(100 - home_pct, 1)}
+
+
+def build_matches(elo: dict, groups: dict, results: dict, win_expectancy: dict = None) -> dict:
+    win_expectancy = win_expectancy or {}
     elo_by_name = {t["name"]: t["rating"] for t in elo["teams"]}
     host_by_team = {
         entry["team"]: entry["host"]
@@ -41,6 +57,7 @@ def build_matches(elo: dict, groups: dict, results: dict) -> dict:
                 "away_team": match["away_team"],
                 "venue": match["venue"],
                 "prediction": prediction,
+                "elo_win_expectancy": _elo_win_expectancy(match["home_team"], match["away_team"], win_expectancy),
             }
         )
 

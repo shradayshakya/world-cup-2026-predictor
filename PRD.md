@@ -144,7 +144,9 @@ Same Ollama runtime as §6.3, two additional prompt templates:
 
 | Source | What we pull | Cadence | Method |
 |---|---|---|---|
-| `eloratings.net` | Daily Elo per national team | Daily | Scrape table |
+| `eloratings.net` (`World.tsv`) | Daily Elo per national team | Daily | TSV fetch |
+| `eloratings.net` (`latest.tsv`) | Recent results, last 10 per WC26 team ("form") | Daily | TSV fetch |
+| `eloratings.net` (`fixtures.tsv`) | Their own published win-expectancy, for an "according to Elo" comparison | Daily | TSV fetch |
 | `en.wikipedia.org/wiki/2026_FIFA_World_Cup` | Group tables, fixtures, results | Daily | Scrape + parse |
 | Wikipedia per-group + per-match pages | Lineups, goal scorers, attendance | Daily | Scrape |
 | `fifa.com/worldcup` | Official fixtures (validation) | Daily | Scrape |
