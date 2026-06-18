@@ -2,22 +2,35 @@
 
 No historical results dataset is available to fit a real Dixon-Coles model in
 this zero-budget setup, so the Elo-to-goals mapping below is a documented
-heuristic, not a regression fit to match outcomes.
+heuristic, not a regression fit to match outcomes. It went through three
+rounds of revision on 2026-06-18 (see CLAUDE.md for the full history):
 
-Elo difference is converted to expected goals *multiplicatively*
-(ELO_RATIO_SCALE below), not by redistributing a fixed total between the two
-teams. An earlier additive version (lambda_home + lambda_away held constant
-at AVERAGE_GOALS_PER_MATCH regardless of Elo gap) structurally capped the
-favorite's expected goals at AVERAGE_GOALS_PER_MATCH - MIN_EXPECTED_GOALS
-(2.45), which caps the Poisson mode at 2 goals forever -- no Elo gap, however
-large, could ever produce a 3-0 or 4-0 prediction. Grid-searched
-ELO_RATIO_SCALE against eloratings.net's own win expectancy (already
-scraped, a free real-world target): 500 both fits eloratings.net better than
-the old additive model did (0.74pp avg error vs 1.45pp) and lets blowout
-matchups actually predict blowout scorelines (e.g. Spain vs Saudi Arabia ->
-4-0 at 96% win), while leaving close matchups (e.g. Switzerland vs Canada,
-1-1 at 35/30/35) untouched. Revisit via the PRD S10 Brier-score calibration
-check once enough matches have been played.
+1. Additive split (lambda_home + lambda_away held constant at
+   AVERAGE_GOALS_PER_MATCH regardless of Elo gap) structurally capped the
+   favorite's expected goals at AVERAGE_GOALS_PER_MATCH - MIN_EXPECTED_GOALS
+   (2.45) -- since a Poisson mode is floor(lambda), no Elo gap, however
+   large, could ever produce a 3-0 prediction.
+2. Multiplicative split (lambda_home * lambda_away held constant instead)
+   fixed that, but traces a path through lambda-space that can only ever
+   pass through "low-scoring draw" or "one side shut out" territory -- it
+   can't reach "both teams score, asymmetrically" (e.g. 2-1), because that
+   needs both lambdas elevated simultaneously, which a fixed *product*
+   forbids just as much as a fixed *sum* did.
+3. Current: total expected goals (TOTAL_GOALS_GROWTH_RATE below) now grows
+   with the Elo gap too, instead of staying frozen -- decoupling "how many
+   goals total" from "how lopsided the split is" lets 2-1/1-2 appear for
+   moderate mismatches alongside 3-0/4-0 for severe ones. Grid-searched
+   against eloratings.net's own win expectancy (already scraped, a free
+   real-world target): trades a bit of fit (2.07pp avg error, vs. 0.74pp for
+   step 2 and 12.6pp for step 1) for going from 6 to 9 distinct scorelines
+   across the 48 group-stage matches available that day. Revisit via the
+   PRD S10 Brier-score calibration check once enough matches have been
+   played.
+
+Note 1-0/0-1 still never win the mode contest regardless of any of the
+above -- that's the separate Dixon-Coles rho correction (modeling real
+soccer's tendency toward extra low-scoring draws at the expense of 1-0/0-1),
+not something this Elo-to-goals mapping controls.
 """
 
 import math
@@ -27,6 +40,7 @@ import numpy as np
 AVERAGE_GOALS_PER_MATCH = 2.6  # ~ historical World Cup average (2018: 2.64, 2022: 2.69)
 HOME_ADVANTAGE_ELO = 100  # applied only to host-nation matches (PRD S6.1)
 ELO_RATIO_SCALE = 500  # calibrated against eloratings.net's win expectancy -- see module docstring
+TOTAL_GOALS_GROWTH_RATE = 0.7  # how much total expected goals rises per 400 Elo points of gap -- see module docstring
 DIXON_COLES_RHO = -0.13  # literature-typical low-score correlation (Dixon & Coles 1997)
 MAX_GOALS = 7
 MIN_EXPECTED_GOALS = 0.15
@@ -38,10 +52,12 @@ _FACTORIALS = np.array([math.factorial(k) for k in range(MAX_GOALS + 1)], dtype=
 def expected_goals(elo_home: float, elo_away: float, host_home: bool, host_away: bool) -> tuple:
     home_elo = elo_home + (HOME_ADVANTAGE_ELO if host_home else 0)
     away_elo = elo_away + (HOME_ADVANTAGE_ELO if host_away else 0)
-    ratio = 10 ** ((home_elo - away_elo) / ELO_RATIO_SCALE)
-    avg_per_team = AVERAGE_GOALS_PER_MATCH / 2.0
-    lambda_home = min(max(avg_per_team * math.sqrt(ratio), MIN_EXPECTED_GOALS), MAX_EXPECTED_GOALS)
-    lambda_away = min(max(avg_per_team / math.sqrt(ratio), MIN_EXPECTED_GOALS), MAX_EXPECTED_GOALS)
+    elo_diff = home_elo - away_elo
+    ratio = 10 ** (elo_diff / ELO_RATIO_SCALE)
+    home_share = ratio / (1 + ratio)
+    total_goals = AVERAGE_GOALS_PER_MATCH * (1 + TOTAL_GOALS_GROWTH_RATE * abs(elo_diff) / 400.0)
+    lambda_home = min(max(total_goals * home_share, MIN_EXPECTED_GOALS), MAX_EXPECTED_GOALS)
+    lambda_away = min(max(total_goals * (1 - home_share), MIN_EXPECTED_GOALS), MAX_EXPECTED_GOALS)
     return lambda_home, lambda_away
 
 
