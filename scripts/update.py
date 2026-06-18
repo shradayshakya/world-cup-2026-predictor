@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Daily update pipeline (see PRD.md S8, S11). Phase 1: elo + Wikipedia scrapers."""
+"""Daily update pipeline (see PRD.md S8, S11). Phases 1-2: scrapers + Poisson-Elo match model."""
 
 import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from model.matches import build_matches
 from scrapers.elo import scrape_elo
 from scrapers.wikipedia import scrape_wikipedia
 
@@ -26,9 +27,15 @@ def main() -> None:
     elo["scraped_at"] = now
     _write_json("elo.json", elo)
 
-    groups, matches = scrape_wikipedia()
-    _write_json("groups.json", {"scraped_at": now, "groups": groups})
-    _write_json("results.json", {"scraped_at": now, "matches": matches})
+    raw_groups, raw_matches = scrape_wikipedia()
+    groups = {"scraped_at": now, "groups": raw_groups}
+    results = {"scraped_at": now, "matches": raw_matches}
+    _write_json("groups.json", groups)
+    _write_json("results.json", results)
+
+    matches = build_matches(elo, groups, results)
+    matches["generated_at"] = now
+    _write_json("matches.json", matches)
 
 
 if __name__ == "__main__":

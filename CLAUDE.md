@@ -19,9 +19,16 @@ Daily-updated tournament-prediction web app for the 2026 FIFA World Cup (USA/Can
 - `scripts/scrapers/wikipedia.py` scrapes the single `en.wikipedia.org/wiki/2026_FIFA_World_Cup` page (one fetch, per scraping discipline) → `public/data/groups.json` (12 group standings) and `public/data/results.json` (all 104 matches, group + knockout, played and upcoming).
 - `scripts/update.py` orchestrates all three scrapers plus the heartbeat write; `make update` runs it and commits/pushes all four `public/data/*.json` files.
 - Knockout-stage matches not yet determined carry placeholder team names scraped verbatim from Wikipedia (e.g. `"Runner-up Group A"`, `"3rd Group A/B/C/D/F"`) — Phase 3's bracket logic will need to resolve these against actual standings.
-- **Next concrete steps** (per PRD §11 Phase 2 — match model):
-  1. Poisson-Elo per-match probability + scoreline model, fed by `elo.json` + `results.json`.
-  2. Write `matches.json` with predicted scores for all remaining fixtures.
+- **Phase 2 (match model): done.**
+- `scripts/model/poisson.py` — Poisson-Elo + Dixon-Coles match model. **No historical results dataset was available to fit this**, so the Elo-to-goals mapping (`GOAL_SUPREMACY_PER_400_ELO = 1.0`, `AVERAGE_GOALS_PER_MATCH = 2.6`, `HOME_ADVANTAGE_ELO = 100`, `DIXON_COLES_RHO = -0.13`) is a documented v1 heuristic, not a calibrated regression — revisit via the PRD §10 Brier-score calibration check once enough real matches have been played.
+- `scripts/model/matches.py` joins `elo.json` + `groups.json` (for host-nation flags) + `results.json` (for fixtures) into `public/data/matches.json`: predicted scoreline, W/D/L probabilities, and a full 8×8 score-probability grid per match.
+- Team-name mismatches between eloratings.net and Wikipedia are bridged via a small `TEAM_ALIASES` dict (currently just `"Czech Republic" → "Czechia"`) — add to it if future scrapes log new unresolved-team warnings that turn out to be naming drift rather than genuine TBD knockout slots.
+- Fixed a real bug along the way: `scripts/scrapers/http.py` now forces UTF-8 decoding — `requests` was silently mojibake-ing eloratings.net's unlabeled-charset TSV responses (e.g. "Curaçao" → "CuraÃ§ao").
+- Knockout-stage fixtures are skipped in `matches.json` until Wikipedia resolves their placeholder team names (currently all 32); only the 48 not-yet-played group-stage matches get predictions today.
+- **Next concrete steps** (per PRD §11 Phase 3 — tournament model):
+  1. Monte Carlo simulation (N=50k) over the remainder of the tournament using the Phase 2 score grids.
+  2. Handle knockout draws (ET + penalty coin-flip per PRD §6.2) and bracket resolution (turning "Runner-up Group A" placeholders into actual teams as groups complete).
+  3. Write `probabilities.json` with per-team per-stage probabilities (group position, advancement, tournament win).
 
 When you finish a phase, update this section to reflect the new "next".
 

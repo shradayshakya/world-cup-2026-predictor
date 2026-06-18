@@ -15,6 +15,6 @@ venv:
 
 update:
 	$(PYTHON) scripts/update.py
-	git add public/data/heartbeat.json public/data/elo.json public/data/groups.json public/data/results.json
+	git add public/data/heartbeat.json public/data/elo.json public/data/groups.json public/data/results.json public/data/matches.json
 	git commit -m "Daily update $$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 	git push origin main
