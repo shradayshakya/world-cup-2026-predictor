@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import ScoreHeatmap from "@/components/ScoreHeatmap";
 import TeamLink from "@/components/TeamLink";
+import TopScorelines from "@/components/TopScorelines";
 import { getForm, getResults } from "@/lib/data";
 import { formatDate, formatPercent } from "@/lib/format";
 import { getPredictionFor } from "@/lib/predictions";
@@ -100,6 +101,9 @@ export default async function MatchPage({ params }: { params: Promise<{ slug: st
           <section>
             <h2 className="text-lg font-semibold">Score distribution</h2>
             <div className="mt-2">
+              <TopScorelines grid={prediction.prediction.score_grid} homeTeam={match.home_team} awayTeam={match.away_team} />
+            </div>
+            <div className="mt-4">
               <ScoreHeatmap grid={prediction.prediction.score_grid} homeTeam={match.home_team} awayTeam={match.away_team} />
             </div>
           </section>
