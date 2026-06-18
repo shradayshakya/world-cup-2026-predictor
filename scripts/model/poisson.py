@@ -1,9 +1,16 @@
 """Poisson-Elo match model (PRD.md S6.1).
 
 No historical results dataset is available to fit a real Dixon-Coles model in
-this zero-budget setup, so the Elo-to-goals mapping below is a documented v1
-heuristic, not a calibrated regression. Revisit via the PRD S10 Brier-score
-calibration check once enough matches have been played.
+this zero-budget setup, so the Elo-to-goals mapping below is a documented
+heuristic, not a regression fit to match outcomes. GOAL_SUPREMACY_PER_400_ELO
+*was* calibrated, though: grid-searched against eloratings.net's own win
+expectancy (which we already scrape) as a free, real-world target, since our
+v1 value of 1.0 was badly undershooting -- it disagreed with eloratings.net
+by ~12.6pp average on the 48 group-stage matches available on 2026-06-18,
+and collapsed almost every predicted scoreline to 1-1 (41/48) regardless of
+how lopsided the matchup actually was. 2.5 cuts that disagreement to ~1.5pp.
+Revisit via the PRD S10 Brier-score calibration check once enough matches
+have been played.
 """
 
 import math
@@ -12,7 +19,7 @@ import numpy as np
 
 AVERAGE_GOALS_PER_MATCH = 2.6  # ~ historical World Cup average (2018: 2.64, 2022: 2.69)
 HOME_ADVANTAGE_ELO = 100  # applied only to host-nation matches (PRD S6.1)
-GOAL_SUPREMACY_PER_400_ELO = 1.0  # assumed goal-difference swing per 400 Elo points
+GOAL_SUPREMACY_PER_400_ELO = 2.5  # calibrated against eloratings.net's win expectancy -- see module docstring
 DIXON_COLES_RHO = -0.13  # literature-typical low-score correlation (Dixon & Coles 1997)
 MAX_GOALS = 7
 MIN_EXPECTED_GOALS = 0.15

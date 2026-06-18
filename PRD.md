@@ -1,6 +1,6 @@
 # World Cup 2026 Predictor — PRD
 
-**Status:** Draft v0.6
+**Status:** Draft v0.7
 **Last updated:** 2026-06-18
 **Owner:** Shraday Shakya
 
@@ -274,6 +274,7 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 - ~~**Eliminated teams**~~ — Locked: kept visible everywhere with an "ELIMINATED" badge and greyed styling; probabilities collapse to 0% advance / 100% eliminated. Excluded from the home stacked bar (which only ranks live contenders).
 - ~~**Charting library**~~ — Locked: no Recharts/visx after all. The two charts actually needed (the home stacked bar, the score-distribution heatmap) don't fit either library's standard chart types well; hand-rolled with Tailwind flex/grid instead, keeping every Phase 4 page a zero-JS Server Component.
 - ~~**Bracket node probabilities**~~ — Locked: §5.2's "most likely 2 teams per node" is computed by `scripts/model/simulate.py` tracking per-slot home/away occupancy counters during the existing Monte Carlo loop, output to `public/data/bracket.json`. The third-place bracket-slot assignment (within that same simulation) finds *a* valid bipartite matching of qualifying 3rd-place teams to candidate slots, not necessarily FIFA's exact official table — acceptable for prediction purposes.
+- ~~**Score-model calibration vs. LLM-based scoring**~~ — Considered and rejected switching the per-match scoreline model to LLM-based estimation (feeding player/tactics/formation data to Ollama) after predictions felt too uniform (41/48 matches predicted exactly 1-1). Rejected because: no player/tactics data source exists, a small local model has no calibration feedback loop the way the Poisson model does (PRD §10's Brier-score audit), and §6.3/6.4 already scope LLM use to injury adjustments and editorial text, not the core numeric model. Instead recalibrated `GOAL_SUPREMACY_PER_400_ELO` (1.0 → 2.5) against eloratings.net's own win expectancy — cut disagreement from ~12.6pp to ~1.5pp average. Remaining low scoreline variety (still 3 distinct exact scores across 48 matches) is inherent Poisson-mode behavior, not a calibration bug; addressed in the UI instead via a "top scorelines" breakdown table on the match page rather than chasing more variety out of the model.
 
 ---
 
