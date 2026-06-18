@@ -64,6 +64,26 @@ export default async function MatchPage({ params }: { params: Promise<{ slug: st
               <span>Draw {formatPercent(prediction.prediction.draw_probability)}</span>
               <span>Away win {formatPercent(prediction.prediction.away_win_probability)}</span>
             </div>
+            {(() => {
+              const { predicted_home_score, predicted_away_score, home_win_probability, draw_probability, away_win_probability } =
+                prediction.prediction;
+              const scorelineOutcome =
+                predicted_home_score > predicted_away_score ? "home" : predicted_home_score < predicted_away_score ? "away" : "draw";
+              const outcomes = { home: home_win_probability, draw: draw_probability, away: away_win_probability } as const;
+              const leadingOutcome = (Object.keys(outcomes) as Array<keyof typeof outcomes>).reduce((a, b) =>
+                outcomes[b] > outcomes[a] ? b : a,
+              );
+              if (scorelineOutcome === leadingOutcome) return null;
+              const favoredTeam = leadingOutcome === "home" ? match.home_team : leadingOutcome === "away" ? match.away_team : null;
+              return (
+                <p className="mt-2 text-sm text-neutral-500">
+                  Note: {favoredTeam ? `${favoredTeam} is favored (${formatPercent(outcomes[leadingOutcome])})` : "a draw is the favored outcome"} — the predicted scoreline above is just the single
+                  most likely <em>exact</em> result, not the favored outcome. A win can happen via many different scorelines (2-0, 2-1,
+                  3-1...), while draws concentrate into fewer cells (0-0, 1-1, 2-2), so a draw scoreline can still be the most probable
+                  individual result even when it isn&apos;t the most probable outcome overall.
+                </p>
+              );
+            })()}
             {prediction.elo_win_expectancy && (
               <p className="mt-2 text-sm text-neutral-500">
                 According to eloratings.net&apos;s win expectancy: {match.home_team} {prediction.elo_win_expectancy.home}% /{" "}
