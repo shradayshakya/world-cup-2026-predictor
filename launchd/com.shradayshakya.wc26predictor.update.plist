@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.shradayshakya.wc26predictor.update</string>
+
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/make</string>
+		<string>-C</string>
+		<string>/Users/shradayshakya/Repositories/world-cup-2026-predictor</string>
+		<string>update</string>
+	</array>
+
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>6</integer>
+		<key>Minute</key>
+		<integer>0</integer>
+	</dict>
+
+	<key>StandardOutPath</key>
+	<string>/Users/shradayshakya/Repositories/world-cup-2026-predictor/launchd/update.log</string>
+
+	<key>StandardErrorPath</key>
+	<string>/Users/shradayshakya/Repositories/world-cup-2026-predictor/launchd/update.error.log</string>
+
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>
