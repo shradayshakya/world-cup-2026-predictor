@@ -1,6 +1,6 @@
 # World Cup 2026 Predictor — PRD
 
-**Status:** Draft v0.9
+**Status:** Draft v1.0
 **Last updated:** 2026-06-18
 **Owner:** Shraday Shakya
 
@@ -266,7 +266,9 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 *None blocking. All Phase-0 decisions resolved — ready to scaffold.*
 
 ### Resolved
-- ~~**LLM choice for injury layer**~~ — Locked: local Ollama `gemma4:e4b-mlx`, with a one-time bake-off vs `qwen2.5:14b` before launch.
+- ~~**LLM choice for injury layer**~~ — Locked: local Ollama `gemma4:e4b-mlx`. Bake-off run 2026-06-18 (`scripts/bakeoff.py`, `make bake-off`): 20 curated headlines (6 real + 14 hand-crafted edge cases), same extraction prompt, both models scored against hand-labeled expected output. `gemma4:e4b-mlx` found all 12 expected entries (0 false negatives/positives, 1 status mismatch); `qwen2.5:14b` missed one entirely plus the same kind of mismatch. Clear win, no further bake-off needed unless re-evaluating later.
+- ~~**LLM job scope for the injury layer**~~ — Locked: the LLM is asked only to extract `{player, status, until}` from headline text — never the player's team. Team attribution and "key player" importance are resolved deterministically against the scraped roster (`squads.json`, caps-ranked) instead, since the LLM doesn't reliably know which country a player represents from headline text alone (verified: real headlines like "Pulisic training solo..." don't name "USA"), and narrowing its job shrinks what it can hallucinate (PRD §6.4a's guardrail spirit, applied here too even though that section is nominally about the editorial layer).
+- ~~**"Until" date handling**~~ — Locked: captured as free text for display, not parsed into a structured date or used for per-match penalty windows. The daily re-scrape makes this self-correcting (a resolved injury stops appearing in the next day's headlines and the penalty naturally lapses) without needing date-range logic.
 - ~~**Scheduler**~~ — Locked: macOS launchd. No GitHub Actions, no Cloudflare Tunnel, no AWS.
 - ~~**Home page tournament-winner display**~~ — Locked: all remaining teams in a single stacked horizontal bar, ranked. Eliminated teams excluded from the bar.
 - ~~**Probability change UX**~~ — Locked: green ↑ / red ↓ arrows next to every probability (suppressed below 0.1pp jitter threshold). "Biggest movers" panel on home = top 5 teams by absolute pp change since yesterday.

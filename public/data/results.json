@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-18T10:19:10.679326+00:00",
+  "scraped_at": "2026-06-18T15:51:19.837121+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -506,7 +506,7 @@
       "away_score": null,
       "venue": "SoFi Stadium, Inglewood",
       "attendance": null,
-      "referee": null
+      "referee": "Darío Herrera (Argentina)"
     },
     {
       "round": "Group stage",
@@ -519,7 +519,7 @@
       "away_score": null,
       "venue": "BC Place, Vancouver",
       "attendance": null,
-      "referee": null
+      "referee": "Omar Al Ali (United Arab Emirates)"
     },
     {
       "round": "Group stage",
@@ -584,7 +584,7 @@
       "away_score": null,
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "attendance": null,
-      "referee": null
+      "referee": "Raphael Claus (Brazil)"
     },
     {
       "round": "Group stage",
@@ -597,7 +597,7 @@
       "away_score": null,
       "venue": "Hard Rock Stadium, Miami Gardens",
       "attendance": null,
-      "referee": null
+      "referee": "Espen Eskås (Norway)"
     },
     {
       "round": "Group stage",

@@ -5,6 +5,8 @@ import matchesRaw from "../../public/data/matches.json";
 import probabilitiesRaw from "../../public/data/probabilities.json";
 import formRaw from "../../public/data/form.json";
 import bracketRaw from "../../public/data/bracket.json";
+import squadsRaw from "../../public/data/squads.json";
+import injuriesRaw from "../../public/data/injuries.json";
 import type {
   EloData,
   GroupsData,
@@ -13,6 +15,8 @@ import type {
   ProbabilitiesData,
   FormData,
   BracketData,
+  SquadsData,
+  InjuriesData,
 } from "./types";
 
 export function getElo(): EloData {
@@ -41,6 +45,14 @@ export function getForm(): FormData {
 
 export function getBracket(): BracketData {
   return bracketRaw as BracketData;
+}
+
+export function getSquads(): SquadsData {
+  return squadsRaw as SquadsData;
+}
+
+export function getInjuries(): InjuriesData {
+  return injuriesRaw as InjuriesData;
 }
 
 export function getLastUpdated(): string {

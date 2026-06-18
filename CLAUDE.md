@@ -46,10 +46,19 @@ Daily-updated tournament-prediction web app for the 2026 FIFA World Cup (USA/Can
 - **Recalibration round 2 (2026-06-18): replaced the additive Elo-to-goals formula with a multiplicative one.** User correctly pushed back that round 1 "doesn't change much" — real investigation found a structural bug, not a tuning issue: the additive formula (`lambda_home = avg + supremacy/2`, `lambda_away = avg - supremacy/2`) holds `lambda_home + lambda_away` constant at `AVERAGE_GOALS_PER_MATCH` regardless of Elo gap, which caps the favorite's expected goals at `2.6 - MIN_EXPECTED_GOALS = 2.45` -- since a Poisson mode is `floor(lambda)`, **no Elo gap, however large, could ever produce a 3-0 or 4-0 prediction**. Replaced with `ratio = 10**(elo_diff / ELO_RATIO_SCALE)`, `lambda_home = avg*sqrt(ratio)`, `lambda_away = avg/sqrt(ratio)` (a multiplicative split, `MAX_EXPECTED_GOALS = 6.0` safety cap added). Grid-searched `ELO_RATIO_SCALE`: 500 fits eloratings.net even better than round 1 (0.74pp avg error) *and* unlocks blowout scorelines (Spain vs Saudi Arabia -> 4-0 at 96%, England vs Ghana -> 4-0 at 94%) while leaving close matches untouched (Switzerland vs Canada stays 1-1 at 35/30/35). 6 distinct scorelines now: {4-0, 3-0, 2-0, 1-1, 0-2, 0-3}. Considered and rejected switching to LLM-based scoring instead (logged in PRD.md §12) -- the actual problem was a fixable structural bug in the existing model, not a case for a fundamentally different approach.
 - **Recalibration round 3 (2026-06-18): total expected goals now grows with the Elo gap (`TOTAL_GOALS_GROWTH_RATE = 0.7`), not just the home/away split.** User asked why 2-1/3-1 never appeared either. Root cause: round 2's multiplicative split holds `lambda_home * lambda_away` constant (at `(AVERAGE_GOALS_PER_MATCH/2)^2 = 1.69`) regardless of Elo gap -- the same disease as round 1's fixed *sum*, just mirrored as a fixed *product*. A 2-1 mode needs `lambda_home` in [2.3,3.0] **and** `lambda_away` in [1.1,2.0] simultaneously, i.e. a product of at least ~2.5 -- structurally above 1.69, so impossible no matter how the fixed 1.69 is split. Tried asymmetric exponents (`lambda_home=avg*ratio^p`, `lambda_away=avg/ratio^q` with p≠q) first; made calibration worse without unlocking 2-1, confirming the issue wasn't the split shape but the frozen total itself. Switched to: `total_goals = AVERAGE_GOALS_PER_MATCH * (1 + TOTAL_GOALS_GROWTH_RATE * |elo_diff| / 400)`, `home_share = ratio/(1+ratio)` (the standard Elo win-expectancy curve), `lambda = total_goals * share`. Grid-searched `TOTAL_GOALS_GROWTH_RATE`: 0.7 trades a bit of eloratings.net fit (2.07pp avg error, up from round 2's 0.74pp, but still far better than round 1's 12.6pp) for real variety -- 9 distinct scorelines now (up from 6), including 2-1/1-2 for moderate favorites (Mexico vs South Korea, Germany vs Ivory Coast) alongside 3-0/4-0/0-3/0-4 for severe ones. **1-0/0-1 still never appear** regardless of any of these three rounds -- that's `DIXON_COLES_RHO` deliberately suppressing them in favor of 1-1/0-0 (see the earlier 1-0-vs-1-1 conversation finding), a separate, intentional effect this Elo-to-goals mapping doesn't touch.
 - Re-derive `matches.json`/`probabilities.json`/`bracket.json` from existing `elo.json`/`groups.json`/`results.json` after touching anything in `poisson.py` -- no need to re-scrape (`build_matches()` + `simulate_tournament()` are pure functions of the JSON already on disk).
-- **Next concrete steps** (per PRD §11 Phase 5 — LLM injury layer):
-  1. Scrape squad pages (Wikipedia) + injury/suspension news (BBC/Guardian/ESPN RSS).
-  2. Local Ollama (`gemma4:e4b-mlx`) extraction → injury Elo penalty, applied in `scripts/model/poisson.py`'s `expected_goals()`.
-  3. One-time bake-off vs `qwen2.5:14b` on 20 sample headlines before locking in the model.
+- **Phase 5 (LLM injury layer): done.** Ollama installed via `brew install ollama` (`brew services start ollama` running as a background service); `gemma4:e4b-mlx` (9.6GB) and `qwen2.5:14b` (9.0GB) both pulled.
+- `scripts/scrapers/squads.py` scrapes `en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads` (same single-fetch-per-source discipline as `wikipedia.py`) → `public/data/squads.json`: 48 teams × 26 players (name, position, caps, goals, club, captain). Runs only once, not daily (`update.py` checks whether `squads.json` already exists before calling it) — matches PRD §7's "once + diff" cadence, distinct from every other source's "daily." A real squad change means manually deleting the file to force a re-scrape; full automatic diffing is a documented future enhancement.
+- `scripts/scrapers/news.py` fetches the 3 PRD-named RSS feeds (BBC/Guardian/ESPN), filtered to the last 24h, parsed with stdlib `xml.etree` (no new dependency) → `public/data/headlines.json` (daily, ~90-100 items typically, kept as a debug/audit artifact).
+- **Bake-off locked in `gemma4:e4b-mlx`** (`scripts/bakeoff.py`, `make bake-off`): a curated 20-headline set (6 real headlines pulled from that day's feeds + 14 hand-crafted edge cases — multi-player headlines, recovery false-positive traps, coach-not-player, future-suspension-risk-not-current, nickname variants, irrelevant control cases) run through both models with the same prompt. `gemma4:e4b-mlx` found all 12 expected entries (0 false negatives/positives, 1 status mismatch) vs `qwen2.5:14b` missing one entirely plus the same kind of mismatch. Locked into `model/injuries.py`'s `INJURY_EXTRACTION_MODEL` constant.
+- **The LLM is asked only to extract player + status + until — never the team.** Team and "key player" importance (top 11 by caps within each 26-player squad, an objective "starting XI by seniority" proxy) are resolved deterministically against `squads.json` afterward, since those are facts we already have with certainty and narrowing the LLM's job shrinks what it can hallucinate (same spirit as PRD §6.4a, applied here even though that section is nominally about the editorial layer). `model/injuries.py`'s `extract_injuries()` batches ~20 headlines per Ollama call (chunked, not one-by-one — a single call can take 7-20s); `resolve_and_score()` does exact-name matching first, then a prefix-based fuzzy fallback for nicknames (e.g. "Vini Jr" → roster's "Vinícius Júnior"), **accepted only if it resolves to exactly one candidate across all 1,248 players** — a wrong fuzzy match would misattribute a real injury to the wrong team, which is worse than just missing it.
+- **The same real injury is often reported by multiple outlets** (e.g. Elye Wahi's Canada visa denial appeared in all 3 feeds on 2026-06-18) — `resolve_and_score()` groups by player and keeps only the single most severe status, both for clean display and because the original per-mention loop had a real bug: it would have stacked the Elo penalty once per duplicate headline instead of once per actual injury.
+- **"Until" text is captured for display but not used for date-ranged penalty logic** — parsing it into a structured date and checking per remaining-fixture would mean the penalty varies match-by-match instead of per-team-per-day. Since news is re-scraped fresh every day, a resolved injury simply stops appearing and the penalty lapses naturally next run — self-correcting without date math. Documented v1 simplification, same spirit as the "until" handling already noted for §6.3.
+- Penalty magnitudes are flat per PRD's own example: -15 Elo for a key player "out" or "suspended", -7.5 for "doubt", summed per team and capped at -60 (`model/injuries.py`'s `STATUS_PENALTY`/`TEAM_PENALTY_CAP`). Applied via `apply_to_elo()`, which builds an adjusted copy of the `elo.json`-shaped dict fed to `build_matches()`/`simulate_tournament()` — **`elo.json` on disk always stays the raw eloratings.net scrape**; the adjustment is a transient modeling input only, never written as if it were the real-world rating.
+- UI: Team detail gets a "Squad" section (all 26 players, red/amber status badge + link to the source headline for anyone in `injuries.json`); Match detail gets a "Key absences" section (only rendered when either team has an active entry), both reusing the same `StatusBadge` component.
+- **Next concrete steps** (per PRD §11 Phase 5b — editorial LLM layer):
+  1. Movers commentary prompt (yesterday-vs-today tournament-winner % + results + injury deltas) — blocked on having actual day-over-day snapshots, same gap noted for Phase 6's arrows.
+  2. Match preview blurb prompt (60-80 words) on Match detail pages, reusing the same Ollama runtime.
+  3. "AI summary" badge component + source-headline linking (PRD §6.4a) for both of the above — note this is a different bar than Phase 5's injury display: §6.4a's guardrails are specifically about generated *prose*, not the structured-fact extraction already shipped.
 
 When you finish a phase, update this section to reflect the new "next".
 
@@ -69,7 +78,7 @@ These were resolved across multiple PRD revisions. The PRD §12 "Resolved" block
 |---|---|
 | Frontend | Next.js 15 (static export) + Tailwind + Recharts/visx |
 | Compute | Python 3.12, `requests` + `beautifulsoup4` + `numpy` + `pandas` |
-| LLM | local Ollama `gemma4:e4b-mlx` (bake-off vs `qwen2.5:14b` planned pre-launch) |
+| LLM | local Ollama `gemma4:e4b-mlx` (bake-off vs `qwen2.5:14b` complete — see Current state) |
 | Storage | JSON files in `public/data/`, versioned in git. No database. |
 | Hosting | Cloudflare Workers static assets, Git-connected (free permanent tier), `*.workers.dev` subdomain |
 | Scheduler | macOS launchd, 06:00 local daily |
@@ -98,14 +107,15 @@ These were resolved across multiple PRD revisions. The PRD §12 "Resolved" block
 
 ---
 
-## Commands (planned — none implemented yet)
+## Commands (all implemented as of Phase 5)
 
-| Command | What it does | When it lands |
-|---|---|---|
-| `make update` | Full daily pipeline (scrape → LLM → simulate → write JSON → commit → push) | Phase 0 (stub) → fleshed out across Phases 1–5 |
-| `make dev` | Next.js dev server | Phase 0 |
-| `make build` | Static export to `out/` | Phase 0 |
-| `make bake-off` | One-time LLM bake-off (gemma4 vs qwen2.5 on 20 sample headlines) | Phase 5 |
+| Command | What it does |
+|---|---|
+| `make update` | Full daily pipeline (scrape → LLM injury extraction → match model → simulate → write JSON → commit → push) |
+| `make dev` | Next.js dev server |
+| `make build` | Static export to `out/` |
+| `make venv` | Create `.venv` and install `requirements.txt` |
+| `make bake-off` | Re-run the gemma4 vs qwen2.5 injury-extraction comparison (`scripts/bakeoff.py`) — already run once, only needed again if re-evaluating the model choice |
 
 ---
 

@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import ScoreHeatmap from "@/components/ScoreHeatmap";
+import StatusBadge from "@/components/StatusBadge";
 import TeamLink from "@/components/TeamLink";
 import TopScorelines from "@/components/TopScorelines";
-import { getForm, getResults } from "@/lib/data";
+import { getForm, getInjuries, getResults } from "@/lib/data";
 import { formatDate, formatPercent } from "@/lib/format";
 import { getPredictionFor } from "@/lib/predictions";
 import { matchByValidatedSlug, matchSlug } from "@/lib/slug";
@@ -107,6 +108,41 @@ export default async function MatchPage({ params }: { params: Promise<{ slug: st
               <ScoreHeatmap grid={prediction.prediction.score_grid} homeTeam={match.home_team} awayTeam={match.away_team} />
             </div>
           </section>
+
+          {(() => {
+            const injuries = getInjuries().teams;
+            const sides = [
+              { team: match.home_team, absences: injuries[match.home_team]?.absences ?? [] },
+              { team: match.away_team, absences: injuries[match.away_team]?.absences ?? [] },
+            ];
+            if (sides.every((s) => s.absences.length === 0)) return null;
+            return (
+              <section>
+                <h2 className="text-lg font-semibold">Key absences</h2>
+                <div className="mt-2 grid gap-4 sm:grid-cols-2">
+                  {sides.map(({ team, absences }) => (
+                    <div key={team}>
+                      <p className="text-sm font-medium text-neutral-700">{team}</p>
+                      {absences.length === 0 ? (
+                        <p className="mt-1 text-sm text-neutral-500">No reported absences.</p>
+                      ) : (
+                        <ul className="mt-1 flex flex-col gap-1">
+                          {absences.map((a) => (
+                            <li key={a.player} className="flex items-center gap-1.5 text-sm">
+                              <StatusBadge status={a.status} />
+                              <a href={a.source_link} title={a.source_title} className="hover:underline">
+                                {a.player}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </section>
+            );
+          })()}
 
           <section>
             <h2 className="text-lg font-semibold">Recent meetings</h2>

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import MatchCard from "@/components/MatchCard";
-import { getElo, getForm, getGroups, getProbabilities, getResults } from "@/lib/data";
+import StatusBadge from "@/components/StatusBadge";
+import { getElo, getForm, getGroups, getInjuries, getProbabilities, getResults, getSquads } from "@/lib/data";
 import { getPredictionFor } from "@/lib/predictions";
 import { allTeamNames, slugify, teamNameBySlug } from "@/lib/slug";
 import { resolveEloName } from "@/lib/teamAliases";
@@ -34,6 +35,9 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
   const eloTeam = getElo().teams.find((t) => t.name === resolveEloName(name));
   const stats = getProbabilities().teams[name] ?? {};
   const form = getForm().teams[name] ?? [];
+  const squad = getSquads().squads[name] ?? [];
+  const teamInjuries = getInjuries().teams[name];
+  const statusByPlayer = new Map(teamInjuries?.absences.map((a) => [a.player, a]));
 
   const remainingFixtures = getResults()
     .matches.map((match, index) => ({ match, index }))
@@ -48,6 +52,49 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
           {eloTeam && ` · Elo rating ${eloTeam.rating} (world rank #${eloTeam.rank})`}
         </p>
       </div>
+
+      <section>
+        <h2 className="text-lg font-semibold">Squad</h2>
+        {squad.length === 0 ? (
+          <p className="mt-2 text-sm text-neutral-500">No squad list on file.</p>
+        ) : (
+          <div className="mt-2 overflow-x-auto">
+            <table className="w-full min-w-[480px] text-sm">
+              <thead>
+                <tr className="border-b border-neutral-200 text-left text-neutral-500">
+                  <th className="py-1 pr-2">Player</th>
+                  <th className="px-1 text-center">Pos</th>
+                  <th className="px-1 text-center">Caps</th>
+                  <th className="px-1 text-center">Goals</th>
+                  <th className="py-1 pl-2">Club</th>
+                </tr>
+              </thead>
+              <tbody>
+                {squad.map((p) => {
+                  const status = statusByPlayer.get(p.name);
+                  return (
+                    <tr key={p.name} className="border-b border-neutral-100">
+                      <td className="py-1.5 pr-2">
+                        {p.name}
+                        {p.captain && <span className="ml-1 text-xs text-neutral-400">(C)</span>}
+                        {status && (
+                          <a href={status.source_link} title={status.source_title} className="ml-1.5 inline-block">
+                            <StatusBadge status={status.status} />
+                          </a>
+                        )}
+                      </td>
+                      <td className="px-1 text-center text-neutral-500">{p.position}</td>
+                      <td className="px-1 text-center">{p.caps}</td>
+                      <td className="px-1 text-center">{p.goals}</td>
+                      <td className="py-1.5 pl-2 text-neutral-500">{p.club}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
 
       <section>
         <h2 className="text-lg font-semibold">Tournament probabilities</h2>

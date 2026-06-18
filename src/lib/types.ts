@@ -134,3 +134,36 @@ export interface BracketData {
   third_place: BracketSlot;
   generated_at: string;
 }
+
+export interface SquadPlayer {
+  name: string;
+  captain: boolean;
+  position: string;
+  caps: number;
+  goals: number;
+  club: string;
+}
+
+export interface SquadsData {
+  scraped_at: string;
+  squads: Record<string, SquadPlayer[]>;
+}
+
+export interface InjuryAbsence {
+  player: string;
+  status: "out" | "doubt" | "suspended";
+  until: string | null;
+  key_player: boolean;
+  source_title: string;
+  source_link: string;
+}
+
+export interface TeamInjuries {
+  elo_penalty: number;
+  absences: InjuryAbsence[];
+}
+
+export interface InjuriesData {
+  generated_at: string;
+  teams: Record<string, TeamInjuries>;
+}
