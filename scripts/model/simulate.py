@@ -197,6 +197,14 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
             slot_candidates[(slot_idx, "away")] = away_sel[1]
 
     stage_counts = {t: Counter() for t in wc_teams}
+    slot_occupancy = {
+        "round_of_32": [{"home": Counter(), "away": Counter()} for _ in range(len(ROUND_OF_32_SLOTS))],
+        "round_of_16": [{"home": Counter(), "away": Counter()} for _ in range(len(R16_CONNECTIVITY))],
+        "quarter_finals": [{"home": Counter(), "away": Counter()} for _ in range(len(QF_CONNECTIVITY))],
+        "semi_finals": [{"home": Counter(), "away": Counter()} for _ in range(len(SF_CONNECTIVITY))],
+        "final": {"home": Counter(), "away": Counter()},
+        "third_place": {"home": Counter(), "away": Counter()},
+    }
     rng = random.Random()
     np_rng = np.random.default_rng()
     knockout_grid_cache = {}
@@ -244,6 +252,7 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
             away_team = _resolve_selector(away_sel, group_rankings, third_assignment, (slot_idx, "away"))
             r32_matchups.append((home_team, away_team))
 
+        _record_occupancy(slot_occupancy["round_of_32"], r32_matchups)
         for home, away in r32_matchups:
             stage_counts[home]["advanced_to_r32"] += 1
             stage_counts[away]["advanced_to_r32"] += 1
@@ -254,18 +263,21 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
             stage_counts[w]["reached_r16"] += 1
 
         r16_matchups = [(r32_winners[a], r32_winners[b]) for a, b in R16_CONNECTIVITY]
+        _record_occupancy(slot_occupancy["round_of_16"], r16_matchups)
         r16_results = _simulate_round(r16_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
         r16_winners = [w for w, _ in r16_results]
         for w in r16_winners:
             stage_counts[w]["reached_qf"] += 1
 
         qf_matchups = [(r16_winners[a], r16_winners[b]) for a, b in QF_CONNECTIVITY]
+        _record_occupancy(slot_occupancy["quarter_finals"], qf_matchups)
         qf_results = _simulate_round(qf_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
         qf_winners = [w for w, _ in qf_results]
         for w in qf_winners:
             stage_counts[w]["reached_sf"] += 1
 
         sf_matchups = [(qf_winners[a], qf_winners[b]) for a, b in SF_CONNECTIVITY]
+        _record_occupancy(slot_occupancy["semi_finals"], sf_matchups)
         sf_results = _simulate_round(sf_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
         sf_winners = [w for w, _ in sf_results]
         sf_losers = [l for _, l in sf_results]
@@ -273,17 +285,47 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
             stage_counts[w]["reached_final"] += 1
 
         final_matchup = (sf_winners[FINAL_CONNECTIVITY[0]], sf_winners[FINAL_CONNECTIVITY[1]])
+        _record_occupancy([slot_occupancy["final"]], [final_matchup])
         (champion, _runner_up), = _simulate_round([final_matchup], elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
         stage_counts[champion]["won_tournament"] += 1
 
         third_place_matchup = (sf_losers[THIRD_PLACE_CONNECTIVITY[0]], sf_losers[THIRD_PLACE_CONNECTIVITY[1]])
+        _record_occupancy([slot_occupancy["third_place"]], [third_place_matchup])
         (third_place_winner, _fourth), = _simulate_round([third_place_matchup], elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
         stage_counts[third_place_winner]["won_third_place_match"] += 1
 
     teams_output = {
         team: {stage: round(count / n_simulations, 4) for stage, count in counts.items()} for team, counts in stage_counts.items()
     }
-    return {"n_simulations": n_simulations, "teams": teams_output}
+    bracket_output = {
+        "round_of_32": [_slot_summary(s, n_simulations) for s in slot_occupancy["round_of_32"]],
+        "round_of_16": [_slot_summary(s, n_simulations) for s in slot_occupancy["round_of_16"]],
+        "quarter_finals": [_slot_summary(s, n_simulations) for s in slot_occupancy["quarter_finals"]],
+        "semi_finals": [_slot_summary(s, n_simulations) for s in slot_occupancy["semi_finals"]],
+        "final": _slot_summary(slot_occupancy["final"], n_simulations),
+        "third_place": _slot_summary(slot_occupancy["third_place"], n_simulations),
+    }
+    return {
+        "probabilities": {"n_simulations": n_simulations, "teams": teams_output},
+        "bracket": bracket_output,
+    }
+
+
+def _record_occupancy(slots: list, matchups: list) -> None:
+    for slot, (home, away) in zip(slots, matchups):
+        slot["home"][home] += 1
+        slot["away"][away] += 1
+
+
+def _top_occupant(counter: Counter, n_simulations: int):
+    if not counter:
+        return None
+    team, count = counter.most_common(1)[0]
+    return {"team": team, "probability": round(count / n_simulations, 4)}
+
+
+def _slot_summary(slot: dict, n_simulations: int) -> dict:
+    return {"home": _top_occupant(slot["home"], n_simulations), "away": _top_occupant(slot["away"], n_simulations)}
 
 
 def _apply_result(stats: dict, home: str, away: str, home_goals: int, away_goals: int) -> None:

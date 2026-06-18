@@ -1,6 +1,6 @@
 # World Cup 2026 Predictor — PRD
 
-**Status:** Draft v0.5
+**Status:** Draft v0.6
 **Last updated:** 2026-06-18
 **Owner:** Shraday Shakya
 
@@ -272,6 +272,8 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 - ~~**Probability change UX**~~ — Locked: green ↑ / red ↓ arrows next to every probability (suppressed below 0.1pp jitter threshold). "Biggest movers" panel on home = top 5 teams by absolute pp change since yesterday.
 - ~~**Domain**~~ — Locked: free `*.workers.dev` subdomain on Cloudflare (Workers static assets, Git-connected — the dashboard's classic Pages flow with `*.pages.dev` was unavailable at scaffold time). Custom domain deferred.
 - ~~**Eliminated teams**~~ — Locked: kept visible everywhere with an "ELIMINATED" badge and greyed styling; probabilities collapse to 0% advance / 100% eliminated. Excluded from the home stacked bar (which only ranks live contenders).
+- ~~**Charting library**~~ — Locked: no Recharts/visx after all. The two charts actually needed (the home stacked bar, the score-distribution heatmap) don't fit either library's standard chart types well; hand-rolled with Tailwind flex/grid instead, keeping every Phase 4 page a zero-JS Server Component.
+- ~~**Bracket node probabilities**~~ — Locked: §5.2's "most likely 2 teams per node" is computed by `scripts/model/simulate.py` tracking per-slot home/away occupancy counters during the existing Monte Carlo loop, output to `public/data/bracket.json`. The third-place bracket-slot assignment (within that same simulation) finds *a* valid bipartite matching of qualifying 3rd-place teams to candidate slots, not necessarily FIFA's exact official table — acceptable for prediction purposes.
 
 ---
 

@@ -56,9 +56,14 @@ def main() -> None:
     matches["generated_at"] = now
     _write_json("matches.json", matches)
 
-    probabilities = simulate_tournament(elo, groups, results, matches)
+    simulation = simulate_tournament(elo, groups, results, matches)
+    probabilities = simulation["probabilities"]
     probabilities["generated_at"] = now
     _write_json("probabilities.json", probabilities)
+
+    bracket = simulation["bracket"]
+    bracket["generated_at"] = now
+    _write_json("bracket.json", bracket)
 
 
 if __name__ == "__main__":
