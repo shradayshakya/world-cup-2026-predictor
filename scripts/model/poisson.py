@@ -57,6 +57,13 @@ def score_grid(lambda_home: float, lambda_away: float, rho: float = DIXON_COLES_
     return grid
 
 
+def sample_score(grid: np.ndarray, rng: np.random.Generator) -> tuple:
+    """Draws one (home_goals, away_goals) sample from a score probability grid."""
+    flat_index = rng.choice(grid.size, p=grid.ravel())
+    home_goals, away_goals = np.unravel_index(flat_index, grid.shape)
+    return int(home_goals), int(away_goals)
+
+
 def summarize(grid: np.ndarray) -> dict:
     home_idx, away_idx = np.unravel_index(np.argmax(grid), grid.shape)
     home_goals, away_goals = np.indices(grid.shape)

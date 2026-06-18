@@ -25,10 +25,13 @@ Daily-updated tournament-prediction web app for the 2026 FIFA World Cup (USA/Can
 - Team-name mismatches between eloratings.net and Wikipedia are bridged via a small `TEAM_ALIASES` dict (currently just `"Czech Republic" → "Czechia"`) — add to it if future scrapes log new unresolved-team warnings that turn out to be naming drift rather than genuine TBD knockout slots.
 - Fixed a real bug along the way: `scripts/scrapers/http.py` now forces UTF-8 decoding — `requests` was silently mojibake-ing eloratings.net's unlabeled-charset TSV responses (e.g. "Curaçao" → "CuraÃ§ao").
 - Knockout-stage fixtures are skipped in `matches.json` until Wikipedia resolves their placeholder team names (currently all 32); only the 48 not-yet-played group-stage matches get predictions today.
-- **Next concrete steps** (per PRD §11 Phase 3 — tournament model):
-  1. Monte Carlo simulation (N=50k) over the remainder of the tournament using the Phase 2 score grids.
-  2. Handle knockout draws (ET + penalty coin-flip per PRD §6.2) and bracket resolution (turning "Runner-up Group A" placeholders into actual teams as groups complete).
-  3. Write `probabilities.json` with per-team per-stage probabilities (group position, advancement, tournament win).
+- **Phase 3 (tournament model): done.**
+- `scripts/model/bracket.py` hardcodes the 48-team bracket topology (which Round-of-32 slot is "Winner Group X" / "Runner-up Group X" / one of 5 candidate groups' 3rd-place team, and which earlier-round results feed R16→QF→SF→Final/3rd-place) — captured once from Wikipedia's placeholder text rather than re-parsed each scrape, since that text disappears once a slot resolves to a real team name.
+- `scripts/model/simulate.py` runs the N=50,000 Monte Carlo: samples remaining group matches from Phase 2's grids, ranks each group (points → goal difference → goals for → head-to-head for a 2-way tie → random for 3+-way ties, standing in for "drawing of lots"), picks the best 8 third-placed teams, resolves the 8 candidate-list bracket slots via a small bipartite matching (a group's 3rd-place team is a candidate for several slots but can only fill one), then simulates R32→Final with extra-time (λ × 1/3) and a lightly Elo-weighted penalty-shootout coin-flip for draws (PRD §6.2). Runs in ~34s.
+- Output `public/data/probabilities.json`: per-team probabilities for every stage (group position, `advanced_to_r32`, `reached_r16`/`qf`/`sf`/`final`, `won_tournament`, `won_third_place_match`). Sanity-checked: probabilities sum to 1.0 across teams for `won_tournament`, and each team's group-position probabilities sum to 1.0.
+- The third-place bracket-slot matching is a documented simplification: it finds *some* valid assignment of qualifying 3rd-place teams to candidate slots, not necessarily FIFA's exact official table (which also avoids rematches/geography) — fine for prediction purposes, flagged here in case it ever needs tightening.
+- **Next concrete steps** (per PRD §11 Phase 4 — UI):
+  1. Build the Home, Bracket, Group tables, Team detail, and Match detail views (PRD §5) reading from `public/data/*.json`.
 
 When you finish a phase, update this section to reflect the new "next".
 

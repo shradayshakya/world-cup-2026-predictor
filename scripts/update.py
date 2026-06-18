@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Daily update pipeline (see PRD.md S8, S11). Phases 1-2: scrapers + Poisson-Elo match model."""
+"""Daily update pipeline (see PRD.md S8, S11). Phases 1-3: scrapers, match model, tournament simulation."""
 
 import json
 from datetime import datetime, timezone
 from pathlib import Path
 
 from model.matches import build_matches
+from model.simulate import simulate_tournament
 from scrapers.elo import scrape_elo
 from scrapers.wikipedia import scrape_wikipedia
 
@@ -36,6 +37,10 @@ def main() -> None:
     matches = build_matches(elo, groups, results)
     matches["generated_at"] = now
     _write_json("matches.json", matches)
+
+    probabilities = simulate_tournament(elo, groups, results, matches)
+    probabilities["generated_at"] = now
+    _write_json("probabilities.json", probabilities)
 
 
 if __name__ == "__main__":

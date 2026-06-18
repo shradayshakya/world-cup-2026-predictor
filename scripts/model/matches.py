@@ -1,15 +1,7 @@
 """Joins elo.json + groups.json + results.json into matches.json predictions (PRD.md S11 Phase 2)."""
 
 from .poisson import expected_goals, score_grid, summarize
-
-# results.json (Wikipedia) -> elo.json (eloratings.net) name mismatches.
-TEAM_ALIASES = {
-    "Czech Republic": "Czechia",
-}
-
-
-def _resolve_rating(team_name: str, elo_by_name: dict):
-    return elo_by_name.get(TEAM_ALIASES.get(team_name, team_name))
+from .teams import resolve_rating
 
 
 def build_matches(elo: dict, groups: dict, results: dict) -> dict:
@@ -26,8 +18,8 @@ def build_matches(elo: dict, groups: dict, results: dict) -> dict:
         if match["played"]:
             continue
 
-        home_rating = _resolve_rating(match["home_team"], elo_by_name)
-        away_rating = _resolve_rating(match["away_team"], elo_by_name)
+        home_rating = resolve_rating(match["home_team"], elo_by_name)
+        away_rating = resolve_rating(match["away_team"], elo_by_name)
         if home_rating is None or away_rating is None:
             skipped_unresolved += 1
             continue
