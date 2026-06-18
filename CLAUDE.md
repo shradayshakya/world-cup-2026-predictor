@@ -14,9 +14,14 @@ Daily-updated tournament-prediction web app for the 2026 FIFA World Cup (USA/Can
 - `Makefile` (`dev`, `build`, `venv`, `update`) and `scripts/update.py` heartbeat stub in place.
 - launchd plist drafted at `launchd/com.shradayshakya.wc26predictor.update.plist` — **not yet installed/loaded** (deferred until there's a real pipeline to run daily).
 - Cloudflare hosting connected via the Workers Git-integration flow (`wrangler.jsonc`, static assets from `out/`) — **not classic Pages**; production URL is `*.workers.dev`, not `*.pages.dev` (see Locked decisions below). Live at https://world-cup-2026-predictor.shradayshakya.workers.dev, auto-deploy on push to `main` confirmed.
-- **Next concrete steps** (per PRD §11 Phase 1 — data pipeline):
-  1. Scraper for `eloratings.net` → `elo.json`.
-  2. Scraper for Wikipedia results + group tables → `results.json`, `groups.json`.
+- **Phase 1 (data pipeline): done.**
+- `scripts/scrapers/elo.py` scrapes eloratings.net's `World.tsv` + `en.teams.tsv` → `public/data/elo.json` (244 teams, rank/code/name/rating).
+- `scripts/scrapers/wikipedia.py` scrapes the single `en.wikipedia.org/wiki/2026_FIFA_World_Cup` page (one fetch, per scraping discipline) → `public/data/groups.json` (12 group standings) and `public/data/results.json` (all 104 matches, group + knockout, played and upcoming).
+- `scripts/update.py` orchestrates all three scrapers plus the heartbeat write; `make update` runs it and commits/pushes all four `public/data/*.json` files.
+- Knockout-stage matches not yet determined carry placeholder team names scraped verbatim from Wikipedia (e.g. `"Runner-up Group A"`, `"3rd Group A/B/C/D/F"`) — Phase 3's bracket logic will need to resolve these against actual standings.
+- **Next concrete steps** (per PRD §11 Phase 2 — match model):
+  1. Poisson-Elo per-match probability + scoreline model, fed by `elo.json` + `results.json`.
+  2. Write `matches.json` with predicted scores for all remaining fixtures.
 
 When you finish a phase, update this section to reflect the new "next".
 
