@@ -167,3 +167,33 @@ export interface InjuriesData {
   generated_at: string;
   teams: Record<string, TeamInjuries>;
 }
+
+export interface AiSource {
+  label: string;
+  href: string;
+}
+
+export interface Mover {
+  team: string;
+  previous_pct: number;
+  current_pct: number;
+  delta_pp: number;
+  direction: "gainer" | "loser";
+  blurb: string;
+  sources: AiSource[];
+}
+
+export interface MoversData {
+  generated_at: string;
+  movers: Mover[];
+}
+
+export interface MatchPreview {
+  text: string;
+  sources: AiSource[];
+}
+
+export interface PreviewsData {
+  generated_at: string;
+  previews: Record<string, MatchPreview>;
+}

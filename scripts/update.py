@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daily update pipeline (see PRD.md S8, S11). Phases 1-5: scrapers, match model, tournament simulation, injury layer."""
+"""Daily update pipeline (see PRD.md S8, S11). Phases 1-5b: scrapers, match model, tournament simulation, injury layer, editorial layer."""
 
 import json
 from datetime import datetime, timezone
@@ -7,6 +7,8 @@ from pathlib import Path
 
 from model.injuries import INJURY_EXTRACTION_MODEL, apply_to_elo, extract_injuries, resolve_and_score
 from model.matches import build_matches
+from model.movers import compute_movers, generate_movers_commentary
+from model.previews import generate_previews
 from model.simulate import simulate_tournament
 from model.teams import TEAM_ALIASES
 from scrapers.elo import (
@@ -31,6 +33,13 @@ def _write_json(name: str, payload: dict) -> None:
 
 def main() -> None:
     now = datetime.now(timezone.utc).isoformat()
+
+    # Read before any writes this run -- this *is* "yesterday's" snapshot, since each
+    # day's run starts with the prior run's committed output still on disk (PRD.md S6.4
+    # movers commentary needs a day-over-day diff; see CLAUDE.md for why no separate
+    # snapshot file is needed).
+    probabilities_path = DATA_DIR / "probabilities.json"
+    previous_probabilities = json.loads(probabilities_path.read_text())["teams"] if probabilities_path.exists() else {}
 
     _write_json("heartbeat.json", {"last_updated": now})
 
@@ -81,6 +90,13 @@ def main() -> None:
     bracket = simulation["bracket"]
     bracket["generated_at"] = now
     _write_json("bracket.json", bracket)
+
+    movers = compute_movers(previous_probabilities, probabilities["teams"])
+    movers = generate_movers_commentary(movers, raw_groups, results, injuries, now[:10])
+    _write_json("movers.json", {"generated_at": now, "movers": movers})
+
+    previews = generate_previews(matches, adjusted_elo, form, injuries)
+    _write_json("previews.json", {"generated_at": now, "previews": previews})
 
 
 if __name__ == "__main__":

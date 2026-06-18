@@ -1,6 +1,20 @@
 {
-  "scraped_at": "2026-06-18T15:51:19.837121+00:00",
+  "scraped_at": "2026-06-18T16:47:03.499512+00:00",
   "headlines": [
+    {
+      "title": "Van der Vaart criticised for 'racist slurs' against Japan",
+      "description": "Former Tottenham midfielder Rafael van der Vaart apologises after saying that Japan players \"all look alike\" during their 2-2 draw with the Netherlands.",
+      "link": "https://www.bbc.com/sport/football/articles/cdjk9yw9xv3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T16:28:37+00:00"
+    },
+    {
+      "title": "Rice expected to be fit to face Ghana despite back pain",
+      "description": "Declan Rice is expected to be available for England's World Cup match against Ghana after suffering from lower back pain during the win over Croatia.",
+      "link": "https://www.bbc.com/sport/football/articles/cdr45g01vk3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T16:42:59+00:00"
+    },
     {
       "title": "Most shots? Best dribbler? The World Cup so far in numbers",
       "description": "Now every team has played once, BBC Sport take a look at who has been the best and worst players so far according to the stats.",
@@ -42,34 +56,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cvg7n7xdnd0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-18T11:39:28+00:00"
-    },
-    {
-      "title": "Lionesses will face Greece in World Cup play-offs",
-      "description": "England will face Greece in round one of the 2027 Women's World Cup play-offs, with Northern Ireland, Scotland and Wales also learning their opponents.",
-      "link": "https://www.bbc.com/sport/football/articles/cvgl9xp2lgno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T12:15:51+00:00"
-    },
-    {
-      "title": "Why does Scotland's McGinn do goggles celebration?",
-      "description": "John McGinn opens up about the relative who inspired his goal celebration.",
-      "link": "https://www.bbc.com/sport/football/articles/cwyknd3lk7eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T12:43:42+00:00"
-    },
-    {
-      "title": "Calvin Harris & Commonwealths force Monday start to Celtic's title defence",
-      "description": "Celtic open the 2026-27 Scottish Premiership season at home to Dundee on 3 August, with the champions saying they are disappointed to be starting on a Monday evening.",
-      "link": "https://www.bbc.com/sport/football/articles/c1kyv7yjmdlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T11:00:27+00:00"
-    },
-    {
-      "title": "What's going on with stoppage time at the World Cup?",
-      "description": "Pierluigi Collina decided to wage war on time-wasting at this World Cup, changing tack from the last tournament. But has it been a success so far?",
-      "link": "https://www.bbc.com/sport/football/articles/cx2de8l2dzmo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T12:09:41+00:00"
     },
     {
       "title": "England hit four in World Cup opener against Croatia",
@@ -114,18 +100,53 @@
       "published_at": "2026-06-18T03:53:54+00:00"
     },
     {
+      "title": "Lionesses will face Greece in World Cup play-offs",
+      "description": "England will face Greece in round one of the 2027 Women's World Cup play-offs, with Northern Ireland, Scotland and Wales also learning their opponents.",
+      "link": "https://www.bbc.com/sport/football/articles/cvgl9xp2lgno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T12:15:51+00:00"
+    },
+    {
+      "title": "Calvin Harris & Commonwealths force Monday start to Celtic's title defence",
+      "description": "Celtic open the 2026-27 Scottish Premiership season at home to Dundee on 3 August, with the champions saying they are disappointed to be starting on a Monday evening.",
+      "link": "https://www.bbc.com/sport/football/articles/c1kyv7yjmdlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T11:00:27+00:00"
+    },
+    {
+      "title": "Why does Scotland's McGinn do goggles celebration?",
+      "description": "John McGinn opens up about the relative who inspired his goal celebration.",
+      "link": "https://www.bbc.com/sport/football/articles/cwyknd3lk7eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T12:43:42+00:00"
+    },
+    {
+      "title": "Hooked after an hour - did Vuskovic boost his Spurs chances?",
+      "description": "Many Tottenham fans will have got a first glimpse of Luka Vuskovic last night - so what can they expect from the highly sought-after defender?",
+      "link": "https://www.bbc.com/sport/football/articles/c75y3zy6pk1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T15:49:59+00:00"
+    },
+    {
+      "title": "What's going on with stoppage time at the World Cup?",
+      "description": "Pierluigi Collina decided to wage war on time-wasting at this World Cup, changing tack from the last tournament. But has it been a success so far?",
+      "link": "https://www.bbc.com/sport/football/articles/cx2de8l2dzmo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T12:09:41+00:00"
+    },
+    {
+      "title": "Palestine FA says it does not endorse Republic of Ireland v Israel game",
+      "description": "Palestine's Football Association (PFA) says it does not endorse the Republic of Ireland's Nations League game with Israel being moved to a neutral venue.",
+      "link": "https://www.bbc.com/sport/football/articles/cgevg1nqjg4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T16:21:40+00:00"
+    },
+    {
       "title": "This was an England we haven't seen for years - and it was fun",
       "description": "Fun to watch and full of intent - this was an England we have not seen for years, writes Phil McNulty.",
       "link": "https://www.bbc.com/sport/football/articles/cwylqvgne7lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-18T00:23:30+00:00"
-    },
-    {
-      "title": "Hydration boos and surprise results - World Cup talking points",
-      "description": "BBC Sport takes a look at the talking points from the first week of World Cup.",
-      "link": "https://www.bbc.com/sport/football/articles/cj6g88ernggo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T11:13:59+00:00"
     },
     {
       "title": "From one to 48 - every World Cup team ranked after first game",
@@ -135,18 +156,18 @@
       "published_at": "2026-06-18T04:28:17+00:00"
     },
     {
+      "title": "Hydration boos and surprise results - World Cup talking points",
+      "description": "BBC Sport takes a look at the talking points from the first week of World Cup.",
+      "link": "https://www.bbc.com/sport/football/articles/cj6g88ernggo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T11:13:59+00:00"
+    },
+    {
       "title": "Why are England playing a darts song at the World Cup?",
       "description": "BBC Sport's Ask Me Anything looks at the range of goal songs being used at the 2026 World Cup",
       "link": "https://www.bbc.com/sport/football/articles/c5yzkx6vjxno?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-18T12:48:57+00:00"
-    },
-    {
-      "title": "Motherwell appoint Johansson as Askou successor",
-      "description": "Alfred Johansson is the new manager at Motherwell, with the 35-year-old Swede aiming to build on the success of last season at Fir Park.",
-      "link": "https://www.bbc.com/sport/football/articles/ckg0r75ewlyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T13:02:43+00:00"
     },
     {
       "title": "Konate to join Real Madrid on four-year deal",
@@ -161,41 +182,6 @@
       "link": "https://www.bbc.com/sport/football/articles/cdx7gq4wk1qo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-18T10:38:37+00:00"
-    },
-    {
-      "title": "'Chip on shoulder' may help Bellingham to best form",
-      "description": "Jude Bellingham says the external \"noise\" around his place in the England team may help him find his best form during the World Cup.",
-      "link": "https://www.bbc.com/sport/football/articles/c5yzpeq7lx4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T00:12:10+00:00"
-    },
-    {
-      "title": "'I want courage not fear' - Wales boss on World Cup play-offs",
-      "description": "Wales must beat Albania and either Romania or Norway in successive two-legged play-off ties to reach next summer's Women's World Cup.",
-      "link": "https://www.bbc.com/sport/football/articles/c4gyrpr1jyyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T13:46:19+00:00"
-    },
-    {
-      "title": "Christie chases dream on same stage as idol Messi",
-      "description": "Making a World Cup debut was a huge thrill for midfielder Ryan Christie as the Scotland midfielder sets sights on making progress beyond the group stage.",
-      "link": "https://www.bbc.com/sport/football/articles/c78yjg5336xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T06:11:17+00:00"
-    },
-    {
-      "title": "'If we lose, we lose in our way' - how Tuchel inspired 'fearful' England",
-      "description": "England players were on the receiving end of a half-time reproach from manager Thomas Tuchel as their World Cup campaign got off to a victorious start against Croatia.",
-      "link": "https://www.bbc.com/sport/football/articles/cx2k7zvxee8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T05:53:36+00:00"
-    },
-    {
-      "title": "Who am I? Guess World Cup star No 11",
-      "description": "Will you get today's player in as few attempts as possible?",
-      "link": "https://www.bbc.com/sport/football/articles/clypgyl6pzlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T05:56:18+00:00"
     },
     {
       "title": "Hart impressed by Kane's attention to detail with penalties",
@@ -254,11 +240,46 @@
       "published_at": "2026-06-17T19:36:10+00:00"
     },
     {
+      "title": "'Chip on shoulder' may help Bellingham to best form",
+      "description": "Jude Bellingham says the external \"noise\" around his place in the England team may help him find his best form during the World Cup.",
+      "link": "https://www.bbc.com/sport/football/articles/c5yzpeq7lx4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T00:12:10+00:00"
+    },
+    {
+      "title": "'I want courage not fear' - Wales boss on World Cup play-offs",
+      "description": "Wales must beat Albania and either Romania or Norway in successive two-legged play-off ties to reach next summer's Women's World Cup.",
+      "link": "https://www.bbc.com/sport/football/articles/c4gyrpr1jyyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T13:46:19+00:00"
+    },
+    {
+      "title": "'If we lose, we lose in our way' - how Tuchel inspired 'fearful' England",
+      "description": "England players were on the receiving end of a half-time reproach from manager Thomas Tuchel as their World Cup campaign got off to a victorious start against Croatia.",
+      "link": "https://www.bbc.com/sport/football/articles/cx2k7zvxee8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T05:53:36+00:00"
+    },
+    {
+      "title": "Christie chases dream on same stage as idol Messi",
+      "description": "Making a World Cup debut was a huge thrill for midfielder Ryan Christie as the Scotland midfielder sets sights on making progress beyond the group stage.",
+      "link": "https://www.bbc.com/sport/football/articles/c78yjg5336xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T06:11:17+00:00"
+    },
+    {
       "title": "Working with Postecoglou and following the data - Salford's new boss Cklamovski",
       "description": "Salford City have appointed Peter Cklamovski, someone with no experience of coaching in English football to try and lead them to promotion out of League Two",
       "link": "https://www.bbc.com/sport/football/articles/c3dykykz0eno?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-18T08:19:10+00:00"
+    },
+    {
+      "title": "Motherwell appoint Johansson as Askou successor",
+      "description": "Alfred Johansson is the new manager at Motherwell, with the 35-year-old Swede aiming to build on the success of last season at Fir Park.",
+      "link": "https://www.bbc.com/sport/football/articles/ckg0r75ewlyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T13:02:43+00:00"
     },
     {
       "title": "Liverpool trigger winger Munoz's £34.5m release clause",
@@ -282,18 +303,18 @@
       "published_at": "2026-06-18T08:23:07+00:00"
     },
     {
-      "title": "Who was the biggest attacking threat? England player ratings",
-      "description": "Who was England's biggest attacking threat against Croatia? Alex Howell rates the players - plus have your say.",
-      "link": "https://www.bbc.com/sport/football/articles/cy4eg2k4l2xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-17T22:01:49+00:00"
-    },
-    {
       "title": "Man Utd & Spurs move for Summerville - Thursday's gossip",
       "description": "Manchester United and Tottenham move for Crysencio Summerville, Chelsea monitor goalkeeper Diogo Costa and target Andrea Cambiaso.",
       "link": "https://www.bbc.com/sport/football/articles/cwyknx34n7ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-18T09:48:41+00:00"
+    },
+    {
+      "title": "Who am I? Guess World Cup star No 11",
+      "description": "Will you get today's player in as few attempts as possible?",
+      "link": "https://www.bbc.com/sport/football/articles/clypgyl6pzlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-18T05:56:18+00:00"
     },
     {
       "title": "More than the Score",
@@ -308,20 +329,6 @@
       "link": "https://www.bbc.com/sport/football/articles/c872pv2r5y4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-18T00:03:20+00:00"
-    },
-    {
-      "title": "What are the patches on some shirts at the World Cup?",
-      "description": "England captain Harry Kane was seen wearing a special patch on his England shirt - why are they there and who else gets to wear them?",
-      "link": "https://www.bbc.com/sport/football/articles/cr5jdy59m69o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-18T03:31:10+00:00"
-    },
-    {
-      "title": "Scottish Premiership fixture release - all you need to know",
-      "description": "The fixtures for the 2026-27 Scottish Premiership season are released on Thursday at 12:00 BST - and you can see them on the BBC Sport website and app as soon as they are announced.",
-      "link": "https://www.bbc.com/sport/football/articles/cq810gqe708o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-17T19:09:15+00:00"
     },
     {
       "title": "Fans boo, players adapt - the view on World Cup hydration breaks",
@@ -398,18 +405,18 @@
       "description": "⚽ Kick-off time: 12pm local/2am AEST/5pm BST/12pm EDT ⚽ Player guide | Bracketology | Golden Boot | Mail Daniel Email! “This is a bittersweet game for me,” confesses John Brennan. “When the draw was made in December, this was the most likely game that I could get to see Ireland play. I probably couldn’t have pulled off going to Mexico but getting from NY to Atlanta would have been reasonable. The stadium would have been packed with Irish fans between Irish living here on the East Coast and people travelling. Just thinking about it makes me wistful. What if Ryan Manning didn’t give away that stupid penalty, what if Parrott had scored that chance in the second half, what if Sammy Smzodics hadn’t been taken out of it and had been able to take a penalty instead of Alan Browne. And yeah if all those things had happened and Ireland beat Czechia, it would probably be Denmark playing today. Anyway, I have a strange feeling South Africa might show up today and make it difficult for the Czechs or maybe that is just a coping mechanism for me.” Continue reading...",
       "link": "https://www.theguardian.com/football/live/2026/jun/18/czechia-v-south-africa-world-cup-live",
       "source": "The Guardian",
-      "published_at": "2026-06-18T15:40:51+00:00"
+      "published_at": "2026-06-18T16:42:21+00:00"
     },
     {
       "title": "Numbers game: stats that tell stories from the first 24 World Cup matches",
-      "description": "All 48 teams have played their first matches. From xG to assists to transfer value, here’s some of the more revealing bits of data The first round of fixtures at the World Cup is in the bank so we’ve finally seen all 48 teams. But what have we learned? Who was good, bad, lucky or fired after just one game? A dig into the Opta data has revealed some facts that may not have been immediately apparent from the scorelines. Continue reading...",
+      "description": "All 48 teams have played their first matches. From xG to assists to transfer value, here’s some of the more revealing bits of data The first round of fixtures at the World Cup is in the bank so we’ve finally seen all 48 teams. But what have we learned? Who was good, bad, lucky or fired after one game? A dig into the Opta data has revealed some facts that may not have been immediately apparent from the scorelines. Continue reading...",
       "link": "https://www.theguardian.com/football/datablog/2026/jun/18/numbers-game-stats-that-tell-stories-from-the-first-24-world-cup-matches",
       "source": "The Guardian",
       "published_at": "2026-06-18T14:34:40+00:00"
     },
     {
       "title": "Côte d’Ivoire’s Wahi denied Canada visa for World Cup match amid fixing investigation",
-      "description": "Striker will miss Saturday’s Germany game in Toronto Arrest was over alleged ‘organised fraud’ in Ligue 1 The Côte d’Ivoire striker Elye Wahi, who is being investigated for alleged fixing, has not been authorised to travel to Canada for his team’s World Cup match against Germany, the Côte d’Ivoire football federation (FIF) said on Thursday. The FIF said Wahi would not be able to travel with the squad for Saturday’s game in Toronto because “the necessary administrative authorisations for his entry into Canadian territory could not be obtained at this stage”. Continue reading...",
+      "description": "Striker will miss Saturday’s Germany game in Toronto Arrest was over alleged ‘organised fraud’ in Ligue 1 The Côte d’Ivoire striker Elye Wahi, who is being investigated for alleged fixing, has not been authorised to travel to Canada for his team’s World Cup match against Germany, his country’s football federation (FIF) said on Thursday. The FIF said Wahi would not be able to travel with the squad for Saturday’s game in Toronto because “the necessary administrative authorisations for his entry into Canadian territory could not be obtained at this stage”. Continue reading...",
       "link": "https://www.theguardian.com/football/2026/jun/18/elye-wahi-cote-d-ivoire-canada-entry-visa-world-cup-2026",
       "source": "The Guardian",
       "published_at": "2026-06-18T11:59:29+00:00"
@@ -423,7 +430,7 @@
     },
     {
       "title": "Women’s World Cup playoffs: England land Greece, Scotland get Czechia in first round",
-      "description": "England to play Ukraine or Slovakia if they beat Greece Scotland probably face Sweden if they win first game England will need to overcome Greece and either Slovakia or Ukraine to qualify for the 2027 Women’s World Cup. Scotland were handed a significantly tougher draw and will probably need to beat Sweden, if they first beat Czechia, to head to Brazil. Thursday’s playoff draw brought Wales a potential reunion with their former manager Gemma Grainger in a tricky tie against Norway. Northern Ireland’s path to a first World Cup could bring them a game against League A’s Iceland. Continue reading...",
+      "description": "England to play Ukraine or Slovakia if they beat Greece Scotland probably face Sweden if they win first game England will need to overcome Greece and either Slovakia or Ukraine to qualify for the 2027 Women’s World Cup in Brazil. Scotland were handed a significantly tougher draw and will probably need to beat Sweden, if they first beat Czechia, to reach the finals. Continue reading...",
       "link": "https://www.theguardian.com/football/2026/jun/18/womens-world-cup-playoffs-england-greece-scotland-czechia",
       "source": "The Guardian",
       "published_at": "2026-06-18T11:11:37+00:00"
@@ -465,7 +472,7 @@
     },
     {
       "title": "Colombia squeeze past dogged Uzbekistan to open World Cup campaign with victory",
-      "description": "Some very good things have come from Croydon, the often overlooked town in south London. The film director David Lean was born there, as was Roy Hodgson, the actor Peggy Ashcroft and the sexologist Havelock Ellis. Amy Winehouse studied in Croydon. The Bill and Peep Show were filmed there, as was the title sequence of the 1980s sitcom Terry and June. For a long time it was a centre of brewing and leather production. It was on a suburban driveway there that Pickles found the Jules Rimet trophy after it had been stolen in 1966. And on Wednesday Croydon proved the crucible of Colombia’s victory over Uzbekistan. Daniel Muñoz’s brilliant strike, created by Luis Díaz, set Colombia on heir way to a win that should never have been as edgy as it ended up being. But his Crystal Palace teammate Jefferson Lerma was a key figure in the centre of midfield, a controlling figure in Colombia’s domination of the majority of the game. “I’m living out my childhood dream of playing in a World Cup for my national team and for my country,” said a delighted Díaz after being named man of the match. “And what could be more beautiful than contributing with a goal and an assist?” Continue reading...",
+      "description": "Some very good things have come from Croydon, the often overlooked town in south London. The film director David Lean was born there, as were Roy Hodgson, the actor Peggy Ashcroft and the sexologist Havelock Ellis. Amy Winehouse studied in Croydon. The Bill and Peep Show were filmed there, as was the title sequence of the 1970s and 80s sitcom Terry and June. For a long time it was a centre of brewing and leather production. It was on a suburban driveway there that Pickles found the Jules Rimet trophy after it had been stolen in 1966. And on Wednesday, Croydon proved the crucible of Colombia’s victory over Uzbekistan. Daniel Muñoz’s brilliant strike, created by Luis Díaz, set Colombia on their way to a win that should never have been as edgy as it was. But his Crystal Palace teammate Jefferson Lerma was a key figure in the centre of midfield, a controlling figure in Colombia’s domination of the majority of the game. Continue reading...",
       "link": "https://www.theguardian.com/football/2026/jun/18/uzbekistan-colombia-world-cup-2026-group-k-match-report",
       "source": "The Guardian",
       "published_at": "2026-06-18T04:22:57+00:00"
@@ -590,25 +597,25 @@
       "published_at": "2026-06-18T16:43:24+00:00"
     },
     {
-      "title": "Full hearts, empty kegs, can't lose: Scotland's Tartan Army takes over World Cup",
-      "description": "Scotland's Tartan Army has been one of the stories of the 2026 World Cup so far, drinking its way through Boston and bringing bonhomie, passion and national pride after nearly 30 years away from the tournament.",
-      "link": "https://www.espn.com/soccer/story/_/id/49096885/scotland-tartan-army-world-cup-boston-haiti-red-sox-fenway-park",
-      "source": "ESPN",
-      "published_at": "2026-06-18T16:35:41+00:00"
-    },
-    {
       "title": "The lifelong education of USMNT goalkeeper (and Ha...",
       "description": "The starting USMNT goalkeeper has an economics degree from Harvard. In his remarkable family, that makes him the underachiever.",
       "link": "https://www.espn.com/soccer/story/_/id/48977192/the-education-usmnt-world-cup-goalkeeper-harvard-grad-matt-freese",
       "source": "ESPN",
-      "published_at": "2026-06-18T14:46:48+00:00"
+      "published_at": "2026-06-18T16:57:30+00:00"
     },
     {
       "title": "What if Reyna's World Cup wondergoal is only the b...",
       "description": "Gio Reyna's goal vs. Paraguay felt like a fitting way to end a frustrating four-year chapter of his career. What if it's only the beginning, though?",
       "link": "https://www.espn.com/soccer/story/_/id/49084166/what-gio-reyna-world-cup-wonder-goal-vs-panama-only-beginning-usmnt",
       "source": "ESPN",
-      "published_at": "2026-06-18T14:46:48+00:00"
+      "published_at": "2026-06-18T16:57:30+00:00"
+    },
+    {
+      "title": "Full hearts, empty kegs, can't lose: Scotland's Tartan Army takes over World Cup",
+      "description": "Scotland's Tartan Army has been one of the stories of the 2026 World Cup so far, drinking its way through Boston and bringing bonhomie, passion and national pride after nearly 30 years away from the tournament.",
+      "link": "https://www.espn.com/soccer/story/_/id/49096885/scotland-tartan-army-world-cup-boston-haiti-red-sox-fenway-park",
+      "source": "ESPN",
+      "published_at": "2026-06-18T16:35:41+00:00"
     },
     {
       "title": "World Cup Daily: Congo DR fans hit Ronaldo with th...",

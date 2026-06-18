@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T16:04:17.719307+00:00",
+  "generated_at": "2026-06-18T16:47:03.499512+00:00",
   "teams": {
     "Ivory Coast": {
       "elo_penalty": 0.0,
@@ -28,11 +28,11 @@
       ]
     },
     "United States": {
-      "elo_penalty": -7.5,
+      "elo_penalty": -15.0,
       "absences": [
         {
           "player": "Christian Pulisic",
-          "status": "doubt",
+          "status": "out",
           "until": null,
           "key_player": true,
           "source_title": "Pulisic training solo in race to be fit vs. Austra...",

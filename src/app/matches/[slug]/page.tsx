@@ -1,9 +1,10 @@
 import { notFound } from "next/navigation";
+import AiSummaryBadge from "@/components/AiSummaryBadge";
 import ScoreHeatmap from "@/components/ScoreHeatmap";
 import StatusBadge from "@/components/StatusBadge";
 import TeamLink from "@/components/TeamLink";
 import TopScorelines from "@/components/TopScorelines";
-import { getForm, getInjuries, getResults } from "@/lib/data";
+import { getForm, getInjuries, getPreviews, getResults } from "@/lib/data";
 import { formatDate, formatPercent } from "@/lib/format";
 import { getPredictionFor } from "@/lib/predictions";
 import { matchByValidatedSlug, matchSlug } from "@/lib/slug";
@@ -15,6 +16,10 @@ export function generateStaticParams() {
 function headToHead(home: string, away: string) {
   const homeForm = getForm().teams[home] ?? [];
   return homeForm.filter((m) => m.opponent === away);
+}
+
+function previewKey(home: string, away: string, date: string | null): string {
+  return `${home}|${away}|${date ?? ""}`;
 }
 
 function leadingOutcomeLabel(
@@ -161,6 +166,18 @@ export default async function MatchPage({ params }: { params: Promise<{ slug: st
               );
             })()}
           </section>
+
+          {(() => {
+            const preview = getPreviews().previews[previewKey(match.home_team, match.away_team, match.date)];
+            if (!preview) return null;
+            return (
+              <section>
+                <h2 className="text-lg font-semibold">Preview</h2>
+                <p className="mt-2 text-sm text-neutral-600">{preview.text}</p>
+                <AiSummaryBadge sources={preview.sources} />
+              </section>
+            );
+          })()}
         </>
       ) : (
         <p className="text-sm text-neutral-500">Teams not yet determined — check back once earlier rounds conclude.</p>

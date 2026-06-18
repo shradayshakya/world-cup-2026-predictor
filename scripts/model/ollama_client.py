@@ -15,7 +15,11 @@ import requests
 OLLAMA_URL = "http://localhost:11434/api/generate"
 REQUEST_TIMEOUT = 600  # a full ~20-headline chunk can take several minutes on a local model
 
-_CODE_FENCE_RE = re.compile(r"^```(?:json)?\s*|\s*```$", re.MULTILINE)
+# Matches a leading/trailing markdown code fence even when the model emits a literal
+# two-character "\n" instead of a real newline after the fence (observed with longer
+# prose generations from gemma4:e4b-mlx) -- (?:\\n|\n|\s)* covers both forms, and no
+# MULTILINE flag means ^/$ anchor to the whole string's start/end, not internal lines.
+_CODE_FENCE_RE = re.compile(r"^```(?:json)?(?:\\n|\n|\s)*|(?:\\n|\n|\s)*```$")
 
 
 def generate_json(model: str, prompt: str):
@@ -32,5 +36,24 @@ def generate_json(model: str, prompt: str):
     cleaned = _CODE_FENCE_RE.sub("", text).strip()
     try:
         return json.loads(cleaned)
+    except json.JSONDecodeError:
+        pass
+
+    # Longer prose generations have also been observed using a literal two-character "\n"
+    # as a structural separator between JSON tokens (not just at the fence boundary) --
+    # invalid there since JSON requires real whitespace, not an escaped representation.
+    # A real newline isn't a safe substitute either (unescaped control characters are
+    # invalid inside JSON string values too), so fall back to a plain space, which is
+    # valid in both the structural and the string-content case.
+    try:
+        return json.loads(cleaned.replace("\\n", " "))
+    except json.JSONDecodeError:
+        pass
+
+    # Occasionally the model over-escapes the whole response as if it were itself the
+    # contents of a JSON string (literal \" instead of ", on top of the \n above) --
+    # unescape both before retrying.
+    try:
+        return json.loads(cleaned.replace('\\"', '"').replace("\\n", " "))
     except json.JSONDecodeError:
         return None
