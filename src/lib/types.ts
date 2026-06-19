@@ -197,3 +197,46 @@ export interface PreviewsData {
   generated_at: string;
   previews: Record<string, MatchPreview>;
 }
+
+export interface CalibrationEntry {
+  date: string;
+  home_team: string;
+  away_team: string;
+  predicted_home_score: number;
+  predicted_away_score: number;
+  home_win_probability: number;
+  draw_probability: number;
+  away_win_probability: number;
+  actual_home_score: number;
+  actual_away_score: number;
+  actual_outcome: "home" | "draw" | "away";
+  brier_score: number;
+  log_loss: number;
+  scoreline_correct: boolean;
+}
+
+export interface CalibrationSummary {
+  n: number;
+  avg_brier_score: number | null;
+  avg_log_loss: number | null;
+  scoreline_accuracy: number | null;
+}
+
+export interface CalibrationLog {
+  entries: CalibrationEntry[];
+  summary: CalibrationSummary;
+}
+
+export type TeamChanges = Partial<Record<keyof TeamStageProbabilities, number>>;
+
+export interface MatchChanges {
+  home_win_probability?: number;
+  draw_probability?: number;
+  away_win_probability?: number;
+}
+
+export interface ProbabilityChangesData {
+  generated_at: string;
+  teams: Record<string, TeamChanges>;
+  matches: Record<string, MatchChanges>;
+}

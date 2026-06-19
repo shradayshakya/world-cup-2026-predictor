@@ -9,6 +9,8 @@ import squadsRaw from "../../public/data/squads.json";
 import injuriesRaw from "../../public/data/injuries.json";
 import moversRaw from "../../public/data/movers.json";
 import previewsRaw from "../../public/data/previews.json";
+import calibrationLogRaw from "../../public/data/calibration_log.json";
+import probabilityChangesRaw from "../../public/data/probability_changes.json";
 import type {
   EloData,
   GroupsData,
@@ -21,6 +23,8 @@ import type {
   InjuriesData,
   MoversData,
   PreviewsData,
+  CalibrationLog,
+  ProbabilityChangesData,
 } from "./types";
 
 export function getElo(): EloData {
@@ -65,6 +69,14 @@ export function getMovers(): MoversData {
 
 export function getPreviews(): PreviewsData {
   return previewsRaw as PreviewsData;
+}
+
+export function getCalibrationLog(): CalibrationLog {
+  return calibrationLogRaw as CalibrationLog;
+}
+
+export function getProbabilityChanges(): ProbabilityChangesData {
+  return probabilityChangesRaw as ProbabilityChangesData;
 }
 
 export function getLastUpdated(): string {

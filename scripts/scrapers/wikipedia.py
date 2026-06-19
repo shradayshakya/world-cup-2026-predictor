@@ -23,6 +23,10 @@ ROUND_LABELS = {
 # Matches a leading "N-N" score, tolerant of trailing extra-time/penalty annotations.
 SCORE_RE = re.compile(r"^(\d+)\s*[-–−]\s*(\d+)")
 NUMBER_RE = re.compile(r"-?\d+")
+# Team cells carry a trailing flag annotation, e.g. "Canada (H)" or "Canada (H, X)"
+# once a group winner clinches the knockout stage early -- comma-separated, order
+# not guaranteed, so match the whole parenthetical and split it rather than a fixed suffix.
+TEAM_FLAGS_RE = re.compile(r"\s*\(([^)]*)\)\s*$")
 
 
 def _int(text: str) -> int:
@@ -73,9 +77,11 @@ def _parse_group_standings(table) -> list:
     standings = []
     for row in grid[1:]:
         team = row[1]
-        host = team.endswith("(H)")
-        if host:
-            team = team[: -len("(H)")].strip()
+        flags_match = TEAM_FLAGS_RE.search(team)
+        host = False
+        if flags_match:
+            host = "H" in {f.strip() for f in flags_match.group(1).split(",")}
+            team = team[: flags_match.start()].strip()
         standings.append(
             {
                 "position": _int(row[0]),

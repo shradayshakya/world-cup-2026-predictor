@@ -1,42 +1,29 @@
 {
-  "generated_at": "2026-06-18T16:47:03.499512+00:00",
+  "generated_at": "2026-06-19T02:11:26.858028+00:00",
   "teams": {
-    "Ivory Coast": {
-      "elo_penalty": 0.0,
-      "absences": [
-        {
-          "player": "Elye Wahi",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "Ivory Coast's Wahi denied entry to Canada",
-          "source_link": "https://www.bbc.com/sport/football/articles/cvg7n7xdnd0o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "Brazil": {
+    "Canada": {
       "elo_penalty": -15.0,
       "absences": [
         {
-          "player": "Neymar",
+          "player": "Ismaël Koné",
           "status": "out",
           "until": null,
           "key_player": true,
-          "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages"
+          "source_title": "Canada score six but historic win marred by Kone injury",
+          "source_link": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     "United States": {
-      "elo_penalty": -15.0,
+      "elo_penalty": -7.5,
       "absences": [
         {
           "player": "Christian Pulisic",
-          "status": "out",
+          "status": "doubt",
           "until": null,
           "key_player": true,
-          "source_title": "Pulisic training solo in race to be fit vs. Austra...",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49098971/usmnt-christian-pulisic-trains-solo-field-race-fit-australia"
+          "source_title": "Mauricio Pochettino noncommittal on Christian Pulisic status for Australia game: ‘We’ll see’",
+          "source_link": "https://www.theguardian.com/football/2026/jun/18/usmnt-christian-pulisic-status-mauricio-pochettino"
         }
       ]
     }

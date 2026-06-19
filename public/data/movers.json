@@ -1,4 +1,19 @@
 {
-  "generated_at": "2026-06-18T16:47:03.499512+00:00",
-  "movers": []
+  "generated_at": "2026-06-19T02:11:26.858028+00:00",
+  "movers": [
+    {
+      "team": "Brazil",
+      "previous_pct": 1.9900000000000002,
+      "current_pct": 2.54,
+      "delta_pp": 0.5499999999999998,
+      "direction": "gainer",
+      "blurb": "As there have been no reported relevant results or injury updates for Brazil since the last calculation, this modest increase in probability reflects an internal refinement within our prediction model's overall assessment of the team's standing ahead of the competition.",
+      "sources": [
+        {
+          "label": "Brazil",
+          "href": "/teams/brazil"
+        }
+      ]
+    }
+  ]
 }

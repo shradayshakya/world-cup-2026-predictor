@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
+import ChangeArrow from "@/components/ChangeArrow";
 import MatchCard from "@/components/MatchCard";
 import StatusBadge from "@/components/StatusBadge";
-import { getElo, getForm, getGroups, getInjuries, getProbabilities, getResults, getSquads } from "@/lib/data";
+import { getElo, getForm, getGroups, getInjuries, getProbabilities, getProbabilityChanges, getResults, getSquads } from "@/lib/data";
 import { getPredictionFor } from "@/lib/predictions";
 import { allTeamNames, slugify, teamNameBySlug } from "@/lib/slug";
 import { resolveEloName } from "@/lib/teamAliases";
@@ -34,6 +35,7 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
 
   const eloTeam = getElo().teams.find((t) => t.name === resolveEloName(name));
   const stats = getProbabilities().teams[name] ?? {};
+  const teamChanges = getProbabilityChanges().teams[name] ?? {};
   const form = getForm().teams[name] ?? [];
   const squad = getSquads().squads[name] ?? [];
   const teamInjuries = getInjuries().teams[name];
@@ -59,13 +61,13 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
           <p className="mt-2 text-sm text-neutral-500">No squad list on file.</p>
         ) : (
           <div className="mt-2 overflow-x-auto">
-            <table className="w-full min-w-[480px] text-sm">
+            <table className="w-full min-w-[320px] text-sm sm:min-w-[480px]">
               <thead>
                 <tr className="border-b border-neutral-200 text-left text-neutral-500">
                   <th className="py-1 pr-2">Player</th>
                   <th className="px-1 text-center">Pos</th>
-                  <th className="px-1 text-center">Caps</th>
-                  <th className="px-1 text-center">Goals</th>
+                  <th className="hidden px-1 text-center sm:table-cell">Caps</th>
+                  <th className="hidden px-1 text-center sm:table-cell">Goals</th>
                   <th className="py-1 pl-2">Club</th>
                 </tr>
               </thead>
@@ -84,8 +86,8 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
                         )}
                       </td>
                       <td className="px-1 text-center text-neutral-500">{p.position}</td>
-                      <td className="px-1 text-center">{p.caps}</td>
-                      <td className="px-1 text-center">{p.goals}</td>
+                      <td className="hidden px-1 text-center sm:table-cell">{p.caps}</td>
+                      <td className="hidden px-1 text-center sm:table-cell">{p.goals}</td>
                       <td className="py-1.5 pl-2 text-neutral-500">{p.club}</td>
                     </tr>
                   );
@@ -102,7 +104,10 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
           {STAGE_LABELS.map(([key, label]) => (
             <div key={key} className="rounded-md border border-neutral-200 p-2">
               <dt className="text-xs text-neutral-500">{label}</dt>
-              <dd className="text-lg font-semibold">{formatPercent(stats[key as keyof typeof stats])}</dd>
+              <dd className="text-lg font-semibold">
+                {formatPercent(stats[key as keyof typeof stats])}
+                <ChangeArrow deltaPp={teamChanges[key as keyof typeof teamChanges]} />
+              </dd>
             </div>
           ))}
         </dl>

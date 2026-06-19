@@ -74,45 +74,45 @@
     },
     {
       "rank": 13,
+      "code": "CH",
+      "name": "Switzerland",
+      "rating": 1885
+    },
+    {
+      "rank": 14,
       "code": "HR",
       "name": "Croatia",
       "rating": 1881
     },
     {
-      "rank": 13,
+      "rank": 14,
       "code": "MX",
       "name": "Mexico",
       "rating": 1881
     },
     {
-      "rank": 15,
+      "rank": 16,
       "code": "BE",
       "name": "Belgium",
       "rating": 1879
     },
     {
-      "rank": 16,
+      "rank": 17,
       "code": "UY",
       "name": "Uruguay",
       "rating": 1870
     },
     {
-      "rank": 17,
+      "rank": 18,
       "code": "DK",
       "name": "Denmark",
       "rating": 1869
     },
     {
-      "rank": 17,
+      "rank": 18,
       "code": "IT",
       "name": "Italy",
       "rating": 1869
-    },
-    {
-      "rank": 19,
-      "code": "CH",
-      "name": "Switzerland",
-      "rating": 1865
     },
     {
       "rank": 20,
@@ -176,18 +176,18 @@
     },
     {
       "rank": 30,
+      "code": "CA",
+      "name": "Canada",
+      "rating": 1777
+    },
+    {
+      "rank": 31,
       "code": "RU",
       "name": "Russia",
       "rating": 1772
     },
     {
-      "rank": 31,
-      "code": "CA",
-      "name": "Canada",
-      "rating": 1767
-    },
-    {
-      "rank": 31,
+      "rank": 32,
       "code": "NG",
       "name": "Nigeria",
       "rating": 1767
@@ -248,45 +248,45 @@
     },
     {
       "rank": 42,
-      "code": "CZ",
-      "name": "Czechia",
-      "rating": 1712
-    },
-    {
-      "rank": 43,
       "code": "EG",
       "name": "Egypt",
       "rating": 1711
     },
     {
-      "rank": 44,
+      "rank": 43,
       "code": "HU",
       "name": "Hungary",
       "rating": 1710
     },
     {
-      "rank": 44,
+      "rank": 43,
       "code": "PL",
       "name": "Poland",
       "rating": 1710
     },
     {
-      "rank": 46,
+      "rank": 45,
       "code": "PE",
       "name": "Peru",
       "rating": 1700
     },
     {
-      "rank": 47,
+      "rank": 46,
       "code": "IE",
       "name": "Ireland",
       "rating": 1699
     },
     {
-      "rank": 48,
+      "rank": 47,
       "code": "UZ",
       "name": "Uzbekistan",
       "rating": 1698
+    },
+    {
+      "rank": 48,
+      "code": "CZ",
+      "name": "Czechia",
+      "rating": 1696
     },
     {
       "rank": 49,
@@ -350,45 +350,45 @@
     },
     {
       "rank": 59,
-      "code": "BA",
-      "name": "Bosnia and Herzegovina",
-      "rating": 1616
-    },
-    {
-      "rank": 59,
       "code": "AL",
       "name": "Albania",
       "rating": 1616
     },
     {
-      "rank": 61,
+      "rank": 60,
       "code": "CM",
       "name": "Cameroon",
       "rating": 1614
     },
     {
-      "rank": 62,
+      "rank": 61,
       "code": "CR",
       "name": "Costa Rica",
       "rating": 1608
     },
     {
-      "rank": 63,
+      "rank": 62,
       "code": "CV",
       "name": "Cape Verde",
       "rating": 1606
     },
     {
-      "rank": 64,
+      "rank": 63,
       "code": "EI",
       "name": "Northern Ireland",
       "rating": 1605
     },
     {
-      "rank": 65,
+      "rank": 64,
       "code": "SA",
       "name": "Saudi Arabia",
       "rating": 1598
+    },
+    {
+      "rank": 65,
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "rating": 1596
     },
     {
       "rank": 66,
@@ -470,21 +470,21 @@
     },
     {
       "rank": 79,
+      "code": "ZA",
+      "name": "South Africa",
+      "rating": 1527
+    },
+    {
+      "rank": 79,
       "code": "JM",
       "name": "Jamaica",
       "rating": 1527
     },
     {
-      "rank": 80,
+      "rank": 81,
       "code": "BY",
       "name": "Belarus",
       "rating": 1522
-    },
-    {
-      "rank": 81,
-      "code": "ZA",
-      "name": "South Africa",
-      "rating": 1511
     },
     {
       "rank": 82,
@@ -536,15 +536,15 @@
     },
     {
       "rank": 90,
-      "code": "QA",
-      "name": "Qatar",
-      "rating": 1447
-    },
-    {
-      "rank": 91,
       "code": "NS",
       "name": "Northern Cyprus",
       "rating": 1442
+    },
+    {
+      "rank": 91,
+      "code": "QA",
+      "name": "Qatar",
+      "rating": 1437
     },
     {
       "rank": 92,
@@ -1465,5 +1465,5 @@
       "rating": 369
     }
   ],
-  "scraped_at": "2026-06-18T16:47:03.499512+00:00"
+  "scraped_at": "2026-06-19T02:11:26.858028+00:00"
 }

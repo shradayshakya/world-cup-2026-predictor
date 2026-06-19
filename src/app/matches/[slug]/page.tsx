@@ -1,10 +1,11 @@
 import { notFound } from "next/navigation";
 import AiSummaryBadge from "@/components/AiSummaryBadge";
+import ChangeArrow from "@/components/ChangeArrow";
 import ScoreHeatmap from "@/components/ScoreHeatmap";
 import StatusBadge from "@/components/StatusBadge";
 import TeamLink from "@/components/TeamLink";
 import TopScorelines from "@/components/TopScorelines";
-import { getForm, getInjuries, getPreviews, getResults } from "@/lib/data";
+import { getForm, getInjuries, getPreviews, getProbabilityChanges, getResults } from "@/lib/data";
 import { formatDate, formatPercent } from "@/lib/format";
 import { getPredictionFor } from "@/lib/predictions";
 import { matchByValidatedSlug, matchSlug } from "@/lib/slug";
@@ -43,6 +44,7 @@ export default async function MatchPage({ params }: { params: Promise<{ slug: st
 
   const prediction = !match.played ? getPredictionFor(match) : null;
   const isResolved = match.played || prediction !== null;
+  const matchChanges = getProbabilityChanges().matches[previewKey(match.home_team, match.away_team, match.date)];
 
   return (
     <div className="flex flex-col gap-6">
@@ -84,9 +86,18 @@ export default async function MatchPage({ params }: { params: Promise<{ slug: st
               })}
             </p>
             <div className="mt-2 flex gap-4 text-sm text-neutral-600">
-              <span>Home win {formatPercent(prediction.prediction.home_win_probability)}</span>
-              <span>Draw {formatPercent(prediction.prediction.draw_probability)}</span>
-              <span>Away win {formatPercent(prediction.prediction.away_win_probability)}</span>
+              <span>
+                Home win {formatPercent(prediction.prediction.home_win_probability)}
+                <ChangeArrow deltaPp={matchChanges?.home_win_probability} />
+              </span>
+              <span>
+                Draw {formatPercent(prediction.prediction.draw_probability)}
+                <ChangeArrow deltaPp={matchChanges?.draw_probability} />
+              </span>
+              <span>
+                Away win {formatPercent(prediction.prediction.away_win_probability)}
+                <ChangeArrow deltaPp={matchChanges?.away_win_probability} />
+              </span>
             </div>
             <p className="mt-3 text-sm text-neutral-500">
               Most likely exact scoreline:{" "}

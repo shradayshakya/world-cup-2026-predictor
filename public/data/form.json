@@ -1,6 +1,324 @@
 {
-  "generated_at": "2026-06-18T16:47:03.499512+00:00",
+  "generated_at": "2026-06-19T02:11:26.858028+00:00",
   "teams": {
+    "Canada": [
+      {
+        "date": "2026-06-18",
+        "opponent": "Qatar",
+        "goals_for": 6,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "World Cup",
+        "venue": "Canada"
+      },
+      {
+        "date": "2026-06-12",
+        "opponent": "Bosnia and Herzegovina",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "World Cup",
+        "venue": "Canada"
+      },
+      {
+        "date": "2026-06-05",
+        "opponent": "Ireland",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "Canada"
+      },
+      {
+        "date": "2026-06-01",
+        "opponent": "Uzbekistan",
+        "goals_for": 2,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "Friendly",
+        "venue": "Canada"
+      },
+      {
+        "date": "2026-03-31",
+        "opponent": "Tunisia",
+        "goals_for": 0,
+        "goals_against": 0,
+        "result": "D",
+        "tournament": "Friendly tournament",
+        "venue": "Canada"
+      },
+      {
+        "date": "2026-03-28",
+        "opponent": "Iceland",
+        "goals_for": 2,
+        "goals_against": 2,
+        "result": "D",
+        "tournament": "Friendly tournament",
+        "venue": "Canada"
+      }
+    ],
+    "Qatar": [
+      {
+        "date": "2026-06-18",
+        "opponent": "Canada",
+        "goals_for": 0,
+        "goals_against": 6,
+        "result": "L",
+        "tournament": "World Cup",
+        "venue": "Canada"
+      },
+      {
+        "date": "2026-06-13",
+        "opponent": "Switzerland",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "World Cup",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-06-06",
+        "opponent": "El Salvador",
+        "goals_for": 0,
+        "goals_against": 0,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-05-28",
+        "opponent": "Ireland",
+        "goals_for": 0,
+        "goals_against": 1,
+        "result": "L",
+        "tournament": "Friendly",
+        "venue": "Ireland"
+      }
+    ],
+    "Czech Republic": [
+      {
+        "date": "2026-06-18",
+        "opponent": "South Africa",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "World Cup",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-06-11",
+        "opponent": "South Korea",
+        "goals_for": 1,
+        "goals_against": 2,
+        "result": "L",
+        "tournament": "World Cup",
+        "venue": "Mexico"
+      },
+      {
+        "date": "2026-06-04",
+        "opponent": "Guatemala",
+        "goals_for": 3,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "Friendly",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-05-31",
+        "opponent": "Kosovo",
+        "goals_for": 2,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "Friendly",
+        "venue": "Czech Republic"
+      },
+      {
+        "date": "2026-03-31",
+        "opponent": "Denmark",
+        "goals_for": 2,
+        "goals_against": 2,
+        "result": "D",
+        "tournament": "World Cup qualifier",
+        "venue": "Czech Republic"
+      },
+      {
+        "date": "2026-03-26",
+        "opponent": "Ireland",
+        "goals_for": 2,
+        "goals_against": 2,
+        "result": "D",
+        "tournament": "World Cup qualifier",
+        "venue": "Czech Republic"
+      }
+    ],
+    "South Africa": [
+      {
+        "date": "2026-06-18",
+        "opponent": "Czech Republic",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "World Cup",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-06-11",
+        "opponent": "Mexico",
+        "goals_for": 0,
+        "goals_against": 2,
+        "result": "L",
+        "tournament": "World Cup",
+        "venue": "Mexico"
+      },
+      {
+        "date": "2026-06-06",
+        "opponent": "Jamaica",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "Mexico"
+      },
+      {
+        "date": "2026-05-29",
+        "opponent": "Nicaragua",
+        "goals_for": 0,
+        "goals_against": 0,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "South Africa"
+      },
+      {
+        "date": "2026-03-31",
+        "opponent": "Panama",
+        "goals_for": 1,
+        "goals_against": 2,
+        "result": "L",
+        "tournament": "Friendly",
+        "venue": "South Africa"
+      },
+      {
+        "date": "2026-03-27",
+        "opponent": "Panama",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "South Africa"
+      }
+    ],
+    "Switzerland": [
+      {
+        "date": "2026-06-18",
+        "opponent": "Bosnia and Herzegovina",
+        "goals_for": 4,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "World Cup",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-06-13",
+        "opponent": "Qatar",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "World Cup",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-06-06",
+        "opponent": "Australia",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-05-31",
+        "opponent": "Jordan",
+        "goals_for": 4,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "Friendly",
+        "venue": "Switzerland"
+      },
+      {
+        "date": "2026-03-31",
+        "opponent": "Norway",
+        "goals_for": 0,
+        "goals_against": 0,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "Norway"
+      },
+      {
+        "date": "2026-03-27",
+        "opponent": "Germany",
+        "goals_for": 3,
+        "goals_against": 4,
+        "result": "L",
+        "tournament": "Friendly",
+        "venue": "Switzerland"
+      }
+    ],
+    "Bosnia and Herzegovina": [
+      {
+        "date": "2026-06-18",
+        "opponent": "Switzerland",
+        "goals_for": 1,
+        "goals_against": 4,
+        "result": "L",
+        "tournament": "World Cup",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-06-12",
+        "opponent": "Canada",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "World Cup",
+        "venue": "Canada"
+      },
+      {
+        "date": "2026-06-06",
+        "opponent": "Panama",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "United States"
+      },
+      {
+        "date": "2026-05-29",
+        "opponent": "North Macedonia",
+        "goals_for": 0,
+        "goals_against": 0,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "Bosnia and Herzegovina"
+      },
+      {
+        "date": "2026-03-31",
+        "opponent": "Italy",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "World Cup qualifier",
+        "venue": "Bosnia and Herzegovina"
+      },
+      {
+        "date": "2026-03-26",
+        "opponent": "Wales",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "World Cup qualifier",
+        "venue": "Wales"
+      }
+    ],
     "Colombia": [
       {
         "date": "2026-06-17",
@@ -1675,82 +1993,6 @@
         "venue": "Spain"
       }
     ],
-    "Qatar": [
-      {
-        "date": "2026-06-13",
-        "opponent": "Switzerland",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "World Cup",
-        "venue": "United States"
-      },
-      {
-        "date": "2026-06-06",
-        "opponent": "El Salvador",
-        "goals_for": 0,
-        "goals_against": 0,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "United States"
-      },
-      {
-        "date": "2026-05-28",
-        "opponent": "Ireland",
-        "goals_for": 0,
-        "goals_against": 1,
-        "result": "L",
-        "tournament": "Friendly",
-        "venue": "Ireland"
-      }
-    ],
-    "Switzerland": [
-      {
-        "date": "2026-06-13",
-        "opponent": "Qatar",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "World Cup",
-        "venue": "United States"
-      },
-      {
-        "date": "2026-06-06",
-        "opponent": "Australia",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "United States"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Jordan",
-        "goals_for": 4,
-        "goals_against": 1,
-        "result": "W",
-        "tournament": "Friendly",
-        "venue": "Switzerland"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Norway",
-        "goals_for": 0,
-        "goals_against": 0,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "Norway"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Germany",
-        "goals_for": 3,
-        "goals_against": 4,
-        "result": "L",
-        "tournament": "Friendly",
-        "venue": "Switzerland"
-      }
-    ],
     "Scotland": [
       {
         "date": "2026-06-13",
@@ -1843,100 +2085,6 @@
         "result": "L",
         "tournament": "Friendly tournament",
         "venue": "Canada"
-      }
-    ],
-    "Canada": [
-      {
-        "date": "2026-06-12",
-        "opponent": "Bosnia and Herzegovina",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "World Cup",
-        "venue": "Canada"
-      },
-      {
-        "date": "2026-06-05",
-        "opponent": "Ireland",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "Canada"
-      },
-      {
-        "date": "2026-06-01",
-        "opponent": "Uzbekistan",
-        "goals_for": 2,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "Friendly",
-        "venue": "Canada"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Tunisia",
-        "goals_for": 0,
-        "goals_against": 0,
-        "result": "D",
-        "tournament": "Friendly tournament",
-        "venue": "Canada"
-      },
-      {
-        "date": "2026-03-28",
-        "opponent": "Iceland",
-        "goals_for": 2,
-        "goals_against": 2,
-        "result": "D",
-        "tournament": "Friendly tournament",
-        "venue": "Canada"
-      }
-    ],
-    "Bosnia and Herzegovina": [
-      {
-        "date": "2026-06-12",
-        "opponent": "Canada",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "World Cup",
-        "venue": "Canada"
-      },
-      {
-        "date": "2026-06-06",
-        "opponent": "Panama",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "United States"
-      },
-      {
-        "date": "2026-05-29",
-        "opponent": "North Macedonia",
-        "goals_for": 0,
-        "goals_against": 0,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "Bosnia and Herzegovina"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Italy",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "World Cup qualifier",
-        "venue": "Bosnia and Herzegovina"
-      },
-      {
-        "date": "2026-03-26",
-        "opponent": "Wales",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "World Cup qualifier",
-        "venue": "Wales"
       }
     ],
     "United States": [
@@ -2080,53 +2228,6 @@
         "venue": "Mexico"
       }
     ],
-    "South Africa": [
-      {
-        "date": "2026-06-11",
-        "opponent": "Mexico",
-        "goals_for": 0,
-        "goals_against": 2,
-        "result": "L",
-        "tournament": "World Cup",
-        "venue": "Mexico"
-      },
-      {
-        "date": "2026-06-06",
-        "opponent": "Jamaica",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "Mexico"
-      },
-      {
-        "date": "2026-05-29",
-        "opponent": "Nicaragua",
-        "goals_for": 0,
-        "goals_against": 0,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "South Africa"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Panama",
-        "goals_for": 1,
-        "goals_against": 2,
-        "result": "L",
-        "tournament": "Friendly",
-        "venue": "South Africa"
-      },
-      {
-        "date": "2026-03-27",
-        "opponent": "Panama",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "South Africa"
-      }
-    ],
     "South Korea": [
       {
         "date": "2026-06-11",
@@ -2172,53 +2273,6 @@
         "result": "L",
         "tournament": "Friendly",
         "venue": "England"
-      }
-    ],
-    "Czech Republic": [
-      {
-        "date": "2026-06-11",
-        "opponent": "South Korea",
-        "goals_for": 1,
-        "goals_against": 2,
-        "result": "L",
-        "tournament": "World Cup",
-        "venue": "Mexico"
-      },
-      {
-        "date": "2026-06-04",
-        "opponent": "Guatemala",
-        "goals_for": 3,
-        "goals_against": 1,
-        "result": "W",
-        "tournament": "Friendly",
-        "venue": "United States"
-      },
-      {
-        "date": "2026-05-31",
-        "opponent": "Kosovo",
-        "goals_for": 2,
-        "goals_against": 1,
-        "result": "W",
-        "tournament": "Friendly",
-        "venue": "Czech Republic"
-      },
-      {
-        "date": "2026-03-31",
-        "opponent": "Denmark",
-        "goals_for": 2,
-        "goals_against": 2,
-        "result": "D",
-        "tournament": "World Cup qualifier",
-        "venue": "Czech Republic"
-      },
-      {
-        "date": "2026-03-26",
-        "opponent": "Ireland",
-        "goals_for": 2,
-        "goals_against": 2,
-        "result": "D",
-        "tournament": "World Cup qualifier",
-        "venue": "Czech Republic"
       }
     ]
   }

@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Daily update pipeline (see PRD.md S8, S11). Phases 1-5b: scrapers, match model, tournament simulation, injury layer, editorial layer."""
+"""Daily update pipeline (see PRD.md S8, S11). Phases 1-6: scrapers, match model, tournament simulation, injury layer, editorial layer, calibration + change tracking."""
 
 import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from model.calibration import merge_into_log, score_resolved_matches
+from model.changes import compute_match_changes, compute_team_changes
 from model.injuries import INJURY_EXTRACTION_MODEL, apply_to_elo, extract_injuries, resolve_and_score
 from model.matches import build_matches
 from model.movers import compute_movers, generate_movers_commentary
@@ -41,6 +43,15 @@ def main() -> None:
     probabilities_path = DATA_DIR / "probabilities.json"
     previous_probabilities = json.loads(probabilities_path.read_text())["teams"] if probabilities_path.exists() else {}
 
+    # matches.json only ever holds unplayed matches -- a match's prediction would be
+    # lost with no audit trail the moment it flips to played, unless captured here
+    # before this run's fresh build_matches() overwrites the file (PRD.md S10).
+    matches_path = DATA_DIR / "matches.json"
+    previous_matches = json.loads(matches_path.read_text()) if matches_path.exists() else {"matches": []}
+
+    calibration_log_path = DATA_DIR / "calibration_log.json"
+    existing_calibration_log = json.loads(calibration_log_path.read_text()) if calibration_log_path.exists() else {}
+
     _write_json("heartbeat.json", {"last_updated": now})
 
     team_names = fetch_team_names()
@@ -55,6 +66,10 @@ def main() -> None:
     results = {"scraped_at": now, "matches": raw_matches}
     _write_json("groups.json", groups)
     _write_json("results.json", results)
+
+    newly_resolved = score_resolved_matches(previous_matches, results)
+    calibration_log = merge_into_log(existing_calibration_log, newly_resolved)
+    _write_json("calibration_log.json", calibration_log)
 
     wc_team_names = {entry["team"] for standings in raw_groups.values() for entry in standings}
     name_to_code = {name: code for code, name in team_names.items()}
@@ -97,6 +112,12 @@ def main() -> None:
 
     previews = generate_previews(matches, adjusted_elo, form, injuries)
     _write_json("previews.json", {"generated_at": now, "previews": previews})
+
+    probability_changes = {
+        "teams": compute_team_changes(previous_probabilities, probabilities["teams"]),
+        "matches": compute_match_changes(previous_matches, matches),
+    }
+    _write_json("probability_changes.json", {"generated_at": now, **probability_changes})
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-18T16:47:03.499512+00:00",
+  "scraped_at": "2026-06-19T02:11:26.858028+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -33,11 +33,11 @@
       "date": "2026-06-18",
       "home_team": "Czech Republic",
       "away_team": "South Africa",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 1,
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "attendance": null,
+      "attendance": 67442,
       "referee": "Tori Penso (United States)"
     },
     {
@@ -111,11 +111,11 @@
       "date": "2026-06-18",
       "home_team": "Switzerland",
       "away_team": "Bosnia and Herzegovina",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 4,
+      "away_score": 1,
       "venue": "SoFi Stadium, Inglewood",
-      "attendance": null,
+      "attendance": 70026,
       "referee": "João Pinheiro (Portugal)"
     },
     {
@@ -124,11 +124,11 @@
       "date": "2026-06-18",
       "home_team": "Canada",
       "away_team": "Qatar",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 6,
+      "away_score": 0,
       "venue": "BC Place, Vancouver",
-      "attendance": null,
+      "attendance": 52497,
       "referee": "Cristián Garay (Chile)"
     },
     {
