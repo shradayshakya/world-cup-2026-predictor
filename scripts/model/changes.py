@@ -52,3 +52,37 @@ def compute_match_changes(previous_matches: dict, current_matches: dict, thresho
         if match_changes:
             changes[key] = match_changes
     return changes
+
+
+LIST_ROUND_KEYS = ("round_of_32", "round_of_16", "quarter_finals", "semi_finals")
+SINGLE_SLOT_ROUND_KEYS = ("final", "third_place")
+
+
+def _bracket_slot_changes(round_key: str, slot_index: int, previous_slot: dict, current_slot: dict, threshold: float) -> dict:
+    """Only produces a delta when the SAME team occupies a side in both snapshots --
+    a different most-likely occupant isn't a probability change to arrow, it's a new
+    occupant, already visible from the name itself."""
+    changes = {}
+    for side in ("home", "away"):
+        current_occupant = current_slot.get(side)
+        previous_occupant = (previous_slot or {}).get(side)
+        if not current_occupant or not previous_occupant:
+            continue
+        if current_occupant["team"] != previous_occupant["team"]:
+            continue
+        delta_pp = (current_occupant["probability"] - previous_occupant["probability"]) * 100
+        if abs(delta_pp) >= threshold:
+            changes[f"{round_key}|{slot_index}|{side}"] = round(delta_pp, 2)
+    return changes
+
+
+def compute_bracket_changes(previous_bracket: dict, current_bracket: dict, threshold: float = CHANGE_THRESHOLD_PP) -> dict:
+    changes = {}
+    for round_key in LIST_ROUND_KEYS:
+        previous_slots = previous_bracket.get(round_key, [])
+        for i, current_slot in enumerate(current_bracket.get(round_key, [])):
+            previous_slot = previous_slots[i] if i < len(previous_slots) else {}
+            changes.update(_bracket_slot_changes(round_key, i, previous_slot, current_slot, threshold))
+    for round_key in SINGLE_SLOT_ROUND_KEYS:
+        changes.update(_bracket_slot_changes(round_key, 0, previous_bracket.get(round_key, {}), current_bracket.get(round_key, {}), threshold))
+    return changes

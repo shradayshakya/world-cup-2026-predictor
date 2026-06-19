@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from model.calibration import merge_into_log, score_resolved_matches
-from model.changes import compute_match_changes, compute_team_changes
+from model.changes import compute_bracket_changes, compute_match_changes, compute_team_changes
 from model.injuries import INJURY_EXTRACTION_MODEL, apply_to_elo, extract_injuries, resolve_and_score
 from model.matches import build_matches
 from model.movers import compute_movers, generate_movers_commentary
@@ -52,6 +52,9 @@ def main() -> None:
     calibration_log_path = DATA_DIR / "calibration_log.json"
     existing_calibration_log = json.loads(calibration_log_path.read_text()) if calibration_log_path.exists() else {}
 
+    bracket_path = DATA_DIR / "bracket.json"
+    previous_bracket = json.loads(bracket_path.read_text()) if bracket_path.exists() else {}
+
     # The probability-change arrows (PRD.md S5.1a) compare against this baseline, not
     # against previous_probabilities/previous_matches above -- it only advances when a
     # real match resolves (see newly_resolved below), so a run with no new result keeps
@@ -64,9 +67,11 @@ def main() -> None:
         change_baseline = json.loads(change_baseline_path.read_text())
         baseline_teams = change_baseline["teams"]
         baseline_matches = change_baseline["matches"]
+        baseline_bracket = change_baseline.get("bracket", {})  # .get: older baseline files predate this key
     else:
         baseline_teams = previous_probabilities
         baseline_matches = previous_matches
+        baseline_bracket = previous_bracket
 
     _write_json("heartbeat.json", {"last_updated": now})
 
@@ -133,6 +138,7 @@ def main() -> None:
     probability_changes = {
         "teams": compute_team_changes(baseline_teams, probabilities["teams"]),
         "matches": compute_match_changes(baseline_matches, matches),
+        "bracket": compute_bracket_changes(baseline_bracket, bracket),
     }
     _write_json("probability_changes.json", {"generated_at": now, **probability_changes})
 
@@ -140,7 +146,9 @@ def main() -> None:
     # (no new result) must not overwrite it, or the next no-op run after that would
     # diff against "no change" and silently lose today's real movement.
     if newly_resolved:
-        _write_json("change_baseline.json", {"generated_at": now, "teams": probabilities["teams"], "matches": matches})
+        _write_json(
+            "change_baseline.json", {"generated_at": now, "teams": probabilities["teams"], "matches": matches, "bracket": bracket}
+        )
 
     _write_json("maintenance.json", {"generated_at": now, "issues": wiki_issues + squad_issues})
 

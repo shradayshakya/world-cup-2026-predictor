@@ -239,6 +239,7 @@ export interface ProbabilityChangesData {
   generated_at: string;
   teams: Record<string, TeamChanges>;
   matches: Record<string, MatchChanges>;
+  bracket: Record<string, number>;
 }
 
 export interface MaintenanceIssue {

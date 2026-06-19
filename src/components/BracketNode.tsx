@@ -1,9 +1,11 @@
 import Link from "next/link";
+import ChangeArrow from "./ChangeArrow";
 import { formatPercent } from "@/lib/format";
 
 export interface BracketSide {
   name: string;
   probability?: number;
+  deltaPp?: number;
   confirmed: boolean;
 }
 
@@ -14,7 +16,10 @@ function SideRow({ side }: { side: BracketSide }) {
     <div className="flex items-center justify-between gap-2 px-2 py-1">
       <span className={side.confirmed ? "truncate" : "truncate text-neutral-500"}>{side.name}</span>
       {!side.confirmed && side.probability !== undefined && (
-        <span className="shrink-0 text-xs text-neutral-400">{formatPercent(side.probability, 0)}</span>
+        <span className="shrink-0 whitespace-nowrap text-xs text-neutral-400">
+          {formatPercent(side.probability, 0)}
+          <ChangeArrow deltaPp={side.deltaPp} />
+        </span>
       )}
     </div>
   );
