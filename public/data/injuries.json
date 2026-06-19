@@ -1,6 +1,19 @@
 {
-  "generated_at": "2026-06-19T02:11:26.858028+00:00",
+  "generated_at": "2026-06-19T17:55:57.502038+00:00",
   "teams": {
+    "Morocco": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Achraf Hakimi",
+          "status": "suspended",
+          "until": null,
+          "key_player": true,
+          "source_title": "Morocco captain Hakimi to stand trial for rape",
+          "source_link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
     "Canada": {
       "elo_penalty": -15.0,
       "absences": [
@@ -15,15 +28,15 @@
       ]
     },
     "United States": {
-      "elo_penalty": -7.5,
+      "elo_penalty": -15.0,
       "absences": [
         {
           "player": "Christian Pulisic",
-          "status": "doubt",
+          "status": "out",
           "until": null,
           "key_player": true,
-          "source_title": "Mauricio Pochettino noncommittal on Christian Pulisic status for Australia game: ‘We’ll see’",
-          "source_link": "https://www.theguardian.com/football/2026/jun/18/usmnt-christian-pulisic-status-mauricio-pochettino"
+          "source_title": "USA v Australia: World Cup 2026 – live",
+          "source_link": "https://www.theguardian.com/football/live/2026/jun/19/usa-v-australia-world-cup-2026-live"
         }
       ]
     }

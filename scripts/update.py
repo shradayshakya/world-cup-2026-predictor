@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daily update pipeline (see PRD.md S8, S11). Phases 1-6: scrapers, match model, tournament simulation, injury layer, editorial layer, calibration + change tracking."""
+"""Daily update pipeline (see PRD.md S8, S11). Phases 1-6 + 5c: scrapers, match model, tournament simulation, injury layer, editorial layer, calibration + change tracking, parser fallback."""
 
 import json
 from datetime import datetime, timezone
@@ -52,6 +52,22 @@ def main() -> None:
     calibration_log_path = DATA_DIR / "calibration_log.json"
     existing_calibration_log = json.loads(calibration_log_path.read_text()) if calibration_log_path.exists() else {}
 
+    # The probability-change arrows (PRD.md S5.1a) compare against this baseline, not
+    # against previous_probabilities/previous_matches above -- it only advances when a
+    # real match resolves (see newly_resolved below), so a run with no new result keeps
+    # comparing against the same fixed point instead of resetting to "no change" against
+    # whatever the immediately preceding (possibly also no-op) run happened to produce.
+    # No baseline file yet (first run with this mechanism) bootstraps from the immediate
+    # previous snapshot, same as the old day-over-day behavior, just once.
+    change_baseline_path = DATA_DIR / "change_baseline.json"
+    if change_baseline_path.exists():
+        change_baseline = json.loads(change_baseline_path.read_text())
+        baseline_teams = change_baseline["teams"]
+        baseline_matches = change_baseline["matches"]
+    else:
+        baseline_teams = previous_probabilities
+        baseline_matches = previous_matches
+
     _write_json("heartbeat.json", {"last_updated": now})
 
     team_names = fetch_team_names()
@@ -61,7 +77,7 @@ def main() -> None:
     elo["scraped_at"] = now
     _write_json("elo.json", elo)
 
-    raw_groups, raw_matches = scrape_wikipedia()
+    raw_groups, raw_matches, wiki_issues = scrape_wikipedia(INJURY_EXTRACTION_MODEL)
     groups = {"scraped_at": now, "groups": raw_groups}
     results = {"scraped_at": now, "matches": raw_matches}
     _write_json("groups.json", groups)
@@ -79,10 +95,11 @@ def main() -> None:
     _write_json("form.json", {"generated_at": now, "teams": form})
 
     squads_path = DATA_DIR / "squads.json"
+    squad_issues = []
     if squads_path.exists():
         squads = json.loads(squads_path.read_text())["squads"]
     else:
-        squads = scrape_squads(sorted(wc_team_names))  # "once + diff" cadence (PRD.md S7), not daily
+        squads, squad_issues = scrape_squads(sorted(wc_team_names), INJURY_EXTRACTION_MODEL)  # "once + diff" cadence (PRD.md S7), not daily
         _write_json("squads.json", {"scraped_at": now, "squads": squads})
 
     headlines = scrape_headlines()
@@ -114,10 +131,18 @@ def main() -> None:
     _write_json("previews.json", {"generated_at": now, "previews": previews})
 
     probability_changes = {
-        "teams": compute_team_changes(previous_probabilities, probabilities["teams"]),
-        "matches": compute_match_changes(previous_matches, matches),
+        "teams": compute_team_changes(baseline_teams, probabilities["teams"]),
+        "matches": compute_match_changes(baseline_matches, matches),
     }
     _write_json("probability_changes.json", {"generated_at": now, **probability_changes})
+
+    # Advance the baseline only when a real match resolved this run -- a no-op run
+    # (no new result) must not overwrite it, or the next no-op run after that would
+    # diff against "no change" and silently lose today's real movement.
+    if newly_resolved:
+        _write_json("change_baseline.json", {"generated_at": now, "teams": probabilities["teams"], "matches": matches})
+
+    _write_json("maintenance.json", {"generated_at": now, "issues": wiki_issues + squad_issues})
 
 
 if __name__ == "__main__":

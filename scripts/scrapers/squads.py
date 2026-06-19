@@ -7,9 +7,16 @@ already exist yet.
 
 from bs4 import BeautifulSoup
 
+from model.parser_fallback import extract_squad_via_llm
+
 from .http import fetch
 
 SQUADS_URL = "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads"
+
+# FIFA squad rules allow 23-26; real 2026 data is uniformly 26 per team. Widened a
+# bit beyond that exact range so a minor future rules change doesn't false-positive.
+MIN_SQUAD_SIZE = 18
+MAX_SQUAD_SIZE = 30
 
 
 def _link_text(cell) -> str:
@@ -40,14 +47,43 @@ def _parse_squad_table(table) -> list:
     return players
 
 
-def scrape_squads(team_names: list) -> dict:
+def _validate_squad(players: list) -> list:
+    issues = []
+    if not (MIN_SQUAD_SIZE <= len(players) <= MAX_SQUAD_SIZE):
+        issues.append(f"squad size {len(players)} outside expected [{MIN_SQUAD_SIZE}, {MAX_SQUAD_SIZE}]")
+    for p in players:
+        if not p["name"]:
+            issues.append("empty player name")
+        if p["caps"] < 0 or p["goals"] < 0:
+            issues.append(f"{p['name'] or '<empty>'}: negative caps/goals")
+    return issues
+
+
+def scrape_squads(team_names: list, fallback_model: str | None = None) -> tuple:
+    """fallback_model: when given, a team's squad that fails _validate_squad gets one
+    retry via Ollama extraction from the same table's raw HTML (PRD.md S7/S11 Phase 5c)."""
     soup = BeautifulSoup(fetch(SQUADS_URL), "html.parser")
     squads = {}
+    issues = []
     for name in team_names:
         heading = soup.find(id=name.replace(" ", "_"))
         if not heading:
             print(f"squads: no heading found for {name!r}, skipping")
             continue
         table = heading.find_next("table")
-        squads[name] = _parse_squad_table(table)
-    return squads
+        players = _parse_squad_table(table)
+        problems = _validate_squad(players)
+
+        if problems and fallback_model:
+            fallback = extract_squad_via_llm(fallback_model, str(table))
+            fallback_problems = _validate_squad(fallback) if fallback is not None else None
+            if fallback is not None and not fallback_problems:
+                players = fallback
+                issues.append({"source": "squads", "detail": f"{name}: {'; '.join(problems)}", "fallback_attempted": True, "fallback_succeeded": True})
+            else:
+                issues.append({"source": "squads", "detail": f"{name}: {'; '.join(problems)}", "fallback_attempted": True, "fallback_succeeded": False})
+        elif problems:
+            issues.append({"source": "squads", "detail": f"{name}: {'; '.join(problems)}", "fallback_attempted": False, "fallback_succeeded": None})
+
+        squads[name] = players
+    return squads, issues

@@ -68,26 +68,26 @@
     },
     {
       "rank": 12,
+      "code": "MX",
+      "name": "Mexico",
+      "rating": 1896
+    },
+    {
+      "rank": 13,
       "code": "EC",
       "name": "Ecuador",
       "rating": 1890
     },
     {
-      "rank": 13,
+      "rank": 14,
       "code": "CH",
       "name": "Switzerland",
       "rating": 1885
     },
     {
-      "rank": 14,
+      "rank": 15,
       "code": "HR",
       "name": "Croatia",
-      "rating": 1881
-    },
-    {
-      "rank": 14,
-      "code": "MX",
-      "name": "Mexico",
       "rating": 1881
     },
     {
@@ -152,39 +152,39 @@
     },
     {
       "rank": 26,
-      "code": "KR",
-      "name": "South Korea",
-      "rating": 1786
-    },
-    {
-      "rank": 27,
       "code": "PY",
       "name": "Paraguay",
       "rating": 1780
     },
     {
-      "rank": 27,
+      "rank": 26,
       "code": "UA",
       "name": "Ukraine",
       "rating": 1780
     },
     {
-      "rank": 27,
+      "rank": 26,
       "code": "US",
       "name": "United States",
       "rating": 1780
     },
     {
-      "rank": 30,
+      "rank": 29,
       "code": "CA",
       "name": "Canada",
       "rating": 1777
     },
     {
-      "rank": 31,
+      "rank": 30,
       "code": "RU",
       "name": "Russia",
       "rating": 1772
+    },
+    {
+      "rank": 31,
+      "code": "KR",
+      "name": "South Korea",
+      "rating": 1771
     },
     {
       "rank": 32,
@@ -268,10 +268,10 @@
       "rank": 45,
       "code": "PE",
       "name": "Peru",
-      "rating": 1700
+      "rating": 1699
     },
     {
-      "rank": 46,
+      "rank": 45,
       "code": "IE",
       "name": "Ireland",
       "rating": 1699
@@ -368,15 +368,15 @@
     },
     {
       "rank": 62,
-      "code": "CV",
-      "name": "Cape Verde",
+      "code": "EI",
+      "name": "Northern Ireland",
       "rating": 1606
     },
     {
-      "rank": 63,
-      "code": "EI",
-      "name": "Northern Ireland",
-      "rating": 1605
+      "rank": 62,
+      "code": "CV",
+      "name": "Cape Verde",
+      "rating": 1606
     },
     {
       "rank": 64,
@@ -494,14 +494,14 @@
     },
     {
       "rank": 83,
-      "code": "OM",
-      "name": "Oman",
-      "rating": 1480
-    },
-    {
-      "rank": 84,
       "code": "SY",
       "name": "Syria",
+      "rating": 1479
+    },
+    {
+      "rank": 83,
+      "code": "OM",
+      "name": "Oman",
       "rating": 1479
     },
     {
@@ -748,7 +748,7 @@
       "rank": 125,
       "code": "RW",
       "name": "Rwanda",
-      "rating": 1336
+      "rating": 1337
     },
     {
       "rank": 126,
@@ -1010,14 +1010,14 @@
     },
     {
       "rank": 169,
-      "code": "VU",
-      "name": "Vanuatu",
-      "rating": 1118
-    },
-    {
-      "rank": 170,
       "code": "BM",
       "name": "Bermuda",
+      "rating": 1117
+    },
+    {
+      "rank": 169,
+      "code": "VU",
+      "name": "Vanuatu",
       "rating": 1117
     },
     {
@@ -1124,15 +1124,15 @@
     },
     {
       "rank": 188,
-      "code": "SO",
-      "name": "Somalia",
+      "code": "AW",
+      "name": "Aruba",
       "rating": 979
     },
     {
-      "rank": 189,
-      "code": "AW",
-      "name": "Aruba",
-      "rating": 978
+      "rank": 188,
+      "code": "SO",
+      "name": "Somalia",
+      "rating": 979
     },
     {
       "rank": 190,
@@ -1465,5 +1465,5 @@
       "rating": 369
     }
   ],
-  "scraped_at": "2026-06-19T02:11:26.858028+00:00"
+  "scraped_at": "2026-06-19T17:55:57.502038+00:00"
 }

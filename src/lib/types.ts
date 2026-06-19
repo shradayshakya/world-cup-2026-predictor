@@ -240,3 +240,15 @@ export interface ProbabilityChangesData {
   teams: Record<string, TeamChanges>;
   matches: Record<string, MatchChanges>;
 }
+
+export interface MaintenanceIssue {
+  source: "wikipedia_groups" | "wikipedia_matches" | "squads";
+  detail: string;
+  fallback_attempted: boolean;
+  fallback_succeeded: boolean | null;
+}
+
+export interface MaintenanceData {
+  generated_at: string;
+  issues: MaintenanceIssue[];
+}

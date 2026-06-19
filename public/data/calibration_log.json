@@ -47,12 +47,28 @@
       "brier_score": 0.0109,
       "log_loss": 0.0848,
       "scoreline_correct": false
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Mexico",
+      "away_team": "South Korea",
+      "predicted_home_score": 2,
+      "predicted_away_score": 1,
+      "home_win_probability": 0.6834,
+      "draw_probability": 0.1912,
+      "away_win_probability": 0.1254,
+      "actual_home_score": 1,
+      "actual_away_score": 0,
+      "actual_outcome": "home",
+      "brier_score": 0.1525,
+      "log_loss": 0.3807,
+      "scoreline_correct": false
     }
   ],
   "summary": {
-    "n": 3,
-    "avg_brier_score": 0.4179,
-    "avg_log_loss": 0.6776,
+    "n": 4,
+    "avg_brier_score": 0.3515,
+    "avg_log_loss": 0.6034,
     "scoreline_accuracy": 0.0
   }
 }

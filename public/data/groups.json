@@ -1,32 +1,32 @@
 {
-  "scraped_at": "2026-06-19T02:11:26.858028+00:00",
+  "scraped_at": "2026-06-19T17:55:57.502038+00:00",
   "groups": {
     "A": [
       {
         "position": 1,
         "team": "Mexico",
         "host": true,
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "goals_for": 2,
+        "goals_for": 3,
         "goals_against": 0,
-        "goal_difference": 2,
-        "points": 3,
+        "goal_difference": 3,
+        "points": 6,
         "qualification_note": "Knockout stage"
       },
       {
         "position": 2,
         "team": "South Korea",
         "host": false,
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
+        "lost": 1,
         "goals_for": 2,
-        "goals_against": 1,
-        "goal_difference": 1,
+        "goals_against": 2,
+        "goal_difference": 0,
         "points": 3,
         "qualification_note": "Knockout stage"
       },

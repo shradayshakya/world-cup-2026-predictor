@@ -4,12 +4,20 @@ import re
 
 from bs4 import BeautifulSoup
 
+from model.parser_fallback import extract_group_standings_via_llm
+
 from .http import fetch
 
 WIKI_URL = "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
 
 GROUP_LETTERS = list("ABCDEFGHIJKL")
 GROUP_IDS = [f"Group_{letter}" for letter in GROUP_LETTERS]
+
+# 12 groups x 4 teams = 48 group-stage standings rows; 12 groups x C(4,2) = 72
+# group-stage matches + 32 knockout matches (R32 16, R16 8, QF 4, SF 2, 3rd-place
+# 1, Final 1) = 104 total -- confirmed against a real scrape (PRD.md S11 Phase 5c).
+EXPECTED_STANDINGS_ROWS = 4
+EXPECTED_TOTAL_MATCHES = 104
 
 ROUND_LABELS = {
     "Round_of_32": "Round of 32",
@@ -101,6 +109,36 @@ def _parse_group_standings(table) -> list:
     return standings
 
 
+def _validate_group_standings(standings: list) -> list:
+    """Returns a list of human-readable problems; empty means the parse looks sane.
+    Self-consistency only (row count, arithmetic) -- doesn't need any external
+    ground truth, so it's cheap to run on every scrape (PRD.md S11 Phase 5c)."""
+    issues = []
+    if len(standings) != EXPECTED_STANDINGS_ROWS:
+        issues.append(f"expected {EXPECTED_STANDINGS_ROWS} standings rows, got {len(standings)}")
+    for s in standings:
+        label = s["team"] or "<empty team name>"
+        if not s["team"]:
+            issues.append("empty team name")
+        if s["won"] + s["drawn"] + s["lost"] != s["played"]:
+            issues.append(f"{label}: won+drawn+lost ({s['won']}+{s['drawn']}+{s['lost']}) != played ({s['played']})")
+        if s["goals_for"] - s["goals_against"] != s["goal_difference"]:
+            issues.append(f"{label}: goals_for-goals_against != goal_difference")
+        if s["won"] * 3 + s["drawn"] != s["points"]:
+            issues.append(f"{label}: won*3+drawn != points")
+    return issues
+
+
+def _validate_matches(matches: list) -> list:
+    issues = []
+    if len(matches) != EXPECTED_TOTAL_MATCHES:
+        issues.append(f"expected {EXPECTED_TOTAL_MATCHES} total matches, got {len(matches)}")
+    for m in matches:
+        if not m["home_team"] or not m["away_team"]:
+            issues.append(f"match with empty team name: {m['round']} {m['home_team']!r} vs {m['away_team']!r}")
+    return issues
+
+
 def _parse_match(box, round_label: str, group) -> dict:
     bday = box.find("span", class_="bday")
     date = bday.get_text(strip=True) if bday else None
@@ -135,15 +173,54 @@ def _parse_match(box, round_label: str, group) -> dict:
     }
 
 
-def scrape_wikipedia() -> tuple:
+def scrape_wikipedia(fallback_model: str | None = None) -> tuple:
+    """fallback_model: when given, a group's standings that fail _validate_group_standings
+    get one retry via Ollama extraction from the same table's raw HTML (PRD.md S7/S11
+    Phase 5c) before falling back to the (possibly still-broken) structured parse."""
     soup = BeautifulSoup(fetch(WIKI_URL), "html.parser")
     root = soup.find(id="mw-content-text")
 
     groups = {}
+    issues = []
     for group_id, letter in zip(GROUP_IDS, GROUP_LETTERS):
         heading = root.find(id=group_id)
         table = heading.find_next("table", class_="wikitable")
-        groups[letter] = _parse_group_standings(table)
+        standings = _parse_group_standings(table)
+        problems = _validate_group_standings(standings)
+
+        if problems and fallback_model:
+            fallback = extract_group_standings_via_llm(fallback_model, str(table))
+            fallback_problems = _validate_group_standings(fallback) if fallback is not None else None
+            if fallback is not None and not fallback_problems:
+                standings = fallback
+                issues.append(
+                    {
+                        "source": "wikipedia_groups",
+                        "detail": f"Group {letter}: {'; '.join(problems)}",
+                        "fallback_attempted": True,
+                        "fallback_succeeded": True,
+                    }
+                )
+            else:
+                issues.append(
+                    {
+                        "source": "wikipedia_groups",
+                        "detail": f"Group {letter}: {'; '.join(problems)}",
+                        "fallback_attempted": True,
+                        "fallback_succeeded": False,
+                    }
+                )
+        elif problems:
+            issues.append(
+                {
+                    "source": "wikipedia_groups",
+                    "detail": f"Group {letter}: {'; '.join(problems)}",
+                    "fallback_attempted": False,
+                    "fallback_succeeded": None,
+                }
+            )
+
+        groups[letter] = standings
 
     matches = []
     current_h2 = current_h3 = None
@@ -158,4 +235,7 @@ def scrape_wikipedia() -> tuple:
             elif current_h2 == "Knockout_stage" and current_h3 in ROUND_LABELS:
                 matches.append(_parse_match(node, ROUND_LABELS[current_h3], None))
 
-    return groups, matches
+    for detail in _validate_matches(matches):
+        issues.append({"source": "wikipedia_matches", "detail": detail, "fallback_attempted": False, "fallback_succeeded": None})
+
+    return groups, matches, issues

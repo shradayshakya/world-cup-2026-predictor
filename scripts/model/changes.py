@@ -1,6 +1,12 @@
-"""Day-over-day probability-change arrows (PRD.md S5.1a): "no arrow if change is
-< 0.1pp (avoid noise from Monte Carlo jitter)." Generalizes the diffing movers.py
-already does for won_tournament to every stage key, and to per-match W/D/L too.
+"""Probability-change arrows (PRD.md S5.1a): "no arrow if change is < 0.1pp (avoid
+noise from Monte Carlo jitter)." Generalizes the diffing movers.py already does for
+won_tournament to every stage key, and to per-match W/D/L too.
+
+The caller (update.py) diffs against a "change baseline" that only advances when a
+real match resolves, not against whatever the immediately preceding pipeline run
+happened to produce -- so the delta means "since the last result," and survives any
+number of no-op runs in between (e.g. multiple manual `make update` runs in one day
+with no new match) without resetting to zero.
 """
 
 CHANGE_THRESHOLD_PP = 0.1
@@ -25,7 +31,7 @@ def _match_key(home: str, away: str, date) -> str:
 
 
 def compute_match_changes(previous_matches: dict, current_matches: dict, threshold: float = CHANGE_THRESHOLD_PP) -> dict:
-    """Only meaningful for a match unplayed both yesterday and today (a newly-resolved
+    """Only meaningful for a match unplayed both at the baseline and now (a newly-resolved
     match is scored by calibration.py instead, and a match with no prior snapshot has
     nothing to diff against)."""
     previous_by_key = {
