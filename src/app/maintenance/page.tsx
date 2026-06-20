@@ -1,5 +1,5 @@
 import { getMaintenance } from "@/lib/data";
-import { formatTimestamp } from "@/lib/format";
+import LocalTimestamp from "@/components/LocalTimestamp";
 
 const SOURCE_LABELS: Record<string, string> = {
   wikipedia_groups: "Wikipedia (group standings)",
@@ -19,7 +19,11 @@ export default function MaintenancePage() {
           Ollama extraction fallback recovered usable data (PRD.md §7/§11 Phase 5c). An empty list means every
           structured parser&apos;s output looked self-consistent on the last run.
         </p>
-        {generated_at && <p className="mt-1 text-xs text-neutral-400">Last run: {formatTimestamp(generated_at)} UTC</p>}
+        {generated_at && (
+          <p className="mt-1 text-xs text-neutral-400">
+            Last run: <LocalTimestamp iso={generated_at} />
+          </p>
+        )}
       </div>
 
       {issues.length === 0 ? (

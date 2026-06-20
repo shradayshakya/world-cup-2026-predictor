@@ -1,16 +1,24 @@
 import TournamentWinnerBar from "@/components/TournamentWinnerBar";
-import MatchCard from "@/components/MatchCard";
+import TodaysMatches from "@/components/TodaysMatches";
 import AiSummaryBadge from "@/components/AiSummaryBadge";
 import TeamLink from "@/components/TeamLink";
 import { getLastUpdated, getMovers, getResults } from "@/lib/data";
 import { getPredictionFor } from "@/lib/predictions";
 
+function shiftDate(date: string, days: number): string {
+  const d = new Date(`${date}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+
 export default function Home() {
-  const today = getLastUpdated().slice(0, 10);
+  const serverToday = getLastUpdated().slice(0, 10);
+  const windowStart = shiftDate(serverToday, -1);
+  const windowEnd = shiftDate(serverToday, 1);
   const results = getResults();
-  const todaysMatches = results.matches
-    .map((match, index) => ({ match, index }))
-    .filter(({ match }) => match.date === today);
+  const windowed = results.matches
+    .map((match, index) => ({ match, index, prediction: getPredictionFor(match) }))
+    .filter(({ match }) => match.date !== null && match.date >= windowStart && match.date <= windowEnd);
   const movers = getMovers().movers;
 
   return (
@@ -27,15 +35,7 @@ export default function Home() {
 
       <section>
         <h2 className="text-xl font-semibold">Today&apos;s matches</h2>
-        {todaysMatches.length === 0 ? (
-          <p className="mt-2 text-sm text-neutral-500">No matches scheduled today.</p>
-        ) : (
-          <div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            {todaysMatches.map(({ match, index }) => (
-              <MatchCard key={index} match={match} index={index} prediction={getPredictionFor(match)} />
-            ))}
-          </div>
-        )}
+        <TodaysMatches serverToday={serverToday} windowed={windowed} />
       </section>
 
       {movers.length > 0 && (
