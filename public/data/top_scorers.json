@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T01:48:24.642056+00:00",
+  "generated_at": "2026-06-20T02:45:04.322269+00:00",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -13,14 +13,7 @@
       "team": "France",
       "position": "FW",
       "historical_goals": 56,
-      "predicted_goals": 9.99
-    },
-    {
-      "player": "Neymar",
-      "team": "Brazil",
-      "position": "FW",
-      "historical_goals": 79,
-      "predicted_goals": 5.98
+      "predicted_goals": 10.02
     },
     {
       "player": "Cristiano Ronaldo",
@@ -34,7 +27,7 @@
       "team": "Norway",
       "position": "FW",
       "historical_goals": 55,
-      "predicted_goals": 4.97
+      "predicted_goals": 4.98
     },
     {
       "player": "Harry Kane",
@@ -55,56 +48,56 @@
       "team": "Colombia",
       "position": "MF",
       "historical_goals": 31,
-      "predicted_goals": 4.0
+      "predicted_goals": 4.01
     },
     {
       "player": "Memphis Depay",
       "team": "Netherlands",
       "position": "FW",
       "historical_goals": 55,
-      "predicted_goals": 3.99
+      "predicted_goals": 4.0
     },
     {
       "player": "Romelu Lukaku",
       "team": "Belgium",
       "position": "FW",
       "historical_goals": 90,
-      "predicted_goals": 3.88
+      "predicted_goals": 3.91
     },
     {
       "player": "Enner Valencia",
       "team": "Ecuador",
       "position": "FW",
       "historical_goals": 49,
-      "predicted_goals": 3.86
+      "predicted_goals": 3.87
     },
     {
       "player": "Edin Džeko",
       "team": "Bosnia and Herzegovina",
       "position": "FW",
       "historical_goals": 73,
-      "predicted_goals": 3.78
+      "predicted_goals": 3.79
     },
     {
       "player": "Mikel Oyarzabal",
       "team": "Spain",
       "position": "FW",
       "historical_goals": 25,
-      "predicted_goals": 3.56
+      "predicted_goals": 3.57
     },
     {
       "player": "Kai Havertz",
       "team": "Germany",
       "position": "FW",
       "historical_goals": 22,
-      "predicted_goals": 3.47
+      "predicted_goals": 3.48
     },
     {
       "player": "Ferran Torres",
       "team": "Spain",
       "position": "FW",
       "historical_goals": 24,
-      "predicted_goals": 3.42
+      "predicted_goals": 3.43
     },
     {
       "player": "Jonathan David",
@@ -125,7 +118,7 @@
       "team": "United States",
       "position": "FW",
       "historical_goals": 33,
-      "predicted_goals": 3.25
+      "predicted_goals": 3.26
     },
     {
       "player": "Mohamed Salah",
@@ -139,7 +132,7 @@
       "team": "Senegal",
       "position": "FW",
       "historical_goals": 55,
-      "predicted_goals": 2.87
+      "predicted_goals": 2.85
     },
     {
       "player": "Luis Díaz",
@@ -153,14 +146,14 @@
       "team": "Germany",
       "position": "MF",
       "historical_goals": 17,
-      "predicted_goals": 2.68
+      "predicted_goals": 2.69
     },
     {
       "player": "Ayoub El Kaabi",
       "team": "Morocco",
       "position": "FW",
       "historical_goals": 35,
-      "predicted_goals": 2.63
+      "predicted_goals": 2.64
     },
     {
       "player": "Viktor Gyökeres",
@@ -202,7 +195,14 @@
       "team": "Norway",
       "position": "FW",
       "historical_goals": 26,
-      "predicted_goals": 2.35
+      "predicted_goals": 2.36
+    },
+    {
+      "player": "Andrej Kramarić",
+      "team": "Croatia",
+      "position": "FW",
+      "historical_goals": 36,
+      "predicted_goals": 2.32
     },
     {
       "player": "Mehdi Taremi",
@@ -216,13 +216,6 @@
       "team": "Austria",
       "position": "FW",
       "historical_goals": 47,
-      "predicted_goals": 2.31
-    },
-    {
-      "player": "Andrej Kramarić",
-      "team": "Croatia",
-      "position": "FW",
-      "historical_goals": 36,
       "predicted_goals": 2.31
     },
     {
@@ -251,14 +244,14 @@
       "team": "Croatia",
       "position": "MF",
       "historical_goals": 29,
-      "predicted_goals": 1.86
+      "predicted_goals": 1.87
     },
     {
       "player": "Chris Wood",
       "team": "New Zealand",
       "position": "FW",
       "historical_goals": 45,
-      "predicted_goals": 1.77
+      "predicted_goals": 1.76
     },
     {
       "player": "Florian Wirtz",
@@ -272,14 +265,14 @@
       "team": "Spain",
       "position": "FW",
       "historical_goals": 12,
-      "predicted_goals": 1.71
+      "predicted_goals": 1.72
     },
     {
       "player": "Kevin De Bruyne",
       "team": "Belgium",
       "position": "MF",
       "historical_goals": 37,
-      "predicted_goals": 1.59
+      "predicted_goals": 1.61
     },
     {
       "player": "Joshua Kimmich",
@@ -293,14 +286,21 @@
       "team": "Netherlands",
       "position": "FW",
       "historical_goals": 21,
-      "predicted_goals": 1.52
+      "predicted_goals": 1.53
     },
     {
       "player": "Ayase Ueda",
       "team": "Japan",
       "position": "FW",
       "historical_goals": 16,
-      "predicted_goals": 1.48
+      "predicted_goals": 1.49
+    },
+    {
+      "player": "Mikel Merino",
+      "team": "Spain",
+      "position": "MF",
+      "historical_goals": 10,
+      "predicted_goals": 1.43
     },
     {
       "player": "Jamal Musiala",
@@ -310,18 +310,11 @@
       "predicted_goals": 1.42
     },
     {
-      "player": "Mikel Merino",
-      "team": "Spain",
-      "position": "MF",
-      "historical_goals": 10,
-      "predicted_goals": 1.42
-    },
-    {
       "player": "Junya Itō",
       "team": "Japan",
       "position": "MF",
       "historical_goals": 15,
-      "predicted_goals": 1.38
+      "predicted_goals": 1.39
     },
     {
       "player": "Granit Xhaka",
@@ -335,7 +328,7 @@
       "team": "Uzbekistan",
       "position": "FW",
       "historical_goals": 44,
-      "predicted_goals": 1.36
+      "predicted_goals": 1.37
     },
     {
       "player": "Marcel Sabitzer",
@@ -349,6 +342,13 @@
       "team": "Canada",
       "position": "DF",
       "historical_goals": 15,
+      "predicted_goals": 1.28
+    },
+    {
+      "player": "Ricardo Pepi",
+      "team": "United States",
+      "position": "FW",
+      "historical_goals": 13,
       "predicted_goals": 1.28
     }
   ]

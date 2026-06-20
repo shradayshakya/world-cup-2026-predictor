@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T01:48:24.642056+00:00",
+  "generated_at": "2026-06-20T02:45:04.322269+00:00",
   "previews": {
     "Czech Republic|Mexico|2026-06-24": {
       "text": "A clash of styles awaits as Czech Republic (Elo 1696) faces Mexico (Elo 1896). Both teams field full squads, with no key absences reported. Mexico enters the match on a strong run, securing five consecutive wins across recent fixtures. While both have mixed results, our model favors Mexico in this encounter, predicting a scoreline of 0-3.",
@@ -23,12 +23,22 @@
       "sources": []
     },
     "Brazil|Haiti|2026-06-19": {
-      "text": "The matchup pits Brazil (Elo 1978) against Haiti (Elo 1536). While both sides have recent results on file, the model strongly favors a Brazilian victory. With no head-to-head meetings yet recorded, expectations are high for the favored side. Our prediction suggests a dominant 4-0 win for Brazil (93%), emphasizing the expected disparity between the two teams in this World Cup fixture.",
-      "sources": []
+      "text": "Brazil (Elo 1963) faces Haiti (Elo 1536), both sides presenting mixed recent form in their last five matches. Brazil will compete without Neymar. While the head-to-head record is empty, our model heavily favors the Brazilian side, predicting a 3-0 victory and giving them a 92% chance of winning this World Cup fixture.",
+      "sources": [
+        {
+          "label": "Brazil's Neymar (calf injury) also out vs. Haiti",
+          "href": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages"
+        }
+      ]
     },
     "Scotland|Brazil|2026-06-24": {
-      "text": "The battle between Scotland and Brazil sees a clash of styles, with Brazil holding the Elo advantage (1978 vs 1768). Scotland enters the contest with mixed results from recent fixtures, while Brazil has shown impressive form in their last five games. Both teams are fully fit for this encounter. Considering recent performance indicators, the match is predicted to be a close affair, with Brazilian victory being the most likely outcome.",
-      "sources": []
+      "text": "Scotland faces heavily favored Brazil in a clash featuring two distinct styles of play. Scotland's recent form has been inconsistent, despite victories over Bolivia and Curaçao. Meanwhile, Brazil’s squad is missing Neymar ahead of the contest. While their recent results include losses like France (Friendly), Brazil remains favored by our model (1963 Elo) against Scotland (1768 Elo). Brazil enters as the clear favorite.",
+      "sources": [
+        {
+          "label": "Brazil's Neymar (calf injury) also out vs. Haiti",
+          "href": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages"
+        }
+      ]
     },
     "Morocco|Haiti|2026-06-24": {
       "text": "Morocco faces Haiti in this fixture, with Morocco holding an Elo advantage (1851 vs 1536). The Atlas Lions are strong, having secured several wins and draws recently, despite the suspension of Achraf Hakimi. Meanwhile, Haiti's form has been mixed, including a loss to Scotland. Our model predicts a decisive match win for Morocco (84% probability), with a potential scoreline of 3-0.",

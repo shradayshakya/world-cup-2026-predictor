@@ -1,6 +1,21 @@
 {
-  "generated_at": "2026-06-20T01:48:24.642056+00:00",
+  "generated_at": "2026-06-20T02:45:04.322269+00:00",
   "teams": {
+    "Brazil": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Neymar",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
+          "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
+          "first_reported": "2026-06-18",
+          "expires_on": null
+        }
+      ]
+    },
     "England": {
       "elo_penalty": -22.5,
       "absences": [

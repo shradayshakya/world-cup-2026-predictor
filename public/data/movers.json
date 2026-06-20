@@ -1,4 +1,37 @@
 {
-  "generated_at": "2026-06-20T01:48:24.642056+00:00",
-  "movers": []
+  "generated_at": "2026-06-20T02:45:04.322269+00:00",
+  "movers": [
+    {
+      "team": "Brazil",
+      "previous_pct": 2.85,
+      "current_pct": 2.13,
+      "delta_pp": -0.7200000000000002,
+      "direction": "loser",
+      "blurb": "The model adjusted Brazil's chances following the confirmation of key absences. The loss of Neymar, a high-profile player, was accounted for in our calculations, leading to a downward revision of the team's probability of winning the 2026 FIFA World Cup.",
+      "sources": [
+        {
+          "label": "Brazil",
+          "href": "/teams/brazil"
+        },
+        {
+          "label": "Brazil's Neymar (calf injury) also out vs. Haiti",
+          "href": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages"
+        }
+      ]
+    },
+    {
+      "team": "Spain",
+      "previous_pct": 28.32,
+      "current_pct": 28.970000000000002,
+      "delta_pp": 0.6500000000000021,
+      "direction": "gainer",
+      "blurb": "Our model indicates a slight improvement in Spain's likelihood of winning the tournament. As there have been no reported injuries or recent performance changes since the last update, this rise reflects an internal shift within our overall predictive assessment.",
+      "sources": [
+        {
+          "label": "Spain",
+          "href": "/teams/spain"
+        }
+      ]
+    }
+  ]
 }
