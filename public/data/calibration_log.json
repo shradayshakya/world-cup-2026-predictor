@@ -125,13 +125,31 @@
       "brier_score": 0.0099,
       "log_loss": 0.0807,
       "scoreline_correct": true
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "Turkey",
+      "away_team": "Paraguay",
+      "predicted_home_score": 1,
+      "predicted_away_score": 1,
+      "home_win_probability": 0.4667,
+      "draw_probability": 0.2693,
+      "away_win_probability": 0.264,
+      "predicted_outcome": "home",
+      "actual_home_score": 0,
+      "actual_away_score": 1,
+      "actual_outcome": "away",
+      "outcome_correct": false,
+      "brier_score": 0.832,
+      "log_loss": 1.3318,
+      "scoreline_correct": false
     }
   ],
   "summary": {
-    "n": 7,
-    "avg_brier_score": 0.358,
-    "avg_log_loss": 0.6199,
-    "scoreline_accuracy": 0.1429,
-    "outcome_accuracy": 0.8571
+    "n": 8,
+    "avg_brier_score": 0.4172,
+    "avg_log_loss": 0.7089,
+    "scoreline_accuracy": 0.125,
+    "outcome_accuracy": 0.75
   }
 }

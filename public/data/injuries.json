@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T03:25:07.832957+00:00",
+  "generated_at": "2026-06-20T06:15:03.814984+00:00",
   "teams": {
     "England": {
       "elo_penalty": -37.5,
@@ -7,7 +7,7 @@
         {
           "player": "Bukayo Saka",
           "status": "doubt",
-          "until": "match against Ghana",
+          "until": "Against Ghana on Tuesday",
           "key_player": true,
           "source_title": "England winger Saka unlikely to start against Ghana",
           "source_link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
@@ -77,21 +77,6 @@
           "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
           "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
           "first_reported": "2026-06-18",
-          "expires_on": null
-        }
-      ]
-    },
-    "Canada": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Ismaël Koné",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Canada score six but historic win marred by Kone injury",
-          "source_link": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-20",
           "expires_on": null
         }
       ]

@@ -1,57 +1,31 @@
 {
-  "generated_at": "2026-06-20T03:25:07.832957+00:00",
+  "generated_at": "2026-06-20T06:15:03.814984+00:00",
   "movers": [
     {
-      "team": "England",
-      "previous_pct": 6.61,
-      "current_pct": 5.24,
-      "delta_pp": -1.37,
-      "direction": "loser",
-      "blurb": "England's probability fell due to critical personnel issues. Key absences include Declan Rice and Harry Kane being out, with Bukayo Saka listed as a doubt. The combined impact of these injuries has decreased the model's projection for their title chances.",
+      "team": "Argentina",
+      "previous_pct": 26.26,
+      "current_pct": 26.779999999999998,
+      "delta_pp": 0.519999999999996,
+      "direction": "gainer",
+      "blurb": "The model updated its probability estimate for Argentina, resulting in a slight rise to 26.8%. This shift occurred despite there being no reported injuries or relevant results since the last calculation update that would specifically drive the odds change.",
       "sources": [
         {
-          "label": "England",
-          "href": "/teams/england"
-        },
-        {
-          "label": "England winger Saka unlikely to start against Ghana",
-          "href": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
-        },
-        {
-          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+          "label": "Argentina",
+          "href": "/teams/argentina"
         }
       ]
     },
     {
       "team": "Spain",
-      "previous_pct": 28.970000000000002,
-      "current_pct": 29.54,
-      "delta_pp": 0.5699999999999967,
-      "direction": "gainer",
-      "blurb": "Spain's probability has slightly increased. As there have been no relevant results since the last update and no reported injuries or absences, this marginal shift reflects an internal adjustment within our prediction model.",
+      "previous_pct": 29.54,
+      "current_pct": 29.04,
+      "delta_pp": -0.5,
+      "direction": "loser",
+      "blurb": "The slight decrease in probability reflects an internal calibration within our prediction model. As there have been no reported negative results or changes in squad availability since the last update, this shift represents a subtle adjustment to the team's overall valuation before further data is introduced.",
       "sources": [
         {
           "label": "Spain",
           "href": "/teams/spain"
-        }
-      ]
-    },
-    {
-      "team": "France",
-      "previous_pct": 15.120000000000001,
-      "current_pct": 15.64,
-      "delta_pp": 0.5199999999999996,
-      "direction": "gainer",
-      "blurb": "France's probability of winning the 2026 World Cup has risen slightly, despite having no relevant results or reported injuries since the last update. Our predictive model has recalibrated its internal scoring mechanism, shifting the estimate upward from 15.1% to 15.6%.",
-      "sources": [
-        {
-          "label": "France",
-          "href": "/teams/france"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-20T03:25:07.832957+00:00",
+  "scraped_at": "2026-06-20T06:15:03.814984+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -280,11 +280,11 @@
       "date": "2026-06-19",
       "home_team": "Turkey",
       "away_team": "Paraguay",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 0,
+      "away_score": 1,
       "venue": "Levi's Stadium, Santa Clara",
-      "attendance": null,
+      "attendance": 68827,
       "referee": "Iván Barton (El Salvador)"
     },
     {
@@ -1058,7 +1058,7 @@
       "round": "Round of 32",
       "group": null,
       "date": "2026-07-01",
-      "home_team": "Winner Group D",
+      "home_team": "United States",
       "away_team": "3rd Group B/E/F/I/J",
       "played": false,
       "home_score": null,

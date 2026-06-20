@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T03:25:07.832957+00:00",
+  "generated_at": "2026-06-20T06:15:03.814984+00:00",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -13,14 +13,14 @@
       "team": "France",
       "position": "FW",
       "historical_goals": 56,
-      "predicted_goals": 10.07
+      "predicted_goals": 10.06
     },
     {
       "player": "Cristiano Ronaldo",
       "team": "Portugal",
       "position": "FW",
       "historical_goals": 143,
-      "predicted_goals": 5.08
+      "predicted_goals": 5.12
     },
     {
       "player": "Erling Haaland",
@@ -41,7 +41,7 @@
       "team": "Colombia",
       "position": "MF",
       "historical_goals": 31,
-      "predicted_goals": 4.0
+      "predicted_goals": 4.04
     },
     {
       "player": "Memphis Depay",
@@ -55,14 +55,14 @@
       "team": "Belgium",
       "position": "FW",
       "historical_goals": 90,
-      "predicted_goals": 3.91
+      "predicted_goals": 3.92
     },
     {
       "player": "Enner Valencia",
       "team": "Ecuador",
       "position": "FW",
       "historical_goals": 49,
-      "predicted_goals": 3.86
+      "predicted_goals": 3.84
     },
     {
       "player": "Edin Džeko",
@@ -90,21 +90,21 @@
       "team": "Spain",
       "position": "FW",
       "historical_goals": 24,
-      "predicted_goals": 3.45
+      "predicted_goals": 3.44
     },
     {
       "player": "Jonathan David",
       "team": "Canada",
       "position": "FW",
       "historical_goals": 39,
-      "predicted_goals": 3.33
+      "predicted_goals": 3.39
     },
     {
       "player": "Lautaro Martínez",
       "team": "Argentina",
       "position": "FW",
       "historical_goals": 37,
-      "predicted_goals": 3.32
+      "predicted_goals": 3.31
     },
     {
       "player": "Mohamed Salah",
@@ -118,14 +118,14 @@
       "team": "Senegal",
       "position": "FW",
       "historical_goals": 55,
-      "predicted_goals": 2.87
+      "predicted_goals": 2.88
     },
     {
       "player": "Luis Díaz",
       "team": "Colombia",
       "position": "FW",
       "historical_goals": 22,
-      "predicted_goals": 2.84
+      "predicted_goals": 2.87
     },
     {
       "player": "Leroy Sané",
@@ -139,28 +139,28 @@
       "team": "Morocco",
       "position": "FW",
       "historical_goals": 35,
-      "predicted_goals": 2.64
+      "predicted_goals": 2.63
     },
     {
       "player": "Viktor Gyökeres",
       "team": "Sweden",
       "position": "FW",
       "historical_goals": 20,
-      "predicted_goals": 2.62
-    },
-    {
-      "player": "Son Heung-min",
-      "team": "South Korea",
-      "position": "FW",
-      "historical_goals": 56,
-      "predicted_goals": 2.59
+      "predicted_goals": 2.63
     },
     {
       "player": "Cyle Larin",
       "team": "Canada",
       "position": "FW",
       "historical_goals": 30,
-      "predicted_goals": 2.56
+      "predicted_goals": 2.61
+    },
+    {
+      "player": "Son Heung-min",
+      "team": "South Korea",
+      "position": "FW",
+      "historical_goals": 56,
+      "predicted_goals": 2.58
     },
     {
       "player": "Ivan Perišić",
@@ -181,7 +181,7 @@
       "team": "Norway",
       "position": "FW",
       "historical_goals": 26,
-      "predicted_goals": 2.36
+      "predicted_goals": 2.37
     },
     {
       "player": "Andrej Kramarić",
@@ -209,21 +209,21 @@
       "team": "Sweden",
       "position": "FW",
       "historical_goals": 17,
-      "predicted_goals": 2.23
+      "predicted_goals": 2.24
     },
     {
       "player": "Marcus Rashford",
       "team": "England",
       "position": "FW",
       "historical_goals": 18,
-      "predicted_goals": 2.09
+      "predicted_goals": 2.08
     },
     {
       "player": "Breel Embolo",
       "team": "Switzerland",
       "position": "FW",
       "historical_goals": 24,
-      "predicted_goals": 1.95
+      "predicted_goals": 1.94
     },
     {
       "player": "Luka Modrić",
@@ -237,14 +237,14 @@
       "team": "New Zealand",
       "position": "FW",
       "historical_goals": 45,
-      "predicted_goals": 1.77
+      "predicted_goals": 1.76
     },
     {
       "player": "Florian Wirtz",
       "team": "Germany",
       "position": "MF",
       "historical_goals": 11,
-      "predicted_goals": 1.73
+      "predicted_goals": 1.74
     },
     {
       "player": "Dani Olmo",
@@ -279,14 +279,14 @@
       "team": "Japan",
       "position": "FW",
       "historical_goals": 16,
-      "predicted_goals": 1.48
+      "predicted_goals": 1.49
     },
     {
       "player": "Mikel Merino",
       "team": "Spain",
       "position": "MF",
       "historical_goals": 10,
-      "predicted_goals": 1.44
+      "predicted_goals": 1.43
     },
     {
       "player": "Jamal Musiala",
@@ -314,20 +314,20 @@
       "team": "Uzbekistan",
       "position": "FW",
       "historical_goals": 44,
-      "predicted_goals": 1.36
-    },
-    {
-      "player": "Marcel Sabitzer",
-      "team": "Austria",
-      "position": "MF",
-      "historical_goals": 26,
-      "predicted_goals": 1.28
+      "predicted_goals": 1.37
     },
     {
       "player": "Alphonso Davies",
       "team": "Canada",
       "position": "DF",
       "historical_goals": 15,
+      "predicted_goals": 1.3
+    },
+    {
+      "player": "Marcel Sabitzer",
+      "team": "Austria",
+      "position": "MF",
+      "historical_goals": 26,
       "predicted_goals": 1.28
     },
     {
