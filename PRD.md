@@ -1,7 +1,7 @@
 # World Cup 2026 Predictor — PRD
 
-**Status:** Draft v1.1
-**Last updated:** 2026-06-18
+**Status:** Draft v1.2
+**Last updated:** 2026-06-20
 **Owner:** Shraday Shakya
 
 ---
@@ -164,7 +164,7 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  Mac — launchd daily job (06:00 local)                   │
+│  Mac — launchd daily job (12:00 local, Nepal time)        │
 │  ──────────────────────────────────────                  │
 │  1. Scrape eloratings.net → elo.json                     │
 │  2. Scrape Wikipedia → results.json, fixtures.json       │
@@ -192,7 +192,7 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 - **LLM layer:** local Ollama running `gemma4:e4b-mlx`. Called once per daily run.
 - **Storage:** JSON files in the repo. No database.
 - **Hosting:** Cloudflare Workers static assets, Git-connected deploy (frontend, free permanent tier). Production URL: a free `*.workers.dev` subdomain (final slug TBD at scaffold time, e.g., `world-cup-2026-predictor.<account>.workers.dev`). Custom domain can be added later without code changes. (Classic Cloudflare Pages with `*.pages.dev` is no longer the default Git-integration flow in the dashboard as of scaffold time — Workers static assets is the equivalent free, permanent option.)
-- **Scheduler:** macOS launchd at 06:00 local daily. Manual fallback: `make update`.
+- **Scheduler:** macOS launchd at 12:00 local (Nepal time) daily. Manual fallback: `make update`.
 
 ### What we explicitly chose NOT to use
 - **GitHub Actions cron / cloud compute** — would require a second code path without Ollama; the only failure mode it covers (Mac offline >24h during a 30-day tournament you're actively watching) is rare enough not to justify the complexity.
@@ -208,8 +208,8 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 
 ## 9. Update cadence
 
-- **Schedule:** launchd job at 06:00 local time daily.
-- **Why early morning local:** Americas late-night matches have finished; you'll see the refresh when you wake up.
+- **Schedule:** launchd job at 12:00 local time (Nepal, UTC+5:45) daily.
+- **Why noon Nepal time:** the tournament is played in North America; by noon Nepal time the previous evening's matches there have all concluded (resolved 2026-06-20 — the original "06:00 local" assumed owner and tournament shared a timezone, which doesn't hold for Nepal vs. North America).
 - **Catch-up behavior:** launchd will fire a missed job when the Mac next wakes from sleep, so cadence holds as long as the laptop is opened daily.
 - **Manual trigger:** `make update` from the terminal.
 - **No live in-match updates.** A small banner shows "Last updated: X hours ago."
@@ -268,8 +268,8 @@ Single, one-directional pipeline. No inbound API, no cloud compute, no tunnels.
 ### Resolved
 - ~~**LLM choice for injury layer**~~ — Locked: local Ollama `gemma4:e4b-mlx`. Bake-off run 2026-06-18 (`scripts/bakeoff.py`, `make bake-off`): 20 curated headlines (6 real + 14 hand-crafted edge cases), same extraction prompt, both models scored against hand-labeled expected output. `gemma4:e4b-mlx` found all 12 expected entries (0 false negatives/positives, 1 status mismatch); `qwen2.5:14b` missed one entirely plus the same kind of mismatch. Clear win, no further bake-off needed unless re-evaluating later.
 - ~~**LLM job scope for the injury layer**~~ — Locked: the LLM is asked only to extract `{player, status, until}` from headline text — never the player's team. Team attribution and "key player" importance are resolved deterministically against the scraped roster (`squads.json`, caps-ranked) instead, since the LLM doesn't reliably know which country a player represents from headline text alone (verified: real headlines like "Pulisic training solo..." don't name "USA"), and narrowing its job shrinks what it can hallucinate (PRD §6.4a's guardrail spirit, applied here too even though that section is nominally about the editorial layer).
-- ~~**"Until" date handling**~~ — Locked: captured as free text for display, not parsed into a structured date or used for per-match penalty windows. The daily re-scrape makes this self-correcting (a resolved injury stops appearing in the next day's headlines and the penalty naturally lapses) without needing date-range logic.
-- ~~**Scheduler**~~ — Locked: macOS launchd. No GitHub Actions, no Cloudflare Tunnel, no AWS.
+- ~~**"Until" date handling**~~ — Locked: captured as free text for display, not parsed into a structured date. **Superseded 2026-06-20**: the original "self-correcting" assumption (a resolved injury stops appearing in the next day's headlines, so the penalty naturally lapses) was wrong in practice — real injuries get reported once and then drop out of the news cycle entirely even while still ongoing, so a player's absence was silently disappearing within 24-48h regardless of whether they'd actually recovered (caught via a real case: Neymar's reported calf injury vanished from `injuries.json` two days later with the match still unplayed). Fixed with carry-forward by default: an absence persists until an explicit recovery mention or a stated return timeframe (`estimated_days_out`, extracted alongside `until`) actually expires — never on mere silence. See CLAUDE.md for the full incident and fix.
+- ~~**Scheduler**~~ — Locked: macOS launchd. No GitHub Actions, no Cloudflare Tunnel, no AWS. **Time resolved 2026-06-20**: 12:00 local (Nepal, the owner's actual timezone, UTC+5:45), not the originally-drafted 06:00 — the tournament is played in North America, so noon Nepal time is when the previous evening's NA matches have all concluded, whereas 06:00 Nepal time would land mid-match for some fixtures.
 - ~~**Home page tournament-winner display**~~ — Locked: all remaining teams in a single stacked horizontal bar, ranked. Eliminated teams excluded from the bar.
 - ~~**Probability change UX**~~ — Locked: green ↑ / red ↓ arrows next to every probability (suppressed below 0.1pp jitter threshold). "Biggest movers" panel on home = top 5 teams by absolute pp change since yesterday.
 - ~~**Domain**~~ — Locked: free `*.workers.dev` subdomain on Cloudflare (Workers static assets, Git-connected — the dashboard's classic Pages flow with `*.pages.dev` was unavailable at scaffold time). Custom domain deferred.

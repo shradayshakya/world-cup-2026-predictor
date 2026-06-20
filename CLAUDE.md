@@ -12,7 +12,7 @@ Daily-updated tournament-prediction web app for the 2026 FIFA World Cup (USA/Can
 - Next.js 15 + Tailwind app scaffolded, static export verified (`make build`), "Hello WC26" page live.
 - `.venv` + `requirements.txt` (requests, beautifulsoup4, numpy, pandas) set up.
 - `Makefile` (`dev`, `build`, `venv`, `update`) and `scripts/update.py` heartbeat stub in place.
-- launchd plist drafted at `launchd/com.shradayshakya.wc26predictor.update.plist` — **not yet installed/loaded** (deferred until there's a real pipeline to run daily).
+- launchd plist at `launchd/com.shradayshakya.wc26predictor.update.plist` — **installed and loaded** (2026-06-20), runs daily at 12:00 local (Nepal time — see Architecture section for why noon, not the originally-drafted 06:00).
 - Cloudflare hosting connected via the Workers Git-integration flow (`wrangler.jsonc`, static assets from `out/`) — **not classic Pages**; production URL is `*.workers.dev`, not `*.pages.dev` (see Locked decisions below). Live at https://world-cup-2026-predictor.shradayshakya.workers.dev, auto-deploy on push to `main` confirmed.
 - **Phase 1 (data pipeline): done.**
 - `scripts/scrapers/elo.py` scrapes eloratings.net's `World.tsv` + `en.teams.tsv` → `public/data/elo.json` (244 teams, rank/code/name/rating).
@@ -89,7 +89,7 @@ When you finish a phase, update this section to reflect the new "next".
 
 ## Architecture in one paragraph
 
-Owner's Mac runs a launchd job daily at 06:00 local. The job scrapes data (eloratings.net, Wikipedia, news RSS), enriches with a local Ollama LLM (`gemma4:e4b-mlx`) for injuries and editorial blurbs, runs a Poisson-per-match + Monte Carlo tournament simulation (50k runs), writes JSON to `public/data/`, and `git push`es. Cloudflare (Workers static assets, Git-connected) auto-deploys a static Next.js site that reads the JSON. **No backend, no database, no cloud compute, no inbound API.**
+Owner's Mac runs a launchd job daily at 12:00 local (Nepal time, UTC+5:45 — the system clock's actual timezone; chosen over a morning slot because the tournament's matches are played in North America, so by noon Nepal time the previous evening's NA matches have all concluded). The job scrapes data (eloratings.net, Wikipedia, news RSS), enriches with a local Ollama LLM (`gemma4:e4b-mlx`) for injuries and editorial blurbs, runs a Poisson-per-match + Monte Carlo tournament simulation (50k runs), writes JSON to `public/data/`, and `git push`es. Cloudflare (Workers static assets, Git-connected) auto-deploys a static Next.js site that reads the JSON. **No backend, no database, no cloud compute, no inbound API.**
 
 ---
 
@@ -104,7 +104,7 @@ These were resolved across multiple PRD revisions. The PRD §12 "Resolved" block
 | LLM | local Ollama `gemma4:e4b-mlx` (bake-off vs `qwen2.5:14b` complete — see Current state) |
 | Storage | JSON files in `public/data/`, versioned in git. No database. |
 | Hosting | Cloudflare Workers static assets, Git-connected (free permanent tier), `*.workers.dev` subdomain |
-| Scheduler | macOS launchd, 06:00 local daily |
+| Scheduler | macOS launchd, 12:00 local (Nepal time) daily |
 | Cost ceiling | $0 — no paid APIs, no AWS, no paid hosting |
 | Scope | Read-only viewer. No accounts, no pools, no what-if simulator |
 
