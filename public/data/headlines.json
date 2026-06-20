@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-20T00:24:15.536498+00:00",
+  "scraped_at": "2026-06-20T01:48:24.642056+00:00",
   "headlines": [
     {
       "title": "The Super Bowl winner's son stepping into spotlight with USA",
@@ -7,6 +7,13 @@
       "link": "https://www.bbc.com/sport/football/articles/ckg4qvedjkwo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-19T23:31:23+00:00"
+    },
+    {
+      "title": "Should Scotland have had two penalties & been playing against 10 men?",
+      "description": "Were Scotland hard done by in Boston in losing 1-0 to Morocco in their second game of the World Cup finals?",
+      "link": "https://www.bbc.com/sport/football/articles/c3vydkrd5dvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-20T00:55:51+00:00"
     },
     {
       "title": "England winger Saka unlikely to start against Ghana",
@@ -30,18 +37,11 @@
       "published_at": "2026-06-19T23:45:09+00:00"
     },
     {
-      "title": "Rate the players in Scotland v Morocco",
-      "description": "Rate the Scotland and Morocco players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
-      "link": "https://www.bbc.com/sport/football/articles/ce95gpgv09go?at_medium=RSS&at_campaign=rss",
+      "title": "Scotland fall to narrow defeat against Morocco",
+      "description": "Scotland concede after 71 seconds and fall to a World Cup defeat against a classy Morocco, but their hopes of a historic knock-out place remain in their own hands with one group game to go.",
+      "link": "https://www.bbc.com/sport/videos/cn59zxl376ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-06-19T22:44:31+00:00"
-    },
-    {
-      "title": "'Nightmare start for Scotland' Saibari fires Morocco into early lead",
-      "description": "Morocco's Ismael Saibari stuns Scotland with a superb finish after just 71 seconds in their World Cup Group C game in Boston.",
-      "link": "https://www.bbc.com/sport/football/videos/cd7wg71r38no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-19T23:59:48+00:00"
+      "published_at": "2026-06-20T00:47:02+00:00"
     },
     {
       "title": "Ipswich close in on O'Neil as new head coach",
@@ -58,13 +58,6 @@
       "published_at": "2026-06-19T19:49:53+00:00"
     },
     {
-      "title": "Coventry play champions Arsenal in Premier League opener",
-      "description": "Newly promoted Coventry City will travel to champions Arsenal in the first match of the 2026-27 Premier League season.",
-      "link": "https://www.bbc.com/sport/football/articles/cdx7kyv92rjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-19T09:00:40+00:00"
-    },
-    {
       "title": "Spurs to enter Wharton chase - Saturday's gossip",
       "description": "Tottenham are the latest club interested in Adam Wharton, Liverpool are yet to agree a deal for Yan Diomande, Fulham fail with their opening bid for Chibuike Nwaiwu, plus more.",
       "link": "https://www.bbc.com/sport/football/articles/cvgl9y9jdlwo?at_medium=RSS&at_campaign=rss",
@@ -72,18 +65,25 @@
       "published_at": "2026-06-19T19:56:42+00:00"
     },
     {
-      "title": "England's Barry to continue with half-time interviews",
-      "description": "England assistant coach Anthony Barry is cleared to continue conducting televised half-time interviews during the World Cup.",
-      "link": "https://www.bbc.com/sport/football/articles/cm2034enndpo?at_medium=RSS&at_campaign=rss",
+      "title": "Stick or twist? Rashford and Guehi are Tuchel's big dilemmas",
+      "description": "Before England's World Cup match against Ghana on Tuesday, BBC Sport's Phil McNulty looks at Thomas Tuchel's big selection dilemmas.",
+      "link": "https://www.bbc.com/sport/football/articles/cpq3e1r2x8go?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-06-19T18:01:16+00:00"
+      "published_at": "2026-06-19T12:20:37+00:00"
     },
     {
-      "title": "Did key decisions go against Scotland in Morocco match?",
-      "description": "Should Scotland feel aggrieved after three key decisions in their World Cup Group C match against Morocco in Boston?",
-      "link": "https://www.bbc.com/sport/football/videos/c2lye1qkz91o?at_medium=RSS&at_campaign=rss",
+      "title": "'Nightmare start for Scotland' - Morocco score after 71 seconds",
+      "description": "Morocco's Ismael Saibari stuns Scotland with a superb finish after just 71 seconds in their World Cup Group C game in Boston.",
+      "link": "https://www.bbc.com/sport/football/videos/cd7wg71r38no?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-06-19T23:59:45+00:00"
+      "published_at": "2026-06-19T23:59:48+00:00"
+    },
+    {
+      "title": "'Big decisions went against Scotland'",
+      "description": "BBC Sport Scotland's Liam McLeod and James McFadden analyse the three key decisions that went against Scotland during their World Cup Group C 1-0 defeat against Morocco.",
+      "link": "https://www.bbc.com/sport/football/videos/c1myz9xye7xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-20T01:23:25+00:00"
     },
     {
       "title": "USA qualify for last 32 after comfortable win over Australia",
@@ -93,18 +93,18 @@
       "published_at": "2026-06-19T21:46:26+00:00"
     },
     {
+      "title": "On another day that's a penalty - Clarke on McGinn claim",
+      "description": "Scotland boss Steve Clarke believes the challenge on John McGinn by Neil El Aynaoui was the Tartan Army's strongest penalty claim against Morocco.",
+      "link": "https://www.bbc.com/sport/football/videos/cly9207v8d9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-20T00:53:46+00:00"
+    },
+    {
       "title": "Canada score six but historic win marred by Kone injury",
       "description": "Ismael Kone's serious-looking injury left Canada manager Jesse Marsch in tears and overshadowed their first-ever World Cup finals win as they thrashed nine-man Qatar 6-0.",
       "link": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-19T01:58:33+00:00"
-    },
-    {
-      "title": "Kone injury is a 'huge loss' - Marsch",
-      "description": "Canada coach Jessie Marsch praises his players for their 6-0 win over Qatar at the 2026 World Cup in Vancouver, but says losing Ismael Kone to a serious-looking injury is a \"huge loss\".",
-      "link": "https://www.bbc.com/sport/football/videos/ckg0r24xk5wo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-19T01:02:38+00:00"
     },
     {
       "title": "A heavily jeered $250m goldmine - are hydration break ads here to stay?",
@@ -114,18 +114,25 @@
       "published_at": "2026-06-19T10:14:48+00:00"
     },
     {
+      "title": "England's Barry to continue with half-time interviews",
+      "description": "England assistant coach Anthony Barry is cleared to continue conducting televised half-time interviews during the World Cup.",
+      "link": "https://www.bbc.com/sport/football/articles/cm2034enndpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-19T18:01:16+00:00"
+    },
+    {
+      "title": "Coventry play champions Arsenal in Premier League opener",
+      "description": "Newly promoted Coventry City will travel to champions Arsenal in the first match of the 2026-27 Premier League season.",
+      "link": "https://www.bbc.com/sport/football/articles/cdx7kyv92rjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-19T09:00:40+00:00"
+    },
+    {
       "title": "Earps 'doesn't know' if she's ready for spotlight again",
       "description": "Former England goalkeeper Mary Earps does not know if she is ready to be back in the spotlight after signing for the London City Lionesses.",
       "link": "https://www.bbc.com/sport/football/articles/c30y8ed8vdmo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-19T18:07:34+00:00"
-    },
-    {
-      "title": "Stick or twist? Rashford and Guehi are Tuchel's big dilemmas",
-      "description": "Before England's World Cup match against Ghana on Tuesday, BBC Sport's Phil McNulty looks at Thomas Tuchel's big selection dilemmas.",
-      "link": "https://www.bbc.com/sport/football/articles/cpq3e1r2x8go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-19T12:20:37+00:00"
     },
     {
       "title": "Nike v Adidas - the World Cup brand battle",
@@ -142,6 +149,20 @@
       "published_at": "2026-06-19T17:49:03+00:00"
     },
     {
+      "title": "The Wayne Rooney Show",
+      "description": "South Africa 2006 changed everything for me: Tim Cahill reveals all.",
+      "link": "https://www.bbc.co.uk/sounds/play/p0nsz8dv?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-19T14:04:00+00:00"
+    },
+    {
+      "title": "World Cup quiz: Who has most Scotland appearances?",
+      "description": "Test your knowledge of Scotland players with at least five appearances at World Cups.",
+      "link": "https://www.bbc.com/sport/football/articles/ckgpl54ndpqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-19T12:32:42+00:00"
+    },
+    {
       "title": "The US World Cup star who couldn't be an American under Trump's plan",
       "description": "Folarin Balogun scored two goals on his World Cup debut, but he is the type of person President Trump is trying to ban under birthright citizenship.",
       "link": "https://www.bbc.com/sport/football/articles/c2ly0kx05jdo?at_medium=RSS&at_campaign=rss",
@@ -156,25 +177,11 @@
       "published_at": "2026-06-19T10:28:22+00:00"
     },
     {
-      "title": "World Cup quiz: Who has most Scotland appearances?",
-      "description": "Test your knowledge of Scotland players with at least five appearances at World Cups.",
-      "link": "https://www.bbc.com/sport/football/articles/ckgpl54ndpqo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-19T12:32:42+00:00"
-    },
-    {
       "title": "Africa's greatest World Cup kits - pick your favourite",
       "description": "Your chance to rank 10 of the most colourful and iconic kits African teams have worn at the World Cup.",
       "link": "https://www.bbc.com/sport/football/articles/cvgz4pnjzlgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-19T15:45:06+00:00"
-    },
-    {
-      "title": "The Wayne Rooney Show",
-      "description": "South Africa 2006 changed everything for me: Tim Cahill reveals all.",
-      "link": "https://www.bbc.co.uk/sounds/play/p0nsz8dv?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-19T14:04:00+00:00"
     },
     {
       "title": "Premier League fixtures - find out your club's schedule",
@@ -184,18 +191,25 @@
       "published_at": "2026-06-19T08:39:53+00:00"
     },
     {
-      "title": "Who's the Bos? - meet 2026 World Cup's fastest player",
-      "description": "Fifa’s sprint data has revealed Australia’s Jordan Bos as the fastest player at World Cup 2026, capping a remarkable rise for the Feyenoord defender",
-      "link": "https://www.bbc.com/sport/football/articles/cyv0m91942do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-19T12:43:36+00:00"
-    },
-    {
       "title": "Wonderwall sing-along one of my favourite England moments - Kane",
       "description": "Harry Kane says singing 'Wonderwall' with fans after England's win over Croatia on Wednesday was one of his \"favourite ever moments\" in a Three Lions shirt.",
       "link": "https://www.bbc.com/sport/football/articles/ckg74e6dz5lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-19T09:55:06+00:00"
+    },
+    {
+      "title": "Did key decisions go against Scotland in Morocco match?",
+      "description": "Should Scotland feel aggrieved after three key decisions in their World Cup Group C match against Morocco in Boston?",
+      "link": "https://www.bbc.com/sport/football/videos/c2lye1qkz91o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-19T23:59:45+00:00"
+    },
+    {
+      "title": "Morocco 'got away with one' - McGinn",
+      "description": "Scotland's John McGinn feels Morocco \"got away with one\" after he was not awarded a penalty in the second half of their World Cup Group C match in Boston.",
+      "link": "https://www.bbc.com/sport/football/videos/c5yzl0jxkd3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-20T01:19:36+00:00"
     },
     {
       "title": "Iran to lodge complaint over travel restrictions",
@@ -205,11 +219,11 @@
       "published_at": "2026-06-19T07:50:32+00:00"
     },
     {
-      "title": "Burnley target Bellamy in managerial hunt",
-      "description": "Craig Bellamy is wanted by former club Burnley to become their new manager.",
-      "link": "https://www.bbc.com/sport/football/articles/c33yz0nxj8do?at_medium=RSS&at_campaign=rss",
+      "title": "Who's the Bos? - meet 2026 World Cup's fastest player",
+      "description": "Fifa’s sprint data has revealed Australia’s Jordan Bos as the fastest player at World Cup 2026, capping a remarkable rise for the Feyenoord defender",
+      "link": "https://www.bbc.com/sport/football/articles/cyv0m91942do?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-06-19T10:03:09+00:00"
+      "published_at": "2026-06-19T12:43:36+00:00"
     },
     {
       "title": "A day of tears, scuffles & history as injury mars Canada's moment",
@@ -217,6 +231,13 @@
       "link": "https://www.bbc.com/sport/football/articles/cly7r1zjmmlo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-06-19T03:34:23+00:00"
+    },
+    {
+      "title": "Burnley target Bellamy in managerial hunt",
+      "description": "Craig Bellamy is wanted by former club Burnley to become their new manager.",
+      "link": "https://www.bbc.com/sport/football/articles/c33yz0nxj8do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-06-19T10:03:09+00:00"
     },
     {
       "title": "Hat-trick hero & Swiss wonderkid - World Cup duo set for Premier League?",
@@ -233,13 +254,6 @@
       "published_at": "2026-06-19T07:53:00+00:00"
     },
     {
-      "title": "Fifa bans football club's submarine badge on flag",
-      "description": "The Barrow flag is banned from World Cup stadiums as it includes a depiction of military equipment.",
-      "link": "https://www.bbc.com/news/articles/cpwe7p7z0p1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-06-19T12:11:13+00:00"
-    },
-    {
       "title": "Who am I? Guess World Cup star No 12",
       "description": "Will you get today's player in as few attempts as possible?",
       "link": "https://www.bbc.com/sport/football/articles/cx21l22e81no?at_medium=RSS&at_campaign=rss",
@@ -254,11 +268,11 @@
       "published_at": "2026-06-19T10:41:00+00:00"
     },
     {
-      "title": "Tuchel throws first pitch as England enjoy downtime",
-      "description": "Thomas Tuchel takes some time out at a baseball game as England enjoy some downtime at the World Cup - while Ivan Toney scores a hat-trick in a friendly against MLS side Sporting KC.",
-      "link": "https://www.bbc.com/sport/football/articles/cgrk5qrkw5po?at_medium=RSS&at_campaign=rss",
+      "title": "Fifa bans football club's submarine badge on flag",
+      "description": "The Barrow flag is banned from World Cup stadiums as it includes a depiction of military equipment.",
+      "link": "https://www.bbc.com/news/articles/cpwe7p7z0p1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-06-19T02:46:28+00:00"
+      "published_at": "2026-06-19T12:11:13+00:00"
     },
     {
       "title": "London City Lionesses sign ex-England keeper Earps",
@@ -268,11 +282,11 @@
       "published_at": "2026-06-19T11:00:18+00:00"
     },
     {
-      "title": "Can Renard revive Tunisia's World Cup campaign?",
-      "description": "Tunisia have turned to two-time Africa Cup of Nations winner Herve Renard to revive their 2026 World Cup campaign after a disastrous start which saw Sabri Lamouchi sacked after one match.",
-      "link": "https://www.bbc.com/sport/football/articles/cvgjpk00l7xo?at_medium=RSS&at_campaign=rss",
+      "title": "Tuchel throws first pitch as England enjoy downtime",
+      "description": "Thomas Tuchel takes some time out at a baseball game as England enjoy some downtime at the World Cup - while Ivan Toney scores a hat-trick in a friendly against MLS side Sporting KC.",
+      "link": "https://www.bbc.com/sport/football/articles/cgrk5qrkw5po?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-06-19T09:47:42+00:00"
+      "published_at": "2026-06-19T02:46:28+00:00"
     },
     {
       "title": "All done deals in June 2026",
@@ -307,7 +321,14 @@
       "description": "⚽️ Kick-off time: 8.30pm local/10.30am AEST/1.30am BST ⚽️ Player guide | Bracketology | Golden Boot | Mail Jonathan Neymar would probably not even be in North America this summer had Rodrygo been fit. Instead the Real Madrid winger is recuperating from an ACL injury by penning thoughtful columns. The pressure of wearing the Brazil shirt can be heavy but also creates a positive kind of responsibility. That pressure exists solely because of the greatness of our football, the titles we’ve won, and our historic standing in the sport. The fans’ mood often hinges on the result, which is only natural in a country so used to winning regularly. So, as a player you have to realise that a barrage of criticism isn’t the end of the world, just as a massive wave of praise doesn’t mean everything is sorted out and that you will win the tournament. It is crucial to distinguish facts and balanced analysis from comments born of raw emotion and frustration. If Vinícius is now Brazil’s undisputed star, the 25-year-old has also yet to really make the team his own. He has turned in frustrating and often fruitless performances at major international tournaments, while scoring a mere nine goals in 49 appearances entering this, his second World Cup. He has yet to wrest top billing from Neymar, whose jersey was worn by huge swaths of the Brazilian fans in their draw with Morocco on Saturday . Continue reading...",
       "link": "https://www.theguardian.com/football/live/2026/jun/20/fifa-world-cup-2026-live-brazil-v-haiti-updates-bra-vs-hai-group-c-match-score-latest",
       "source": "The Guardian",
-      "published_at": "2026-06-20T00:19:06+00:00"
+      "published_at": "2026-06-20T01:32:31+00:00"
+    },
+    {
+      "title": "Turkey v Paraguay: World Cup 2026 – live",
+      "description": "⚽️ Kick-off time: 8pm local/1pm AEST/4am BST/11pm EDT ⚽️ Player guide | Bracketology | Golden Boot | Mail Sam We’re already starting to see the shape of some other groups as match day two continues at the World Cup. Mexico became the first nation to secure knock-out football after a 1-0 victory over South Korea in Group A. As John Denver’s Country Roads blared over the Seattle Stadium PA, they celebrated history: a spot in the knockout round secured with a game to spare, two wins to start a World Cup for the first time since 1930, a big moment for a breakout star in goalscorer Alex Freeman, and the continuation of a journey that US Soccer hope will be transformative for the sport in their country. “We built the victory in our attitude,” Mauricio Pochettino said. “Today, even if I am not American, after the game I was emotional … To connect with the people is what we wanted.” Continue reading...",
+      "link": "https://www.theguardian.com/football/live/2026/jun/20/fifa-world-cup-2026-live-turkey-v-paraguay-updates-tur-vs-par-group-d-match-score-latest",
+      "source": "The Guardian",
+      "published_at": "2026-06-20T01:26:43+00:00"
     },
     {
       "title": "USA surge into World Cup knockout stage after dominant victory over Socceroos",
@@ -329,13 +350,6 @@
       "link": "https://www.theguardian.com/football/2026/jun/19/gary-lineker-to-appear-as-special-guest-on-itv-during-world-cup-broadcast",
       "source": "The Guardian",
       "published_at": "2026-06-19T21:51:46+00:00"
-    },
-    {
-      "title": "Argentinian TV host resigns after falsely reporting death of Lionel Messi’s father",
-      "description": "Florencia Peña quits after the broadcast on Luzu TV Luzu says ‘those responsible’ relieved of their duties Members of a news crew in Argentina have lost their jobs after falsely reporting the death of Lionel Messi’s father. Florencia Peña announced on Luzu ⁠TV that Jorge Messi had died and went on to suggest that Messi would not play any further matches in the World Cup. In the aftermath of the report, the ⁠Messi family issued ⁠a statement on Thursday announcing that Messi Sr was in hospital with an undisclosed medical issue, but was “progressing favourably”. Continue reading...",
-      "link": "https://www.theguardian.com/football/2026/jun/19/argentina-tv-host-resigns-falsely-reporting-death-jorge-messi",
-      "source": "The Guardian",
-      "published_at": "2026-06-19T17:47:11+00:00"
     },
     {
       "title": "Life in Hollywood bubble plays second fiddle to US need for World Cup success | Max Rushden",
@@ -408,6 +422,13 @@
       "published_at": "2026-06-19T07:38:35+00:00"
     },
     {
+      "title": "Socceroos captain Harry Souttar reflects on Australia's 2-0 loss to the US – video",
+      "description": "Socceroos captain Harry Souttar tells media the team is now looking ahead to their final group stage game against Paraguay on Friday, following Saturday's 2-0 loss to the US. ‘We can be disappointed today, but tomorrow morning full focus has got to be on winning that last game’ Socceroos crash back to earth after being humbled by superior USA Continue reading...",
+      "link": "https://www.theguardian.com/football/video/2026/jun/20/socceroos-captain-harry-souttar-reflects-on-socceroos-2-0-loss-to-the-us-video",
+      "source": "The Guardian",
+      "published_at": "2026-06-20T00:54:57+00:00"
+    },
+    {
       "title": "'Era of the spy': Mauricio Pochettino spotted looking for spies – video",
       "description": "Guardian journalist Pablo Iglesias Maurer captured the US manager Mauricio Pochettino taking a video appearing to look for spies at his team's training ground. “I wanted to see, because you know, we're in an era of, how you say: spy,” he told reporters at his pre-match press conference before their second group-stage match against Australia. World Cup newsletter | Daily podcast | Download the app Continue reading...",
       "link": "https://www.theguardian.com/football/video/2026/jun/19/era-of-spy-mauricio-pochettino-spotted-looking-for-spies-video",
@@ -429,81 +450,88 @@
       "published_at": "2026-06-19T14:40:44+00:00"
     },
     {
-      "title": "Pulisic sits but U.S. finds a way vs. Australia to...",
-      "description": "The USMNT was without Christian Pulisic on Friday, but it didn't matter: it found a way to beat Australia for its second win of this World Cup.",
-      "link": "https://www.espn.com/soccer/story/_/id/49119070/christian-pulisic-sits-us-finds-way-vs-australia-reach-world-cup-knockout-rounds",
+      "title": "Follow live: Vinícius Júnior piles on as Brazil in...",
+      "description": "null",
+      "link": "https://www.espn.com/soccer/story/_/id/49113556/fifa-world-cup-daily-brazil-usmnt-action-day-9",
       "source": "ESPN",
-      "published_at": "2026-06-20T01:16:35+00:00"
-    },
-    {
-      "title": "No Pulisic? No problem: Freeman, Adams lead the wa...",
-      "description": "Strong performances from Tyler Adams and Malik Tillman earned high ratings, but it was Alex Freeman who stood out.",
-      "link": "https://www.espn.com/soccer/story/_/id/49118816/usmnt-player-ratings-freeman-surprise-hero-7-10-performance-stonewall-australia",
-      "source": "ESPN",
-      "published_at": "2026-06-20T01:16:35+00:00"
+      "published_at": "2026-06-20T02:23:40+00:00"
     },
     {
       "title": "Freeman goal for U.S. 'full circle family moment'",
       "description": "U.S. defender Alex Freeman celebrated a \"full-circle family moment\" on Friday, scoring a goal in the Americans' 2-0 win over Australia on the same field -- kind of -- where his father, Antonio Freeman Jr., once had a banner day for the Green Bay Packers.",
       "link": "https://www.espn.com/soccer/story/_/id/49120341/alex-freeman-goal-seattle-full-circle-family-moment",
       "source": "ESPN",
-      "published_at": "2026-06-20T01:03:56+00:00"
+      "published_at": "2026-06-20T02:42:41+00:00"
     },
     {
       "title": "U.S. winning the WC not 'ridiculous,' Richards say...",
       "description": "Zlatan Ibrahimovic was succinct in saying he thinks that the USMNT has a chance to win the World Cup. Chris Richards doesn't think it's a wild idea at all, either.",
       "link": "https://www.espn.com/soccer/story/_/id/49121031/usa-winning-2026-world-cup-chris-richards-zlatan-ibrahimovic",
       "source": "ESPN",
-      "published_at": "2026-06-20T01:03:56+00:00"
+      "published_at": "2026-06-20T02:42:41+00:00"
     },
     {
       "title": "U.S. sees off Australia, advances to WC knockouts",
       "description": "The U.S. shook off the absence of Christian Pulisic to beat Australia 2-0 in Seattle on Friday and clinch a spot in the World Cup knockout rounds.",
       "link": "https://www.espn.com/soccer/story/_/id/49119325/usa-australia-2026-world-cup-knockout-stage",
       "source": "ESPN",
-      "published_at": "2026-06-20T01:03:56+00:00"
+      "published_at": "2026-06-20T02:42:41+00:00"
     },
     {
       "title": "Iran to file complaint over WC travel restrictions...",
       "description": "Iran's soccer federation said it will lodge a complaint with FIFA after its request to travel to Los Angeles two days before Sunday's World Cup match against Belgium was denied.",
       "link": "https://www.espn.com/soccer/story/_/id/49120177/iran-fifa-complaint-world-cup-travel-usa",
       "source": "ESPN",
-      "published_at": "2026-06-20T01:03:56+00:00"
+      "published_at": "2026-06-20T02:42:41+00:00"
+    },
+    {
+      "title": "Van Hecke: €60M Spurs move 'won't change me'",
+      "description": "Jan Paul van Hecke said his €60 million price tag will not change him as a person after completing his move to Tottenham Hotspur.",
+      "link": "https://www.espn.com/soccer/story/_/id/49121789/jan-paul-van-hecke-60m-tottenham-move-change-me",
+      "source": "ESPN",
+      "published_at": "2026-06-20T02:42:41+00:00"
+    },
+    {
+      "title": "Morocco 'behind' captain Hakimi amid rape case",
+      "description": "Morocco coach Mohamed Ouahbi said the team are \"behind\" captain Achraf Hakimi and says the player is \"very relaxed\" after a French appeals court confirmed Friday Hakimi will stand trial in a rape case.",
+      "link": "https://www.espn.com/soccer/story/_/id/49121788/morocco-achraf-hakimi-rape-case-world-cup-2026",
+      "source": "ESPN",
+      "published_at": "2026-06-20T02:42:41+00:00"
     },
     {
       "title": "Arsenal start new PL season against Coventry",
       "description": "Arsenal will begin their Premier League title defence against newly-promoted Coventry City, while Liverpool travel to face Newcastle in the pick of the opening-day fixtures.",
       "link": "https://www.espn.com/soccer/story/_/id/49114849/premier-league-fixtures-2026-27-arsenal-coventry-city-newcastle-united-liverpool-manchester-united-manchester-city-liverpool-tottenham-hotspur",
       "source": "ESPN",
-      "published_at": "2026-06-20T01:03:56+00:00"
-    },
-    {
-      "title": "PSG, Morocco's Hakimi to stand trial in rape case",
-      "description": "A French appeals court confirmed Friday that Paris Saint-Germain and Morocco star player Achraf Hakimi will stand trial in a rape case.",
-      "link": "https://www.espn.com/soccer/story/_/id/49115711/achraf-hakimi-stand-trial-rape-case-french-court-confirms",
-      "source": "ESPN",
-      "published_at": "2026-06-20T01:03:56+00:00"
+      "published_at": "2026-06-20T02:42:41+00:00"
     },
     {
       "title": "Garber: Vancouver needs new stadium to keep team",
       "description": "MLS Commissioner Don Garber stated on Friday in Seattle, before attending the USMNT World Cup win against Australia, that the Whitecaps must secure a new stadium deal to remain in Vancouver.",
       "link": "https://www.espn.com/soccer/story/_/id/49120762/mls-commissioner-don-garber-new-stadium-deal-crucial-keep-whitecaps-vancouver",
       "source": "ESPN",
-      "published_at": "2026-06-20T01:03:56+00:00"
-    },
-    {
-      "title": "Potter: Sweden a 'threat' with Gyökeres, Isak duo",
-      "description": "Graham Potter has warned Sweden's World Cup opponents that strike-duo Alexander Isak and Viktor Gyökeres will get better as the tournament progresses.",
-      "link": "https://www.espn.com/soccer/story/_/id/49119782/sweden-coach-potter-warns-foes-gyokeres-isak-threat",
-      "source": "ESPN",
-      "published_at": "2026-06-20T01:03:55+00:00"
+      "published_at": "2026-06-20T02:42:41+00:00"
     },
     {
       "title": "🔥Good, Bad, Ugly: The World Cup warmup kits",
       "description": "null",
       "link": "https://www.espn.com/soccer/story/_/id/49096287/the-2026-world-cup-wildest-warmup-kits-good-bad-ugly",
       "source": "ESPN",
-      "published_at": "2026-06-20T01:03:56+00:00"
+      "published_at": "2026-06-20T02:42:41+00:00"
+    },
+    {
+      "title": "Pulisic sits but U.S. finds a way vs. Australia to...",
+      "description": "The USMNT was without Christian Pulisic on Friday, but it didn't matter: It found a way to beat Australia for its second win of this World Cup.",
+      "link": "https://www.espn.com/soccer/story/_/id/49119070/christian-pulisic-sits-us-finds-way-vs-australia-reach-world-cup-knockout-rounds",
+      "source": "ESPN",
+      "published_at": "2026-06-20T01:36:43+00:00"
+    },
+    {
+      "title": "No Pulisic? No problem: Freeman, Adams lead the wa...",
+      "description": "Strong performances from Tyler Adams and Malik Tillman earned high ratings, but it was Alex Freeman who stood out.",
+      "link": "https://www.espn.com/soccer/story/_/id/49118816/usmnt-player-ratings-freeman-surprise-hero-7-10-performance-stonewall-australia",
+      "source": "ESPN",
+      "published_at": "2026-06-20T01:26:40+00:00"
     },
     {
       "title": "Why Alex Freeman's USMNT goal wasn't offside",
@@ -511,6 +539,20 @@
       "link": "https://www.espn.com/soccer/story/_/id/49119534/var-review-united-states-australia-alex-freeman-usmnt-goal-not-offside",
       "source": "ESPN",
       "published_at": "2026-06-19T22:13:16+00:00"
+    },
+    {
+      "title": "Scotland's World Cup dreams on the ropes as Morocc...",
+      "description": "Scotland's dreams of reaching the World Cup knockouts are in jeopardy as Morocco prove they deserve a little more respect as a contender.",
+      "link": "https://www.espn.com/soccer/story/_/id/49121005/scotland-world-cup-dreams-ropes-morocco-prove-real-deal",
+      "source": "ESPN",
+      "published_at": "2026-06-20T01:51:49+00:00"
+    },
+    {
+      "title": "Why Keito Nakamura could be Japan's ace in the pac...",
+      "description": "Keito Nakamura was not guaranteed to start for Japan. But he is now emerging as a pivotal figure.",
+      "link": "https://www.espn.com/soccer/story/_/id/49119506/why-keito-nakamura-japans-ace-pack-more-ways-one",
+      "source": "ESPN",
+      "published_at": "2026-06-20T01:51:49+00:00"
     },
     {
       "title": "World Cup 2026 Power Rankings after one game: U.S....",
@@ -541,13 +583,6 @@
       "published_at": "2026-06-19T15:27:11+00:00"
     },
     {
-      "title": "World Cup Daily: Meet Scotland superfan Donny the ...",
-      "description": "Day 9 is upon us, with the United States and Brazil among the teams playing as 2026 FIFA World Cup action continues.",
-      "link": "https://www.espn.com/soccer/story/_/id/49113556/fifa-world-cup-daily-brazil-usmnt-action-day-9",
-      "source": "ESPN",
-      "published_at": "2026-06-19T20:06:54+00:00"
-    },
-    {
       "title": "Mexico rejoice after second World Cup win in 2026....",
       "description": "Mexico still don't look like a finished product, but fine-tuning can wait for another day as the co-hosts punched their ticket to the round of 32.",
       "link": "https://www.espn.com/soccer/story/_/id/49113986/mexico-south-korea-world-cup-reaction-analysis",
@@ -570,7 +605,7 @@
     },
     {
       "title": "Transfer rumors, news: Real Madrid eye huge deal f...",
-      "description": "France and Bayern Munich winger Michael Olise is the next big star in Real Madrid's sights. Transfer Talk has the latest.",
+      "description": "Tottenham Hotspur defender Micky van de Ven could be on the move next season. Transfer Talk has the latest.",
       "link": "https://www.espn.com/soccer/story/_/id/49115006/transfer-rumors-newsreal-madrid-eye-huge-deal-michael-olise-bayern-munich-france",
       "source": "ESPN",
       "published_at": "2026-06-19T12:09:22+00:00"

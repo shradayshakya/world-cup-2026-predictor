@@ -45,6 +45,10 @@ def score_resolved_matches(previous_matches: dict, results: dict) -> list:
         scoreline_correct = (
             prediction["predicted_home_score"] == actual["home_score"] and prediction["predicted_away_score"] == actual["away_score"]
         )
+        # Distinct from scoreline_correct (exact score) -- this is "did we call the
+        # winner/draw right," a coarser, lower-bar question most users care about first.
+        predicted_outcome = max(OUTCOME_KEYS, key=lambda o: probabilities[o])
+        outcome_correct = predicted_outcome == outcome
 
         entries.append(
             {
@@ -56,9 +60,11 @@ def score_resolved_matches(previous_matches: dict, results: dict) -> list:
                 "home_win_probability": probabilities["home"],
                 "draw_probability": probabilities["draw"],
                 "away_win_probability": probabilities["away"],
+                "predicted_outcome": predicted_outcome,
                 "actual_home_score": actual["home_score"],
                 "actual_away_score": actual["away_score"],
                 "actual_outcome": outcome,
+                "outcome_correct": outcome_correct,
                 "brier_score": round(brier_score, 4),
                 "log_loss": round(log_loss, 4),
                 "scoreline_correct": scoreline_correct,
@@ -85,5 +91,6 @@ def merge_into_log(existing_log: dict, new_entries: list) -> dict:
         "avg_brier_score": round(sum(e["brier_score"] for e in entries) / n, 4) if n else None,
         "avg_log_loss": round(sum(e["log_loss"] for e in entries) / n, 4) if n else None,
         "scoreline_accuracy": round(sum(1 for e in entries if e["scoreline_correct"]) / n, 4) if n else None,
+        "outcome_accuracy": round(sum(1 for e in entries if e["outcome_correct"]) / n, 4) if n else None,
     }
     return {"entries": entries, "summary": summary}

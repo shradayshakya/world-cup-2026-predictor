@@ -156,6 +156,8 @@ export interface InjuryAbsence {
   key_player: boolean;
   source_title: string;
   source_link: string;
+  first_reported: string;
+  expires_on: string | null;
 }
 
 export interface TeamInjuries {
@@ -207,9 +209,11 @@ export interface CalibrationEntry {
   home_win_probability: number;
   draw_probability: number;
   away_win_probability: number;
+  predicted_outcome: "home" | "draw" | "away";
   actual_home_score: number;
   actual_away_score: number;
   actual_outcome: "home" | "draw" | "away";
+  outcome_correct: boolean;
   brier_score: number;
   log_loss: number;
   scoreline_correct: boolean;
@@ -220,6 +224,7 @@ export interface CalibrationSummary {
   avg_brier_score: number | null;
   avg_log_loss: number | null;
   scoreline_accuracy: number | null;
+  outcome_accuracy: number | null;
 }
 
 export interface CalibrationLog {

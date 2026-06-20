@@ -146,7 +146,7 @@ export default async function MatchPage({ params }: { params: Promise<{ slug: st
                           {absences.map((a) => (
                             <li key={a.player} className="flex items-center gap-1.5 text-sm">
                               <StatusBadge status={a.status} />
-                              <a href={a.source_link} title={a.source_title} className="hover:underline">
+                              <a href={a.source_link} title={`${a.source_title} (reported ${a.first_reported})`} className="hover:underline">
                                 {a.player}
                               </a>
                             </li>

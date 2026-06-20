@@ -2,6 +2,12 @@ import Link from "next/link";
 import { getCalibrationLog, getResults } from "@/lib/data";
 import { formatPercent } from "@/lib/format";
 import { matchSlug } from "@/lib/slug";
+import type { CalibrationEntry } from "@/lib/types";
+
+function outcomeLabel(outcome: "home" | "draw" | "away", e: CalibrationEntry): string {
+  if (outcome === "draw") return "Draw";
+  return outcome === "home" ? e.home_team : e.away_team;
+}
 
 export default function AboutPage() {
   const { entries, summary } = getCalibrationLog();
@@ -23,7 +29,7 @@ export default function AboutPage() {
         {summary.n === 0 ? (
           <p className="mt-2 text-sm text-neutral-500">No matches scored yet — check back once some have been played.</p>
         ) : (
-          <dl className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
+          <dl className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-5">
             <div className="rounded-md border border-neutral-200 p-2">
               <dt className="text-xs text-neutral-500">Matches scored</dt>
               <dd className="text-lg font-semibold">{summary.n}</dd>
@@ -37,6 +43,10 @@ export default function AboutPage() {
               <dd className="text-lg font-semibold">{summary.avg_log_loss?.toFixed(3)}</dd>
             </div>
             <div className="rounded-md border border-neutral-200 p-2">
+              <dt className="text-xs text-neutral-500">Win/draw/loss accuracy</dt>
+              <dd className="text-lg font-semibold">{formatPercent(summary.outcome_accuracy ?? undefined, 0)}</dd>
+            </div>
+            <div className="rounded-md border border-neutral-200 p-2">
               <dt className="text-xs text-neutral-500">Exact scoreline accuracy</dt>
               <dd className="text-lg font-semibold">{formatPercent(summary.scoreline_accuracy ?? undefined, 0)}</dd>
             </div>
@@ -44,8 +54,8 @@ export default function AboutPage() {
         )}
         <p className="mt-2 text-xs text-neutral-500">
           Brier score (0 = perfect, 2 = worst possible for a 3-way outcome) and log-loss are both scored on the
-          home/draw/away win probabilities, not the exact scoreline — a correct favorite pick still scores well even
-          if the final score differs.
+          home/draw/away win probabilities, not the exact scoreline. &quot;Win/draw/loss accuracy&quot; is a coarser,
+          easier bar than the exact scoreline — did we call the winner (or draw) right, regardless of the final score.
         </p>
       </section>
 
@@ -62,7 +72,8 @@ export default function AboutPage() {
                   <th className="px-1 text-center">Actual</th>
                   <th className="hidden px-1 text-center sm:table-cell">Brier</th>
                   <th className="hidden px-1 text-center sm:table-cell">Log-loss</th>
-                  <th className="px-1 text-center">Scoreline</th>
+                  <th className="px-1 text-center">Winner</th>
+                  <th className="px-1 text-center">Score</th>
                 </tr>
               </thead>
               <tbody>
@@ -96,6 +107,12 @@ export default function AboutPage() {
                         </td>
                         <td className="hidden px-1 text-center sm:table-cell">{e.brier_score.toFixed(3)}</td>
                         <td className="hidden px-1 text-center sm:table-cell">{e.log_loss.toFixed(3)}</td>
+                        <td
+                          className="px-1 text-center"
+                          title={`Predicted: ${outcomeLabel(e.predicted_outcome, e)} · Actual: ${outcomeLabel(e.actual_outcome, e)}`}
+                        >
+                          {e.outcome_correct ? "✓" : ""}
+                        </td>
                         <td className="px-1 text-center">{e.scoreline_correct ? "✓" : ""}</td>
                       </tr>
                     );

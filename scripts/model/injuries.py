@@ -8,12 +8,21 @@ narrowing its job shrinks what it can hallucinate (PRD.md S6.4a's
 guardrail spirit applied to this layer too, even though S6.4a itself talks
 about the editorial layer specifically).
 
-"Until" text is captured for display but not used for date-ranged penalty
-logic -- see CLAUDE.md for why (the daily re-scrape makes it self-correcting
-without date math).
+Absences persist across days by default (carry-forward) -- a real injury
+usually gets reported once and then drops out of the news cycle entirely
+unless something changes, so the *absence* of a fresh headline is weak
+evidence of recovery, not strong evidence of it. Recovery is the
+newsworthy event that tends to get reported (especially for the key
+players who carry an Elo penalty here, since "is X back for Saturday" is
+standard pre-match coverage). So an entry is only cleared on a positive
+signal: an explicit recovery mention, or a stated return timeframe
+("estimated_days_out") actually expiring. No flat silence-based timeout --
+see CLAUDE.md for the reasoning (a flat TTL just reintroduces the same bug
+with a longer fuse).
 """
 
 import unicodedata
+from datetime import date, timedelta
 
 from .ollama_client import generate_json
 from .teams import TEAM_ALIASES
@@ -34,18 +43,21 @@ STATUS_PENALTY = {"out": PENALTY_OUT, "suspended": PENALTY_SUSPENDED, "doubt": P
 
 EXTRACTION_PROMPT_TEMPLATE = """You will be given football news headlines, each with an index, for the 2026 FIFA World Cup.
 
-For each headline+description, identify any named football players reported as currently UNAVAILABLE for an upcoming match -- injured, ill, suspended, or otherwise barred (e.g. visa/disciplinary issues). For each such player, give their status and any explicitly stated return timeframe.
+For each headline+description, identify any named football players reported as currently UNAVAILABLE for an upcoming match -- injured, ill, suspended, or otherwise barred (e.g. visa/disciplinary issues). For each such player, give their status, any explicitly stated return timeframe, and an estimated number of days until they might return if the text states or clearly implies one.
+
+Separately, identify any named players explicitly reported as recovered, fit again, or returned to availability after a prior absence.
 
 Rules:
-- Only include a player if the text says they ARE currently out, doubtful, or suspended right now.
-- Do NOT include a player described as recovered, fit, available, or simply playing well.
+- Only include a player in "injuries" if the text says they ARE currently out, doubtful, or suspended right now.
 - Do NOT include a player only at risk of a FUTURE suspension (e.g. "one booking away") -- they are not unavailable yet.
 - Do NOT include team staff (coaches, managers) -- players only.
-- If a headline mentions no qualifying player, skip it.
+- For "estimated_days_out": only fill this in if the text states or clearly implies a timeframe (e.g. "out for 2-3 weeks" -> ~17, "ruled out for the rest of the tournament" -> a large number like 60, "doubtful for Friday" -> ~3). If no timeframe is stated or implied, use null. Use your best judgement to convert vague phrases into a reasonable number of days.
+- For "recoveries": only include a player if the text explicitly says they are recovered, fit, available again, or returning -- not simply praised for playing well.
+- If a headline mentions no qualifying player for either list, skip it.
 
 Respond with ONLY a JSON object of this exact shape:
-{{"injuries": [{{"headline_index": <int>, "player": "<full name as written>", "status": "out"|"doubt"|"suspended", "until": "<text mentioned, or null>"}}]}}
-If none found across all headlines, respond {{"injuries": []}}.
+{{"injuries": [{{"headline_index": <int>, "player": "<full name as written>", "status": "out"|"doubt"|"suspended", "until": "<text mentioned, or null>", "estimated_days_out": <int or null>}}], "recoveries": [{{"headline_index": <int>, "player": "<full name as written>"}}]}}
+If none found across all headlines, respond {{"injuries": [], "recoveries": []}}.
 
 Headlines:
 {headlines_block}
@@ -67,27 +79,35 @@ def _chunk(items: list, size: int) -> list:
     return [items[i : i + size] for i in range(0, len(items), size)]
 
 
-def extract_injuries(headlines: list, model: str) -> list:
-    """Returns a flat list of {headline, player, status, until} across all headlines."""
-    results = []
+def extract_injuries(headlines: list, model: str) -> tuple:
+    """Returns (injuries, recoveries), each a flat list of {headline, player, ...}
+    across all headlines."""
+    injuries = []
+    recoveries = []
     for chunk in _chunk(headlines, CHUNK_SIZE):
         prompt = build_prompt(chunk)
         parsed = generate_json(model, prompt)
-        if not parsed or "injuries" not in parsed:
+        if not parsed:
             continue
-        for entry in parsed["injuries"]:
+        for entry in parsed.get("injuries", []):
             idx = entry.get("headline_index")
             if idx is None or not (0 <= idx < len(chunk)):
                 continue
-            results.append(
+            injuries.append(
                 {
                     "headline": chunk[idx],
                     "player": entry.get("player", "").strip(),
                     "status": entry.get("status"),
                     "until": entry.get("until"),
+                    "estimated_days_out": entry.get("estimated_days_out"),
                 }
             )
-    return results
+        for entry in parsed.get("recoveries", []):
+            idx = entry.get("headline_index")
+            if idx is None or not (0 <= idx < len(chunk)):
+                continue
+            recoveries.append({"headline": chunk[idx], "player": entry.get("player", "").strip()})
+    return injuries, recoveries
 
 
 def _normalize_name(name: str) -> str:
@@ -117,7 +137,26 @@ def _key_player_names(squad: list) -> set:
 STATUS_SEVERITY = {"out": 2, "suspended": 2, "doubt": 1}
 
 
-def resolve_and_score(extracted: list, squads: dict) -> dict:
+def _resolve_roster_match(name: str, exact_lookup: dict, roster: list):
+    norm = _normalize_name(name)
+    match = exact_lookup.get(norm)
+    if match is None:
+        name_tokens = _tokens(name)
+        candidates = [tp for tp in roster if _fuzzy_name_match(name_tokens, _tokens(tp[1]["name"]))]
+        match = candidates[0] if len(candidates) == 1 else None
+    return match
+
+
+def _add_days(date_str: str, days) -> str | None:
+    if days is None:
+        return None
+    try:
+        return (date.fromisoformat(date_str) + timedelta(days=int(days))).isoformat()
+    except (TypeError, ValueError):
+        return None
+
+
+def resolve_and_score(extracted: list, recovered: list, squads: dict, previous_injuries: dict, today: str) -> dict:
     """Matches each LLM-extracted player against the roster (exact name first, then a
     prefix-based fuzzy fallback for nicknames -- accepted only if it resolves to exactly
     one candidate across all squads, since a wrong match would misattribute a real
@@ -125,7 +164,11 @@ def resolve_and_score(extracted: list, squads: dict) -> dict:
 
     The same real injury is often reported by multiple outlets (and so appears as
     multiple separate extracted entries) -- grouped by player below and reduced to the
-    single most severe status, so a duplicated report doesn't stack the Elo penalty."""
+    single most severe status, so a duplicated report doesn't stack the Elo penalty.
+
+    Absences carry forward from previous_injuries by default (see module docstring for
+    why) -- today's fresh extraction always wins for a given player; a carried-forward
+    entry only drops when explicitly recovered today or its stated expires_on has passed."""
     roster = [(team, player) for team, players in squads.items() for player in players]
     exact_lookup = {_normalize_name(player["name"]): (team, player) for team, player in roster}
     key_names_by_team = {team: _key_player_names(players) for team, players in squads.items()}
@@ -134,12 +177,7 @@ def resolve_and_score(extracted: list, squads: dict) -> dict:
     for entry in extracted:
         if entry["status"] not in STATUS_PENALTY:
             continue
-        norm = _normalize_name(entry["player"])
-        match = exact_lookup.get(norm)
-        if match is None:
-            extracted_tokens = _tokens(entry["player"])
-            candidates = [tp for tp in roster if _fuzzy_name_match(extracted_tokens, _tokens(tp[1]["name"]))]
-            match = candidates[0] if len(candidates) == 1 else None
+        match = _resolve_roster_match(entry["player"], exact_lookup, roster)
         if match is not None:
             matches.append((*match, entry))
 
@@ -150,22 +188,44 @@ def resolve_and_score(extracted: list, squads: dict) -> dict:
         if existing is None or STATUS_SEVERITY[entry["status"]] > STATUS_SEVERITY[existing[2]["status"]]:
             most_severe_by_player[key] = (team, player, entry)
 
-    result = {}
+    fresh_absences = {}
     for team, player, entry in most_severe_by_player.values():
+        key = (team, _normalize_name(player["name"]))
+        fresh_absences[key] = {
+            "player": player["name"],
+            "status": entry["status"],
+            "until": entry["until"],
+            "key_player": _normalize_name(player["name"]) in key_names_by_team[team],
+            "source_title": entry["headline"]["title"],
+            "source_link": entry["headline"]["link"],
+            "first_reported": today,
+            "expires_on": _add_days(today, entry.get("estimated_days_out")),
+        }
+
+    recovered_keys = set()
+    for entry in recovered:
+        match = _resolve_roster_match(entry["player"], exact_lookup, roster)
+        if match is not None:
+            team, player = match
+            recovered_keys.add((team, _normalize_name(player["name"])))
+
+    merged_absences = dict(fresh_absences)
+    for team, team_data in previous_injuries.items():
+        for absence in team_data.get("absences", []):
+            key = (team, _normalize_name(absence["player"]))
+            if key in merged_absences or key in recovered_keys:
+                continue
+            expires_on = absence.get("expires_on")
+            if expires_on is not None and expires_on <= today:
+                continue
+            merged_absences[key] = {**absence, "first_reported": absence.get("first_reported", today)}
+
+    result = {}
+    for (team, _norm_name), absence in merged_absences.items():
         team_result = result.setdefault(team, {"elo_penalty": 0.0, "absences": []})
-        is_key = _normalize_name(player["name"]) in key_names_by_team[team]
-        team_result["absences"].append(
-            {
-                "player": player["name"],
-                "status": entry["status"],
-                "until": entry["until"],
-                "key_player": is_key,
-                "source_title": entry["headline"]["title"],
-                "source_link": entry["headline"]["link"],
-            }
-        )
-        if is_key:
-            penalty = STATUS_PENALTY[entry["status"]]
+        team_result["absences"].append(absence)
+        if absence["key_player"]:
+            penalty = STATUS_PENALTY[absence["status"]]
             team_result["elo_penalty"] = max(team_result["elo_penalty"] + penalty, TEAM_PENALTY_CAP)
 
     return result

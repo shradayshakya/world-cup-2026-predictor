@@ -3,111 +3,111 @@
     {
       "home": {
         "team": "South Korea",
-        "probability": 0.8773
+        "probability": 0.8777
       },
       "away": {
         "team": "Switzerland",
-        "probability": 0.5878
+        "probability": 0.5876
       }
     },
     {
       "home": {
         "team": "Brazil",
-        "probability": 0.5824
+        "probability": 0.584
       },
       "away": {
         "team": "Japan",
-        "probability": 0.412
+        "probability": 0.4166
       }
     },
     {
       "home": {
         "team": "Germany",
-        "probability": 0.7471
+        "probability": 0.7514
       },
       "away": {
         "team": "Bosnia and Herzegovina",
-        "probability": 0.437
+        "probability": 0.4381
       }
     },
     {
       "home": {
         "team": "Netherlands",
-        "probability": 0.482
+        "probability": 0.4845
       },
       "away": {
         "team": "Morocco",
-        "probability": 0.592
+        "probability": 0.5937
       }
     },
     {
       "home": {
         "team": "Ivory Coast",
-        "probability": 0.5785
+        "probability": 0.5795
       },
       "away": {
         "team": "Norway",
-        "probability": 0.5785
+        "probability": 0.5771
       }
     },
     {
       "home": {
         "team": "France",
-        "probability": 0.8086
+        "probability": 0.8088
       },
       "away": {
         "team": "Scotland",
-        "probability": 0.2752
+        "probability": 0.2754
       }
     },
     {
       "home": {
         "team": "Mexico",
-        "probability": 0.9709
+        "probability": 0.9706
       },
       "away": {
         "team": "Scotland",
-        "probability": 0.2621
+        "probability": 0.266
       }
     },
     {
       "home": {
         "team": "England",
-        "probability": 0.9856
+        "probability": 0.9846
       },
       "away": {
         "team": "DR Congo",
-        "probability": 0.2699
+        "probability": 0.2623
       }
     },
     {
       "home": {
         "team": "Belgium",
-        "probability": 0.6104
+        "probability": 0.6069
       },
       "away": {
         "team": "Senegal",
-        "probability": 0.1768
+        "probability": 0.1765
       }
     },
     {
       "home": {
         "team": "United States",
-        "probability": 0.973
+        "probability": 0.9747
       },
       "away": {
         "team": "Sweden",
-        "probability": 0.2694
+        "probability": 0.2715
       }
     },
     {
       "home": {
         "team": "Spain",
-        "probability": 0.8623
+        "probability": 0.8633
       },
       "away": {
         "team": "Austria",
-        "probability": 0.7116
+        "probability": 0.7117
       }
     },
     {
@@ -117,47 +117,47 @@
       },
       "away": {
         "team": "Croatia",
-        "probability": 0.868
+        "probability": 0.8676
       }
     },
     {
       "home": {
         "team": "Canada",
-        "probability": 0.6107
+        "probability": 0.6099
       },
       "away": {
         "team": "Ecuador",
-        "probability": 0.2753
+        "probability": 0.2749
       }
     },
     {
       "home": {
         "team": "Australia",
-        "probability": 0.613
+        "probability": 0.6115
       },
       "away": {
         "team": "Egypt",
-        "probability": 0.3886
+        "probability": 0.3893
       }
     },
     {
       "home": {
         "team": "Argentina",
-        "probability": 0.9284
+        "probability": 0.9295
       },
       "away": {
         "team": "Uruguay",
-        "probability": 0.5589
+        "probability": 0.5604
       }
     },
     {
       "home": {
         "team": "Colombia",
-        "probability": 0.7079
+        "probability": 0.7096
       },
       "away": {
         "team": "Ghana",
-        "probability": 0.3461
+        "probability": 0.3482
       }
     }
   ],
@@ -165,81 +165,81 @@
     {
       "home": {
         "team": "Switzerland",
-        "probability": 0.4156
+        "probability": 0.4146
       },
       "away": {
         "team": "Germany",
-        "probability": 0.6384
+        "probability": 0.6446
       }
     },
     {
       "home": {
         "team": "Brazil",
-        "probability": 0.3762
+        "probability": 0.3809
       },
       "away": {
         "team": "Norway",
-        "probability": 0.3994
+        "probability": 0.4013
       }
     },
     {
       "home": {
         "team": "Netherlands",
-        "probability": 0.2911
+        "probability": 0.2948
       },
       "away": {
         "team": "France",
-        "probability": 0.7346
+        "probability": 0.7365
       }
     },
     {
       "home": {
         "team": "Mexico",
-        "probability": 0.7608
+        "probability": 0.7622
       },
       "away": {
         "team": "England",
-        "probability": 0.867
+        "probability": 0.8581
       }
     },
     {
       "home": {
         "team": "Spain",
-        "probability": 0.7615
+        "probability": 0.764
       },
       "away": {
         "team": "Portugal",
-        "probability": 0.3784
+        "probability": 0.3753
       }
     },
     {
       "home": {
         "team": "Belgium",
-        "probability": 0.4105
+        "probability": 0.4083
       },
       "away": {
         "team": "United States",
-        "probability": 0.6985
+        "probability": 0.694
       }
     },
     {
       "home": {
         "team": "Australia",
-        "probability": 0.3581
+        "probability": 0.3567
       },
       "away": {
         "team": "Colombia",
-        "probability": 0.6053
+        "probability": 0.6067
       }
     },
     {
       "home": {
         "team": "Canada",
-        "probability": 0.3597
+        "probability": 0.36
       },
       "away": {
         "team": "Argentina",
-        "probability": 0.8108
+        "probability": 0.811
       }
     }
   ],
@@ -247,41 +247,41 @@
     {
       "home": {
         "team": "Germany",
-        "probability": 0.4209
+        "probability": 0.4262
       },
       "away": {
         "team": "Brazil",
-        "probability": 0.2252
+        "probability": 0.2298
       }
     },
     {
       "home": {
         "team": "Spain",
-        "probability": 0.6178
+        "probability": 0.6209
       },
       "away": {
         "team": "United States",
-        "probability": 0.449
+        "probability": 0.4484
       }
     },
     {
       "home": {
         "team": "France",
-        "probability": 0.5722
+        "probability": 0.5763
       },
       "away": {
         "team": "England",
-        "probability": 0.5442
+        "probability": 0.5269
       }
     },
     {
       "home": {
         "team": "Colombia",
-        "probability": 0.4935
+        "probability": 0.4932
       },
       "away": {
         "team": "Argentina",
-        "probability": 0.7183
+        "probability": 0.72
       }
     }
   ],
@@ -289,43 +289,43 @@
     {
       "home": {
         "team": "Germany",
-        "probability": 0.2408
+        "probability": 0.2399
       },
       "away": {
         "team": "Spain",
-        "probability": 0.5369
+        "probability": 0.5385
       }
     },
     {
       "home": {
         "team": "France",
-        "probability": 0.3579
+        "probability": 0.3666
       },
       "away": {
         "team": "Argentina",
-        "probability": 0.57
+        "probability": 0.5737
       }
     }
   ],
   "final": {
     "home": {
       "team": "Spain",
-      "probability": 0.4327
+      "probability": 0.4333
     },
     "away": {
       "team": "Argentina",
-      "probability": 0.3819
+      "probability": 0.3837
     }
   },
   "third_place": {
     "home": {
       "team": "Germany",
-      "probability": 0.1589
+      "probability": 0.1578
     },
     "away": {
       "team": "Argentina",
-      "probability": 0.1883
+      "probability": 0.1902
     }
   },
-  "generated_at": "2026-06-20T00:24:15.536498+00:00"
+  "generated_at": "2026-06-20T01:48:24.642056+00:00"
 }

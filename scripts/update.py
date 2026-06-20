@@ -56,6 +56,11 @@ def main() -> None:
     bracket_path = DATA_DIR / "bracket.json"
     previous_bracket = json.loads(bracket_path.read_text()) if bracket_path.exists() else {}
 
+    # Absences carry forward from this by default (model/injuries.py module docstring
+    # has the reasoning) -- only cleared on explicit recovery or a stated expiry passing.
+    injuries_path = DATA_DIR / "injuries.json"
+    previous_injuries = json.loads(injuries_path.read_text())["teams"] if injuries_path.exists() else {}
+
     # The probability-change arrows (PRD.md S5.1a) compare against this baseline, not
     # against previous_probabilities/previous_matches above -- it only advances when a
     # real match resolves (see newly_resolved below), so a run with no new result keeps
@@ -110,8 +115,8 @@ def main() -> None:
 
     headlines = scrape_headlines()
     _write_json("headlines.json", {"scraped_at": now, "headlines": headlines})
-    extracted = extract_injuries(headlines, INJURY_EXTRACTION_MODEL)
-    injuries = resolve_and_score(extracted, squads)
+    extracted, recovered = extract_injuries(headlines, INJURY_EXTRACTION_MODEL)
+    injuries = resolve_and_score(extracted, recovered, squads, previous_injuries, now[:10])
     _write_json("injuries.json", {"generated_at": now, "teams": injuries})
     adjusted_elo = apply_to_elo(elo, injuries)
 

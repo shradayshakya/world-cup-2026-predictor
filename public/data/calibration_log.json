@@ -14,7 +14,9 @@
       "actual_outcome": "draw",
       "brier_score": 1.1554,
       "log_loss": 1.6766,
-      "scoreline_correct": false
+      "scoreline_correct": false,
+      "predicted_outcome": "home",
+      "outcome_correct": false
     },
     {
       "date": "2026-06-18",
@@ -30,7 +32,9 @@
       "actual_outcome": "home",
       "brier_score": 0.0873,
       "log_loss": 0.2715,
-      "scoreline_correct": false
+      "scoreline_correct": false,
+      "predicted_outcome": "home",
+      "outcome_correct": true
     },
     {
       "date": "2026-06-18",
@@ -46,7 +50,9 @@
       "actual_outcome": "home",
       "brier_score": 0.0109,
       "log_loss": 0.0848,
-      "scoreline_correct": false
+      "scoreline_correct": false,
+      "predicted_outcome": "home",
+      "outcome_correct": true
     },
     {
       "date": "2026-06-18",
@@ -62,7 +68,9 @@
       "actual_outcome": "home",
       "brier_score": 0.1525,
       "log_loss": 0.3807,
-      "scoreline_correct": false
+      "scoreline_correct": false,
+      "predicted_outcome": "home",
+      "outcome_correct": true
     },
     {
       "date": "2026-06-19",
@@ -78,7 +86,9 @@
       "actual_outcome": "away",
       "brier_score": 0.5374,
       "log_loss": 0.9123,
-      "scoreline_correct": false
+      "scoreline_correct": false,
+      "predicted_outcome": "away",
+      "outcome_correct": true
     },
     {
       "date": "2026-06-19",
@@ -94,13 +104,16 @@
       "actual_outcome": "home",
       "brier_score": 0.5524,
       "log_loss": 0.9329,
-      "scoreline_correct": false
+      "scoreline_correct": false,
+      "predicted_outcome": "home",
+      "outcome_correct": true
     }
   ],
   "summary": {
     "n": 6,
     "avg_brier_score": 0.416,
     "avg_log_loss": 0.7098,
-    "scoreline_accuracy": 0.0
+    "scoreline_accuracy": 0.0,
+    "outcome_accuracy": 0.8333
   }
 }

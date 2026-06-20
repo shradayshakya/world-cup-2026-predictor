@@ -97,7 +97,11 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
                         {p.name}
                         {p.captain && <span className="ml-1 text-xs text-neutral-400">(C)</span>}
                         {status && (
-                          <a href={status.source_link} title={status.source_title} className="ml-1.5 inline-block">
+                          <a
+                            href={status.source_link}
+                            title={`${status.source_title} (reported ${status.first_reported})`}
+                            className="ml-1.5 inline-block"
+                          >
                             <StatusBadge status={status.status} />
                           </a>
                         )}

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-20T00:24:15.536498+00:00",
+  "generated_at": "2026-06-20T01:48:24.642056+00:00",
   "teams": {
     "England": {
-      "elo_penalty": -15.0,
+      "elo_penalty": -22.5,
       "absences": [
         {
           "player": "Bukayo Saka",
@@ -10,7 +10,9 @@
           "until": null,
           "key_player": true,
           "source_title": "England winger Saka unlikely to start against Ghana",
-          "source_link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss"
+          "source_link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-20",
+          "expires_on": null
         },
         {
           "player": "Declan Rice",
@@ -18,7 +20,19 @@
           "until": null,
           "key_player": true,
           "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
+          "first_reported": "2026-06-20",
+          "expires_on": null
+        },
+        {
+          "player": "Harry Kane",
+          "status": "doubt",
+          "until": null,
+          "key_player": true,
+          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
+          "first_reported": "2026-06-20",
+          "expires_on": null
         }
       ]
     },
@@ -31,7 +45,9 @@
           "until": null,
           "key_player": true,
           "source_title": "Canada score six but historic win marred by Kone injury",
-          "source_link": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss"
+          "source_link": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-20",
+          "expires_on": null
         }
       ]
     },
@@ -44,7 +60,9 @@
           "until": null,
           "key_player": true,
           "source_title": "Morocco captain Hakimi to stand trial for rape",
-          "source_link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss"
+          "source_link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-20",
+          "expires_on": null
         }
       ]
     }
