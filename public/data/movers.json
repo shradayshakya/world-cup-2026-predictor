@@ -1,4 +1,55 @@
 {
-  "generated_at": "2026-06-19T17:55:57.502038+00:00",
-  "movers": []
+  "generated_at": "2026-06-20T00:24:15.536498+00:00",
+  "movers": [
+    {
+      "team": "England",
+      "previous_pct": 8.82,
+      "current_pct": 7.02,
+      "delta_pp": -1.8000000000000007,
+      "direction": "loser",
+      "blurb": "Our model estimates a slight decline in England's title probability, primarily due to the current fitness status of key players. With both Bukayo Saka and Declan Rice listed as doubts, concerns regarding their availability could impact the team's operational strength through the tournament.",
+      "sources": [
+        {
+          "label": "England",
+          "href": "/teams/england"
+        },
+        {
+          "label": "England winger Saka unlikely to start against Ghana",
+          "href": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        }
+      ]
+    },
+    {
+      "team": "United States",
+      "previous_pct": 0.31,
+      "current_pct": 1.55,
+      "delta_pp": 1.24,
+      "direction": "gainer",
+      "blurb": "Since there have been no relevant results or reported injuries, the rise in United States' probability reflects an internal adjustment within our prediction model regarding evolving probabilistic factors for the tournament.",
+      "sources": [
+        {
+          "label": "United States",
+          "href": "/teams/united-states"
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "previous_pct": 14.27,
+      "current_pct": 14.77,
+      "delta_pp": 0.5,
+      "direction": "gainer",
+      "blurb": "Our model indicates a slight upward adjustment in France's standing, reflected by the increased probability. Since there have been no relevant results or reported changes in team status since the last update, this shift represents a passive recalibration within the predictive algorithms.",
+      "sources": [
+        {
+          "label": "France",
+          "href": "/teams/france"
+        }
+      ]
+    }
+  ]
 }

@@ -4,6 +4,7 @@ const LINKS = [
   { href: "/", label: "Home" },
   { href: "/bracket", label: "Bracket" },
   { href: "/groups", label: "Groups" },
+  { href: "/scorers", label: "Scorers" },
   { href: "/about", label: "About" },
 ];
 

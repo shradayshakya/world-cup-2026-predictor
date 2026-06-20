@@ -2,7 +2,17 @@ import { notFound } from "next/navigation";
 import ChangeArrow from "@/components/ChangeArrow";
 import MatchCard from "@/components/MatchCard";
 import StatusBadge from "@/components/StatusBadge";
-import { getElo, getForm, getGroups, getInjuries, getProbabilities, getProbabilityChanges, getResults, getSquads } from "@/lib/data";
+import {
+  getElo,
+  getForm,
+  getGroups,
+  getInjuries,
+  getProbabilities,
+  getProbabilityChanges,
+  getResults,
+  getSquads,
+  getTopScorers,
+} from "@/lib/data";
 import { getPredictionFor } from "@/lib/predictions";
 import { allTeamNames, slugify, teamNameBySlug } from "@/lib/slug";
 import { resolveEloName } from "@/lib/teamAliases";
@@ -40,6 +50,11 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
   const squad = getSquads().squads[name] ?? [];
   const teamInjuries = getInjuries().teams[name];
   const statusByPlayer = new Map(teamInjuries?.absences.map((a) => [a.player, a]));
+  const predictedGoalsByPlayer = new Map(
+    getTopScorers()
+      .scorers.filter((s) => s.team === name)
+      .map((s) => [s.player, s.predicted_goals]),
+  );
 
   const remainingFixtures = getResults()
     .matches.map((match, index) => ({ match, index }))
@@ -68,12 +83,14 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
                   <th className="px-1 text-center">Pos</th>
                   <th className="hidden px-1 text-center sm:table-cell">Caps</th>
                   <th className="hidden px-1 text-center sm:table-cell">Goals</th>
+                  <th className="px-1 text-center">Pred. goals</th>
                   <th className="py-1 pl-2">Club</th>
                 </tr>
               </thead>
               <tbody>
                 {squad.map((p) => {
                   const status = statusByPlayer.get(p.name);
+                  const predictedGoals = predictedGoalsByPlayer.get(p.name);
                   return (
                     <tr key={p.name} className="border-b border-neutral-100">
                       <td className="py-1.5 pr-2">
@@ -88,6 +105,7 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
                       <td className="px-1 text-center text-neutral-500">{p.position}</td>
                       <td className="hidden px-1 text-center sm:table-cell">{p.caps}</td>
                       <td className="hidden px-1 text-center sm:table-cell">{p.goals}</td>
+                      <td className="px-1 text-center font-medium">{predictedGoals ?? "—"}</td>
                       <td className="py-1.5 pl-2 text-neutral-500">{p.club}</td>
                     </tr>
                   );

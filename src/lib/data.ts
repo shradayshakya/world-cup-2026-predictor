@@ -12,6 +12,7 @@ import previewsRaw from "../../public/data/previews.json";
 import calibrationLogRaw from "../../public/data/calibration_log.json";
 import probabilityChangesRaw from "../../public/data/probability_changes.json";
 import maintenanceRaw from "../../public/data/maintenance.json";
+import topScorersRaw from "../../public/data/top_scorers.json";
 import type {
   EloData,
   GroupsData,
@@ -27,6 +28,7 @@ import type {
   CalibrationLog,
   ProbabilityChangesData,
   MaintenanceData,
+  TopScorersData,
 } from "./types";
 
 export function getElo(): EloData {
@@ -83,6 +85,10 @@ export function getProbabilityChanges(): ProbabilityChangesData {
 
 export function getMaintenance(): MaintenanceData {
   return maintenanceRaw as MaintenanceData;
+}
+
+export function getTopScorers(): TopScorersData {
+  return topScorersRaw as TopScorersData;
 }
 
 export function getLastUpdated(): string {

@@ -116,27 +116,21 @@
     },
     {
       "rank": 20,
+      "code": "MA",
+      "name": "Morocco",
+      "rating": 1866
+    },
+    {
+      "rank": 21,
       "code": "AT",
       "name": "Austria",
       "rating": 1857
     },
     {
-      "rank": 21,
+      "rank": 22,
       "code": "TR",
       "name": "Turkey",
       "rating": 1849
-    },
-    {
-      "rank": 22,
-      "code": "MA",
-      "name": "Morocco",
-      "rating": 1840
-    },
-    {
-      "rank": 23,
-      "code": "AU",
-      "name": "Australia",
-      "rating": 1839
     },
     {
       "rank": 23,
@@ -145,10 +139,16 @@
       "rating": 1839
     },
     {
+      "rank": 24,
+      "code": "US",
+      "name": "United States",
+      "rating": 1820
+    },
+    {
       "rank": 25,
-      "code": "SQ",
-      "name": "Scotland",
-      "rating": 1794
+      "code": "AU",
+      "name": "Australia",
+      "rating": 1799
     },
     {
       "rank": 26,
@@ -163,28 +163,28 @@
       "rating": 1780
     },
     {
-      "rank": 26,
-      "code": "US",
-      "name": "United States",
-      "rating": 1780
-    },
-    {
-      "rank": 29,
+      "rank": 28,
       "code": "CA",
       "name": "Canada",
       "rating": 1777
     },
     {
-      "rank": 30,
+      "rank": 29,
       "code": "RU",
       "name": "Russia",
       "rating": 1772
     },
     {
-      "rank": 31,
+      "rank": 30,
       "code": "KR",
       "name": "South Korea",
       "rating": 1771
+    },
+    {
+      "rank": 31,
+      "code": "SQ",
+      "name": "Scotland",
+      "rating": 1768
     },
     {
       "rank": 32,
@@ -1465,5 +1465,5 @@
       "rating": 369
     }
   ],
-  "scraped_at": "2026-06-19T17:55:57.502038+00:00"
+  "scraped_at": "2026-06-20T00:24:15.536498+00:00"
 }

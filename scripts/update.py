@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daily update pipeline (see PRD.md S8, S11). Phases 1-6 + 5c: scrapers, match model, tournament simulation, injury layer, editorial layer, calibration + change tracking, parser fallback."""
+"""Daily update pipeline (see PRD.md S8, S11). Phases 1-6 + 5c: scrapers, match model, tournament simulation, injury layer, editorial layer, calibration + change tracking, parser fallback, top scorer model."""
 
 import json
 from datetime import datetime, timezone
@@ -13,6 +13,7 @@ from model.movers import compute_movers, generate_movers_commentary
 from model.previews import generate_previews
 from model.simulate import simulate_tournament
 from model.teams import TEAM_ALIASES
+from model.top_scorers import compute_top_scorers
 from scrapers.elo import (
     fetch_team_names,
     fetch_tournament_names,
@@ -127,6 +128,9 @@ def main() -> None:
     bracket = simulation["bracket"]
     bracket["generated_at"] = now
     _write_json("bracket.json", bracket)
+
+    top_scorers = compute_top_scorers(simulation["team_goals"], squads, injuries)
+    _write_json("top_scorers.json", {"generated_at": now, "scorers": top_scorers})
 
     movers = compute_movers(previous_probabilities, probabilities["teams"])
     movers = generate_movers_commentary(movers, raw_groups, results, injuries, now[:10])

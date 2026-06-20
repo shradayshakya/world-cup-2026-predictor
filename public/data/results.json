@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-19T17:55:57.502038+00:00",
+  "scraped_at": "2026-06-20T00:24:15.536498+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -189,11 +189,11 @@
       "date": "2026-06-19",
       "home_team": "Scotland",
       "away_team": "Morocco",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 0,
+      "away_score": 1,
       "venue": "Gillette Stadium, Foxborough",
-      "attendance": null,
+      "attendance": 64146,
       "referee": "Ilgiz Tantashev (Uzbekistan)"
     },
     {
@@ -267,11 +267,11 @@
       "date": "2026-06-19",
       "home_team": "United States",
       "away_team": "Australia",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 0,
       "venue": "Lumen Field, Seattle",
-      "attendance": null,
+      "attendance": 66925,
       "referee": "Felix Zwayer (Germany)"
     },
     {

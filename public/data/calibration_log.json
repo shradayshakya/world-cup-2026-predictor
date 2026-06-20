@@ -63,12 +63,44 @@
       "brier_score": 0.1525,
       "log_loss": 0.3807,
       "scoreline_correct": false
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "Scotland",
+      "away_team": "Morocco",
+      "predicted_home_score": 1,
+      "predicted_away_score": 1,
+      "home_win_probability": 0.3124,
+      "draw_probability": 0.2859,
+      "away_win_probability": 0.4016,
+      "actual_home_score": 0,
+      "actual_away_score": 1,
+      "actual_outcome": "away",
+      "brier_score": 0.5374,
+      "log_loss": 0.9123,
+      "scoreline_correct": false
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "United States",
+      "away_team": "Australia",
+      "predicted_home_score": 1,
+      "predicted_away_score": 1,
+      "home_win_probability": 0.3934,
+      "draw_probability": 0.2878,
+      "away_win_probability": 0.3188,
+      "actual_home_score": 2,
+      "actual_away_score": 0,
+      "actual_outcome": "home",
+      "brier_score": 0.5524,
+      "log_loss": 0.9329,
+      "scoreline_correct": false
     }
   ],
   "summary": {
-    "n": 4,
-    "avg_brier_score": 0.3515,
-    "avg_log_loss": 0.6034,
+    "n": 6,
+    "avg_brier_score": 0.416,
+    "avg_log_loss": 0.7098,
     "scoreline_accuracy": 0.0
   }
 }

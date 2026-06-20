@@ -122,7 +122,7 @@ def _resolve_selector(selector: tuple, group_rankings: dict, third_assignment: d
     return group_rankings[third_assignment[node_key]][2]  # selector_type == "third"
 
 
-def _simulate_knockout_match(home, away, elo_by_name, host_by_team, grid_cache, rng, np_rng):
+def _simulate_knockout_match(home, away, elo_by_name, host_by_team, grid_cache, rng, np_rng, team_goals):
     key = (home, away)
     if key not in grid_cache:
         home_rating = resolve_rating(home, elo_by_name)
@@ -139,6 +139,9 @@ def _simulate_knockout_match(home, away, elo_by_name, host_by_team, grid_cache, 
         et_hg, et_ag = sample_score(grid_cache[et_key], np_rng)
         hg, ag = hg + et_hg, ag + et_ag
 
+    team_goals[home] += hg
+    team_goals[away] += ag
+
     if hg == ag:
         elo_diff = (home_rating + (HOME_ADVANTAGE_ELO if host_by_team.get(home) else 0)) - (
             away_rating + (HOME_ADVANTAGE_ELO if host_by_team.get(away) else 0)
@@ -150,8 +153,11 @@ def _simulate_knockout_match(home, away, elo_by_name, host_by_team, grid_cache, 
     return (winner, away if winner == home else home)
 
 
-def _simulate_round(matchups, elo_by_name, host_by_team, grid_cache, rng, np_rng):
-    return [_simulate_knockout_match(home, away, elo_by_name, host_by_team, grid_cache, rng, np_rng) for home, away in matchups]
+def _simulate_round(matchups, elo_by_name, host_by_team, grid_cache, rng, np_rng, team_goals):
+    return [
+        _simulate_knockout_match(home, away, elo_by_name, host_by_team, grid_cache, rng, np_rng, team_goals)
+        for home, away in matchups
+    ]
 
 
 def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n_simulations: int = N_SIMULATIONS) -> dict:
@@ -196,6 +202,19 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
         if away_sel[0] == "third":
             slot_candidates[(slot_idx, "away")] = away_sel[1]
 
+    # PRD.md S6.5: "aggregate over Monte Carlo simulations" -- the loop below already
+    # samples a real (home_goals, away_goals) for every match, both remaining group
+    # matches and every knockout match, so tracking each team's total simulated goals
+    # here for free captures "a team expected to go deep gets more scoring chances,"
+    # which a static sum over matches.json (which skips all undetermined knockout
+    # fixtures) would miss entirely.
+    already_played_team_goals = {t: 0 for t in wc_teams}
+    for letter in GROUP_LETTERS:
+        for m in played_by_group[letter]:
+            already_played_team_goals[m["home_team"]] += m["home_score"]
+            already_played_team_goals[m["away_team"]] += m["away_score"]
+    team_goals_total = {t: n_simulations * already_played_team_goals[t] for t in wc_teams}
+
     stage_counts = {t: Counter() for t in wc_teams}
     slot_occupancy = {
         "round_of_32": [{"home": Counter(), "away": Counter()} for _ in range(len(ROUND_OF_32_SLOTS))],
@@ -210,6 +229,7 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
     knockout_grid_cache = {}
 
     for _ in range(n_simulations):
+        team_goals_this_sim = defaultdict(int)
         group_rankings = {}
         group_stats = {}
         for letter in GROUP_LETTERS:
@@ -220,6 +240,8 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
                 hg, ag = sample_score(grid, np_rng)
                 _apply_result(stats, m["home_team"], m["away_team"], hg, ag)
                 match_log.append((m["home_team"], m["away_team"], hg, ag))
+                team_goals_this_sim[m["home_team"]] += hg
+                team_goals_this_sim[m["away_team"]] += ag
             ranking = _rank_group(group_teams[letter], stats, match_log, rng)
             group_rankings[letter] = ranking
             group_stats[letter] = stats
@@ -257,28 +279,28 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
             stage_counts[home]["advanced_to_r32"] += 1
             stage_counts[away]["advanced_to_r32"] += 1
 
-        r32_results = _simulate_round(r32_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
+        r32_results = _simulate_round(r32_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng, team_goals_this_sim)
         r32_winners = [w for w, _ in r32_results]
         for w in r32_winners:
             stage_counts[w]["reached_r16"] += 1
 
         r16_matchups = [(r32_winners[a], r32_winners[b]) for a, b in R16_CONNECTIVITY]
         _record_occupancy(slot_occupancy["round_of_16"], r16_matchups)
-        r16_results = _simulate_round(r16_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
+        r16_results = _simulate_round(r16_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng, team_goals_this_sim)
         r16_winners = [w for w, _ in r16_results]
         for w in r16_winners:
             stage_counts[w]["reached_qf"] += 1
 
         qf_matchups = [(r16_winners[a], r16_winners[b]) for a, b in QF_CONNECTIVITY]
         _record_occupancy(slot_occupancy["quarter_finals"], qf_matchups)
-        qf_results = _simulate_round(qf_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
+        qf_results = _simulate_round(qf_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng, team_goals_this_sim)
         qf_winners = [w for w, _ in qf_results]
         for w in qf_winners:
             stage_counts[w]["reached_sf"] += 1
 
         sf_matchups = [(qf_winners[a], qf_winners[b]) for a, b in SF_CONNECTIVITY]
         _record_occupancy(slot_occupancy["semi_finals"], sf_matchups)
-        sf_results = _simulate_round(sf_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
+        sf_results = _simulate_round(sf_matchups, elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng, team_goals_this_sim)
         sf_winners = [w for w, _ in sf_results]
         sf_losers = [l for _, l in sf_results]
         for w in sf_winners:
@@ -286,13 +308,20 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
 
         final_matchup = (sf_winners[FINAL_CONNECTIVITY[0]], sf_winners[FINAL_CONNECTIVITY[1]])
         _record_occupancy([slot_occupancy["final"]], [final_matchup])
-        (champion, _runner_up), = _simulate_round([final_matchup], elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
+        (champion, _runner_up), = _simulate_round(
+            [final_matchup], elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng, team_goals_this_sim
+        )
         stage_counts[champion]["won_tournament"] += 1
 
         third_place_matchup = (sf_losers[THIRD_PLACE_CONNECTIVITY[0]], sf_losers[THIRD_PLACE_CONNECTIVITY[1]])
         _record_occupancy([slot_occupancy["third_place"]], [third_place_matchup])
-        (third_place_winner, _fourth), = _simulate_round([third_place_matchup], elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng)
+        (third_place_winner, _fourth), = _simulate_round(
+            [third_place_matchup], elo_by_name, host_by_team, knockout_grid_cache, rng, np_rng, team_goals_this_sim
+        )
         stage_counts[third_place_winner]["won_third_place_match"] += 1
+
+        for t, g in team_goals_this_sim.items():
+            team_goals_total[t] += g
 
     teams_output = {
         team: {stage: round(count / n_simulations, 4) for stage, count in counts.items()} for team, counts in stage_counts.items()
@@ -305,9 +334,11 @@ def simulate_tournament(elo: dict, groups: dict, results: dict, matches: dict, n
         "final": _slot_summary(slot_occupancy["final"], n_simulations),
         "third_place": _slot_summary(slot_occupancy["third_place"], n_simulations),
     }
+    team_goals_output = {t: round(team_goals_total[t] / n_simulations, 2) for t in wc_teams}
     return {
         "probabilities": {"n_simulations": n_simulations, "teams": teams_output},
         "bracket": bracket_output,
+        "team_goals": team_goals_output,
     }
 
 

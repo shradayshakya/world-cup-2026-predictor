@@ -253,3 +253,16 @@ export interface MaintenanceData {
   generated_at: string;
   issues: MaintenanceIssue[];
 }
+
+export interface TopScorerEntry {
+  player: string;
+  team: string;
+  position: string;
+  historical_goals: number;
+  predicted_goals: number;
+}
+
+export interface TopScorersData {
+  generated_at: string;
+  scorers: TopScorerEntry[];
+}
