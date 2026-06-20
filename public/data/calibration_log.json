@@ -107,13 +107,31 @@
       "scoreline_correct": false,
       "predicted_outcome": "home",
       "outcome_correct": true
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "Brazil",
+      "away_team": "Haiti",
+      "predicted_home_score": 3,
+      "predicted_away_score": 0,
+      "home_win_probability": 0.9225,
+      "draw_probability": 0.0604,
+      "away_win_probability": 0.0171,
+      "predicted_outcome": "home",
+      "actual_home_score": 3,
+      "actual_away_score": 0,
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "brier_score": 0.0099,
+      "log_loss": 0.0807,
+      "scoreline_correct": true
     }
   ],
   "summary": {
-    "n": 6,
-    "avg_brier_score": 0.416,
-    "avg_log_loss": 0.7098,
-    "scoreline_accuracy": 0.0,
-    "outcome_accuracy": 0.8333
+    "n": 7,
+    "avg_brier_score": 0.358,
+    "avg_log_loss": 0.6199,
+    "scoreline_accuracy": 0.1429,
+    "outcome_accuracy": 0.8571
   }
 }

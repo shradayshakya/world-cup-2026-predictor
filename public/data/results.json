@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-20T01:48:24.642056+00:00",
+  "scraped_at": "2026-06-20T03:25:07.832957+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -202,11 +202,11 @@
       "date": "2026-06-19",
       "home_team": "Brazil",
       "away_team": "Haiti",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 3,
+      "away_score": 0,
       "venue": "Lincoln Financial Field, Philadelphia",
-      "attendance": null,
+      "attendance": 68324,
       "referee": "Alejandro Hernández Hernández (Spain)"
     },
     {

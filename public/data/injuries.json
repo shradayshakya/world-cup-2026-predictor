@@ -1,28 +1,13 @@
 {
-  "generated_at": "2026-06-20T02:45:04.322269+00:00",
+  "generated_at": "2026-06-20T03:25:07.832957+00:00",
   "teams": {
-    "Brazil": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Neymar",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
-          "first_reported": "2026-06-18",
-          "expires_on": null
-        }
-      ]
-    },
     "England": {
-      "elo_penalty": -22.5,
+      "elo_penalty": -37.5,
       "absences": [
         {
           "player": "Bukayo Saka",
           "status": "doubt",
-          "until": null,
+          "until": "match against Ghana",
           "key_player": true,
           "source_title": "England winger Saka unlikely to start against Ghana",
           "source_link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
@@ -31,7 +16,7 @@
         },
         {
           "player": "Declan Rice",
-          "status": "doubt",
+          "status": "out",
           "until": null,
           "key_player": true,
           "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
@@ -41,26 +26,11 @@
         },
         {
           "player": "Harry Kane",
-          "status": "doubt",
+          "status": "out",
           "until": null,
           "key_player": true,
           "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
           "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
-          "first_reported": "2026-06-20",
-          "expires_on": null
-        }
-      ]
-    },
-    "Canada": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Ismaël Koné",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Canada score six but historic win marred by Kone injury",
-          "source_link": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-06-20",
           "expires_on": null
         }
@@ -76,6 +46,51 @@
           "key_player": true,
           "source_title": "Morocco captain Hakimi to stand trial for rape",
           "source_link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-20",
+          "expires_on": null
+        }
+      ]
+    },
+    "United States": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Christian Pulisic",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Pulisic sits but U.S. finds a way vs. Australia to...",
+          "source_link": "https://www.espn.com/soccer/story/_/id/49119070/christian-pulisic-sits-us-finds-way-vs-australia-reach-world-cup-knockout-rounds",
+          "first_reported": "2026-06-20",
+          "expires_on": null
+        }
+      ]
+    },
+    "Brazil": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Neymar",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
+          "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
+          "first_reported": "2026-06-18",
+          "expires_on": null
+        }
+      ]
+    },
+    "Canada": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Ismaël Koné",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Canada score six but historic win marred by Kone injury",
+          "source_link": "https://www.bbc.com/sport/football/videos/ckg7nx6kg51o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-06-20",
           "expires_on": null
         }

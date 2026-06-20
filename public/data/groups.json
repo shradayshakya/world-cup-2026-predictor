@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-20T01:48:24.642056+00:00",
+  "scraped_at": "2026-06-20T03:25:07.832957+00:00",
   "groups": {
     "A": [
       {
@@ -120,6 +120,20 @@
     "C": [
       {
         "position": 1,
+        "team": "Brazil",
+        "host": false,
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "goals_for": 4,
+        "goals_against": 1,
+        "goal_difference": 3,
+        "points": 4,
+        "qualification_note": "Knockout stage"
+      },
+      {
+        "position": 2,
         "team": "Morocco",
         "host": false,
         "played": 2,
@@ -133,7 +147,7 @@
         "qualification_note": "Knockout stage"
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Scotland",
         "host": false,
         "played": 2,
@@ -144,33 +158,19 @@
         "goals_against": 1,
         "goal_difference": 0,
         "points": 3,
-        "qualification_note": "Knockout stage"
-      },
-      {
-        "position": 3,
-        "team": "Brazil",
-        "host": false,
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goals_for": 1,
-        "goals_against": 1,
-        "goal_difference": 0,
-        "points": 1,
         "qualification_note": "Possible knockout stage based on ranking"
       },
       {
         "position": 4,
         "team": "Haiti",
         "host": false,
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "goals_for": 0,
-        "goals_against": 1,
-        "goal_difference": -1,
+        "goals_against": 4,
+        "goal_difference": -4,
         "points": 0,
         "qualification_note": ""
       }

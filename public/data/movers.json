@@ -1,35 +1,57 @@
 {
-  "generated_at": "2026-06-20T02:45:04.322269+00:00",
+  "generated_at": "2026-06-20T03:25:07.832957+00:00",
   "movers": [
     {
-      "team": "Brazil",
-      "previous_pct": 2.85,
-      "current_pct": 2.13,
-      "delta_pp": -0.7200000000000002,
+      "team": "England",
+      "previous_pct": 6.61,
+      "current_pct": 5.24,
+      "delta_pp": -1.37,
       "direction": "loser",
-      "blurb": "The model adjusted Brazil's chances following the confirmation of key absences. The loss of Neymar, a high-profile player, was accounted for in our calculations, leading to a downward revision of the team's probability of winning the 2026 FIFA World Cup.",
+      "blurb": "England's probability fell due to critical personnel issues. Key absences include Declan Rice and Harry Kane being out, with Bukayo Saka listed as a doubt. The combined impact of these injuries has decreased the model's projection for their title chances.",
       "sources": [
         {
-          "label": "Brazil",
-          "href": "/teams/brazil"
+          "label": "England",
+          "href": "/teams/england"
         },
         {
-          "label": "Brazil's Neymar (calf injury) also out vs. Haiti",
-          "href": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages"
+          "label": "England winger Saka unlikely to start against Ghana",
+          "href": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
         }
       ]
     },
     {
       "team": "Spain",
-      "previous_pct": 28.32,
-      "current_pct": 28.970000000000002,
-      "delta_pp": 0.6500000000000021,
+      "previous_pct": 28.970000000000002,
+      "current_pct": 29.54,
+      "delta_pp": 0.5699999999999967,
       "direction": "gainer",
-      "blurb": "Our model indicates a slight improvement in Spain's likelihood of winning the tournament. As there have been no reported injuries or recent performance changes since the last update, this rise reflects an internal shift within our overall predictive assessment.",
+      "blurb": "Spain's probability has slightly increased. As there have been no relevant results since the last update and no reported injuries or absences, this marginal shift reflects an internal adjustment within our prediction model.",
       "sources": [
         {
           "label": "Spain",
           "href": "/teams/spain"
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "previous_pct": 15.120000000000001,
+      "current_pct": 15.64,
+      "delta_pp": 0.5199999999999996,
+      "direction": "gainer",
+      "blurb": "France's probability of winning the 2026 World Cup has risen slightly, despite having no relevant results or reported injuries since the last update. Our predictive model has recalibrated its internal scoring mechanism, shifting the estimate upward from 15.1% to 15.6%.",
+      "sources": [
+        {
+          "label": "France",
+          "href": "/teams/france"
         }
       ]
     }
