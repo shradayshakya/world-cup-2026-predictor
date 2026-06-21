@@ -1,31 +1,45 @@
 {
-  "generated_at": "2026-06-20T06:15:03.814984+00:00",
+  "generated_at": "2026-06-21T06:15:03.539353+00:00",
   "movers": [
     {
-      "team": "Argentina",
-      "previous_pct": 26.26,
-      "current_pct": 26.779999999999998,
-      "delta_pp": 0.519999999999996,
+      "team": "Germany",
+      "previous_pct": 2.4299999999999997,
+      "current_pct": 3.5000000000000004,
+      "delta_pp": 1.0700000000000007,
       "direction": "gainer",
-      "blurb": "The model updated its probability estimate for Argentina, resulting in a slight rise to 26.8%. This shift occurred despite there being no reported injuries or relevant results since the last calculation update that would specifically drive the odds change.",
+      "blurb": "Since there have been no recent match results or changes in the squad composition, our prediction model registered a general shift in team performance estimation, resulting in an increased probability for Germany's title aspirations.",
       "sources": [
         {
-          "label": "Argentina",
-          "href": "/teams/argentina"
+          "label": "Germany",
+          "href": "/teams/germany"
         }
       ]
     },
     {
-      "team": "Spain",
-      "previous_pct": 29.54,
-      "current_pct": 29.04,
-      "delta_pp": -0.5,
+      "team": "France",
+      "previous_pct": 15.590000000000002,
+      "current_pct": 14.649999999999999,
+      "delta_pp": -0.940000000000003,
       "direction": "loser",
-      "blurb": "The slight decrease in probability reflects an internal calibration within our prediction model. As there have been no reported negative results or changes in squad availability since the last update, this shift represents a subtle adjustment to the team's overall valuation before further data is introduced.",
+      "blurb": "France's calculated probability of winning has slightly decreased. As no recent results or player status changes have occurred, this shift reflects an internal recalibration within our prediction model based on evolving performance projections.",
       "sources": [
         {
-          "label": "Spain",
-          "href": "/teams/spain"
+          "label": "France",
+          "href": "/teams/france"
+        }
+      ]
+    },
+    {
+      "team": "Netherlands",
+      "previous_pct": 1.31,
+      "current_pct": 1.8800000000000001,
+      "delta_pp": 0.5700000000000001,
+      "direction": "gainer",
+      "blurb": "The model's estimate for the Netherlands' title probability has increased since the last update. As there are no relevant match results or reported injuries, this shift reflects an internal adjustment in our predictive weighting of the team's underlying capabilities.",
+      "sources": [
+        {
+          "label": "Netherlands",
+          "href": "/teams/netherlands"
         }
       ]
     }

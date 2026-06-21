@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-06-20T06:15:03.814984+00:00",
+  "generated_at": "2026-06-21T06:15:03.539353+00:00",
   "teams": {
+    "Belgium": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Jérémy Doku",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Doku criticised over plan to return home for birth",
+          "source_link": "https://www.bbc.com/sport/football/articles/c74ywv08ylpo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-21",
+          "expires_on": null
+        }
+      ]
+    },
+    "Spain": {
+      "elo_penalty": 0.0,
+      "absences": [
+        {
+          "player": "Borja Iglesias",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+          "source_link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
+          "first_reported": "2026-06-21",
+          "expires_on": null
+        }
+      ]
+    },
+    "United States": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Christian Pulisic",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Pulisic sits, but U.S. finds a way vs. Australia t...",
+          "source_link": "https://www.espn.com/soccer/story/_/id/49119070/christian-pulisic-sits-us-finds-way-vs-australia-reach-world-cup-knockout-rounds",
+          "first_reported": "2026-06-21",
+          "expires_on": null
+        }
+      ]
+    },
     "England": {
       "elo_penalty": -37.5,
       "absences": [
@@ -46,21 +91,6 @@
           "key_player": true,
           "source_title": "Morocco captain Hakimi to stand trial for rape",
           "source_link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-20",
-          "expires_on": null
-        }
-      ]
-    },
-    "United States": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Christian Pulisic",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Pulisic sits but U.S. finds a way vs. Australia to...",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49119070/christian-pulisic-sits-us-finds-way-vs-australia-reach-world-cup-knockout-rounds",
           "first_reported": "2026-06-20",
           "expires_on": null
         }

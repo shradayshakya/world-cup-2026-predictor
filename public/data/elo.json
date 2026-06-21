@@ -34,25 +34,25 @@
       "rank": 6,
       "code": "BR",
       "name": "Brazil",
-      "rating": 1978
+      "rating": 1986
     },
     {
       "rank": 7,
+      "code": "NL",
+      "name": "Netherlands",
+      "rating": 1972
+    },
+    {
+      "rank": 8,
       "code": "PT",
       "name": "Portugal",
       "rating": 1967
     },
     {
-      "rank": 8,
-      "code": "NL",
-      "name": "Netherlands",
-      "rating": 1944
-    },
-    {
       "rank": 9,
       "code": "DE",
       "name": "Germany",
-      "rating": 1939
+      "rating": 1954
     },
     {
       "rank": 10,
@@ -128,36 +128,36 @@
     },
     {
       "rank": 22,
-      "code": "TR",
-      "name": "Turkey",
-      "rating": 1849
-    },
-    {
-      "rank": 23,
       "code": "SN",
       "name": "Senegal",
       "rating": 1839
     },
     {
-      "rank": 24,
+      "rank": 23,
       "code": "US",
       "name": "United States",
       "rating": 1820
     },
     {
+      "rank": 24,
+      "code": "PY",
+      "name": "Paraguay",
+      "rating": 1816
+    },
+    {
       "rank": 25,
+      "code": "TR",
+      "name": "Turkey",
+      "rating": 1813
+    },
+    {
+      "rank": 26,
       "code": "AU",
       "name": "Australia",
       "rating": 1799
     },
     {
-      "rank": 26,
-      "code": "PY",
-      "name": "Paraguay",
-      "rating": 1780
-    },
-    {
-      "rank": 26,
+      "rank": 27,
       "code": "UA",
       "name": "Ukraine",
       "rating": 1780
@@ -206,33 +206,33 @@
     },
     {
       "rank": 35,
-      "code": "SE",
-      "name": "Sweden",
-      "rating": 1755
-    },
-    {
-      "rank": 36,
       "code": "GR",
       "name": "Greece",
       "rating": 1744
     },
     {
-      "rank": 37,
-      "code": "CI",
-      "name": "Ivory Coast",
-      "rating": 1743
-    },
-    {
-      "rank": 38,
+      "rank": 36,
       "code": "RS",
       "name": "Serbia",
       "rating": 1734
     },
     {
-      "rank": 39,
+      "rank": 37,
       "code": "VE",
       "name": "Venezuela",
       "rating": 1733
+    },
+    {
+      "rank": 38,
+      "code": "CI",
+      "name": "Ivory Coast",
+      "rating": 1728
+    },
+    {
+      "rank": 39,
+      "code": "SE",
+      "name": "Sweden",
+      "rating": 1727
     },
     {
       "rank": 40,
@@ -457,16 +457,16 @@
       "rating": 1536
     },
     {
-      "rank": 76,
-      "code": "HT",
-      "name": "Haiti",
-      "rating": 1536
-    },
-    {
-      "rank": 78,
+      "rank": 77,
       "code": "BF",
       "name": "Burkina Faso",
       "rating": 1529
+    },
+    {
+      "rank": 78,
+      "code": "HT",
+      "name": "Haiti",
+      "rating": 1528
     },
     {
       "rank": 79,
@@ -1465,5 +1465,5 @@
       "rating": 369
     }
   ],
-  "scraped_at": "2026-06-20T06:15:03.814984+00:00"
+  "scraped_at": "2026-06-21T06:15:03.539353+00:00"
 }

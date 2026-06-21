@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-20T06:15:03.814984+00:00",
+  "scraped_at": "2026-06-21T06:15:03.539353+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -337,7 +337,7 @@
       "away_score": 0,
       "venue": "Lincoln Financial Field, Philadelphia",
       "attendance": 68274,
-      "referee": "François Letexier (France) [ R ]"
+      "referee": "François Letexier (France) [ S ]"
     },
     {
       "round": "Group stage",
@@ -345,11 +345,11 @@
       "date": "2026-06-20",
       "home_team": "Germany",
       "away_team": "Ivory Coast",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 1,
       "venue": "BMO Field, Toronto",
-      "attendance": null,
+      "attendance": 43036,
       "referee": "Juan Gabriel Benítez (Paraguay)"
     },
     {
@@ -358,11 +358,11 @@
       "date": "2026-06-20",
       "home_team": "Ecuador",
       "away_team": "Curaçao",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 0,
+      "away_score": 0,
       "venue": "Arrowhead Stadium, Kansas City",
-      "attendance": null,
+      "attendance": 68598,
       "referee": "Ma Ning (China)"
     },
     {
@@ -423,11 +423,11 @@
       "date": "2026-06-20",
       "home_team": "Netherlands",
       "away_team": "Sweden",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 5,
+      "away_score": 1,
       "venue": "NRG Stadium, Houston",
-      "attendance": null,
+      "attendance": 68777,
       "referee": "Michael Oliver (England)"
     },
     {
@@ -436,11 +436,11 @@
       "date": "2026-06-20",
       "home_team": "Tunisia",
       "away_team": "Japan",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 0,
+      "away_score": 4,
       "venue": "Estadio BBVA, Guadalupe",
-      "attendance": null,
+      "attendance": 51243,
       "referee": "István Kovács (Romania)"
     },
     {
@@ -818,7 +818,7 @@
       "away_score": null,
       "venue": "NRG Stadium, Houston",
       "attendance": null,
-      "referee": null
+      "referee": "Jalal Jayed (Morocco)"
     },
     {
       "round": "Group stage",
@@ -831,7 +831,7 @@
       "away_score": null,
       "venue": "Estadio Akron, Zapopan",
       "attendance": null,
-      "referee": null
+      "referee": "Maurizio Mariani (Italy)"
     },
     {
       "round": "Group stage",
@@ -896,7 +896,7 @@
       "away_score": null,
       "venue": "Gillette Stadium, Foxborough",
       "attendance": null,
-      "referee": null
+      "referee": "Saíd Martínez (Honduras)"
     },
     {
       "round": "Group stage",
@@ -909,7 +909,7 @@
       "away_score": null,
       "venue": "BMO Field, Toronto",
       "attendance": null,
-      "referee": null
+      "referee": "Pierre Atcho (Gabon)"
     },
     {
       "round": "Group stage",
@@ -967,7 +967,7 @@
       "round": "Round of 32",
       "group": null,
       "date": "2026-06-29",
-      "home_team": "Winner Group E",
+      "home_team": "Germany",
       "away_team": "3rd Group A/B/C/D/F",
       "played": false,
       "home_score": null,
