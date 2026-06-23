@@ -1,6 +1,21 @@
 {
-  "generated_at": "2026-06-21T06:15:03.539353+00:00",
+  "generated_at": "2026-06-23T03:40:14.166030+00:00",
   "teams": {
+    "Germany": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Nico Schlotterbeck",
+          "status": "out",
+          "until": "rest of the World Cup",
+          "key_player": true,
+          "source_title": "Germany defender Schlotterbeck out of World Cup",
+          "source_link": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-23",
+          "expires_on": "2026-08-22"
+        }
+      ]
+    },
     "Belgium": {
       "elo_penalty": -15.0,
       "absences": [
@@ -26,21 +41,6 @@
           "key_player": false,
           "source_title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
           "source_link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
-          "first_reported": "2026-06-21",
-          "expires_on": null
-        }
-      ]
-    },
-    "United States": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Christian Pulisic",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Pulisic sits, but U.S. finds a way vs. Australia t...",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49119070/christian-pulisic-sits-us-finds-way-vs-australia-reach-world-cup-knockout-rounds",
           "first_reported": "2026-06-21",
           "expires_on": null
         }

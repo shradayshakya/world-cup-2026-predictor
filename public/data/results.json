@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-21T06:15:03.539353+00:00",
+  "scraped_at": "2026-06-23T03:40:14.166030+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -64,7 +64,7 @@
       "away_score": null,
       "venue": "Estadio Azteca, Mexico City",
       "attendance": null,
-      "referee": null
+      "referee": "Yael Falcón (Argentina)"
     },
     {
       "round": "Group stage",
@@ -77,7 +77,7 @@
       "away_score": null,
       "venue": "Estadio BBVA, Guadalupe",
       "attendance": null,
-      "referee": null
+      "referee": "Facundo Tello (Argentina)"
     },
     {
       "round": "Group stage",
@@ -142,7 +142,7 @@
       "away_score": null,
       "venue": "BC Place, Vancouver",
       "attendance": null,
-      "referee": null
+      "referee": "Ramon Abatti (Brazil)"
     },
     {
       "round": "Group stage",
@@ -155,7 +155,7 @@
       "away_score": null,
       "venue": "Lumen Field, Seattle",
       "attendance": null,
-      "referee": null
+      "referee": "Jesús Valenzuela (Venezuela)"
     },
     {
       "round": "Group stage",
@@ -220,7 +220,7 @@
       "away_score": null,
       "venue": "Hard Rock Stadium, Miami Gardens",
       "attendance": null,
-      "referee": null
+      "referee": "César Arturo Ramos (Mexico)"
     },
     {
       "round": "Group stage",
@@ -233,7 +233,7 @@
       "away_score": null,
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "attendance": null,
-      "referee": null
+      "referee": "Danny Makkelie (Netherlands)"
     },
     {
       "round": "Group stage",
@@ -298,7 +298,7 @@
       "away_score": null,
       "venue": "SoFi Stadium, Inglewood",
       "attendance": null,
-      "referee": null
+      "referee": "Mustapha Ghorbal (Algeria)"
     },
     {
       "round": "Group stage",
@@ -311,7 +311,7 @@
       "away_score": null,
       "venue": "Levi's Stadium, Santa Clara",
       "attendance": null,
-      "referee": null
+      "referee": "Clément Turpin (France)"
     },
     {
       "round": "Group stage",
@@ -376,7 +376,7 @@
       "away_score": null,
       "venue": "Lincoln Financial Field, Philadelphia",
       "attendance": null,
-      "referee": null
+      "referee": "Glenn Nyberg (Sweden)"
     },
     {
       "round": "Group stage",
@@ -389,7 +389,7 @@
       "away_score": null,
       "venue": "MetLife Stadium, East Rutherford",
       "attendance": null,
-      "referee": null
+      "referee": "Tori Penso (United States)"
     },
     {
       "round": "Group stage",
@@ -454,7 +454,7 @@
       "away_score": null,
       "venue": "AT&T Stadium, Arlington",
       "attendance": null,
-      "referee": null
+      "referee": "Iván Barton (El Salvador)"
     },
     {
       "round": "Group stage",
@@ -467,7 +467,7 @@
       "away_score": null,
       "venue": "Arrowhead Stadium, Kansas City",
       "attendance": null,
-      "referee": null
+      "referee": "Katia Itzel García (Mexico)"
     },
     {
       "round": "Group stage",
@@ -501,11 +501,11 @@
       "date": "2026-06-21",
       "home_team": "Belgium",
       "away_team": "Iran",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 0,
+      "away_score": 0,
       "venue": "SoFi Stadium, Inglewood",
-      "attendance": null,
+      "attendance": 70317,
       "referee": "Darío Herrera (Argentina)"
     },
     {
@@ -514,11 +514,11 @@
       "date": "2026-06-21",
       "home_team": "New Zealand",
       "away_team": "Egypt",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 3,
       "venue": "BC Place, Vancouver",
-      "attendance": null,
+      "attendance": 52497,
       "referee": "Omar Al Ali (United Arab Emirates)"
     },
     {
@@ -579,11 +579,11 @@
       "date": "2026-06-21",
       "home_team": "Spain",
       "away_team": "Saudi Arabia",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 4,
+      "away_score": 0,
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "attendance": null,
+      "attendance": 68239,
       "referee": "Raphael Claus (Brazil)"
     },
     {
@@ -592,11 +592,11 @@
       "date": "2026-06-21",
       "home_team": "Uruguay",
       "away_team": "Cape Verde",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 2,
       "venue": "Hard Rock Stadium, Miami Gardens",
-      "attendance": null,
+      "attendance": 64003,
       "referee": "Espen Eskås (Norway)"
     },
     {
@@ -657,11 +657,11 @@
       "date": "2026-06-22",
       "home_team": "France",
       "away_team": "Iraq",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 3,
+      "away_score": 0,
       "venue": "Lincoln Financial Field, Philadelphia",
-      "attendance": null,
+      "attendance": 68324,
       "referee": "Drew Fischer (Canada)"
     },
     {
@@ -670,11 +670,11 @@
       "date": "2026-06-22",
       "home_team": "Norway",
       "away_team": "Senegal",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 3,
+      "away_score": 2,
       "venue": "MetLife Stadium, East Rutherford",
-      "attendance": null,
+      "attendance": 80663,
       "referee": "Wilton Sampaio (Brazil)"
     },
     {
@@ -735,11 +735,11 @@
       "date": "2026-06-22",
       "home_team": "Argentina",
       "away_team": "Austria",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 0,
       "venue": "AT&T Stadium, Arlington",
-      "attendance": null,
+      "attendance": 70649,
       "referee": "Amin Omar (Egypt)"
     },
     {

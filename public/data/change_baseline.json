@@ -1,598 +1,580 @@
 {
-  "generated_at": "2026-06-21T06:15:03.539353+00:00",
+  "generated_at": "2026-06-23T03:40:14.166030+00:00",
   "teams": {
     "Algeria": {
-      "group_third": 0.5391,
-      "group_third_advanced": 0.3384,
-      "advanced_to_r32": 0.5494,
-      "reached_r16": 0.1252,
-      "group_fourth": 0.2499,
-      "group_runner_up": 0.2102,
-      "reached_qf": 0.0359,
-      "reached_sf": 0.0045,
-      "reached_final": 0.0011,
-      "group_winner": 0.0008,
-      "won_third_place_match": 0.0005,
-      "won_tournament": 0.0
+      "group_runner_up": 0.2364,
+      "advanced_to_r32": 0.5806,
+      "group_fourth": 0.242,
+      "group_third": 0.5216,
+      "group_third_advanced": 0.3441,
+      "reached_r16": 0.1328,
+      "reached_qf": 0.0346,
+      "reached_sf": 0.004,
+      "reached_final": 0.0007,
+      "won_third_place_match": 0.0003,
+      "won_tournament": 0.0001,
+      "group_winner": 0.0001
     },
     "Argentina": {
-      "group_winner": 0.9304,
-      "advanced_to_r32": 0.9999,
-      "reached_r16": 0.8516,
-      "reached_qf": 0.7528,
-      "reached_sf": 0.5968,
-      "reached_final": 0.4086,
-      "won_tournament": 0.2657,
-      "won_third_place_match": 0.1466,
-      "group_runner_up": 0.0684,
-      "group_fourth": 0.0001,
-      "group_third": 0.0011,
-      "group_third_advanced": 0.0011
+      "group_winner": 0.9996,
+      "advanced_to_r32": 1.0,
+      "reached_r16": 0.9676,
+      "reached_qf": 0.8759,
+      "reached_sf": 0.7147,
+      "won_third_place_match": 0.1707,
+      "reached_final": 0.5,
+      "won_tournament": 0.328,
+      "group_runner_up": 0.0004,
+      "group_third": 0.0,
+      "group_third_advanced": 0.0
     },
     "Australia": {
-      "group_runner_up": 0.6135,
-      "advanced_to_r32": 0.9324,
-      "reached_r16": 0.4216,
-      "group_third": 0.3439,
-      "group_third_advanced": 0.3148,
-      "reached_qf": 0.1109,
-      "group_fourth": 0.0385,
-      "reached_sf": 0.017,
-      "reached_final": 0.0025,
-      "group_winner": 0.0042,
-      "won_third_place_match": 0.0039,
-      "won_tournament": 0.0004
+      "group_runner_up": 0.6163,
+      "advanced_to_r32": 0.945,
+      "group_third": 0.3442,
+      "group_third_advanced": 0.3246,
+      "reached_r16": 0.3809,
+      "group_fourth": 0.0355,
+      "reached_qf": 0.1022,
+      "reached_sf": 0.0123,
+      "won_third_place_match": 0.002,
+      "group_winner": 0.004,
+      "reached_final": 0.0018,
+      "won_tournament": 0.0002
     },
     "Austria": {
-      "group_runner_up": 0.7111,
-      "advanced_to_r32": 0.9684,
-      "reached_r16": 0.2414,
-      "group_third": 0.214,
-      "group_third_advanced": 0.1887,
-      "reached_qf": 0.1021,
-      "group_winner": 0.0686,
-      "reached_sf": 0.0351,
-      "won_third_place_match": 0.0064,
-      "reached_final": 0.0111,
-      "group_fourth": 0.0063,
-      "won_tournament": 0.0019
+      "group_third": 0.2417,
+      "group_third_advanced": 0.2293,
+      "advanced_to_r32": 0.9838,
+      "reached_r16": 0.1945,
+      "group_runner_up": 0.7541,
+      "reached_qf": 0.0738,
+      "reached_sf": 0.0199,
+      "reached_final": 0.0068,
+      "won_tournament": 0.0008,
+      "group_fourth": 0.0038,
+      "won_third_place_match": 0.0029,
+      "group_winner": 0.0004
     },
     "Belgium": {
-      "group_runner_up": 0.2622,
-      "advanced_to_r32": 0.9437,
-      "group_winner": 0.5807,
-      "reached_r16": 0.5813,
-      "group_third": 0.117,
-      "group_third_advanced": 0.1008,
-      "reached_qf": 0.2419,
-      "group_fourth": 0.0401,
-      "reached_sf": 0.0507,
-      "reached_final": 0.0163,
-      "won_tournament": 0.0033,
-      "won_third_place_match": 0.0091
+      "group_runner_up": 0.5183,
+      "advanced_to_r32": 0.9499,
+      "reached_r16": 0.5417,
+      "reached_qf": 0.19,
+      "group_winner": 0.3577,
+      "reached_sf": 0.0298,
+      "reached_final": 0.0088,
+      "group_fourth": 0.0442,
+      "group_third": 0.0799,
+      "group_third_advanced": 0.0739,
+      "won_third_place_match": 0.0057,
+      "won_tournament": 0.0014
     },
     "Bosnia and Herzegovina": {
-      "group_third": 0.8161,
-      "group_third_advanced": 0.6085,
-      "advanced_to_r32": 0.6336,
-      "group_runner_up": 0.0251,
-      "group_fourth": 0.1588,
-      "reached_r16": 0.0438,
-      "reached_qf": 0.0052,
-      "reached_sf": 0.0002
+      "group_third": 0.8155,
+      "group_third_advanced": 0.6103,
+      "advanced_to_r32": 0.6356,
+      "group_fourth": 0.1592,
+      "reached_r16": 0.0448,
+      "group_runner_up": 0.0253,
+      "reached_qf": 0.0059,
+      "reached_sf": 0.0003,
+      "reached_final": 0.0
     },
     "Brazil": {
-      "group_third": 0.1149,
-      "group_third_advanced": 0.1149,
+      "group_winner": 0.5892,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.5685,
-      "reached_qf": 0.3065,
-      "reached_sf": 0.1693,
-      "won_third_place_match": 0.0465,
-      "group_winner": 0.5893,
-      "reached_final": 0.0658,
-      "group_runner_up": 0.2959,
-      "won_tournament": 0.0224
+      "reached_r16": 0.5522,
+      "reached_qf": 0.2848,
+      "reached_sf": 0.162,
+      "won_third_place_match": 0.0455,
+      "group_third": 0.1146,
+      "group_third_advanced": 0.1146,
+      "group_runner_up": 0.2962,
+      "reached_final": 0.0564,
+      "won_tournament": 0.019
     },
     "Canada": {
-      "group_runner_up": 0.3639,
+      "group_winner": 0.6377,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.6872,
-      "group_winner": 0.6349,
-      "reached_qf": 0.1815,
-      "reached_sf": 0.0708,
-      "won_third_place_match": 0.0168,
-      "reached_final": 0.018,
-      "won_tournament": 0.0042,
-      "group_third": 0.0012,
-      "group_third_advanced": 0.0012
+      "reached_r16": 0.6903,
+      "reached_qf": 0.1613,
+      "group_runner_up": 0.3613,
+      "reached_sf": 0.0622,
+      "reached_final": 0.0153,
+      "won_third_place_match": 0.0131,
+      "won_tournament": 0.0029,
+      "group_third": 0.001,
+      "group_third_advanced": 0.001
     },
     "Cape Verde": {
-      "group_fourth": 0.3803,
-      "group_third": 0.3842,
-      "group_third_advanced": 0.2301,
-      "advanced_to_r32": 0.4656,
-      "reached_r16": 0.0344,
-      "group_runner_up": 0.2209,
-      "group_winner": 0.0146,
-      "reached_qf": 0.0037,
-      "reached_sf": 0.0001
+      "group_runner_up": 0.6274,
+      "advanced_to_r32": 0.714,
+      "group_third": 0.2124,
+      "group_fourth": 0.1462,
+      "reached_r16": 0.0221,
+      "group_third_advanced": 0.0726,
+      "group_winner": 0.0139,
+      "reached_qf": 0.0027,
+      "reached_sf": 0.0002
     },
     "Colombia": {
-      "group_runner_up": 0.2581,
-      "advanced_to_r32": 0.9973,
-      "reached_r16": 0.8269,
-      "group_winner": 0.7086,
-      "group_third": 0.0313,
-      "group_third_advanced": 0.0306,
-      "reached_qf": 0.5913,
-      "reached_sf": 0.2477,
-      "reached_final": 0.1216,
-      "won_tournament": 0.0515,
-      "group_fourth": 0.0021,
-      "won_third_place_match": 0.0717
+      "group_winner": 0.7091,
+      "advanced_to_r32": 0.9978,
+      "reached_r16": 0.8368,
+      "reached_qf": 0.5834,
+      "reached_sf": 0.2003,
+      "reached_final": 0.0962,
+      "group_runner_up": 0.257,
+      "won_tournament": 0.0386,
+      "group_third": 0.0319,
+      "group_third_advanced": 0.0317,
+      "won_third_place_match": 0.0567,
+      "group_fourth": 0.002
     },
     "Croatia": {
-      "group_runner_up": 0.8594,
-      "advanced_to_r32": 0.9465,
-      "reached_r16": 0.4022,
-      "reached_qf": 0.0969,
-      "reached_sf": 0.045,
-      "reached_final": 0.017,
-      "group_fourth": 0.0295,
-      "group_third": 0.0956,
-      "group_third_advanced": 0.0717,
-      "won_third_place_match": 0.008,
-      "group_winner": 0.0155,
-      "won_tournament": 0.0033
+      "group_runner_up": 0.8563,
+      "advanced_to_r32": 0.9472,
+      "reached_r16": 0.399,
+      "group_third": 0.0982,
+      "group_third_advanced": 0.0752,
+      "reached_qf": 0.0851,
+      "group_fourth": 0.0298,
+      "reached_sf": 0.036,
+      "reached_final": 0.0138,
+      "group_winner": 0.0157,
+      "won_third_place_match": 0.0068,
+      "won_tournament": 0.0022
     },
     "Curaçao": {
-      "group_fourth": 0.8903,
-      "group_runner_up": 0.0394,
-      "advanced_to_r32": 0.0534,
-      "group_third": 0.0702,
-      "group_third_advanced": 0.014,
-      "reached_r16": 0.0009
+      "group_fourth": 0.866,
+      "group_third": 0.0834,
+      "group_runner_up": 0.0506,
+      "advanced_to_r32": 0.0681,
+      "group_third_advanced": 0.0175,
+      "reached_r16": 0.0013
     },
     "Czech Republic": {
-      "group_third": 0.5816,
-      "group_fourth": 0.4074,
-      "group_third_advanced": 0.0581,
-      "advanced_to_r32": 0.0691,
-      "reached_r16": 0.0134,
-      "group_runner_up": 0.011,
-      "reached_qf": 0.0024,
-      "reached_sf": 0.0002,
-      "won_third_place_match": 0.0,
+      "group_fourth": 0.4052,
+      "group_third": 0.5843,
+      "group_third_advanced": 0.063,
+      "advanced_to_r32": 0.0736,
+      "reached_r16": 0.017,
+      "group_runner_up": 0.0106,
+      "reached_qf": 0.0033,
+      "reached_sf": 0.0003,
+      "won_third_place_match": 0.0001,
       "reached_final": 0.0
     },
     "DR Congo": {
-      "group_third": 0.4728,
-      "group_fourth": 0.4003,
-      "group_runner_up": 0.1103,
-      "advanced_to_r32": 0.4001,
-      "group_third_advanced": 0.2732,
-      "reached_r16": 0.0478,
-      "reached_qf": 0.0051,
-      "group_winner": 0.0166,
-      "reached_sf": 0.0005,
-      "reached_final": 0.0001,
-      "won_third_place_match": 0.0001
+      "group_third": 0.4688,
+      "group_third_advanced": 0.2801,
+      "advanced_to_r32": 0.4095,
+      "group_runner_up": 0.1124,
+      "reached_r16": 0.0496,
+      "group_fourth": 0.4018,
+      "group_winner": 0.017,
+      "reached_qf": 0.0053,
+      "reached_sf": 0.0004,
+      "reached_final": 0.0,
+      "won_third_place_match": 0.0
     },
     "Ecuador": {
-      "group_third": 0.8746,
-      "group_third_advanced": 0.2617,
-      "advanced_to_r32": 0.2914,
-      "reached_r16": 0.1305,
-      "reached_qf": 0.0436,
-      "reached_sf": 0.0138,
-      "group_fourth": 0.0957,
-      "group_runner_up": 0.0297,
-      "reached_final": 0.0042,
-      "won_third_place_match": 0.0035,
-      "won_tournament": 0.001
+      "group_third": 0.8484,
+      "group_third_advanced": 0.2551,
+      "advanced_to_r32": 0.2902,
+      "reached_r16": 0.121,
+      "group_fourth": 0.1165,
+      "group_runner_up": 0.0351,
+      "reached_qf": 0.0319,
+      "reached_sf": 0.0088,
+      "won_third_place_match": 0.0022,
+      "reached_final": 0.0022,
+      "won_tournament": 0.0003
     },
     "Egypt": {
-      "group_winner": 0.1966,
-      "advanced_to_r32": 0.7745,
-      "group_runner_up": 0.3743,
-      "group_third": 0.263,
-      "group_third_advanced": 0.2037,
-      "reached_r16": 0.2383,
-      "group_fourth": 0.1662,
-      "reached_qf": 0.0387,
-      "reached_sf": 0.0029,
-      "won_third_place_match": 0.0002,
-      "reached_final": 0.0004,
+      "group_winner": 0.4658,
+      "advanced_to_r32": 1.0,
+      "group_third": 0.3311,
+      "group_third_advanced": 0.3311,
+      "reached_r16": 0.323,
+      "group_runner_up": 0.2031,
+      "reached_qf": 0.0657,
+      "reached_sf": 0.0055,
+      "reached_final": 0.0009,
+      "won_third_place_match": 0.0005,
       "won_tournament": 0.0001
     },
     "England": {
-      "group_winner": 0.9807,
-      "advanced_to_r32": 0.9999,
-      "reached_r16": 0.8628,
-      "reached_qf": 0.5051,
-      "reached_sf": 0.2537,
-      "won_third_place_match": 0.0895,
-      "reached_final": 0.1086,
-      "won_tournament": 0.051,
-      "group_runner_up": 0.0178,
-      "group_third": 0.0013,
-      "group_third_advanced": 0.0013,
-      "group_fourth": 0.0001
+      "group_winner": 0.9808,
+      "advanced_to_r32": 0.9998,
+      "reached_r16": 0.8604,
+      "reached_qf": 0.5028,
+      "reached_sf": 0.2496,
+      "reached_final": 0.0942,
+      "won_tournament": 0.0422,
+      "won_third_place_match": 0.0939,
+      "group_runner_up": 0.0175,
+      "group_third": 0.0015,
+      "group_third_advanced": 0.0015,
+      "group_fourth": 0.0002
     },
     "France": {
-      "group_winner": 0.809,
-      "advanced_to_r32": 0.9999,
-      "reached_r16": 0.9197,
-      "reached_qf": 0.6877,
-      "reached_sf": 0.4591,
-      "won_third_place_match": 0.1483,
-      "group_runner_up": 0.1846,
-      "reached_final": 0.2503,
-      "won_tournament": 0.1465,
-      "group_third": 0.0062,
-      "group_third_advanced": 0.0062,
-      "group_fourth": 0.0001
+      "group_winner": 0.8361,
+      "advanced_to_r32": 1.0,
+      "reached_r16": 0.922,
+      "reached_qf": 0.6854,
+      "group_runner_up": 0.1639,
+      "reached_sf": 0.4627,
+      "reached_final": 0.2293,
+      "won_tournament": 0.1286,
+      "won_third_place_match": 0.168
     },
     "Germany": {
-      "group_winner": 0.9868,
+      "group_winner": 0.9904,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.8557,
-      "reached_qf": 0.5779,
-      "reached_sf": 0.3007,
-      "reached_final": 0.11,
-      "won_tournament": 0.035,
-      "won_third_place_match": 0.073,
-      "group_runner_up": 0.0132
+      "reached_r16": 0.8189,
+      "reached_qf": 0.5348,
+      "reached_sf": 0.2582,
+      "won_third_place_match": 0.0606,
+      "reached_final": 0.081,
+      "won_tournament": 0.0208,
+      "group_runner_up": 0.0096
     },
     "Ghana": {
-      "group_third": 0.7944,
-      "group_third_advanced": 0.4505,
-      "advanced_to_r32": 0.5456,
-      "group_fourth": 0.1106,
-      "group_runner_up": 0.0921,
-      "group_winner": 0.0029,
-      "reached_r16": 0.0219,
-      "reached_qf": 0.0022,
+      "group_third": 0.7936,
+      "group_third_advanced": 0.5221,
+      "advanced_to_r32": 0.6184,
+      "group_fourth": 0.1101,
+      "group_runner_up": 0.0936,
+      "reached_r16": 0.0239,
+      "reached_qf": 0.002,
+      "group_winner": 0.0026,
       "reached_sf": 0.0001
     },
     "Haiti": {
-      "group_fourth": 0.987,
-      "group_third": 0.013,
-      "group_third_advanced": 0.011,
-      "advanced_to_r32": 0.011,
-      "reached_r16": 0.0001,
+      "group_fourth": 0.9871,
+      "group_third": 0.0129,
+      "group_third_advanced": 0.0115,
+      "advanced_to_r32": 0.0115,
+      "reached_r16": 0.0002,
       "reached_qf": 0.0
     },
     "Iran": {
-      "group_third": 0.3833,
-      "group_third_advanced": 0.2001,
-      "advanced_to_r32": 0.6406,
-      "group_fourth": 0.1762,
-      "group_runner_up": 0.2566,
-      "group_winner": 0.184,
-      "reached_r16": 0.2347,
-      "reached_qf": 0.0495,
-      "reached_sf": 0.005,
-      "won_third_place_match": 0.0005,
-      "reached_final": 0.0006,
+      "group_third": 0.5577,
+      "group_third_advanced": 0.3281,
+      "advanced_to_r32": 0.747,
+      "group_winner": 0.1765,
+      "group_runner_up": 0.2424,
+      "reached_r16": 0.2375,
+      "group_fourth": 0.0234,
+      "reached_qf": 0.0493,
+      "reached_sf": 0.0043,
+      "reached_final": 0.0007,
+      "won_third_place_match": 0.0008,
       "won_tournament": 0.0001
     },
     "Iraq": {
-      "group_fourth": 0.9214,
-      "group_third": 0.077,
-      "group_third_advanced": 0.0417,
-      "advanced_to_r32": 0.0434,
-      "reached_r16": 0.0044,
-      "group_runner_up": 0.0015,
-      "reached_qf": 0.0005,
-      "group_winner": 0.0001,
-      "reached_sf": 0.0
+      "group_fourth": 0.9146,
+      "group_third": 0.0854,
+      "group_third_advanced": 0.0605,
+      "advanced_to_r32": 0.0605,
+      "reached_r16": 0.0065,
+      "reached_qf": 0.0009
     },
     "Ivory Coast": {
-      "group_runner_up": 0.9176,
-      "advanced_to_r32": 0.9832,
-      "reached_r16": 0.1886,
-      "group_third": 0.0552,
-      "group_third_advanced": 0.0524,
-      "group_winner": 0.0132,
-      "group_fourth": 0.014,
-      "reached_qf": 0.036,
-      "reached_sf": 0.0075,
-      "won_third_place_match": 0.0007,
-      "reached_final": 0.0007,
+      "group_runner_up": 0.9047,
+      "advanced_to_r32": 0.9797,
+      "reached_r16": 0.1587,
+      "group_third": 0.0682,
+      "group_third_advanced": 0.0653,
+      "group_fourth": 0.0175,
+      "reached_qf": 0.0287,
+      "group_winner": 0.0096,
+      "reached_sf": 0.0059,
+      "reached_final": 0.0006,
+      "won_third_place_match": 0.0004,
       "won_tournament": 0.0
     },
     "Japan": {
-      "group_winner": 0.239,
+      "group_runner_up": 0.6352,
       "advanced_to_r32": 1.0,
-      "group_runner_up": 0.6254,
-      "reached_r16": 0.4956,
-      "reached_qf": 0.2109,
-      "group_third": 0.1356,
-      "group_third_advanced": 0.1356,
-      "reached_sf": 0.0965,
-      "reached_final": 0.0283,
-      "won_third_place_match": 0.0238,
-      "won_tournament": 0.0072
+      "reached_r16": 0.5235,
+      "reached_qf": 0.2239,
+      "reached_sf": 0.1095,
+      "group_winner": 0.2415,
+      "reached_final": 0.0316,
+      "group_third": 0.1234,
+      "group_third_advanced": 0.1234,
+      "won_third_place_match": 0.0268,
+      "won_tournament": 0.008
     },
     "Jordan": {
-      "group_fourth": 0.7437,
-      "group_third": 0.2458,
-      "group_third_advanced": 0.1287,
-      "advanced_to_r32": 0.1393,
-      "reached_r16": 0.0241,
-      "reached_qf": 0.0037,
-      "reached_sf": 0.0002,
-      "group_runner_up": 0.0103,
-      "group_winner": 0.0002,
-      "reached_final": 0.0
+      "group_fourth": 0.7542,
+      "group_third": 0.2367,
+      "group_third_advanced": 0.1376,
+      "advanced_to_r32": 0.1467,
+      "reached_r16": 0.0281,
+      "reached_qf": 0.0043,
+      "group_runner_up": 0.0091,
+      "reached_sf": 0.0003
     },
     "Mexico": {
-      "group_winner": 0.9707,
+      "group_winner": 0.9708,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.8188,
-      "reached_qf": 0.41,
-      "reached_sf": 0.1919,
-      "reached_final": 0.0759,
-      "won_tournament": 0.0332,
-      "won_third_place_match": 0.0667,
-      "group_runner_up": 0.0293
+      "reached_r16": 0.8121,
+      "reached_qf": 0.4123,
+      "reached_sf": 0.1886,
+      "won_third_place_match": 0.0711,
+      "reached_final": 0.0629,
+      "won_tournament": 0.0262,
+      "group_runner_up": 0.0292
     },
     "Morocco": {
-      "group_winner": 0.3922,
+      "group_runner_up": 0.5995,
       "advanced_to_r32": 1.0,
-      "group_runner_up": 0.6,
-      "reached_r16": 0.3571,
-      "reached_qf": 0.111,
-      "reached_sf": 0.038,
-      "reached_final": 0.008,
-      "group_third": 0.0077,
-      "group_third_advanced": 0.0077,
-      "won_third_place_match": 0.0078,
-      "won_tournament": 0.0015
+      "reached_r16": 0.3453,
+      "group_winner": 0.3921,
+      "reached_qf": 0.1001,
+      "reached_sf": 0.0343,
+      "reached_final": 0.0065,
+      "won_third_place_match": 0.0062,
+      "group_third": 0.0085,
+      "group_third_advanced": 0.0085,
+      "won_tournament": 0.0011
     },
     "Netherlands": {
-      "group_runner_up": 0.2527,
+      "group_winner": 0.7471,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.6424,
-      "group_winner": 0.7465,
-      "reached_qf": 0.2844,
-      "reached_sf": 0.1423,
-      "reached_final": 0.0513,
-      "won_tournament": 0.0188,
-      "won_third_place_match": 0.0458,
-      "group_third": 0.0008,
-      "group_third_advanced": 0.0008
+      "reached_r16": 0.6439,
+      "reached_qf": 0.2788,
+      "reached_sf": 0.1409,
+      "reached_final": 0.0465,
+      "won_tournament": 0.0159,
+      "group_runner_up": 0.252,
+      "won_third_place_match": 0.0459,
+      "group_third": 0.0009,
+      "group_third_advanced": 0.0009
     },
     "New Zealand": {
-      "group_fourth": 0.6175,
-      "group_third": 0.2368,
-      "group_third_advanced": 0.1283,
-      "advanced_to_r32": 0.274,
-      "group_runner_up": 0.107,
-      "group_winner": 0.0387,
-      "reached_r16": 0.0308,
-      "reached_qf": 0.0017,
-      "reached_sf": 0.0001
+      "group_fourth": 0.9325,
+      "group_runner_up": 0.0362,
+      "advanced_to_r32": 0.0548,
+      "group_third": 0.0313,
+      "group_third_advanced": 0.0186,
+      "reached_r16": 0.0048,
+      "reached_qf": 0.0002
     },
     "Norway": {
-      "group_runner_up": 0.5788,
-      "advanced_to_r32": 0.9935,
-      "reached_r16": 0.7389,
-      "reached_qf": 0.3852,
-      "group_winner": 0.184,
-      "reached_sf": 0.1753,
-      "won_third_place_match": 0.0414,
-      "group_third": 0.2367,
-      "group_third_advanced": 0.2307,
-      "reached_final": 0.059,
-      "won_tournament": 0.0164,
-      "group_fourth": 0.0005
+      "group_runner_up": 0.8361,
+      "advanced_to_r32": 1.0,
+      "reached_r16": 0.8096,
+      "reached_qf": 0.3997,
+      "reached_sf": 0.21,
+      "group_winner": 0.1639,
+      "won_third_place_match": 0.0486,
+      "reached_final": 0.0637,
+      "won_tournament": 0.0148
     },
     "Panama": {
       "group_fourth": 0.8598,
-      "group_third": 0.1086,
-      "group_third_advanced": 0.0832,
-      "advanced_to_r32": 0.1148,
-      "reached_r16": 0.0127,
-      "group_runner_up": 0.0307,
+      "group_third": 0.1067,
+      "group_third_advanced": 0.087,
+      "advanced_to_r32": 0.1205,
+      "group_runner_up": 0.0325,
+      "reached_r16": 0.013,
+      "reached_qf": 0.0024,
       "group_winner": 0.0009,
-      "reached_qf": 0.0026,
       "reached_sf": 0.0001,
-      "won_third_place_match": 0.0
+      "won_third_place_match": 0.0,
+      "reached_final": 0.0
     },
     "Paraguay": {
-      "group_third": 0.5423,
-      "group_third_advanced": 0.4734,
-      "advanced_to_r32": 0.8557,
-      "group_runner_up": 0.3814,
-      "reached_r16": 0.3386,
-      "reached_qf": 0.1077,
-      "group_fourth": 0.0753,
-      "group_winner": 0.001,
-      "reached_sf": 0.0197,
-      "reached_final": 0.0039,
-      "won_third_place_match": 0.0045,
+      "group_third": 0.5501,
+      "group_third_advanced": 0.5003,
+      "advanced_to_r32": 0.88,
+      "group_fourth": 0.0702,
+      "group_runner_up": 0.3791,
+      "reached_r16": 0.3189,
+      "reached_qf": 0.1047,
+      "reached_sf": 0.0167,
+      "reached_final": 0.0029,
+      "won_third_place_match": 0.0026,
+      "group_winner": 0.0005,
       "won_tournament": 0.0005
     },
     "Portugal": {
-      "group_winner": 0.2709,
-      "advanced_to_r32": 0.9084,
-      "reached_r16": 0.6421,
-      "reached_qf": 0.3166,
-      "reached_sf": 0.1463,
-      "reached_final": 0.0696,
-      "group_third": 0.1431,
-      "group_third_advanced": 0.0878,
-      "group_runner_up": 0.5497,
-      "group_fourth": 0.0363,
-      "won_third_place_match": 0.0349,
-      "won_tournament": 0.0236
+      "group_runner_up": 0.5501,
+      "advanced_to_r32": 0.913,
+      "reached_r16": 0.6529,
+      "group_winner": 0.2701,
+      "reached_qf": 0.309,
+      "group_third": 0.1415,
+      "group_third_advanced": 0.0928,
+      "reached_sf": 0.1239,
+      "won_third_place_match": 0.0301,
+      "group_fourth": 0.0383,
+      "reached_final": 0.058,
+      "won_tournament": 0.0188
     },
     "Qatar": {
-      "group_fourth": 0.8412,
-      "group_third": 0.1588,
-      "group_third_advanced": 0.1587,
-      "advanced_to_r32": 0.1587,
-      "reached_r16": 0.0021,
-      "reached_qf": 0.0001,
-      "group_runner_up": 0.0
+      "group_fourth": 0.8408,
+      "group_third": 0.1592,
+      "group_third_advanced": 0.1592,
+      "advanced_to_r32": 0.1592,
+      "group_runner_up": 0.0,
+      "reached_r16": 0.0026,
+      "reached_qf": 0.0001
     },
     "Saudi Arabia": {
-      "group_third": 0.3539,
-      "group_third_advanced": 0.2536,
-      "advanced_to_r32": 0.3638,
-      "reached_r16": 0.0326,
-      "group_fourth": 0.5359,
-      "group_runner_up": 0.1033,
-      "group_winner": 0.007,
-      "reached_qf": 0.0031,
-      "reached_sf": 0.0001
+      "group_fourth": 0.6551,
+      "group_runner_up": 0.2905,
+      "advanced_to_r32": 0.3108,
+      "group_third": 0.0544,
+      "group_third_advanced": 0.0203,
+      "reached_r16": 0.0048,
+      "reached_qf": 0.0004,
+      "reached_sf": 0.0
     },
     "Scotland": {
-      "group_runner_up": 0.1041,
-      "advanced_to_r32": 0.8677,
-      "reached_r16": 0.1324,
-      "reached_qf": 0.0264,
-      "group_third": 0.8644,
-      "group_third_advanced": 0.7451,
-      "group_fourth": 0.013,
-      "reached_sf": 0.0047,
-      "won_third_place_match": 0.0008,
-      "group_winner": 0.0185,
-      "reached_final": 0.0006,
+      "group_third": 0.864,
+      "group_third_advanced": 0.7789,
+      "advanced_to_r32": 0.902,
+      "reached_r16": 0.1372,
+      "group_runner_up": 0.1044,
+      "reached_qf": 0.0263,
+      "group_fourth": 0.0129,
+      "group_winner": 0.0188,
+      "reached_sf": 0.004,
+      "won_third_place_match": 0.0007,
+      "reached_final": 0.0004,
       "won_tournament": 0.0001
     },
     "Senegal": {
-      "group_third": 0.6801,
-      "group_third_advanced": 0.5428,
-      "advanced_to_r32": 0.7847,
-      "reached_r16": 0.3877,
-      "reached_qf": 0.1593,
-      "group_fourth": 0.078,
-      "group_runner_up": 0.235,
-      "reached_sf": 0.0405,
-      "won_third_place_match": 0.0072,
-      "group_winner": 0.0069,
-      "reached_final": 0.0096,
-      "won_tournament": 0.0014
+      "group_third": 0.9146,
+      "group_third_advanced": 0.7504,
+      "advanced_to_r32": 0.7504,
+      "reached_r16": 0.3129,
+      "reached_qf": 0.1415,
+      "group_fourth": 0.0854,
+      "reached_sf": 0.0224,
+      "reached_final": 0.0073,
+      "won_third_place_match": 0.0037,
+      "won_tournament": 0.0011
     },
     "South Africa": {
-      "group_fourth": 0.5876,
-      "group_third": 0.3292,
-      "group_third_advanced": 0.0092,
-      "advanced_to_r32": 0.0924,
-      "group_runner_up": 0.0832,
-      "reached_r16": 0.0049,
-      "reached_qf": 0.0002
+      "group_third": 0.329,
+      "group_fourth": 0.5899,
+      "group_runner_up": 0.0811,
+      "advanced_to_r32": 0.0908,
+      "group_third_advanced": 0.0097,
+      "reached_r16": 0.0052,
+      "reached_qf": 0.0003
     },
     "South Korea": {
-      "group_runner_up": 0.8765,
-      "advanced_to_r32": 0.9856,
-      "reached_r16": 0.3184,
-      "reached_qf": 0.0773,
-      "group_third": 0.0892,
-      "group_third_advanced": 0.0797,
-      "group_winner": 0.0293,
-      "reached_sf": 0.0166,
-      "reached_final": 0.0024,
-      "group_fourth": 0.005,
-      "won_third_place_match": 0.0023,
-      "won_tournament": 0.0003
+      "group_runner_up": 0.8791,
+      "advanced_to_r32": 0.9885,
+      "reached_r16": 0.3202,
+      "reached_qf": 0.0846,
+      "group_third": 0.0867,
+      "group_winner": 0.0292,
+      "group_third_advanced": 0.0802,
+      "reached_sf": 0.0177,
+      "group_fourth": 0.0049,
+      "won_third_place_match": 0.002,
+      "reached_final": 0.0023,
+      "won_tournament": 0.0002
     },
     "Spain": {
-      "group_runner_up": 0.1159,
-      "advanced_to_r32": 0.996,
-      "group_winner": 0.8652,
-      "reached_r16": 0.8396,
-      "reached_qf": 0.6858,
-      "reached_sf": 0.5944,
-      "reached_final": 0.4658,
-      "won_tournament": 0.2909,
-      "won_third_place_match": 0.0902,
-      "group_third": 0.017,
-      "group_third_advanced": 0.0149,
-      "group_fourth": 0.0019
+      "group_winner": 0.9347,
+      "advanced_to_r32": 1.0,
+      "reached_r16": 0.9056,
+      "reached_qf": 0.7409,
+      "reached_sf": 0.6475,
+      "reached_final": 0.519,
+      "won_tournament": 0.3074,
+      "group_third": 0.0255,
+      "group_third_advanced": 0.0255,
+      "won_third_place_match": 0.0874,
+      "group_runner_up": 0.0399
     },
     "Sweden": {
-      "group_third": 0.8636,
-      "group_third_advanced": 0.7989,
-      "advanced_to_r32": 0.9352,
-      "group_runner_up": 0.1219,
-      "reached_r16": 0.188,
-      "reached_qf": 0.0255,
-      "group_winner": 0.0145,
-      "reached_sf": 0.0036,
-      "reached_final": 0.0004,
-      "won_third_place_match": 0.0005,
-      "won_tournament": 0.0
+      "group_third": 0.8758,
+      "group_third_advanced": 0.8243,
+      "advanced_to_r32": 0.9485,
+      "reached_r16": 0.1929,
+      "reached_qf": 0.0224,
+      "group_runner_up": 0.1128,
+      "group_winner": 0.0114,
+      "reached_sf": 0.0028,
+      "won_third_place_match": 0.0003,
+      "reached_final": 0.0003
     },
     "Switzerland": {
-      "group_winner": 0.3651,
+      "group_runner_up": 0.6134,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.693,
-      "group_third": 0.0239,
-      "group_third_advanced": 0.0239,
-      "group_runner_up": 0.611,
-      "reached_qf": 0.2369,
-      "reached_sf": 0.0945,
-      "won_third_place_match": 0.0208,
-      "reached_final": 0.0253,
-      "won_tournament": 0.0054
+      "reached_r16": 0.6992,
+      "group_winner": 0.3623,
+      "reached_qf": 0.2337,
+      "reached_sf": 0.0917,
+      "reached_final": 0.0221,
+      "group_third": 0.0243,
+      "group_third_advanced": 0.0243,
+      "won_tournament": 0.0042,
+      "won_third_place_match": 0.0181
     },
     "Tunisia": {
       "group_fourth": 1.0
     },
     "Turkey": {
-      "group_fourth": 0.8862,
-      "group_third": 0.1138,
-      "group_third_advanced": 0.1067,
-      "advanced_to_r32": 0.1067,
-      "reached_r16": 0.0226,
-      "reached_qf": 0.0098,
-      "reached_sf": 0.0019,
+      "group_fourth": 0.8943,
+      "group_third": 0.1057,
+      "group_third_advanced": 0.1006,
+      "advanced_to_r32": 0.1006,
+      "reached_r16": 0.0232,
+      "reached_qf": 0.0101,
+      "reached_sf": 0.002,
       "won_third_place_match": 0.0003,
-      "reached_final": 0.0004,
-      "won_tournament": 0.0
+      "reached_final": 0.0003,
+      "won_tournament": 0.0001
     },
     "United States": {
-      "group_winner": 0.9948,
+      "group_winner": 0.9954,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.7229,
-      "reached_qf": 0.4644,
-      "reached_sf": 0.118,
-      "reached_final": 0.0516,
-      "won_tournament": 0.0119,
-      "group_runner_up": 0.0052,
-      "won_third_place_match": 0.0204
+      "reached_r16": 0.7895,
+      "reached_qf": 0.5481,
+      "reached_sf": 0.1392,
+      "reached_final": 0.064,
+      "won_tournament": 0.016,
+      "won_third_place_match": 0.0244,
+      "group_runner_up": 0.0046
     },
     "Uruguay": {
-      "group_winner": 0.1133,
-      "advanced_to_r32": 0.8261,
-      "reached_r16": 0.2105,
-      "reached_qf": 0.0959,
-      "reached_sf": 0.0339,
-      "group_runner_up": 0.5599,
-      "group_fourth": 0.0819,
-      "group_third": 0.245,
-      "group_third_advanced": 0.1529,
-      "reached_final": 0.0109,
-      "won_third_place_match": 0.0074,
-      "won_tournament": 0.0022
+      "group_third": 0.7077,
+      "group_winner": 0.0514,
+      "advanced_to_r32": 0.2545,
+      "group_fourth": 0.1986,
+      "group_third_advanced": 0.1609,
+      "reached_r16": 0.1077,
+      "reached_qf": 0.0419,
+      "group_runner_up": 0.0422,
+      "reached_sf": 0.0103,
+      "won_third_place_match": 0.0013,
+      "reached_final": 0.0032,
+      "won_tournament": 0.0005
     },
     "Uzbekistan": {
-      "group_fourth": 0.5613,
-      "group_runner_up": 0.0819,
-      "advanced_to_r32": 0.3484,
-      "group_third": 0.3528,
-      "group_third_advanced": 0.2626,
-      "reached_r16": 0.0416,
-      "reached_qf": 0.0039,
-      "reached_sf": 0.0006,
-      "group_winner": 0.0039,
+      "group_fourth": 0.5579,
+      "group_third": 0.3578,
+      "group_third_advanced": 0.2834,
+      "advanced_to_r32": 0.3677,
+      "group_runner_up": 0.0805,
+      "reached_r16": 0.0441,
+      "group_winner": 0.0038,
+      "reached_qf": 0.0042,
+      "reached_sf": 0.0007,
       "reached_final": 0.0001,
-      "won_third_place_match": 0.0
+      "won_third_place_match": 0.0001
     }
   },
   "matches": {
@@ -1213,64 +1195,64 @@
         "prediction": {
           "predicted_home_score": 1,
           "predicted_away_score": 1,
-          "home_win_probability": 0.2355,
-          "draw_probability": 0.2573,
-          "away_win_probability": 0.5072,
+          "home_win_probability": 0.2174,
+          "draw_probability": 0.2488,
+          "away_win_probability": 0.5338,
           "score_grid": [
             [
-              0.0628,
-              0.0754,
-              0.0814,
-              0.0495,
-              0.0226,
-              0.0082,
-              0.0025,
-              0.0007
-            ],
-            [
-              0.0446,
-              0.1204,
-              0.0972,
-              0.0591,
-              0.027,
+              0.059,
+              0.0742,
+              0.0839,
+              0.0536,
+              0.0257,
               0.0098,
-              0.003,
-              0.0008
+              0.0031,
+              0.0009
             ],
             [
-              0.0349,
-              0.0636,
-              0.058,
-              0.0353,
-              0.0161,
-              0.0059,
-              0.0018,
-              0.0005
+              0.0402,
+              0.1158,
+              0.0982,
+              0.0627,
+              0.03,
+              0.0115,
+              0.0037,
+              0.001
             ],
             [
-              0.0139,
-              0.0253,
-              0.0231,
-              0.014,
-              0.0064,
-              0.0023,
-              0.0007,
+              0.0313,
+              0.06,
+              0.0575,
+              0.0367,
+              0.0176,
+              0.0067,
+              0.0022,
+              0.0006
+            ],
+            [
+              0.0122,
+              0.0234,
+              0.0224,
+              0.0143,
+              0.0069,
+              0.0026,
+              0.0008,
               0.0002
             ],
             [
-              0.0041,
-              0.0076,
+              0.0036,
               0.0069,
+              0.0066,
               0.0042,
-              0.0019,
-              0.0007,
+              0.002,
+              0.0008,
               0.0002,
               0.0001
             ],
             [
-              0.001,
-              0.0018,
+              0.0008,
               0.0016,
+              0.0015,
               0.001,
               0.0005,
               0.0002,
@@ -1279,7 +1261,7 @@
             ],
             [
               0.0002,
-              0.0004,
+              0.0003,
               0.0003,
               0.0002,
               0.0001,
@@ -1415,56 +1397,56 @@
         "prediction": {
           "predicted_home_score": 0,
           "predicted_away_score": 3,
-          "home_win_probability": 0.0547,
-          "draw_probability": 0.1207,
-          "away_win_probability": 0.8246,
+          "home_win_probability": 0.068,
+          "draw_probability": 0.1369,
+          "away_win_probability": 0.7951,
           "score_grid": [
             [
-              0.0255,
-              0.0547,
-              0.0968,
-              0.1024,
-              0.0813,
-              0.0516,
-              0.0273,
-              0.0124
+              0.0286,
+              0.0575,
+              0.0971,
+              0.0972,
+              0.073,
+              0.0439,
+              0.022,
+              0.0094
             ],
             [
-              0.0089,
-              0.0547,
-              0.0768,
-              0.0813,
-              0.0646,
-              0.041,
-              0.0217,
-              0.0098
+              0.0111,
+              0.0618,
+              0.0822,
+              0.0823,
+              0.0618,
+              0.0372,
+              0.0186,
+              0.008
             ],
             [
-              0.006,
-              0.0192,
-              0.0305,
-              0.0323,
-              0.0256,
-              0.0163,
-              0.0086,
-              0.0039
+              0.0077,
+              0.0232,
+              0.0348,
+              0.0349,
+              0.0262,
+              0.0157,
+              0.0079,
+              0.0034
             ],
             [
-              0.0016,
-              0.0051,
-              0.0081,
-              0.0085,
-              0.0068,
-              0.0043,
-              0.0023,
+              0.0022,
+              0.0065,
+              0.0098,
+              0.0098,
+              0.0074,
+              0.0044,
+              0.0022,
               0.001
             ],
             [
-              0.0003,
-              0.001,
+              0.0005,
+              0.0014,
+              0.0021,
+              0.0021,
               0.0016,
-              0.0017,
-              0.0013,
               0.0009,
               0.0005,
               0.0002
@@ -1472,10 +1454,10 @@
             [
               0.0001,
               0.0002,
-              0.0003,
+              0.0004,
+              0.0004,
               0.0003,
               0.0002,
-              0.0001,
               0.0001,
               0.0
             ],
@@ -1502,8 +1484,8 @@
           ]
         },
         "elo_win_expectancy": {
-          "home": 15.0,
-          "away": 85.0
+          "home": 17.0,
+          "away": 83.0
         }
       },
       {
@@ -1516,63 +1498,63 @@
         "prediction": {
           "predicted_home_score": 1,
           "predicted_away_score": 1,
-          "home_win_probability": 0.2704,
-          "draw_probability": 0.2717,
-          "away_win_probability": 0.4579,
+          "home_win_probability": 0.2565,
+          "draw_probability": 0.2663,
+          "away_win_probability": 0.4772,
           "score_grid": [
             [
-              0.0703,
-              0.0773,
-              0.0762,
-              0.0421,
-              0.0174,
-              0.0058,
-              0.0016,
-              0.0004
-            ],
-            [
-              0.0538,
-              0.1283,
-              0.0941,
-              0.052,
-              0.0215,
-              0.0071,
-              0.002,
+              0.0672,
+              0.0766,
+              0.0783,
+              0.045,
+              0.0194,
+              0.0067,
+              0.0019,
               0.0005
             ],
             [
-              0.0423,
-              0.0701,
-              0.0581,
-              0.0321,
-              0.0133,
-              0.0044,
-              0.0012,
+              0.05,
+              0.1253,
+              0.0955,
+              0.0548,
+              0.0236,
+              0.0081,
+              0.0023,
+              0.0006
+            ],
+            [
+              0.0393,
+              0.0676,
+              0.0582,
+              0.0334,
+              0.0144,
+              0.005,
+              0.0014,
               0.0003
             ],
             [
-              0.0174,
-              0.0288,
-              0.0239,
-              0.0132,
-              0.0055,
-              0.0018,
-              0.0005,
+              0.016,
+              0.0275,
+              0.0237,
+              0.0136,
+              0.0058,
+              0.002,
+              0.0006,
               0.0001
             ],
             [
-              0.0054,
-              0.0089,
-              0.0074,
+              0.0049,
+              0.0084,
+              0.0072,
               0.0041,
-              0.0017,
+              0.0018,
               0.0006,
               0.0002,
               0.0
             ],
             [
-              0.0013,
-              0.0022,
+              0.0012,
+              0.002,
               0.0018,
               0.001,
               0.0004,
@@ -1581,8 +1563,8 @@
               0.0
             ],
             [
-              0.0003,
-              0.0005,
+              0.0002,
+              0.0004,
               0.0004,
               0.0002,
               0.0001,
@@ -1603,8 +1585,8 @@
           ]
         },
         "elo_win_expectancy": {
-          "home": 41.0,
-          "away": 59.0
+          "home": 37.0,
+          "away": 63.0
         }
       },
       {
@@ -1617,86 +1599,86 @@
         "prediction": {
           "predicted_home_score": 2,
           "predicted_away_score": 1,
-          "home_win_probability": 0.6642,
-          "draw_probability": 0.1995,
-          "away_win_probability": 0.1363,
+          "home_win_probability": 0.6881,
+          "draw_probability": 0.1891,
+          "away_win_probability": 0.1228,
           "score_grid": [
             [
-              0.0429,
-              0.023,
-              0.0173,
-              0.006,
-              0.0015,
+              0.0402,
+              0.0205,
+              0.0153,
+              0.0051,
+              0.0013,
               0.0003,
+              0.0,
+              0.0
+            ],
+            [
+              0.0658,
+              0.0858,
+              0.0381,
+              0.0127,
+              0.0032,
+              0.0006,
               0.0001,
               0.0
             ],
             [
-              0.0673,
-              0.0908,
-              0.0415,
-              0.0143,
-              0.0037,
+              0.0945,
+              0.0948,
+              0.0476,
+              0.0159,
+              0.004,
               0.0008,
               0.0001,
               0.0
             ],
             [
-              0.0933,
-              0.0964,
-              0.0498,
-              0.0171,
-              0.0044,
-              0.0009,
-              0.0002,
-              0.0
-            ],
-            [
-              0.0746,
-              0.0771,
-              0.0398,
-              0.0137,
-              0.0035,
+              0.0787,
+              0.0789,
+              0.0396,
+              0.0132,
+              0.0033,
               0.0007,
               0.0001,
               0.0
             ],
             [
-              0.0448,
-              0.0463,
-              0.0239,
-              0.0082,
+              0.0491,
+              0.0493,
+              0.0247,
+              0.0083,
               0.0021,
               0.0004,
               0.0001,
               0.0
             ],
             [
-              0.0215,
-              0.0222,
-              0.0115,
-              0.0039,
+              0.0245,
+              0.0246,
+              0.0124,
+              0.0041,
               0.001,
               0.0002,
               0.0,
               0.0
             ],
             [
-              0.0086,
-              0.0089,
-              0.0046,
-              0.0016,
+              0.0102,
+              0.0102,
+              0.0051,
+              0.0017,
               0.0004,
               0.0001,
               0.0,
               0.0
             ],
             [
-              0.0029,
-              0.003,
-              0.0016,
-              0.0005,
-              0.0001,
+              0.0036,
+              0.0037,
+              0.0018,
+              0.0006,
+              0.0002,
               0.0,
               0.0,
               0.0
@@ -1704,8 +1686,8 @@
           ]
         },
         "elo_win_expectancy": {
-          "home": 74.0,
-          "away": 26.0
+          "home": 76.0,
+          "away": 24.0
         }
       },
       {
@@ -1718,56 +1700,56 @@
         "prediction": {
           "predicted_home_score": 0,
           "predicted_away_score": 3,
-          "home_win_probability": 0.0252,
-          "draw_probability": 0.0761,
-          "away_win_probability": 0.8987,
+          "home_win_probability": 0.0218,
+          "draw_probability": 0.0699,
+          "away_win_probability": 0.9083,
           "score_grid": [
             [
-              0.0173,
-              0.0454,
-              0.0923,
-              0.1149,
-              0.1072,
-              0.08,
-              0.0498,
-              0.0266
+              0.0162,
+              0.0439,
+              0.0912,
+              0.1163,
+              0.1113,
+              0.0852,
+              0.0544,
+              0.0297
             ],
             [
-              0.0043,
-              0.0351,
-              0.058,
-              0.0722,
-              0.0673,
-              0.0503,
-              0.0313,
-              0.0167
+              0.0038,
+              0.0324,
+              0.0548,
+              0.0699,
+              0.0669,
+              0.0512,
+              0.0327,
+              0.0179
             ],
             [
-              0.0026,
+              0.0022,
+              0.0086,
+              0.0165,
+              0.021,
+              0.0201,
+              0.0154,
               0.0098,
-              0.0182,
-              0.0227,
-              0.0212,
-              0.0158,
-              0.0098,
-              0.0052
+              0.0054
             ],
             [
               0.0005,
-              0.002,
-              0.0038,
-              0.0047,
-              0.0044,
+              0.0017,
               0.0033,
-              0.0021,
+              0.0042,
+              0.004,
+              0.0031,
+              0.002,
               0.0011
             ],
             [
               0.0001,
               0.0003,
+              0.0005,
               0.0006,
-              0.0007,
-              0.0007,
+              0.0006,
               0.0005,
               0.0003,
               0.0002
@@ -1805,210 +1787,8 @@
           ]
         },
         "elo_win_expectancy": {
-          "home": 10.0,
-          "away": 90.0
-        }
-      },
-      {
-        "round": "Group stage",
-        "group": "G",
-        "date": "2026-06-21",
-        "home_team": "Belgium",
-        "away_team": "Iran",
-        "venue": "SoFi Stadium, Inglewood",
-        "prediction": {
-          "predicted_home_score": 1,
-          "predicted_away_score": 1,
-          "home_win_probability": 0.5356,
-          "draw_probability": 0.2482,
-          "away_win_probability": 0.2162,
-          "score_grid": [
-            [
-              0.0588,
-              0.0399,
-              0.0311,
-              0.0121,
-              0.0035,
-              0.0008,
-              0.0002,
-              0.0
-            ],
-            [
-              0.0741,
-              0.1155,
-              0.0597,
-              0.0233,
-              0.0068,
-              0.0016,
-              0.0003,
-              0.0001
-            ],
-            [
-              0.084,
-              0.0982,
-              0.0574,
-              0.0224,
-              0.0065,
-              0.0015,
-              0.0003,
-              0.0
-            ],
-            [
-              0.0538,
-              0.0629,
-              0.0368,
-              0.0143,
-              0.0042,
-              0.001,
-              0.0002,
-              0.0
-            ],
-            [
-              0.0259,
-              0.0303,
-              0.0177,
-              0.0069,
-              0.002,
-              0.0005,
-              0.0001,
-              0.0
-            ],
-            [
-              0.0099,
-              0.0116,
-              0.0068,
-              0.0026,
-              0.0008,
-              0.0002,
-              0.0,
-              0.0
-            ],
-            [
-              0.0032,
-              0.0037,
-              0.0022,
-              0.0008,
-              0.0002,
-              0.0001,
-              0.0,
-              0.0
-            ],
-            [
-              0.0009,
-              0.001,
-              0.0006,
-              0.0002,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        },
-        "elo_win_expectancy": {
-          "home": 67.0,
-          "away": 33.0
-        }
-      },
-      {
-        "round": "Group stage",
-        "group": "G",
-        "date": "2026-06-21",
-        "home_team": "New Zealand",
-        "away_team": "Egypt",
-        "venue": "BC Place, Vancouver",
-        "prediction": {
-          "predicted_home_score": 1,
-          "predicted_away_score": 1,
-          "home_win_probability": 0.1875,
-          "draw_probability": 0.2329,
-          "away_win_probability": 0.5796,
-          "score_grid": [
-            [
-              0.053,
-              0.072,
-              0.0877,
-              0.0608,
-              0.0316,
-              0.0131,
-              0.0045,
-              0.0014
-            ],
-            [
-              0.0334,
-              0.1075,
-              0.0988,
-              0.0685,
-              0.0356,
-              0.0148,
-              0.0051,
-              0.0015
-            ],
-            [
-              0.0258,
-              0.0536,
-              0.0557,
-              0.0386,
-              0.02,
-              0.0083,
-              0.0029,
-              0.0009
-            ],
-            [
-              0.0097,
-              0.0201,
-              0.0209,
-              0.0145,
-              0.0075,
-              0.0031,
-              0.0011,
-              0.0003
-            ],
-            [
-              0.0027,
-              0.0057,
-              0.0059,
-              0.0041,
-              0.0021,
-              0.0009,
-              0.0003,
-              0.0001
-            ],
-            [
-              0.0006,
-              0.0013,
-              0.0013,
-              0.0009,
-              0.0005,
-              0.0002,
-              0.0001,
-              0.0
-            ],
-            [
-              0.0001,
-              0.0002,
-              0.0002,
-              0.0002,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        },
-        "elo_win_expectancy": {
-          "home": 32.0,
-          "away": 68.0
+          "home": 9.0,
+          "away": 91.0
         }
       },
       {
@@ -2021,73 +1801,73 @@
         "prediction": {
           "predicted_home_score": 1,
           "predicted_away_score": 1,
-          "home_win_probability": 0.2945,
-          "draw_probability": 0.2803,
-          "away_win_probability": 0.4252,
+          "home_win_probability": 0.3188,
+          "draw_probability": 0.2878,
+          "away_win_probability": 0.3934,
           "score_grid": [
             [
-              0.0758,
-              0.0783,
-              0.0725,
-              0.0374,
-              0.0145,
-              0.0045,
-              0.0012,
-              0.0003
-            ],
-            [
-              0.0608,
-              0.1331,
-              0.0911,
-              0.047,
-              0.0182,
-              0.0056,
-              0.0015,
-              0.0003
-            ],
-            [
-              0.0479,
-              0.0741,
-              0.0573,
-              0.0295,
-              0.0114,
-              0.0035,
-              0.0009,
+              0.0818,
+              0.0793,
+              0.0685,
+              0.0329,
+              0.0118,
+              0.0034,
+              0.0008,
               0.0002
             ],
             [
-              0.0201,
-              0.031,
-              0.024,
-              0.0124,
-              0.0048,
-              0.0015,
-              0.0004,
+              0.0685,
+              0.1373,
+              0.0875,
+              0.042,
+              0.0151,
+              0.0044,
+              0.001,
+              0.0002
+            ],
+            [
+              0.0539,
+              0.0776,
+              0.0559,
+              0.0268,
+              0.0097,
+              0.0028,
+              0.0007,
               0.0001
             ],
             [
-              0.0063,
-              0.0098,
+              0.023,
+              0.0331,
+              0.0238,
+              0.0114,
+              0.0041,
+              0.0012,
+              0.0003,
+              0.0001
+            ],
+            [
+              0.0073,
+              0.0106,
               0.0076,
-              0.0039,
-              0.0015,
-              0.0005,
+              0.0037,
+              0.0013,
+              0.0004,
               0.0001,
               0.0
             ],
             [
-              0.0016,
-              0.0025,
               0.0019,
-              0.001,
-              0.0004,
+              0.0027,
+              0.0019,
+              0.0009,
+              0.0003,
               0.0001,
               0.0,
               0.0
             ],
             [
-              0.0003,
-              0.0005,
+              0.0004,
+              0.0006,
               0.0004,
               0.0002,
               0.0001,
@@ -2108,8 +1888,8 @@
           ]
         },
         "elo_win_expectancy": {
-          "home": 44.0,
-          "away": 56.0
+          "home": 46.0,
+          "away": 54.0
         }
       },
       {
@@ -2122,64 +1902,64 @@
         "prediction": {
           "predicted_home_score": 0,
           "predicted_away_score": 3,
-          "home_win_probability": 0.0621,
-          "draw_probability": 0.1299,
-          "away_win_probability": 0.808,
+          "home_win_probability": 0.0529,
+          "draw_probability": 0.1183,
+          "away_win_probability": 0.8288,
           "score_grid": [
             [
-              0.0273,
-              0.0563,
-              0.097,
-              0.0995,
-              0.0765,
-              0.0471,
-              0.0242,
-              0.0106
+              0.025,
+              0.0542,
+              0.0967,
+              0.1032,
+              0.0826,
+              0.0529,
+              0.0282,
+              0.0129
             ],
             [
-              0.0101,
-              0.0587,
-              0.08,
-              0.082,
-              0.0631,
-              0.0388,
-              0.0199,
-              0.0088
+              0.0087,
+              0.0536,
+              0.076,
+              0.0811,
+              0.0649,
+              0.0416,
+              0.0222,
+              0.0101
             ],
             [
-              0.007,
-              0.0214,
-              0.033,
-              0.0338,
-              0.026,
-              0.016,
-              0.0082,
-              0.0036
+              0.0058,
+              0.0187,
+              0.0299,
+              0.0319,
+              0.0255,
+              0.0163,
+              0.0087,
+              0.004
             ],
             [
-              0.0019,
-              0.0059,
-              0.0091,
-              0.0093,
-              0.0071,
-              0.0044,
+              0.0015,
+              0.0049,
+              0.0078,
+              0.0083,
+              0.0067,
+              0.0043,
               0.0023,
               0.001
             ],
             [
-              0.0004,
-              0.0012,
-              0.0019,
-              0.0019,
+              0.0003,
+              0.001,
               0.0015,
-              0.0009,
-              0.0005,
+              0.0016,
+              0.0013,
+              0.0008,
+              0.0004,
               0.0002
             ],
             [
-              0.0001,
+              0.0,
               0.0002,
-              0.0003,
+              0.0002,
               0.0003,
               0.0002,
               0.0001,
@@ -2209,210 +1989,8 @@
           ]
         },
         "elo_win_expectancy": {
-          "home": 15.0,
-          "away": 85.0
-        }
-      },
-      {
-        "round": "Group stage",
-        "group": "H",
-        "date": "2026-06-21",
-        "home_team": "Spain",
-        "away_team": "Saudi Arabia",
-        "venue": "Mercedes-Benz Stadium, Atlanta",
-        "prediction": {
-          "predicted_home_score": 4,
-          "predicted_away_score": 0,
-          "home_win_probability": 0.9618,
-          "draw_probability": 0.0321,
-          "away_win_probability": 0.006,
-          "score_grid": [
-            [
-              0.0091,
-              0.0012,
-              0.0006,
-              0.0001,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0321,
-              0.0153,
-              0.0027,
-              0.0004,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0782,
-              0.0313,
-              0.0063,
-              0.0008,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.1203,
-              0.0481,
-              0.0096,
-              0.0013,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.1388,
-              0.0555,
-              0.0111,
-              0.0015,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.1281,
-              0.0513,
-              0.0103,
-              0.0014,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0986,
-              0.0394,
-              0.0079,
-              0.0011,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.065,
-              0.026,
-              0.0052,
-              0.0007,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        },
-        "elo_win_expectancy": {
-          "home": 96.0,
-          "away": 4.0
-        }
-      },
-      {
-        "round": "Group stage",
-        "group": "H",
-        "date": "2026-06-21",
-        "home_team": "Uruguay",
-        "away_team": "Cape Verde",
-        "venue": "Hard Rock Stadium, Miami Gardens",
-        "prediction": {
-          "predicted_home_score": 2,
-          "predicted_away_score": 0,
-          "home_win_probability": 0.7816,
-          "draw_probability": 0.144,
-          "away_win_probability": 0.0744,
-          "score_grid": [
-            [
-              0.0301,
-              0.0121,
-              0.0085,
-              0.0025,
-              0.0005,
-              0.0001,
-              0.0,
-              0.0
-            ],
-            [
-              0.0587,
-              0.065,
-              0.025,
-              0.0072,
-              0.0016,
-              0.0003,
-              0.0,
-              0.0
-            ],
-            [
-              0.0971,
-              0.0844,
-              0.0367,
-              0.0106,
-              0.0023,
-              0.0004,
-              0.0001,
-              0.0
-            ],
-            [
-              0.0949,
-              0.0825,
-              0.0358,
-              0.0104,
-              0.0023,
-              0.0004,
-              0.0001,
-              0.0
-            ],
-            [
-              0.0695,
-              0.0604,
-              0.0263,
-              0.0076,
-              0.0017,
-              0.0003,
-              0.0,
-              0.0
-            ],
-            [
-              0.0408,
-              0.0354,
-              0.0154,
-              0.0045,
-              0.001,
-              0.0002,
-              0.0,
-              0.0
-            ],
-            [
-              0.0199,
-              0.0173,
-              0.0075,
-              0.0022,
-              0.0005,
-              0.0001,
-              0.0,
-              0.0
-            ],
-            [
-              0.0083,
-              0.0073,
-              0.0032,
-              0.0009,
-              0.0002,
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        },
-        "elo_win_expectancy": {
-          "home": 82.0,
-          "away": 18.0
+          "home": 14.0,
+          "away": 86.0
         }
       },
       {
@@ -2425,85 +2003,85 @@
         "prediction": {
           "predicted_home_score": 1,
           "predicted_away_score": 1,
-          "home_win_probability": 0.3643,
-          "draw_probability": 0.2941,
-          "away_win_probability": 0.3417,
+          "home_win_probability": 0.4033,
+          "draw_probability": 0.2855,
+          "away_win_probability": 0.3112,
           "score_grid": [
             [
-              0.0878,
-              0.0765,
-              0.06,
-              0.0259,
-              0.0084,
-              0.0022,
-              0.0005,
-              0.0001
-            ],
-            [
-              0.08,
-              0.1406,
-              0.0805,
-              0.0347,
-              0.0112,
-              0.0029,
-              0.0006,
-              0.0001
-            ],
-            [
-              0.0645,
-              0.0835,
-              0.054,
-              0.0233,
-              0.0075,
-              0.002,
+              0.0799,
+              0.066,
+              0.0519,
+              0.022,
+              0.007,
+              0.0018,
               0.0004,
               0.0001
             ],
             [
-              0.0289,
-              0.0374,
-              0.0242,
-              0.0104,
-              0.0034,
-              0.0009,
-              0.0002,
-              0.0
-            ],
-            [
-              0.0097,
-              0.0125,
-              0.0081,
-              0.0035,
-              0.0011,
-              0.0003,
-              0.0001,
-              0.0
-            ],
-            [
+              0.079,
+              0.136,
+              0.0766,
+              0.0325,
+              0.0103,
               0.0026,
-              0.0034,
-              0.0022,
+              0.0006,
+              0.0001
+            ],
+            [
+              0.0697,
+              0.0887,
+              0.0564,
+              0.0239,
+              0.0076,
+              0.0019,
+              0.0004,
+              0.0001
+            ],
+            [
+              0.0343,
+              0.0436,
+              0.0277,
+              0.0117,
+              0.0037,
+              0.001,
+              0.0002,
+              0.0
+            ],
+            [
+              0.0126,
+              0.0161,
+              0.0102,
+              0.0043,
+              0.0014,
+              0.0004,
+              0.0001,
+              0.0
+            ],
+            [
+              0.0037,
+              0.0047,
+              0.003,
+              0.0013,
+              0.0004,
+              0.0001,
+              0.0,
+              0.0
+            ],
+            [
               0.0009,
+              0.0012,
+              0.0007,
               0.0003,
               0.0001,
               0.0,
+              0.0,
               0.0
             ],
             [
-              0.0006,
-              0.0008,
-              0.0005,
+              0.0002,
+              0.0002,
               0.0002,
               0.0001,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0001,
-              0.0001,
-              0.0001,
-              0.0,
               0.0,
               0.0,
               0.0,
@@ -2512,8 +2090,8 @@
           ]
         },
         "elo_win_expectancy": {
-          "home": 51.0,
-          "away": 49.0
+          "home": 55.0,
+          "away": 45.0
         }
       },
       {
@@ -2525,67 +2103,67 @@
         "venue": "Estadio Akron, Zapopan",
         "prediction": {
           "predicted_home_score": 0,
-          "predicted_away_score": 2,
-          "home_win_probability": 0.0775,
-          "draw_probability": 0.1473,
-          "away_win_probability": 0.7752,
+          "predicted_away_score": 3,
+          "home_win_probability": 0.0637,
+          "draw_probability": 0.1318,
+          "away_win_probability": 0.8045,
           "score_grid": [
             [
-              0.0307,
-              0.0593,
+              0.0276,
+              0.0566,
               0.097,
-              0.0937,
-              0.0679,
-              0.0394,
-              0.019,
-              0.0079
+              0.0989,
+              0.0756,
+              0.0462,
+              0.0235,
+              0.0103
             ],
             [
-              0.0127,
-              0.0665,
-              0.0853,
-              0.0824,
-              0.0597,
-              0.0346,
-              0.0167,
-              0.0069
+              0.0104,
+              0.0596,
+              0.0806,
+              0.0821,
+              0.0628,
+              0.0384,
+              0.0196,
+              0.0085
             ],
             [
-              0.0089,
-              0.0259,
-              0.0375,
-              0.0363,
-              0.0263,
-              0.0152,
-              0.0074,
-              0.003
+              0.0072,
+              0.0219,
+              0.0335,
+              0.0341,
+              0.0261,
+              0.0159,
+              0.0081,
+              0.0035
             ],
             [
-              0.0026,
-              0.0076,
-              0.011,
-              0.0106,
-              0.0077,
-              0.0045,
+              0.002,
+              0.0061,
+              0.0093,
+              0.0094,
+              0.0072,
+              0.0044,
               0.0022,
-              0.0009
+              0.001
             ],
             [
-              0.0006,
-              0.0017,
-              0.0024,
-              0.0023,
-              0.0017,
-              0.001,
+              0.0004,
+              0.0013,
+              0.0019,
+              0.002,
+              0.0015,
+              0.0009,
               0.0005,
               0.0002
             ],
             [
               0.0001,
+              0.0002,
               0.0003,
-              0.0004,
-              0.0004,
               0.0003,
+              0.0002,
               0.0002,
               0.0001,
               0.0
@@ -2593,8 +2171,8 @@
             [
               0.0,
               0.0,
-              0.0001,
-              0.0001,
+              0.0,
+              0.0,
               0.0,
               0.0,
               0.0,
@@ -2613,210 +2191,8 @@
           ]
         },
         "elo_win_expectancy": {
-          "home": 18.0,
-          "away": 82.0
-        }
-      },
-      {
-        "round": "Group stage",
-        "group": "I",
-        "date": "2026-06-22",
-        "home_team": "France",
-        "away_team": "Iraq",
-        "venue": "Lincoln Financial Field, Philadelphia",
-        "prediction": {
-          "predicted_home_score": 4,
-          "predicted_away_score": 0,
-          "home_win_probability": 0.9502,
-          "draw_probability": 0.0408,
-          "away_win_probability": 0.009,
-          "score_grid": [
-            [
-              0.0108,
-              0.0017,
-              0.0009,
-              0.0001,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0354,
-              0.0193,
-              0.0039,
-              0.0006,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0825,
-              0.0375,
-              0.0085,
-              0.0013,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.1205,
-              0.0548,
-              0.0125,
-              0.0019,
-              0.0002,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.1321,
-              0.0601,
-              0.0137,
-              0.0021,
-              0.0002,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.1158,
-              0.0527,
-              0.012,
-              0.0018,
-              0.0002,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0846,
-              0.0385,
-              0.0087,
-              0.0013,
-              0.0002,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.053,
-              0.0241,
-              0.0055,
-              0.0008,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        },
-        "elo_win_expectancy": {
-          "home": 94.0,
-          "away": 6.0
-        }
-      },
-      {
-        "round": "Group stage",
-        "group": "I",
-        "date": "2026-06-22",
-        "home_team": "Norway",
-        "away_team": "Senegal",
-        "venue": "MetLife Stadium, East Rutherford",
-        "prediction": {
-          "predicted_home_score": 1,
-          "predicted_away_score": 1,
-          "home_win_probability": 0.5037,
-          "draw_probability": 0.2584,
-          "away_win_probability": 0.2379,
-          "score_grid": [
-            [
-              0.0633,
-              0.0452,
-              0.0354,
-              0.0141,
-              0.0042,
-              0.001,
-              0.0002,
-              0.0
-            ],
-            [
-              0.0755,
-              0.121,
-              0.0641,
-              0.0256,
-              0.0077,
-              0.0018,
-              0.0004,
-              0.0001
-            ],
-            [
-              0.081,
-              0.097,
-              0.0581,
-              0.0232,
-              0.0069,
-              0.0017,
-              0.0003,
-              0.0001
-            ],
-            [
-              0.0489,
-              0.0586,
-              0.0351,
-              0.014,
-              0.0042,
-              0.001,
-              0.0002,
-              0.0
-            ],
-            [
-              0.0222,
-              0.0266,
-              0.0159,
-              0.0063,
-              0.0019,
-              0.0005,
-              0.0001,
-              0.0
-            ],
-            [
-              0.008,
-              0.0096,
-              0.0058,
-              0.0023,
-              0.0007,
-              0.0002,
-              0.0,
-              0.0
-            ],
-            [
-              0.0024,
-              0.0029,
-              0.0017,
-              0.0007,
-              0.0002,
-              0.0,
-              0.0,
-              0.0
-            ],
-            [
-              0.0006,
-              0.0008,
-              0.0005,
-              0.0002,
-              0.0001,
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        },
-        "elo_win_expectancy": {
-          "home": 63.0,
-          "away": 37.0
+          "home": 16.0,
+          "away": 84.0
         }
       },
       {
@@ -3025,107 +2401,6 @@
         "round": "Group stage",
         "group": "J",
         "date": "2026-06-22",
-        "home_team": "Argentina",
-        "away_team": "Austria",
-        "venue": "AT&T Stadium, Arlington",
-        "prediction": {
-          "predicted_home_score": 2,
-          "predicted_away_score": 0,
-          "home_win_probability": 0.7903,
-          "draw_probability": 0.1394,
-          "away_win_probability": 0.0703,
-          "score_grid": [
-            [
-              0.0291,
-              0.0115,
-              0.008,
-              0.0023,
-              0.0005,
-              0.0001,
-              0.0,
-              0.0
-            ],
-            [
-              0.058,
-              0.063,
-              0.0238,
-              0.0068,
-              0.0015,
-              0.0002,
-              0.0,
-              0.0
-            ],
-            [
-              0.0971,
-              0.083,
-              0.0355,
-              0.0101,
-              0.0022,
-              0.0004,
-              0.0001,
-              0.0
-            ],
-            [
-              0.0964,
-              0.0824,
-              0.0352,
-              0.01,
-              0.0021,
-              0.0004,
-              0.0001,
-              0.0
-            ],
-            [
-              0.0718,
-              0.0613,
-              0.0262,
-              0.0075,
-              0.0016,
-              0.0003,
-              0.0,
-              0.0
-            ],
-            [
-              0.0427,
-              0.0365,
-              0.0156,
-              0.0045,
-              0.001,
-              0.0002,
-              0.0,
-              0.0
-            ],
-            [
-              0.0212,
-              0.0181,
-              0.0078,
-              0.0022,
-              0.0005,
-              0.0001,
-              0.0,
-              0.0
-            ],
-            [
-              0.009,
-              0.0077,
-              0.0033,
-              0.0009,
-              0.0002,
-              0.0,
-              0.0,
-              0.0
-            ]
-          ]
-        },
-        "elo_win_expectancy": {
-          "home": 83.0,
-          "away": 17.0
-        }
-      },
-      {
-        "round": "Group stage",
-        "group": "J",
-        "date": "2026-06-22",
         "home_team": "Jordan",
         "away_team": "Algeria",
         "venue": "Levi's Stadium, Santa Clara",
@@ -3233,73 +2508,73 @@
         "prediction": {
           "predicted_home_score": 1,
           "predicted_away_score": 1,
-          "home_win_probability": 0.2282,
-          "draw_probability": 0.254,
-          "away_win_probability": 0.5178,
+          "home_win_probability": 0.2478,
+          "draw_probability": 0.2627,
+          "away_win_probability": 0.4895,
           "score_grid": [
             [
-              0.0612,
-              0.0749,
-              0.0824,
-              0.0511,
-              0.0238,
-              0.0088,
-              0.0027,
-              0.0007
-            ],
-            [
-              0.0428,
-              0.1186,
-              0.0976,
-              0.0606,
-              0.0282,
-              0.0105,
-              0.0033,
-              0.0009
-            ],
-            [
-              0.0334,
-              0.0622,
-              0.0579,
-              0.0359,
-              0.0167,
-              0.0062,
-              0.0019,
+              0.0654,
+              0.0761,
+              0.0796,
+              0.0468,
+              0.0206,
+              0.0073,
+              0.0021,
               0.0005
             ],
             [
-              0.0132,
-              0.0246,
-              0.0229,
-              0.0142,
-              0.0066,
-              0.0025,
-              0.0008,
+              0.0477,
+              0.1233,
+              0.0963,
+              0.0566,
+              0.025,
+              0.0088,
+              0.0026,
+              0.0007
+            ],
+            [
+              0.0374,
+              0.066,
+              0.0582,
+              0.0342,
+              0.0151,
+              0.0053,
+              0.0016,
+              0.0004
+            ],
+            [
+              0.0151,
+              0.0266,
+              0.0235,
+              0.0138,
+              0.0061,
+              0.0021,
+              0.0006,
               0.0002
             ],
             [
-              0.0039,
-              0.0073,
-              0.0068,
+              0.0046,
+              0.008,
+              0.0071,
               0.0042,
-              0.002,
-              0.0007,
+              0.0018,
+              0.0006,
               0.0002,
-              0.0001
+              0.0
             ],
             [
-              0.0009,
+              0.0011,
+              0.0019,
               0.0017,
-              0.0016,
               0.001,
-              0.0005,
+              0.0004,
               0.0002,
-              0.0001,
+              0.0,
               0.0
             ],
             [
               0.0002,
-              0.0003,
+              0.0004,
               0.0003,
               0.0002,
               0.0001,
@@ -3320,8 +2595,8 @@
           ]
         },
         "elo_win_expectancy": {
-          "home": 36.0,
-          "away": 64.0
+          "home": 38.0,
+          "away": 62.0
         }
       },
       {
@@ -3334,56 +2609,56 @@
         "prediction": {
           "predicted_home_score": 0,
           "predicted_away_score": 4,
-          "home_win_probability": 0.0107,
-          "draw_probability": 0.0453,
-          "away_win_probability": 0.9441,
+          "home_win_probability": 0.0091,
+          "draw_probability": 0.0411,
+          "away_win_probability": 0.9499,
           "score_grid": [
             [
-              0.0117,
-              0.0369,
-              0.0843,
-              0.1202,
-              0.1287,
-              0.1102,
-              0.0786,
-              0.0481
+              0.0109,
+              0.0355,
+              0.0826,
+              0.1205,
+              0.1319,
+              0.1155,
+              0.0842,
+              0.0527
             ],
             [
-              0.002,
-              0.0214,
-              0.0405,
-              0.0578,
-              0.0618,
-              0.0529,
-              0.0378,
-              0.0231
+              0.0017,
+              0.0194,
+              0.0377,
+              0.055,
+              0.0602,
+              0.0527,
+              0.0384,
+              0.024
             ],
             [
-              0.0011,
-              0.0045,
-              0.0097,
-              0.0139,
-              0.0148,
-              0.0127,
-              0.0091,
+              0.0009,
+              0.0039,
+              0.0086,
+              0.0125,
+              0.0137,
+              0.012,
+              0.0088,
               0.0055
             ],
             [
-              0.0002,
-              0.0007,
-              0.0016,
-              0.0022,
-              0.0024,
-              0.002,
-              0.0015,
-              0.0009
+              0.0001,
+              0.0006,
+              0.0013,
+              0.0019,
+              0.0021,
+              0.0018,
+              0.0013,
+              0.0008
             ],
             [
               0.0,
               0.0001,
+              0.0001,
               0.0002,
-              0.0003,
-              0.0003,
+              0.0002,
               0.0002,
               0.0002,
               0.0001
@@ -4234,108 +3509,210 @@
         }
       }
     ],
-    "generated_at": "2026-06-21T06:15:03.539353+00:00"
+    "generated_at": "2026-06-23T03:40:14.166030+00:00"
   },
   "bracket": {
     "round_of_32": [
       {
         "home": {
           "team": "South Korea",
-          "probability": 0.8765
+          "probability": 0.8791
         },
         "away": {
           "team": "Switzerland",
-          "probability": 0.611
+          "probability": 0.6134
         }
       },
       {
         "home": {
           "team": "Brazil",
-          "probability": 0.5893
+          "probability": 0.5892
         },
         "away": {
           "team": "Japan",
-          "probability": 0.6254
+          "probability": 0.6352
         }
       },
       {
         "home": {
           "team": "Germany",
-          "probability": 0.9868
+          "probability": 0.9904
         },
         "away": {
           "team": "Bosnia and Herzegovina",
-          "probability": 0.3888
+          "probability": 0.3183
         }
       },
       {
         "home": {
           "team": "Netherlands",
-          "probability": 0.7465
+          "probability": 0.7471
         },
         "away": {
           "team": "Morocco",
-          "probability": 0.6
+          "probability": 0.5995
         }
       },
       {
         "home": {
           "team": "Ivory Coast",
-          "probability": 0.9176
+          "probability": 0.9047
         },
         "away": {
           "team": "Norway",
-          "probability": 0.5788
+          "probability": 0.8361
         }
       },
       {
         "home": {
           "team": "France",
-          "probability": 0.809
+          "probability": 0.8361
         },
         "away": {
-          "team": "Scotland",
-          "probability": 0.2443
+          "team": "Iran",
+          "probability": 0.2249
         }
       },
       {
         "home": {
           "team": "Mexico",
-          "probability": 0.9707
+          "probability": 0.9708
         },
         "away": {
           "team": "Scotland",
-          "probability": 0.42
+          "probability": 0.5148
         }
       },
       {
         "home": {
           "team": "England",
-          "probability": 0.9807
+          "probability": 0.9808
         },
         "away": {
-          "team": "DR Congo",
-          "probability": 0.2732
+          "team": "Uzbekistan",
+          "probability": 0.2834
         }
       },
       {
         "home": {
-          "team": "Belgium",
-          "probability": 0.5807
+          "team": "Egypt",
+          "probability": 0.4658
         },
         "away": {
-          "team": "Algeria",
-          "probability": 0.1867
+          "team": "Senegal",
+          "probability": 0.27
         }
       },
       {
         "home": {
           "team": "United States",
-          "probability": 0.9948
+          "probability": 0.9954
         },
         "away": {
           "team": "Senegal",
-          "probability": 0.2769
+          "probability": 0.3341
+        }
+      },
+      {
+        "home": {
+          "team": "Spain",
+          "probability": 0.9347
+        },
+        "away": {
+          "team": "Austria",
+          "probability": 0.7541
+        }
+      },
+      {
+        "home": {
+          "team": "Portugal",
+          "probability": 0.5501
+        },
+        "away": {
+          "team": "Croatia",
+          "probability": 0.8563
+        }
+      },
+      {
+        "home": {
+          "team": "Canada",
+          "probability": 0.6377
+        },
+        "away": {
+          "team": "Sweden",
+          "probability": 0.4862
+        }
+      },
+      {
+        "home": {
+          "team": "Australia",
+          "probability": 0.6163
+        },
+        "away": {
+          "team": "Belgium",
+          "probability": 0.5183
+        }
+      },
+      {
+        "home": {
+          "team": "Argentina",
+          "probability": 0.9996
+        },
+        "away": {
+          "team": "Cape Verde",
+          "probability": 0.6274
+        }
+      },
+      {
+        "home": {
+          "team": "Colombia",
+          "probability": 0.7091
+        },
+        "away": {
+          "team": "Ghana",
+          "probability": 0.5221
+        }
+      }
+    ],
+    "round_of_16": [
+      {
+        "home": {
+          "team": "Switzerland",
+          "probability": 0.4361
+        },
+        "away": {
+          "team": "Germany",
+          "probability": 0.8143
+        }
+      },
+      {
+        "home": {
+          "team": "Brazil",
+          "probability": 0.3482
+        },
+        "away": {
+          "team": "Norway",
+          "probability": 0.6868
+        }
+      },
+      {
+        "home": {
+          "team": "Netherlands",
+          "probability": 0.4939
+        },
+        "away": {
+          "team": "France",
+          "probability": 0.7665
+        }
+      },
+      {
+        "home": {
+          "team": "Mexico",
+          "probability": 0.7919
+        },
+        "away": {
+          "team": "England",
+          "probability": 0.8484
         }
       },
       {
@@ -4344,140 +3721,38 @@
           "probability": 0.8652
         },
         "away": {
-          "team": "Austria",
-          "probability": 0.7111
-        }
-      },
-      {
-        "home": {
           "team": "Portugal",
-          "probability": 0.5497
-        },
-        "away": {
-          "team": "Croatia",
-          "probability": 0.8594
-        }
-      },
-      {
-        "home": {
-          "team": "Canada",
-          "probability": 0.6349
-        },
-        "away": {
-          "team": "Sweden",
-          "probability": 0.4379
-        }
-      },
-      {
-        "home": {
-          "team": "Australia",
-          "probability": 0.6135
-        },
-        "away": {
-          "team": "Egypt",
-          "probability": 0.3743
-        }
-      },
-      {
-        "home": {
-          "team": "Argentina",
-          "probability": 0.9304
-        },
-        "away": {
-          "team": "Uruguay",
-          "probability": 0.5599
-        }
-      },
-      {
-        "home": {
-          "team": "Colombia",
-          "probability": 0.7086
-        },
-        "away": {
-          "team": "Ghana",
-          "probability": 0.4505
-        }
-      }
-    ],
-    "round_of_16": [
-      {
-        "home": {
-          "team": "Switzerland",
-          "probability": 0.4305
-        },
-        "away": {
-          "team": "Germany",
-          "probability": 0.8491
-        }
-      },
-      {
-        "home": {
-          "team": "Brazil",
-          "probability": 0.3604
-        },
-        "away": {
-          "team": "Norway",
-          "probability": 0.4713
-        }
-      },
-      {
-        "home": {
-          "team": "Netherlands",
-          "probability": 0.4924
-        },
-        "away": {
-          "team": "France",
-          "probability": 0.7404
-        }
-      },
-      {
-        "home": {
-          "team": "Mexico",
-          "probability": 0.7984
-        },
-        "away": {
-          "team": "England",
-          "probability": 0.8508
-        }
-      },
-      {
-        "home": {
-          "team": "Spain",
-          "probability": 0.7656
-        },
-        "away": {
-          "team": "Portugal",
-          "probability": 0.3759
+          "probability": 0.3791
         }
       },
       {
         "home": {
           "team": "Belgium",
-          "probability": 0.3925
+          "probability": 0.2184
         },
         "away": {
           "team": "United States",
-          "probability": 0.7189
+          "probability": 0.7865
         }
       },
       {
         "home": {
           "team": "Australia",
-          "probability": 0.3574
+          "probability": 0.3087
         },
         "away": {
           "team": "Colombia",
-          "probability": 0.6259
+          "probability": 0.6342
         }
       },
       {
         "home": {
           "team": "Canada",
-          "probability": 0.4303
+          "probability": 0.4381
         },
         "away": {
           "team": "Argentina",
-          "probability": 0.8141
+          "probability": 0.9674
         }
       }
     ],
@@ -4485,41 +3760,41 @@
       {
         "home": {
           "team": "Germany",
-          "probability": 0.5741
+          "probability": 0.5326
         },
         "away": {
           "team": "Norway",
-          "probability": 0.2386
+          "probability": 0.3406
         }
       },
       {
         "home": {
           "team": "Spain",
-          "probability": 0.6205
+          "probability": 0.7064
         },
         "away": {
           "team": "United States",
-          "probability": 0.4628
+          "probability": 0.5471
         }
       },
       {
         "home": {
           "team": "France",
-          "probability": 0.5516
+          "probability": 0.567
         },
         "away": {
           "team": "England",
-          "probability": 0.4999
+          "probability": 0.4976
         }
       },
       {
         "home": {
           "team": "Colombia",
-          "probability": 0.5134
+          "probability": 0.5101
         },
         "away": {
           "team": "Argentina",
-          "probability": 0.7223
+          "probability": 0.8758
         }
       }
     ],
@@ -4527,44 +3802,44 @@
       {
         "home": {
           "team": "Germany",
-          "probability": 0.3007
+          "probability": 0.2582
         },
         "away": {
           "team": "Spain",
-          "probability": 0.5487
+          "probability": 0.629
         }
       },
       {
         "home": {
           "team": "France",
-          "probability": 0.3559
+          "probability": 0.3681
         },
         "away": {
           "team": "Argentina",
-          "probability": 0.5705
+          "probability": 0.7146
         }
       }
     ],
     "final": {
       "home": {
         "team": "Spain",
-        "probability": 0.4347
+        "probability": 0.5065
       },
       "away": {
         "team": "Argentina",
-        "probability": 0.3877
+        "probability": 0.4999
       }
     },
     "third_place": {
       "home": {
         "team": "Germany",
-        "probability": 0.1907
+        "probability": 0.1772
       },
       "away": {
         "team": "Argentina",
-        "probability": 0.1829
+        "probability": 0.2146
       }
     },
-    "generated_at": "2026-06-21T06:15:03.539353+00:00"
+    "generated_at": "2026-06-23T03:40:14.166030+00:00"
   }
 }
