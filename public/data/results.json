@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-23T03:40:14.166030+00:00",
+  "scraped_at": "2026-06-23T06:15:02.393577+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -748,11 +748,11 @@
       "date": "2026-06-22",
       "home_team": "Jordan",
       "away_team": "Algeria",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 2,
       "venue": "Levi's Stadium, Santa Clara",
-      "attendance": null,
+      "attendance": 68371,
       "referee": "Slavko Vinčić (Slovenia)"
     },
     {
@@ -1123,7 +1123,7 @@
       "round": "Round of 32",
       "group": null,
       "date": "2026-07-03",
-      "home_team": "Winner Group J",
+      "home_team": "Argentina",
       "away_team": "Runner-up Group H",
       "played": false,
       "home_score": null,

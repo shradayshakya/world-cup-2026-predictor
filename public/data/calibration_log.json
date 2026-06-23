@@ -341,13 +341,31 @@
       "brier_score": 0.0683,
       "log_loss": 0.2353,
       "scoreline_correct": true
+    },
+    {
+      "date": "2026-06-22",
+      "home_team": "Jordan",
+      "away_team": "Algeria",
+      "predicted_home_score": 1,
+      "predicted_away_score": 1,
+      "home_win_probability": 0.2186,
+      "draw_probability": 0.2494,
+      "away_win_probability": 0.532,
+      "predicted_outcome": "away",
+      "actual_home_score": 1,
+      "actual_away_score": 2,
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "brier_score": 0.329,
+      "log_loss": 0.6311,
+      "scoreline_correct": false
     }
   ],
   "summary": {
-    "n": 19,
-    "avg_brier_score": 0.4438,
-    "avg_log_loss": 0.7641,
-    "scoreline_accuracy": 0.2105,
-    "outcome_accuracy": 0.7368
+    "n": 20,
+    "avg_brier_score": 0.4381,
+    "avg_log_loss": 0.7575,
+    "scoreline_accuracy": 0.2,
+    "outcome_accuracy": 0.75
   }
 }

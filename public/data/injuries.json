@@ -1,6 +1,21 @@
 {
-  "generated_at": "2026-06-23T03:40:14.166030+00:00",
+  "generated_at": "2026-06-23T06:15:02.393577+00:00",
   "teams": {
+    "Belgium": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Jérémy Doku",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Doku returning to World Cup after birth of first child",
+          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-23",
+          "expires_on": null
+        }
+      ]
+    },
     "Germany": {
       "elo_penalty": -15.0,
       "absences": [
@@ -12,21 +27,6 @@
           "source_title": "Germany defender Schlotterbeck out of World Cup",
           "source_link": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-06-23",
-          "expires_on": "2026-08-22"
-        }
-      ]
-    },
-    "Belgium": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Jérémy Doku",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Doku criticised over plan to return home for birth",
-          "source_link": "https://www.bbc.com/sport/football/articles/c74ywv08ylpo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-21",
           "expires_on": null
         }
       ]
