@@ -1,24 +1,26 @@
 import TournamentWinnerBar from "@/components/TournamentWinnerBar";
-import TodaysMatches from "@/components/TodaysMatches";
+import MatchCard from "@/components/MatchCard";
 import AiSummaryBadge from "@/components/AiSummaryBadge";
 import TeamLink from "@/components/TeamLink";
-import { getLastUpdated, getMovers, getResults } from "@/lib/data";
+import { getMovers, getResults } from "@/lib/data";
 import { getPredictionFor } from "@/lib/predictions";
 
-function shiftDate(date: string, days: number): string {
-  const d = new Date(`${date}T00:00:00Z`);
-  d.setUTCDate(d.getUTCDate() + days);
-  return d.toISOString().slice(0, 10);
-}
+const NEXT_MATCHES_COUNT = 4;
 
 export default function Home() {
-  const serverToday = getLastUpdated().slice(0, 10);
-  const windowStart = shiftDate(serverToday, -1);
-  const windowEnd = shiftDate(serverToday, 1);
   const results = getResults();
-  const windowed = results.matches
+  // "Next N unplayed matches" rather than "today's matches" -- a literal date-string
+  // match broke down across the date line between where this runs (Nepal) and where
+  // the tournament is played (North America): a match could be genuinely upcoming yet
+  // dated for what's already "tomorrow" or "yesterday" relative to either side, so
+  // some real upcoming matches just never matched "today" and silently never showed.
+  // Sorting by date and taking the next unplayed ones sidesteps that entirely -- no
+  // notion of "today" involved, so no timezone to get wrong.
+  const upcoming = results.matches
     .map((match, index) => ({ match, index, prediction: getPredictionFor(match) }))
-    .filter(({ match }) => match.date !== null && match.date >= windowStart && match.date <= windowEnd);
+    .filter(({ match }) => !match.played)
+    .sort((a, b) => (a.match.date ?? "").localeCompare(b.match.date ?? ""))
+    .slice(0, NEXT_MATCHES_COUNT);
   const movers = getMovers().movers;
 
   return (
@@ -34,8 +36,16 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="text-xl font-semibold">Today&apos;s matches</h2>
-        <TodaysMatches serverToday={serverToday} windowed={windowed} />
+        <h2 className="text-xl font-semibold">Next matches</h2>
+        {upcoming.length === 0 ? (
+          <p className="mt-2 text-sm text-neutral-500">No upcoming matches on file.</p>
+        ) : (
+          <div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {upcoming.map(({ match, index, prediction }) => (
+              <MatchCard key={index} match={match} index={index} prediction={prediction} />
+            ))}
+          </div>
+        )}
       </section>
 
       {movers.length > 0 && (
