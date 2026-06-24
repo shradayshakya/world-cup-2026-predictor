@@ -1,4 +1,91 @@
 {
-  "generated_at": "2026-06-23T06:15:02.393577+00:00",
-  "movers": []
+  "generated_at": "2026-06-24T06:15:02.687798+00:00",
+  "movers": [
+    {
+      "team": "Spain",
+      "previous_pct": 30.34,
+      "current_pct": 28.64,
+      "delta_pp": -1.6999999999999993,
+      "direction": "loser",
+      "blurb": "Spain's probability shifted downward following personnel changes. The reported absence of Borja Iglesias has negatively affected our model's estimate regarding their championship chances, leading to the slight decrease in title odds.",
+      "sources": [
+        {
+          "label": "Spain",
+          "href": "/teams/spain"
+        },
+        {
+          "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "previous_pct": 12.879999999999999,
+      "current_pct": 14.360000000000001,
+      "delta_pp": 1.4800000000000022,
+      "direction": "gainer",
+      "blurb": "France's likelihood of winning has increased in our model. As there have been no recent relevant results or reported squad changes, this shift reflects an internal adjustment in our probability calculation without a specific event being identified by the current available data.",
+      "sources": [
+        {
+          "label": "France",
+          "href": "/teams/france"
+        }
+      ]
+    },
+    {
+      "team": "England",
+      "previous_pct": 4.2299999999999995,
+      "current_pct": 2.77,
+      "delta_pp": -1.4599999999999995,
+      "direction": "loser",
+      "blurb": "The model updated its projection following significant squad concerns. The reported absences of Declan Rice, coupled with uncertainty surrounding Harry Kane and Bukayo Saka, negatively impact expected team depth and capability moving into the tournament.",
+      "sources": [
+        {
+          "label": "England",
+          "href": "/teams/england"
+        },
+        {
+          "label": "England winger Saka unlikely to start against Ghana",
+          "href": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        }
+      ]
+    },
+    {
+      "team": "Portugal",
+      "previous_pct": 1.94,
+      "current_pct": 3.04,
+      "delta_pp": 1.1,
+      "direction": "gainer",
+      "blurb": "Portugal's increased probability reflects an internal adjustment within our prediction model. With no relevant results or reported team changes since the last update, this shift represents a refined calculation of Portugal’s potential performance relative to other contenders in the tournament.",
+      "sources": [
+        {
+          "label": "Portugal",
+          "href": "/teams/portugal"
+        }
+      ]
+    },
+    {
+      "team": "Norway",
+      "previous_pct": 1.5,
+      "current_pct": 2.27,
+      "delta_pp": 0.77,
+      "direction": "gainer",
+      "blurb": "Norway's probability increased from 1.5% to 2.3%. As there have been no recent results or reported player changes, this increase reflects an internal adjustment within our prediction model and is not tied to any specific external event.",
+      "sources": [
+        {
+          "label": "Norway",
+          "href": "/teams/norway"
+        }
+      ]
+    }
+  ]
 }

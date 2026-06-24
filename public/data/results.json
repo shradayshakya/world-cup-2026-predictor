@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-23T06:15:02.393577+00:00",
+  "scraped_at": "2026-06-24T06:15:02.687798+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -337,7 +337,7 @@
       "away_score": 0,
       "venue": "Lincoln Financial Field, Philadelphia",
       "attendance": 68274,
-      "referee": "François Letexier (France) [ S ]"
+      "referee": "François Letexier (France) [ R ]"
     },
     {
       "round": "Group stage",
@@ -532,7 +532,7 @@
       "away_score": null,
       "venue": "Lumen Field, Seattle",
       "attendance": null,
-      "referee": null
+      "referee": "Szymon Marciniak (Poland)"
     },
     {
       "round": "Group stage",
@@ -545,7 +545,7 @@
       "away_score": null,
       "venue": "BC Place, Vancouver",
       "attendance": null,
-      "referee": null
+      "referee": "Adham Makhadmeh (Jordan)"
     },
     {
       "round": "Group stage",
@@ -610,7 +610,7 @@
       "away_score": null,
       "venue": "NRG Stadium, Houston",
       "attendance": null,
-      "referee": null
+      "referee": "François Letexier (France)"
     },
     {
       "round": "Group stage",
@@ -623,7 +623,7 @@
       "away_score": null,
       "venue": "Estadio Akron, Zapopan",
       "attendance": null,
-      "referee": null
+      "referee": "Ismail Elfath (United States)"
     },
     {
       "round": "Group stage",
@@ -688,7 +688,7 @@
       "away_score": null,
       "venue": "Gillette Stadium, Foxborough",
       "attendance": null,
-      "referee": null
+      "referee": "Michael Oliver (England)"
     },
     {
       "round": "Group stage",
@@ -701,7 +701,7 @@
       "away_score": null,
       "venue": "BMO Field, Toronto",
       "attendance": null,
-      "referee": null
+      "referee": "Anthony Taylor (England)"
     },
     {
       "round": "Group stage",
@@ -813,11 +813,11 @@
       "date": "2026-06-23",
       "home_team": "Portugal",
       "away_team": "Uzbekistan",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 5,
+      "away_score": 0,
       "venue": "NRG Stadium, Houston",
-      "attendance": null,
+      "attendance": 68777,
       "referee": "Jalal Jayed (Morocco)"
     },
     {
@@ -826,11 +826,11 @@
       "date": "2026-06-23",
       "home_team": "Colombia",
       "away_team": "DR Congo",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 0,
       "venue": "Estadio Akron, Zapopan",
-      "attendance": null,
+      "attendance": 45358,
       "referee": "Maurizio Mariani (Italy)"
     },
     {
@@ -891,11 +891,11 @@
       "date": "2026-06-23",
       "home_team": "England",
       "away_team": "Ghana",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 0,
+      "away_score": 0,
       "venue": "Gillette Stadium, Foxborough",
-      "attendance": null,
+      "attendance": 63983,
       "referee": "Saíd Martínez (Honduras)"
     },
     {
@@ -904,11 +904,11 @@
       "date": "2026-06-23",
       "home_team": "Panama",
       "away_team": "Croatia",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 0,
+      "away_score": 1,
       "venue": "BMO Field, Toronto",
-      "attendance": null,
+      "attendance": 43036,
       "referee": "Pierre Atcho (Gabon)"
     },
     {
