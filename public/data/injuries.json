@@ -1,54 +1,19 @@
 {
-  "generated_at": "2026-06-24T06:15:02.687798+00:00",
+  "generated_at": "2026-06-28T16:12:15.406739+00:00",
   "teams": {
-    "Belgium": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Jérémy Doku",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Doku returning to World Cup after birth of first child",
-          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-23",
-          "expires_on": null
-        }
-      ]
-    },
-    "Germany": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Nico Schlotterbeck",
-          "status": "out",
-          "until": "rest of the World Cup",
-          "key_player": true,
-          "source_title": "Germany defender Schlotterbeck out of World Cup",
-          "source_link": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-23",
-          "expires_on": null
-        }
-      ]
-    },
-    "Spain": {
-      "elo_penalty": 0.0,
-      "absences": [
-        {
-          "player": "Borja Iglesias",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-          "source_link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
-          "first_reported": "2026-06-21",
-          "expires_on": null
-        }
-      ]
-    },
     "England": {
       "elo_penalty": -37.5,
       "absences": [
+        {
+          "player": "Jarell Quansah",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Tuchel worried about right-back situation",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cj9gyp71ge4o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-28",
+          "expires_on": null
+        },
         {
           "player": "Bukayo Saka",
           "status": "doubt",
@@ -77,6 +42,86 @@
           "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
           "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
           "first_reported": "2026-06-20",
+          "expires_on": null
+        }
+      ]
+    },
+    "Egypt": {
+      "elo_penalty": -7.5,
+      "absences": [
+        {
+          "player": "Mohamed Salah",
+          "status": "doubt",
+          "until": null,
+          "key_player": true,
+          "source_title": "Salah an injury doubt for Egypt's last-32 tie",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-28",
+          "expires_on": null
+        }
+      ]
+    },
+    "Spain": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Nico Williams",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Spain's Williams criticises tackle that injured him",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-28",
+          "expires_on": null
+        },
+        {
+          "player": "Yéremy Pino",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
+          "source_link": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams",
+          "first_reported": "2026-06-28",
+          "expires_on": "2026-08-27"
+        },
+        {
+          "player": "Borja Iglesias",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+          "source_link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
+          "first_reported": "2026-06-21",
+          "expires_on": null
+        }
+      ]
+    },
+    "Belgium": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Jérémy Doku",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Doku returning to World Cup after birth of first child",
+          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-23",
+          "expires_on": null
+        }
+      ]
+    },
+    "Germany": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Nico Schlotterbeck",
+          "status": "out",
+          "until": "rest of the World Cup",
+          "key_player": true,
+          "source_title": "Germany defender Schlotterbeck out of World Cup",
+          "source_link": "https://www.bbc.com/sport/football/articles/cgk6rzd5g58o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-23",
           "expires_on": null
         }
       ]

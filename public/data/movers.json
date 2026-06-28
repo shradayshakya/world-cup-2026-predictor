@@ -1,31 +1,13 @@
 {
-  "generated_at": "2026-06-24T06:15:02.687798+00:00",
+  "generated_at": "2026-06-28T16:12:15.406739+00:00",
   "movers": [
     {
-      "team": "Spain",
-      "previous_pct": 30.34,
-      "current_pct": 28.64,
-      "delta_pp": -1.6999999999999993,
-      "direction": "loser",
-      "blurb": "Spain's probability shifted downward following personnel changes. The reported absence of Borja Iglesias has negatively affected our model's estimate regarding their championship chances, leading to the slight decrease in title odds.",
-      "sources": [
-        {
-          "label": "Spain",
-          "href": "/teams/spain"
-        },
-        {
-          "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
-        }
-      ]
-    },
-    {
       "team": "France",
-      "previous_pct": 12.879999999999999,
-      "current_pct": 14.360000000000001,
-      "delta_pp": 1.4800000000000022,
+      "previous_pct": 14.360000000000001,
+      "current_pct": 18.23,
+      "delta_pp": 3.869999999999999,
       "direction": "gainer",
-      "blurb": "France's likelihood of winning has increased in our model. As there have been no recent relevant results or reported squad changes, this shift reflects an internal adjustment in our probability calculation without a specific event being identified by the current available data.",
+      "blurb": "The shift in France's predicted winning probability is based on an internal refinement of our model's calculations, as there have been no relevant match results or changes in player availability since the last assessment.",
       "sources": [
         {
           "label": "France",
@@ -34,52 +16,58 @@
       ]
     },
     {
-      "team": "England",
-      "previous_pct": 4.2299999999999995,
-      "current_pct": 2.77,
-      "delta_pp": -1.4599999999999995,
+      "team": "Argentina",
+      "previous_pct": 32.550000000000004,
+      "current_pct": 29.26,
+      "delta_pp": -3.2900000000000027,
       "direction": "loser",
-      "blurb": "The model updated its projection following significant squad concerns. The reported absences of Declan Rice, coupled with uncertainty surrounding Harry Kane and Bukayo Saka, negatively impact expected team depth and capability moving into the tournament.",
+      "blurb": "The probability shift reflects an internal model adjustment. Since no relevant matches have been played and there are no reported injuries, the decline in estimated chances is based on algorithmic reassessment rather than specific team events.",
       "sources": [
         {
-          "label": "England",
-          "href": "/teams/england"
-        },
-        {
-          "label": "England winger Saka unlikely to start against Ghana",
-          "href": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
-        },
-        {
-          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+          "label": "Argentina",
+          "href": "/teams/argentina"
         }
       ]
     },
     {
-      "team": "Portugal",
-      "previous_pct": 1.94,
-      "current_pct": 3.04,
-      "delta_pp": 1.1,
+      "team": "Brazil",
+      "previous_pct": 1.79,
+      "current_pct": 4.07,
+      "delta_pp": 2.2800000000000002,
       "direction": "gainer",
-      "blurb": "Portugal's increased probability reflects an internal adjustment within our prediction model. With no relevant results or reported team changes since the last update, this shift represents a refined calculation of Portugal’s potential performance relative to other contenders in the tournament.",
+      "blurb": "Our model has adjusted its forecast for Brazil's World Cup chances. Although Neymar is currently listed as absent, the predictive probability has increased since the last update without a specific performance event influencing the shift.",
       "sources": [
         {
-          "label": "Portugal",
-          "href": "/teams/portugal"
+          "label": "Brazil",
+          "href": "/teams/brazil"
+        },
+        {
+          "label": "Brazil's Neymar (calf injury) also out vs. Haiti",
+          "href": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages"
+        }
+      ]
+    },
+    {
+      "team": "United States",
+      "previous_pct": 1.6,
+      "current_pct": 0.44,
+      "delta_pp": -1.1600000000000001,
+      "direction": "loser",
+      "blurb": "The model's estimate shifted despite there being no relevant results or reported injuries for United States since the previous evaluation, indicating an internal calculation adjustment.",
+      "sources": [
+        {
+          "label": "United States",
+          "href": "/teams/united-states"
         }
       ]
     },
     {
       "team": "Norway",
-      "previous_pct": 1.5,
-      "current_pct": 2.27,
-      "delta_pp": 0.77,
-      "direction": "gainer",
-      "blurb": "Norway's probability increased from 1.5% to 2.3%. As there have been no recent results or reported player changes, this increase reflects an internal adjustment within our prediction model and is not tied to any specific external event.",
+      "previous_pct": 2.27,
+      "current_pct": 1.1400000000000001,
+      "delta_pp": -1.13,
+      "direction": "loser",
+      "blurb": "Norway's probability decline was noted. Since there have been neither relevant results nor reported injuries, the drop in the model's estimate reflects an internal adjustment to baseline projections rather than a response to specific recent events.",
       "sources": [
         {
           "label": "Norway",
