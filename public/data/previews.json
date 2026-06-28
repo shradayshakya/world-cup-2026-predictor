@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-28T16:08:00.746507+00:00",
+  "generated_at": "2026-06-28T16:12:15.406739+00:00",
   "previews": {
     "South Africa|Canada|2026-06-28": {
-      "text": "Canada (Elo 1748) meets South Africa (Elo 1575) in a World Cup fixture. Both sides enter with varied form, having recorded wins and draws across their last five results, including both friendly and competitive matches. Canada features two recent victories, while South Africa has one win recorded. With no head-to-head meetings on file, this encounter sets the stage for an early test for both squads.",
+      "text": "Canada (Elo 1748) meets South Africa (Elo 1575) in a highly anticipated matchup. Both teams enter with mixed recent form, as Canada recently defeated Uzbekistan and Qatar, while South Africa recorded a World Cup victory against South Korea. With no head-to-head history on file, the contest is tight, though our model predicts a strong outcome for Canada (79%).",
       "sources": []
     },
     "Brazil|Japan|2026-06-29": {
-      "text": "Brazil (Elo 1994) takes on Japan (Elo 1910) in an intriguing encounter. Brazil boasts a strong run of recent results, including World Cup victories against Scotland and Haiti. Japan's form is also impressive, securing wins over Tunisia and Iceland. With Neymar absent for the Brazilian side, this highly-anticipated match is predicted to be closely contested, with Brazil having a slight edge (49%).",
+      "text": "Brazil (Elo 1994) faces Japan (Elo 1910) in an upcoming clash. Brazil arrives with a strong form, including two World Cup wins, though they will be missing Neymar. Meanwhile, Japan boasts consistent results from their recent fixtures. With both sides showing resilience, the match is anticipated to be tight, with predictions leaning toward a one-one draw.",
       "sources": [
         {
           "label": "Brazil's Neymar (calf injury) also out vs. Haiti",
@@ -15,7 +15,7 @@
       ]
     },
     "Germany|Paraguay|2026-06-29": {
-      "text": "Germany faces a tough challenge against Paraguay. Germany shows strong recent results across both World Cup fixtures and friendlies, though their last match included a loss to Ecuador. Paraguay’s record includes wins and losses in qualifying matches. With both teams having mixed form, the matchup is predicted as tightly contested. Considering key absences for Germany, the contest could be evenly matched, with odds leaning towards a draw or narrow victory for Germany.",
+      "text": "Germany, ranked higher at Elo 1901, takes on Paraguay (Elo 1815) in an upcoming fixture. Both sides feature recent mixed results. Germany's squad is missing Nico Schlotterbeck for this match. Given the matchup dynamics, our model predicts a tight encounter, with the most probable outcome being a draw at 26%, though Germany holds the higher winning probability of 50%.",
       "sources": [
         {
           "label": "Germany defender Schlotterbeck out of World Cup",
@@ -24,7 +24,7 @@
       ]
     },
     "Netherlands|Morocco|2026-06-29": {
-      "text": "Facing a Netherlands squad with high form, Morocco prepares for a crucial World Cup fixture. While the Atlas Lions show resilience in recent outings, they must contend with the absence of Achraf Hakimi. With both sides maintaining competitive results across their last five matches—Netherlands holding the Elo advantage—this matchup is expected to be extremely tight, although one model places a slight edge on the Dutch side.",
+      "text": "The Netherlands, rated higher than Morocco (Elo 1980 vs 1862), faces a challenging contest. While both teams show solid form in recent fixtures, Morocco must contend with Achraf Hakimi's suspension. With no previous meetings on file, the match is set up to be tense. Our model predicts a tight affair, favoring the Netherlands, projecting a 1-1 result or a Dutch victory.",
       "sources": [
         {
           "label": "Morocco captain Hakimi to stand trial for rape",
@@ -33,19 +33,19 @@
       ]
     },
     "Ivory Coast|Norway|2026-06-30": {
-      "text": "Norway enters a key matchup against Ivory Coast, who boasts impressive recent results despite their World Cup loss to Germany. With Norway holding a slight Elo advantage (1918 vs 1743), the stakes are high. Both squads currently report no absences. Although there are no previous head-to-head meetings on file, our model predicts a victory for Norway in this contest.",
+      "text": "Ivory Coast, battling a mixed run of results, faces Norway in a highly anticipated match. While Ivory Coast has recently won against Ecuador and Scotland, their form includes losses to Germany. Norway, holding a higher Elo rating (1918), boasts strong recent victories including those over Senegal and Iraq. With no reported absences for either side, this matchup is expected to be close, though our model predicts a narrow victory for Norway.",
       "sources": []
     },
     "France|Sweden|2026-06-30": {
-      "text": "France, ranked higher with an Elo of 2123, enters this clash boasting strong form despite a recent friendly loss. Sweden's results have been mixed in their last five fixtures. While no key absences report for either side, the predicted battle heavily favors France. Our model estimates a decisive 3-0 victory for France (89%), offering a clear path for the higher-rated squad.",
+      "text": "France (Elo 2123) faces Sweden (Elo 1742) with both teams having no reported absences. France carries a strong recent record, while Sweden presents mixed results from recent matches. Despite the lack of prior head-to-head meetings, our model heavily favors France in this fixture, predicting an impressive performance that could lead to a decisive victory.",
       "sources": []
     },
     "Mexico|Ecuador|2026-06-30": {
-      "text": "Mexico and Ecuador face off in a closely contested World Cup match. Mexico enters with strong form, having secured wins in all of its last five fixtures. Ecuador's recent results are mixed but competitive. With both teams reporting no key absences, the battle is set. Our model predicts a tight 1-1 draw, giving Mexico a slight favorite (54%) in this fixture.",
+      "text": "A clash between Mexico and Ecuador is set, with both teams boasting recent solid form despite having no head-to-head meetings recorded. Mexico's Elo rating of 1912 sits slightly above Ecuador’s 1902. Both squads have reported no key absences leading into the contest. While Mexico has shown impressive winning streaks in their last five fixtures, the model predicts a balanced encounter, anticipating a 1-1 scoreline with a marginal edge to the hosts.",
       "sources": []
     },
     "England|DR Congo|2026-07-01": {
-      "text": "England, featuring a strong run in recent fixtures, faces DR Congo in this World Cup clash. Despite their impressive form, England will be missing key players including Declan Rice and Harry Kane. DR Congo enters with mixed results but no reported absences. With the match predicted to favor the English side at 81%, the focus is on how the high-quality attack performs despite its injury crisis against a determined Congolese outfit.",
+      "text": "England (Elo 2000) faces DR Congo (Elo 1712) as they look to advance. England's recent form includes multiple World Cup victories, though key absences impact them including Harry Kane and Declan Rice. Meanwhile, DR Congo has shown mixed results in their last five outings. Our model predicts a strong performance from England, projecting a 3-0 victory with an 81% likelihood.",
       "sources": [
         {
           "label": "Tuchel worried about right-back situation",
@@ -66,7 +66,7 @@
       ]
     },
     "Belgium|Senegal|2026-07-01": {
-      "text": "Belgium (Elo 1869) welcomes Senegal (Elo 1842), with both teams entering facing mixed form. While Belgium boasts strong recent results, including a World Cup victory, their squad is missing Jérémy Doku. Senegal's last five matches include notable losses against Norway and France. The match is closely contested as the model predicts a low-scoring affair (1-1), giving a slight edge to Belgium (40%), while factoring in strong chances for a draw or a win for Senegal.",
+      "text": "A clash between Belgium (Elo 1869) and Senegal (Elo 1842) approaches. While neither team has a head-to-head meeting on file, both have faced mixed recent results. Belgium is missing Jérémy Doku as they look to maintain form after their last five matches. The matchup is predicted by our model to be a tight affair ending in a 1-1 draw (32% chance for Senegal).",
       "sources": [
         {
           "label": "Doku returning to World Cup after birth of first child",
@@ -75,11 +75,11 @@
       ]
     },
     "United States|Bosnia and Herzegovina|2026-07-01": {
-      "text": "The United States (Elo 1781) face Bosnia and Herzegovina (Elo 1622) as they meet in the World Cup. The USA's recent form includes both wins and losses against international opponents. Bosnia and Herzegovina has recently secured draws alongside a loss. With no head-to-head meetings on file, this matchup carries significance. Our model predicts a home win for the United States, giving them a 78% chance of victory.",
+      "text": "With United States holding a higher Elo rating than Bosnia and Herzegovina, this World Cup fixture sees both sides bringing mixed recent form. The model favors a U.S. victory, predicting a 2-0 result. Since neither team reports any absences, the focus remains on these two competitive squads meeting for the first time in their history.",
       "sources": []
     },
     "Spain|Austria|2026-07-02": {
-      "text": "Spain (Elo 2129) faces Austria (Elo 1836), despite missing key players like Nico Williams and Yéremy Pino. Spain boasts recent victories against Uruguay and Saudi Arabia. Austria's form includes a loss to Argentina, yet they secured wins against Jordan and Tunisia. With no prior head-to-head matches on file, the favorites are heavily leaning towards a Spanish victory (predicted 3-0).",
+      "text": "Spain, rated higher at Elo 2129, takes on Austria (Elo 1836). Spain's recent form includes World Cup wins against Uruguay and Saudi Arabia, though they are missing key players like Nico Williams. Austria boasts a strong run of results in their last five matches. Our model predicts a clear win for Spain with a potential 3-0 scoreline, despite the lack of prior head-to-head meetings.",
       "sources": [
         {
           "label": "Spain's Williams criticises tackle that injured him",
@@ -96,15 +96,15 @@
       ]
     },
     "Portugal|Croatia|2026-07-02": {
-      "text": "Portugal (Elo 1990) faces Croatia (Elo 1905) in a highly anticipated matchup. Both sides are battle-hardened, with recent results including World Cup fixtures. Portugal boasts strong wins alongside draws against DR Congo and Colombia. Croatia's form is also mixed, featuring upsets like a loss to England and Belgium. With no key absences reported for either team, the clash promises intensity. The model predicts a tight 1-1 draw, giving Portugal a 49% chance of victory.",
+      "text": "Portugal (Elo 1990) takes on Croatia (Elo 1905) in a competitive World Cup clash. Portugal's recent form includes wins against Uzbekistan and Chile, while Croatia has seen success in matches against Ghana and Panama. With both teams reporting no key absences, the encounter is predicted tight by our model, which suggests a 1-1 outcome, giving Portugal a slight advantage.",
       "sources": []
     },
     "Switzerland|Algeria|2026-07-02": {
-      "text": "Switzerland (Elo 1914) and Algeria (Elo 1785) face off with mixed recent form. Switzerland has secured wins against World Cup teams, while Algeria shows consistent results from their last five fixtures. Though no head-to-head meetings are on file, the model predicts a tight affair finishing 1-1, giving a slight advantage to Switzerland in this clash.",
+      "text": "Switzerland (Elo 1914) and Algeria (Elo 1785) face off as both sides bring recent form to the contest. While neither has a recorded head-to-head meeting, Switzerland boasts three wins and two draws in their last five results. The predicted match is closely balanced, with our model forecasting a 1-1 draw, giving Switzerland a slight advantage of 57% in this fixture.",
       "sources": []
     },
     "Australia|Egypt|2026-07-03": {
-      "text": "Australia (Elo 1800) faces Egypt (Elo 1734) in a matchup of varied forms. While neither team has recent head-to-head history, the encounter is potentially impacted by Mohamed Salah's status for Egypt. Our model predicts a competitive 1-1 draw, favoring Australia with a 46% chance of victory.",
+      "text": "Australia takes on Egypt in a closely fought World Cup fixture. The two teams present varied recent form, with Egypt dealing with Mohamed Salah's status as a doubt. Australia holds a slight advantage based on Elo ratings (1800 vs 1734). This matchup is anticipated to be tight, given the mixed results from both sides. Our model predicts a draw at 27% likelihood, while Australia is favored with a 46% win probability.",
       "sources": [
         {
           "label": "Salah an injury doubt for Egypt's last-32 tie",
@@ -113,11 +113,11 @@
       ]
     },
     "Argentina|Cape Verde|2026-07-03": {
-      "text": "Argentina, boasting a strong recent run of results, faces Cape Verde in this World Cup matchup. With a notable Elo difference (2148 vs 1622), the contest pits Argentina's consistent form against Cape Verde's mixed results. Although both teams have no reported absences, our model predicts a dominant victory for Argentina, giving them a 96% chance of winning the match.",
+      "text": "Argentina, favored with an Elo of 2148 and five consecutive wins in recent outings, faces Cape Verde (Elo 1622). While both teams have strong recent form, Argentina boasts a perfect winning streak. There are no reported key absences or head-to-head meetings on file before this contest. Based on predictive modeling, Argentina is the clear favorite for victory.",
       "sources": []
     },
     "Colombia|Ghana|2026-07-03": {
-      "text": "Colombia (Elo 2004) hosts Ghana (Elo 1575) as both sides enter in solid form. Colombia boasts recent wins against Costa Rica and Uzbekistan, while Ghana has demonstrated resilience through recent results. With no key absences reported, the fixture is highly anticipated. Our model predicts a strong performance from the home side, suggesting a decisive 3-0 victory for Colombia.",
+      "text": "Colombia, rated higher than Ghana, enters the fixture with strong recent form, recording three wins in their last five results across tournaments and friendlies. Ghana’s recent record includes one win but also two draws from five matches. With no head-to-head history recorded, this contest is highly anticipated. Our model heavily favors a decisive victory for Colombia, predicting a 3-0 result.",
       "sources": []
     }
   }
