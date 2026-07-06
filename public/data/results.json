@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-06T01:47:27.139283+00:00",
+  "scraped_at": "2026-07-06T06:15:03.313374+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -1190,11 +1190,11 @@
       "date": "2026-07-05",
       "home_team": "Mexico",
       "away_team": "England",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 3,
       "venue": "Estadio Azteca, Mexico City",
-      "attendance": null,
+      "attendance": 80824,
       "referee": "Alireza Faghani (Australia)"
     },
     {
@@ -1280,7 +1280,7 @@
       "group": null,
       "date": "2026-07-11",
       "home_team": "Norway",
-      "away_team": "Winner Match 92",
+      "away_team": "England",
       "played": false,
       "home_score": null,
       "away_score": null,

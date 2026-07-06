@@ -1,26 +1,61 @@
 {
-  "scraped_at": "2026-07-06T01:47:27.139283+00:00",
+  "scraped_at": "2026-07-06T06:15:03.313374+00:00",
   "headlines": [
     {
-      "title": "The man no-one wants to face - Haaland fires Norway to history",
+      "title": "England win epic tie against Mexico to reach quarter-finals",
+      "description": "Jude Bellingham scores twice and Harry Kane converts a penalty as 10-man England beat Mexico 3-2 in the World Cup.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/c9w22dqpjw9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-06T04:06:23+00:00"
+    },
+    {
+      "title": "An incredible night when England heroes were made",
+      "description": "On a spine-tingling night of drama, emotion and pure theatre in one of sport's most atmospheric arenas, England delivered one of their greatest performances.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjrgg07p8dlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-06T05:51:10+00:00"
+    },
+    {
+      "title": "The man England will fear most - Haaland fires Norway to history",
       "description": "Erling Haaland has scored seven goals in four World Cup games and he is the striker that nobody wants to face as he fires Norway into an historic quarter-final.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cwy006zywj8o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-07-06T00:57:52+00:00"
+      "published_at": "2026-07-06T03:20:59+00:00"
     },
     {
-      "title": "Rate the players in Mexico v England",
-      "description": "Rate the Mexico and England players out of 10 below and come back 30 minutes after full-time to see the final ratings.",
+      "title": "Where does Mexico win rank among England's best results?",
+      "description": "BBC Sport looks at some of England's most famous away victories after their epic win against Mexico at the Azteca - plus you can have your say.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgevv1r30w1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-06T04:20:22+00:00"
+    },
+    {
+      "title": "'Referees just not good enough' - Tuchel anger over penalty",
+      "description": "England head coach Thomas Tuchel says referees at the World Cup \"are just not good enough\" after the dramatic last-16 win over Mexico.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cq6115rj9ymo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-06T02:50:51+00:00"
+    },
+    {
+      "title": "Who produced another iconic performance? England player ratings",
+      "description": "BBC Sport England reporter Alex Howell rates how the Three Lions players performed in the last-16 win over Mexico.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cp8r40y5r9eo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-07-06T01:50:53+00:00"
+      "published_at": "2026-07-06T03:09:44+00:00"
     },
     {
-      "title": "Ageing Brazil need major surgery - but is Ancelotti the man to do it?",
-      "description": "There was nothing unlucky about Brazil's loss to Norway in the last 16 of the World Cup and their exit at this stage is an unmitigated disaster, writes Tim Vickery.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20yywnqwl5o?at_medium=RSS&at_campaign=rss",
+      "title": "Neymar says Brazil career over after Norway defeat",
+      "description": "An emotional Neymar says his international career for Brazil is \"over\" following his side's exit at the 2026 World Cup at the hands of Norway.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyww4w1rl8o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-07-06T00:51:36+00:00"
+      "published_at": "2026-07-06T06:29:41+00:00"
+    },
+    {
+      "title": "England into quarter-finals - what is their path to the final?",
+      "description": "BBC Sport takes a look at what England will need to do to reach the final after progressing the quarter-finals.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-06T03:27:53+00:00"
     },
     {
       "title": "Red card system in disarray over Trump, Fifa and Balogun decision",
@@ -30,11 +65,25 @@
       "published_at": "2026-07-05T23:57:10+00:00"
     },
     {
-      "title": "Bellingham heads England into the lead against Mexico",
-      "description": "Jude Bellingham gives England the lead over Mexico with a header at the back post during their last 16 at the Mexico City Stadium.",
+      "title": "Bellingham scores two in 98 seconds to silence the Azteca",
+      "description": "Jude Bellingham scores two goals in 98 seconds to give England a 2-0 lead over Mexico during their last 16 match at the Mexico City Stadium.",
       "link": "https://www.bbc.co.uk/sport/football/videos/ce3ee5dkvpro?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
       "published_at": "2026-07-06T01:58:08+00:00"
+    },
+    {
+      "title": "'Nasty, nasty challenge' - Quansah shown red card",
+      "description": "England are reduced to ten men as Jarrel Quansah is shown a red card following a VAR review for a \"nasty\" challenge on Mexico's Jesus Gallardo.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cp8rrwk5624o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-06T02:49:54+00:00"
+    },
+    {
+      "title": "'I'm speechless' - Kane reacts to England's victory over Mexico",
+      "description": "A very hoarse sounding England captain Harry Kane gives his reaction to England's 3-2 victory over Mexico and praises the fans support.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cvg55vne49do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-06T03:49:33+00:00"
     },
     {
       "title": "Haaland sends Norway into quarter-finals as Brazil crash out",
@@ -44,25 +93,25 @@
       "published_at": "2026-07-05T22:47:49+00:00"
     },
     {
-      "title": "Trump thanks Fifa after USA striker Balogun's ban suspended",
-      "description": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
+      "title": "What Haaland's home town did when Norway beat Brazil",
+      "description": "Watch how Erling Haaland's hometown of Bryne reacted to their hero scoring both goals as Norway knocked out Brazil to advance to the quarter-final of the World Cup.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cd955kdlenxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-07-05T19:36:11+00:00"
+      "published_at": "2026-07-06T04:58:10+00:00"
     },
     {
-      "title": "BBC offers 'Stay Up or Catch Up' for England v Mexico",
-      "description": "The BBC will be launching a special 'Stay Up or Catch Up' offer for its live coverage of England's game against Mexico at the 2026 World Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ce8ml7jv1g1o?at_medium=RSS&at_campaign=rss",
+      "title": "Haaland double fires Norway into World Cup quarter-finals",
+      "description": "Erling Haaland scores twice as Norway knock out five-time champions Brazil, and progress to the quarter-finals of the 2026 World Cup.",
+      "link": "https://www.bbc.co.uk/sport/football/videos/cwy00v2xk05o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-07-05T18:02:58+00:00"
+      "published_at": "2026-07-05T22:27:08+00:00"
     },
     {
-      "title": "Mexico fans fail in bid to wake up England players",
-      "description": "England players feel little to no impact of Mexico fans attempting to disturb their sleep by letting off fireworks outside their hotel.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx244m0mzr7o?at_medium=RSS&at_campaign=rss",
+      "title": "Ageing Brazil need major surgery - but is Ancelotti the man to do it?",
+      "description": "There was nothing unlucky about Brazil's loss to Norway in the last 16 of the World Cup and their exit at this stage is an unmitigated disaster, writes Tim Vickery.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20yywnqwl5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-07-05T14:47:25+00:00"
+      "published_at": "2026-07-06T00:51:36+00:00"
     },
     {
       "title": "Real Madrid plot £188m Olise deal - Monday's gossip",
@@ -72,11 +121,53 @@
       "published_at": "2026-07-05T21:15:50+00:00"
     },
     {
-      "title": "Haaland double fires Norway into World Cup quarter-finals",
-      "description": "Erling Haaland scores twice as Norway knock out five-time champions Brazil, and progress to the quarter-finals of the 2026 World Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cwy00v2xk05o?at_medium=RSS&at_campaign=rss",
+      "title": "'Iconic match at iconic stadium' - England win down to 'pure will'",
+      "description": "England are praised for showing \"heart and belief\" as they beat Mexico in an \"iconic match at an iconic stadium\" to reach the World Cup quarter-finals.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cly00xq39n1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-07-05T22:27:08+00:00"
+      "published_at": "2026-07-06T05:51:18+00:00"
+    },
+    {
+      "title": "Trump thanks Fifa after USA striker Balogun's ban suspended",
+      "description": "Folarin Balogun is available to play for the United States in their World Cup last-16 tie against Belgium after his one-game ban is suspended by Fifa.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-05T19:36:11+00:00"
+    },
+    {
+      "title": "Newcastle sign Toure for £43m - what will he bring to club?",
+      "description": "Newcastle United reporter Ciaran Kelly looks at why the club have bought forward Bazoumana Toure from Hoffenheim for £43m.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgqjkq3kwdgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-05T16:33:57+00:00"
+    },
+    {
+      "title": "Chelsea's Santos considered as Man Utd look to solve midfield issues",
+      "description": "After missing out on Elliot Anderson and Mateus Fernandes, are Bournemouth's Alex Scott and Chelsea's Andrey Santos now heading Man Utd's list of midfield targets?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cp9llnxk45jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-05T15:39:07+00:00"
+    },
+    {
+      "title": "Queiroz leaves Ghana following World Cup exit",
+      "description": "Carlos Queiroz steps down as Ghana head coach after three months in charge following their World Cup exit.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/clyxx288yr6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-05T22:55:27+00:00"
+    },
+    {
+      "title": "Thousands welcome home Cape Verde players after stunning World Cup run",
+      "description": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.",
+      "link": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-05T14:59:10+00:00"
+    },
+    {
+      "title": "Real Madrid sign defender Dumfries from Inter Milan",
+      "description": "Real Madrid sign Netherlands full-back Denzel Dumfries from Inter Milan on a four-year deal.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c20yyg6n3zwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "published_at": "2026-07-05T12:23:41+00:00"
     },
     {
       "title": "How 'remarkable' Haaland lead Norway to win over Brazil",
@@ -93,48 +184,6 @@
       "published_at": "2026-07-06T00:38:09+00:00"
     },
     {
-      "title": "Newcastle sign Toure for £43m - what will he bring to club?",
-      "description": "Newcastle United reporter Ciaran Kelly looks at why the club have bought forward Bazoumana Toure from Hoffenheim for £43m.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgqjkq3kwdgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-07-05T16:33:57+00:00"
-    },
-    {
-      "title": "Queiroz leaves Ghana following World Cup exit",
-      "description": "Carlos Queiroz steps down as Ghana head coach after three months in charge following their World Cup exit.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/clyxx288yr6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-07-05T22:55:27+00:00"
-    },
-    {
-      "title": "Chelsea's Santos considered as Man Utd look to solve midfield issues",
-      "description": "After missing out on Elliot Anderson and Mateus Fernandes, are Bournemouth's Alex Scott and Chelsea's Andrey Santos now heading Man Utd's list of midfield targets?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cp9llnxk45jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-07-05T15:39:07+00:00"
-    },
-    {
-      "title": "Real Madrid sign defender Dumfries from Inter Milan",
-      "description": "Real Madrid sign Netherlands full-back Denzel Dumfries from Inter Milan on a four-year deal.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c20yyg6n3zwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-07-05T12:23:41+00:00"
-    },
-    {
-      "title": "Who am I? Guess World Cup star No 28",
-      "description": "Will you get today's player in as few attempts as possible?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx21k039r7qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-07-05T05:46:18+00:00"
-    },
-    {
-      "title": "Thousands welcome home Cape Verde players after stunning World Cup run",
-      "description": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.",
-      "link": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-07-05T14:59:10+00:00"
-    },
-    {
       "title": "Brentford set to sign Burnley forward Anthony",
       "description": "Brentford are nearing a move for Burnley forward Jaidon Anthony for a £15m fee rising to £17m with add-ons.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c77yd4yxzlno?at_medium=RSS&at_campaign=rss",
@@ -142,39 +191,25 @@
       "published_at": "2026-07-05T11:32:23+00:00"
     },
     {
-      "title": "The Norway story - 28-year wait for their biggest-ever party",
-      "description": "Norway have waited 28 years for an appearance at the World Cup - now they face Brazil hoping to make history by reaching the quarter-finals for the first time.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cpq3pgdp500o?at_medium=RSS&at_campaign=rss",
+      "title": "Bologna keen on Rangers' Barron amid possible Ferguson swap - gossip",
+      "description": "Rangers midfielders linked with moves, speculation over Celtic targets and St Johnstone to offer winger trial.",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ced44xl40qwo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-07-05T03:39:49+00:00"
+      "published_at": "2026-07-06T06:30:57+00:00"
     },
     {
-      "title": "England enter the Azteca - where football kings are crowned",
-      "description": "BBC Sport explores the history and cultural power of the Azteca, one of the great cathedrals of world football, as England prepare to face Mexico there in the last 16 of the World Cup.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cg74e324835o?at_medium=RSS&at_campaign=rss",
+      "title": "Family travels 6,500 miles to see son play 13 minutes at World Cup",
+      "description": "Callan Elliot's family flew thousands of miles to see their son - originally from Annan - play for New Zealand.",
+      "link": "https://www.bbc.co.uk/news/articles/c15ydv51p25o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Sport",
-      "published_at": "2026-07-05T08:26:39+00:00"
+      "published_at": "2026-07-06T05:14:43+00:00"
     },
     {
-      "title": "England into last 16 - what is their path to the final?",
-      "description": "BBC Sport takes a look at what England will need to do to reach the final after progressing the last 16",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-07-05T23:09:47+00:00"
-    },
-    {
-      "title": "'Sassuolo and Bologna in Bowie transfer talks' - gossip",
-      "description": "Sassuolo and Bologna are reportedly in talks with Hellas Verona about Kieron Bowie, while Celtic are linked with Norwegian striker Tobias Lauritsen and three clubs are said to be chasing former Rangers loanee Mikey Moore.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c1ly222d9djo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Sport",
-      "published_at": "2026-07-05T08:03:15+00:00"
-    },
-    {
-      "title": "Mexico v England: World Cup 2026 last 16 updates – live",
-      "description": "⚽️ Kick-off time: 9pm EDT/2am BST/11am AEST ⚽️ Match gallery | Player guide | World Cup draw | Email Beau It has just been announced that the arrival of the teams at the stadium has been put on hold. So, maybe we won’t be fine .... And another! Norway are heading through. There’s gonna be a lot of rowing routines on the floors of New York bars tonight. Continue reading...",
-      "link": "https://www.theguardian.com/football/live/2026/jul/05/mexico-v-england-world-cup-2026-last-16-live",
+      "title": "England’s 10 men hang on after Kane penalty to beat Mexico in World Cup thriller",
+      "description": "File it as England’s finest World Cup knockout phase victory since 1966. There have not been a huge number of them; only nine previously, each a gripping drama in its own right. Yet it was the context of this one that set it apart. England stepped into the mayhem of the Estadio Azteca, a venue that contains a very particular ghost for them, to face the full force of the Mexican nation. Plus a team that almost never lose here. Javier Aguirre’s men brought flawless form to the showpiece; four wins out of four so far at the tournament; their tournament. It was the cohosts’ grand send-off from their own turf, arguably the biggest game in their history. An unofficial final for them. Continue reading...",
+      "link": "https://www.theguardian.com/football/2026/jul/06/england-mexico-match-report-jude-bellingham-harry-kane-world-cup",
       "source": "The Guardian",
-      "published_at": "2026-07-06T02:00:29+00:00"
+      "published_at": "2026-07-06T03:06:05+00:00"
     },
     {
       "title": "Trump lobbied Fifa to lift Folarin Balogun suspension for World Cup game v Belgium",
@@ -226,6 +261,13 @@
       "published_at": "2026-07-05T07:00:21+00:00"
     },
     {
+      "title": "World Cup 2026: England beat Mexico in thriller at the Azteca – in pictures",
+      "description": "The best pictures from a sensational knockout fixture which began after a one-hour storm delay Continue reading...",
+      "link": "https://www.theguardian.com/football/gallery/2026/jul/06/world-cup-2026-mexico-v-england-at-the-azteca-in-pictures",
+      "source": "The Guardian",
+      "published_at": "2026-07-06T01:35:26+00:00"
+    },
+    {
       "title": "France deliver knockout punch to Paraguay in the Battle of Philadelphia",
       "description": "Sign up now! Sign up now! Sign up now? Sign up now! “Good evening. The game you are about to see is the most stupid, appalling, disgusting and disgraceful exhibition of football in the history of the game.” Were David Coleman still around, then perhaps the highlights package of France 1-0 Paraguay at the Geopolitics World Cup would have received similar words to Chile 2-0 Italy back in 1962. This is an extract from our daily football email … Football Daily. To get the full version, just visit this page and follow the instructions . Continue reading...",
       "link": "https://www.theguardian.com/football/2026/jul/05/football-daily-france-knockout-punch-paraguay-battle-of-philadelphia-world-cup",
@@ -245,13 +287,6 @@
       "link": "https://www.theguardian.com/football/2026/jul/05/football-centre-of-universe-brazil-not-in-us",
       "source": "The Guardian",
       "published_at": "2026-07-05T07:00:20+00:00"
-    },
-    {
-      "title": "Canada co-hosted the World Cup – but whose party was it?",
-      "description": "Les Rouges brought moments of joy to their nation. But there are plenty of questions around Canadian soccer as the tournament moves on It was standing room only on Saturday lunchtime in Toronto’s oldest bar, the Wheatsheaf. For some, the wake had already begun. Nestled in the corner was a group of sullen Irish GAA fans, who had just witnessed Cork’s demoralizing defeat to Galway in the All-Ireland Hurling semi‑final. Resplendent in their red and white as they gazed despairingly into the middle distance, at least they had another team to root for. It was an odd scenario. Canada is co-hosting this tournament but, due to the team’s second-place finish in the group stage, they were playing Morocco far to the south in Houston, Texas. But the Wheatsheaf was a sea of red and white as Canada fans gathered for the last-16 clash. Some guy even dusted off a vintage Manchester United 1999 jersey with ‘Beckham’ on the back. Anything for Canada. And that sense of collective patriotism soared when Wayne Gretzky – the once Great One now derided in his native land for cosying up to Donald Trump, among other curious missteps – popped up on TV screens and was booed mercilessly and enthusiastically by the crowd. Continue reading...",
-      "link": "https://www.theguardian.com/football/2026/jul/05/canada-co-hosted-the-world-cup-but-whose-party-was-it",
-      "source": "The Guardian",
-      "published_at": "2026-07-05T13:48:26+00:00"
     },
     {
       "title": "A footballing deepfake: how Bruno Fernandes fell victim to an unlicensed betting operator",
@@ -275,74 +310,81 @@
       "published_at": "2026-07-05T07:49:38+00:00"
     },
     {
-      "title": "Follow live: Mexico trim deficit after Bellingham'...",
-      "description": "null",
-      "link": "https://www.espn.com/soccer/story/_/id/49265317/world-cup-live-updates-mexico-host-england-round-16-clash",
+      "title": "England end Mexico's World Cup with best win on fo...",
+      "description": "Outside of England, the Three Lions' World Cup history is mixed at best, but they defied the odds to grind out an emotional last-16 win over Mexico.",
+      "link": "https://www.espn.com/soccer/story/_/id/49283101/england-end-mexico-world-cup-best-win-foreign-soil-their-history",
       "source": "ESPN",
-      "published_at": "2026-07-06T03:00:30+00:00"
+      "published_at": "2026-07-06T05:38:52+00:00"
+    },
+    {
+      "title": "World Cup VAR review: Quansah's red, Kane's penalt...",
+      "description": "Andy Davies breaks down all three major incidents from England's topsy-turvy 3-2 World Cup round-of-16 win over Mexico.",
+      "link": "https://www.espn.com/soccer/story/_/id/49283462/world-cup-2026-var-review-quansahs-red-kanes-penalty-did-ref-get-right",
+      "source": "ESPN",
+      "published_at": "2026-07-06T05:38:52+00:00"
+    },
+    {
+      "title": "England survive to beat Mexico in Azteca thriller",
+      "description": "England survived a raucous Azteca Stadium atmosphere and a red card early in the second half to prevail past co-hosts Mexico 3-2 in a thrilling World Cup round-of-16 clash in Mexico City on Sunday.",
+      "link": "https://www.espn.com/soccer/story/_/id/49282902/england-mexico-2026-world-cup-azteca-red-card-bellingham",
+      "source": "ESPN",
+      "published_at": "2026-07-06T07:11:00+00:00"
     },
     {
       "title": "FIFA suspends Balogun red card, can face Belgium",
       "description": "FIFA has suspended the red card U.S. striker Folarin Balogun received in the team's match against Bosnia-Herzegovina, making him available to face Belgium in the round of 16 at the World Cup.",
       "link": "https://www.espn.com/soccer/story/_/id/49277378/usmnt-folarin-balogun-red-card-suspended-belgium",
       "source": "ESPN",
-      "published_at": "2026-07-06T01:55:44+00:00"
+      "published_at": "2026-07-06T07:09:55+00:00"
+    },
+    {
+      "title": "Jude: Mexico win 'best night' in England career",
+      "description": "Jude Bellingham said his side's win over Mexico was his proudest moment in an England shirt, and has told people back home to tell their bosses and teachers that they'll be taking the day off.",
+      "link": "https://www.espn.com/soccer/story/_/id/49283565/jude-bellingham-england-mexico-world-cup-2026-azteca-win-proudest-moment",
+      "source": "ESPN",
+      "published_at": "2026-07-06T07:11:00+00:00"
+    },
+    {
+      "title": "Mexico proud, but 'hurt' after exiting World Cup",
+      "description": "Mexico manager Javier Aguirre said he feels proud but hurt after being eliminated from the FIFA World Cup with a 3-2 loss against England on Sunday night at the Estadio Azteca.",
+      "link": "https://www.espn.com/soccer/story/_/id/49283428/mexico-proud-hurt-exiting-world-cup-england",
+      "source": "ESPN",
+      "published_at": "2026-07-06T07:11:00+00:00"
     },
     {
       "title": "Tearful Neymar retires from Brazil after WC exit",
       "description": "An emotional Neymar said his career with Brazil had \"finished\" after his team's World Cup exit at the hands of Norway in the round of 16 on Sunday.",
       "link": "https://www.espn.com/soccer/story/_/id/49281072/neymar-brazil-retires-world-cup-2026-exit-norway",
       "source": "ESPN",
-      "published_at": "2026-07-06T02:09:42+00:00"
-    },
-    {
-      "title": "Haaland: Brazil win 'greatest game' in our history...",
-      "description": "Erling Haaland said his two-goal match-winning performance in Norway's 2-1 World Cup round-of-16 victory against Brazil capped an \"insane\" day in his country's history -- and its greatest game.",
-      "link": "https://www.espn.com/soccer/story/_/id/49281422/erling-haaland-brazil-win-greatest-game-norway-history",
-      "source": "ESPN",
-      "published_at": "2026-07-06T02:09:42+00:00"
+      "published_at": "2026-07-06T07:11:00+00:00"
     },
     {
       "title": "Belgium furious at Balogun U-turn: It's April Fool...",
       "description": "Belgium coach Rudi Garcia said he thought it was a joke when he first heard news that suspended United States striker Folarin Balogun was cleared to play in the Americans' round-of-16 match.",
       "link": "https://www.espn.com/soccer/story/_/id/49279471/belgium-usa-folarin-balogun-ban-suspended-fifa-world-cup-2026",
       "source": "ESPN",
-      "published_at": "2026-07-06T02:09:42+00:00"
-    },
-    {
-      "title": "Poch: U.S. 'punished enough' for Balogun red card",
-      "description": "United States manager Mauricio Pochettino praised FIFA's decision to lift the suspension on U.S. forward Folarin Balogun, saying the USMNT was \"punished enough\" by having to play shorthanded against Bosnia-Herzegovina for 35 minutes.",
-      "link": "https://www.espn.com/soccer/story/_/id/49281013/pochettino-says-us-punished-enough-balogun-red-card",
-      "source": "ESPN",
-      "published_at": "2026-07-06T02:09:42+00:00"
+      "published_at": "2026-07-06T07:09:55+00:00"
     },
     {
       "title": "Ronaldo: 'This will be my last World Cup'",
       "description": "Cristiano Ronaldo has admitted that this will be his last World Cup, as he prepares to face Spain with Portugal in Monday's round of 16 clash in Dallas.",
       "link": "https://www.espn.com/soccer/story/_/id/49278881/cristiano-ronaldo-world-cup-2026-portugal",
       "source": "ESPN",
-      "published_at": "2026-07-06T02:09:42+00:00"
+      "published_at": "2026-07-06T07:09:55+00:00"
     },
     {
       "title": "Ancelotti vows to start a 'new cycle' for Brazil",
       "description": "Brazil coach Carlo Ancelotti said he's looking to oversee a \"new cycle\" with the team after they crashed out of the World Cup on Sunday in the round of 16.",
       "link": "https://www.espn.com/soccer/story/_/id/49281885/carlo-ancelotti-vows-start-new-cycle-brazil-world-cup-exit",
       "source": "ESPN",
-      "published_at": "2026-07-06T02:09:42+00:00"
-    },
-    {
-      "title": "France's Mbappé calls Paraguay tactics 'ugly'",
-      "description": "Kylian Mbappé warned future World Cup opponents that France are ready to \"play ugly\" and get their \"hands dirty\" after brushing off Paraguay's provocations in a heated 1-0 round-of-16 victory,",
-      "link": "https://www.espn.com/soccer/story/_/id/49272367/france-kylian-mbappe-paraguay-tactics-get-our-hands-dirty",
-      "source": "ESPN",
-      "published_at": "2026-07-06T01:55:44+00:00"
+      "published_at": "2026-07-06T07:09:55+00:00"
     },
     {
       "title": "⚾ Pochettino is latest WC star to throw first pitc...",
       "description": "U.S. coach Mauricio Pochettino was the latest soccer star to throw the first pitch at an MLB game this summer. How did he and he fellow footballers do?",
       "link": "https://www.espn.com/soccer/story/_/id/49261996/usmnt-coach-mauricio-pochettino-latest-world-cup-star-throw-first-pitch-mlb",
       "source": "ESPN",
-      "published_at": "2026-07-06T02:09:42+00:00"
+      "published_at": "2026-07-06T07:11:01+00:00"
     },
     {
       "title": "Nobody benefits from FIFA letting Balogun off the ...",
@@ -356,7 +398,7 @@
       "description": "Brazil's World Cup hopes were dashed by Erling Haaland, whose stunning brace propelled Norway to the quarterfinals.",
       "link": "https://www.espn.com/soccer/story/_/id/49280315/haaland-brings-thunder-strikes-brazil-norway-reach-quarterfinals-2026-world-cup",
       "source": "ESPN",
-      "published_at": "2026-07-06T02:49:22+00:00"
+      "published_at": "2026-07-06T05:32:25+00:00"
     },
     {
       "title": "Postcards from the World Cup: Seeing the U.S., Canada and Mexico play at home",
