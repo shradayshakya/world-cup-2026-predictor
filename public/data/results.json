@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-28T16:12:15.406739+00:00",
+  "scraped_at": "2026-07-06T01:47:27.139283+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -25,7 +25,7 @@
       "away_score": 1,
       "venue": "Estadio Akron, Zapopan",
       "attendance": 44985,
-      "referee": "Amin Mohamed Omar (Egypt)"
+      "referee": "Amin Omar (Egypt)"
     },
     {
       "round": "Group stage",
@@ -943,11 +943,11 @@
       "date": "2026-06-28",
       "home_team": "South Africa",
       "away_team": "Canada",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 0,
+      "away_score": 1,
       "venue": "SoFi Stadium, Inglewood",
-      "attendance": null,
+      "attendance": 69237,
       "referee": "João Pinheiro (Portugal)"
     },
     {
@@ -956,11 +956,11 @@
       "date": "2026-06-29",
       "home_team": "Brazil",
       "away_team": "Japan",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 1,
       "venue": "NRG Stadium, Houston",
-      "attendance": null,
+      "attendance": 68777,
       "referee": "Maurizio Mariani (Italy)"
     },
     {
@@ -969,11 +969,11 @@
       "date": "2026-06-29",
       "home_team": "Germany",
       "away_team": "Paraguay",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 1,
       "venue": "Gillette Stadium, Foxborough",
-      "attendance": null,
+      "attendance": 63945,
       "referee": "Jalal Jayed (Morocco)"
     },
     {
@@ -982,11 +982,11 @@
       "date": "2026-06-29",
       "home_team": "Netherlands",
       "away_team": "Morocco",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 1,
       "venue": "Estadio BBVA, Guadalupe",
-      "attendance": null,
+      "attendance": 51243,
       "referee": "Wilton Sampaio (Brazil)"
     },
     {
@@ -995,12 +995,12 @@
       "date": "2026-06-30",
       "home_team": "Ivory Coast",
       "away_team": "Norway",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 2,
       "venue": "AT&T Stadium, Arlington",
-      "attendance": null,
-      "referee": null
+      "attendance": 69665,
+      "referee": "Jesús Valenzuela (Venezuela)"
     },
     {
       "round": "Round of 32",
@@ -1008,12 +1008,12 @@
       "date": "2026-06-30",
       "home_team": "France",
       "away_team": "Sweden",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 3,
+      "away_score": 0,
       "venue": "MetLife Stadium, East Rutherford",
-      "attendance": null,
-      "referee": null
+      "attendance": 80663,
+      "referee": "Danny Makkelie (Netherlands)"
     },
     {
       "round": "Round of 32",
@@ -1021,12 +1021,12 @@
       "date": "2026-06-30",
       "home_team": "Mexico",
       "away_team": "Ecuador",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 0,
       "venue": "Estadio Azteca, Mexico City",
-      "attendance": null,
-      "referee": null
+      "attendance": 80824,
+      "referee": "Slavko Vinčić (Slovenia)"
     },
     {
       "round": "Round of 32",
@@ -1034,12 +1034,12 @@
       "date": "2026-07-01",
       "home_team": "England",
       "away_team": "DR Congo",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 1,
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "attendance": null,
-      "referee": null
+      "attendance": 68239,
+      "referee": "Adham Makhadmeh (Jordan)"
     },
     {
       "round": "Round of 32",
@@ -1047,12 +1047,12 @@
       "date": "2026-07-01",
       "home_team": "Belgium",
       "away_team": "Senegal",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 3,
+      "away_score": 2,
       "venue": "Lumen Field, Seattle",
-      "attendance": null,
-      "referee": null
+      "attendance": 66925,
+      "referee": "Saíd Martínez (Honduras)"
     },
     {
       "round": "Round of 32",
@@ -1060,12 +1060,12 @@
       "date": "2026-07-01",
       "home_team": "United States",
       "away_team": "Bosnia and Herzegovina",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 0,
       "venue": "Levi's Stadium, Santa Clara",
-      "attendance": null,
-      "referee": null
+      "attendance": 68827,
+      "referee": "Raphael Claus (Brazil)"
     },
     {
       "round": "Round of 32",
@@ -1073,12 +1073,12 @@
       "date": "2026-07-02",
       "home_team": "Spain",
       "away_team": "Austria",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 3,
+      "away_score": 0,
       "venue": "SoFi Stadium, Inglewood",
-      "attendance": null,
-      "referee": null
+      "attendance": 70492,
+      "referee": "Glenn Nyberg (Sweden)"
     },
     {
       "round": "Round of 32",
@@ -1086,12 +1086,12 @@
       "date": "2026-07-02",
       "home_team": "Portugal",
       "away_team": "Croatia",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 1,
       "venue": "BMO Field, Toronto",
-      "attendance": null,
-      "referee": null
+      "attendance": 43036,
+      "referee": "Espen Eskås (Norway)"
     },
     {
       "round": "Round of 32",
@@ -1099,12 +1099,12 @@
       "date": "2026-07-02",
       "home_team": "Switzerland",
       "away_team": "Algeria",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 0,
       "venue": "BC Place, Vancouver",
-      "attendance": null,
-      "referee": null
+      "attendance": 52497,
+      "referee": "Yael Falcón (Argentina)"
     },
     {
       "round": "Round of 32",
@@ -1112,12 +1112,12 @@
       "date": "2026-07-03",
       "home_team": "Australia",
       "away_team": "Egypt",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 1,
       "venue": "AT&T Stadium, Arlington",
-      "attendance": null,
-      "referee": null
+      "attendance": 70244,
+      "referee": "Gustavo Tejera (Uruguay)"
     },
     {
       "round": "Round of 32",
@@ -1125,12 +1125,12 @@
       "date": "2026-07-03",
       "home_team": "Argentina",
       "away_team": "Cape Verde",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 3,
+      "away_score": 2,
       "venue": "Hard Rock Stadium, Miami Gardens",
-      "attendance": null,
-      "referee": null
+      "attendance": 64478,
+      "referee": "Drew Fischer (Canada)"
     },
     {
       "round": "Round of 32",
@@ -1138,123 +1138,123 @@
       "date": "2026-07-03",
       "home_team": "Colombia",
       "away_team": "Ghana",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 0,
       "venue": "Arrowhead Stadium, Kansas City",
-      "attendance": null,
-      "referee": null
+      "attendance": 69045,
+      "referee": "Clément Turpin (France)"
     },
     {
       "round": "Round of 16",
       "group": null,
       "date": "2026-07-04",
-      "home_team": "Winner Match 73",
-      "away_team": "Winner Match 75",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "home_team": "Canada",
+      "away_team": "Morocco",
+      "played": true,
+      "home_score": 0,
+      "away_score": 3,
       "venue": "NRG Stadium, Houston",
-      "attendance": null,
-      "referee": null
+      "attendance": 68777,
+      "referee": "Michael Oliver (England)"
     },
     {
       "round": "Round of 16",
       "group": null,
       "date": "2026-07-04",
-      "home_team": "Winner Match 74",
-      "away_team": "Winner Match 77",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "home_team": "Paraguay",
+      "away_team": "France",
+      "played": true,
+      "home_score": 0,
+      "away_score": 1,
       "venue": "Lincoln Financial Field, Philadelphia",
-      "attendance": null,
-      "referee": null
+      "attendance": 68324,
+      "referee": "Ilgiz Tantashev (Uzbekistan)"
     },
     {
       "round": "Round of 16",
       "group": null,
       "date": "2026-07-05",
-      "home_team": "Winner Match 76",
-      "away_team": "Winner Match 78",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "played": true,
+      "home_score": 1,
+      "away_score": 2,
       "venue": "MetLife Stadium, East Rutherford",
-      "attendance": null,
-      "referee": null
+      "attendance": 80663,
+      "referee": "Ismail Elfath (United States)"
     },
     {
       "round": "Round of 16",
       "group": null,
       "date": "2026-07-05",
-      "home_team": "Winner Match 79",
-      "away_team": "Winner Match 80",
+      "home_team": "Mexico",
+      "away_team": "England",
       "played": false,
       "home_score": null,
       "away_score": null,
       "venue": "Estadio Azteca, Mexico City",
       "attendance": null,
-      "referee": null
+      "referee": "Alireza Faghani (Australia)"
     },
     {
       "round": "Round of 16",
       "group": null,
       "date": "2026-07-06",
-      "home_team": "Winner Match 83",
-      "away_team": "Winner Match 84",
+      "home_team": "Portugal",
+      "away_team": "Spain",
       "played": false,
       "home_score": null,
       "away_score": null,
       "venue": "AT&T Stadium, Arlington",
       "attendance": null,
-      "referee": null
+      "referee": "Anthony Taylor (England)"
     },
     {
       "round": "Round of 16",
       "group": null,
       "date": "2026-07-06",
-      "home_team": "Winner Match 81",
-      "away_team": "Winner Match 82",
+      "home_team": "United States",
+      "away_team": "Belgium",
       "played": false,
       "home_score": null,
       "away_score": null,
       "venue": "Lumen Field, Seattle",
       "attendance": null,
-      "referee": null
+      "referee": "Adham Makhadmeh (Jordan)"
     },
     {
       "round": "Round of 16",
       "group": null,
       "date": "2026-07-07",
-      "home_team": "Winner Match 86",
-      "away_team": "Winner Match 88",
+      "home_team": "Argentina",
+      "away_team": "Egypt",
       "played": false,
       "home_score": null,
       "away_score": null,
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "attendance": null,
-      "referee": null
+      "referee": "François Letexier (France)"
     },
     {
       "round": "Round of 16",
       "group": null,
       "date": "2026-07-07",
-      "home_team": "Winner Match 85",
-      "away_team": "Winner Match 87",
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
       "played": false,
       "home_score": null,
       "away_score": null,
       "venue": "BC Place, Vancouver",
       "attendance": null,
-      "referee": null
+      "referee": "Iván Barton (El Salvador)"
     },
     {
       "round": "Quarter-finals",
       "group": null,
       "date": "2026-07-09",
-      "home_team": "Winner Match 89",
-      "away_team": "Winner Match 90",
+      "home_team": "France",
+      "away_team": "Morocco",
       "played": false,
       "home_score": null,
       "away_score": null,
@@ -1279,7 +1279,7 @@
       "round": "Quarter-finals",
       "group": null,
       "date": "2026-07-11",
-      "home_team": "Winner Match 91",
+      "home_team": "Norway",
       "away_team": "Winner Match 92",
       "played": false,
       "home_score": null,

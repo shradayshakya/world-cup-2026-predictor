@@ -5,109 +5,108 @@
       "group_third": 1.0,
       "group_third_advanced": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.3554,
-      "reached_qf": 0.1288,
-      "reached_sf": 0.0136,
-      "reached_final": 0.0036,
-      "won_tournament": 0.0004,
-      "won_third_place_match": 0.0014
+      "reached_r16": 0.2611,
+      "reached_qf": 0.0807,
+      "reached_sf": 0.0055,
+      "reached_final": 0.0012,
+      "won_third_place_match": 0.0003
     },
     "Argentina": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.9903,
-      "reached_qf": 0.8602,
-      "reached_sf": 0.6698,
-      "reached_final": 0.4328,
-      "won_tournament": 0.2926,
-      "won_third_place_match": 0.193
+      "reached_r16": 0.9908,
+      "reached_qf": 0.8529,
+      "reached_sf": 0.6637,
+      "reached_final": 0.4042,
+      "won_tournament": 0.2673,
+      "won_third_place_match": 0.21
     },
     "Australia": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.6115,
-      "reached_qf": 0.1173,
-      "reached_sf": 0.0106,
-      "reached_final": 0.0012,
-      "won_third_place_match": 0.0025,
+      "reached_r16": 0.5979,
+      "reached_qf": 0.1042,
+      "reached_sf": 0.009,
+      "won_third_place_match": 0.0024,
+      "reached_final": 0.0008,
       "won_tournament": 0.0001
     },
     "Austria": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.0848,
-      "reached_qf": 0.025,
-      "reached_sf": 0.0117,
-      "reached_final": 0.0038,
-      "won_tournament": 0.0005,
-      "won_third_place_match": 0.0015
+      "reached_r16": 0.0678,
+      "reached_qf": 0.0162,
+      "reached_sf": 0.0069,
+      "reached_final": 0.0021,
+      "won_third_place_match": 0.0008,
+      "won_tournament": 0.0003
     },
     "Belgium": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.6446,
-      "reached_qf": 0.3276,
-      "reached_sf": 0.0611,
-      "won_third_place_match": 0.0075,
-      "reached_final": 0.0249,
-      "won_tournament": 0.0041
+      "reached_r16": 0.7389,
+      "reached_qf": 0.4032,
+      "reached_sf": 0.0754,
+      "won_third_place_match": 0.0103,
+      "reached_final": 0.0316,
+      "won_tournament": 0.005
     },
     "Bosnia and Herzegovina": {
       "group_third": 1.0,
       "group_third_advanced": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.0962,
-      "reached_qf": 0.0172,
-      "reached_sf": 0.0013,
-      "reached_final": 0.0001,
-      "won_third_place_match": 0.0001
+      "reached_r16": 0.0884,
+      "reached_qf": 0.0168,
+      "reached_sf": 0.0006,
+      "won_third_place_match": 0.0
     },
     "Brazil": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.6456,
-      "reached_qf": 0.443,
-      "reached_sf": 0.3123,
-      "won_third_place_match": 0.0728,
-      "reached_final": 0.1259,
-      "won_tournament": 0.0407
+      "reached_r16": 0.655,
+      "reached_qf": 0.3671,
+      "reached_sf": 0.258,
+      "reached_final": 0.0885,
+      "won_tournament": 0.0242,
+      "won_third_place_match": 0.0579
     },
     "Canada": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.8976,
-      "reached_qf": 0.4078,
-      "reached_sf": 0.1361,
-      "reached_final": 0.0278,
-      "won_tournament": 0.004,
-      "won_third_place_match": 0.0194
+      "reached_r16": 0.8929,
+      "reached_qf": 0.3866,
+      "reached_sf": 0.1081,
+      "reached_final": 0.0166,
+      "won_third_place_match": 0.0145,
+      "won_tournament": 0.0019
     },
     "Cape Verde": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.0097,
-      "reached_qf": 0.0008,
-      "reached_sf": 0.0
+      "reached_r16": 0.0092,
+      "reached_qf": 0.0007,
+      "reached_sf": 0.0001,
+      "reached_final": 0.0
     },
     "Colombia": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.9746,
-      "reached_qf": 0.83,
-      "reached_sf": 0.2629,
-      "reached_final": 0.1058,
-      "won_tournament": 0.0465,
-      "won_third_place_match": 0.0967
+      "reached_r16": 0.9769,
+      "reached_qf": 0.8432,
+      "reached_sf": 0.2621,
+      "reached_final": 0.098,
+      "won_third_place_match": 0.0971,
+      "won_tournament": 0.0419
     },
     "Croatia": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.351,
-      "reached_qf": 0.0672,
-      "reached_sf": 0.04,
-      "reached_final": 0.0186,
-      "won_third_place_match": 0.0055,
-      "won_tournament": 0.0035
+      "reached_r16": 0.2753,
+      "reached_qf": 0.0383,
+      "reached_sf": 0.0198,
+      "reached_final": 0.0085,
+      "won_third_place_match": 0.0021,
+      "won_tournament": 0.0012
     },
     "Curaçao": {
       "group_fourth": 1.0
@@ -119,9 +118,9 @@
       "group_third": 1.0,
       "group_third_advanced": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.0887,
-      "reached_qf": 0.0105,
-      "reached_sf": 0.0008,
+      "reached_r16": 0.0798,
+      "reached_qf": 0.0074,
+      "reached_sf": 0.0004,
       "won_third_place_match": 0.0001,
       "reached_final": 0.0
     },
@@ -129,58 +128,58 @@
       "group_third": 1.0,
       "group_third_advanced": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.4813,
-      "reached_qf": 0.0637,
-      "reached_sf": 0.024,
-      "won_third_place_match": 0.0074,
-      "reached_final": 0.006,
-      "won_tournament": 0.002
+      "reached_r16": 0.3742,
+      "reached_qf": 0.038,
+      "reached_sf": 0.0126,
+      "won_third_place_match": 0.0039,
+      "reached_final": 0.0022,
+      "won_tournament": 0.0005
     },
     "Egypt": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.3885,
-      "reached_qf": 0.0479,
-      "reached_sf": 0.0027,
-      "won_third_place_match": 0.0005,
-      "reached_final": 0.0002
+      "reached_r16": 0.4021,
+      "reached_qf": 0.0487,
+      "reached_sf": 0.0025,
+      "won_third_place_match": 0.0003,
+      "reached_final": 0.0001
     },
     "England": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.9113,
-      "reached_qf": 0.4757,
-      "reached_sf": 0.1765,
-      "won_third_place_match": 0.0715,
-      "reached_final": 0.0594,
-      "won_tournament": 0.0263
+      "reached_r16": 0.9202,
+      "reached_qf": 0.4407,
+      "reached_sf": 0.1517,
+      "reached_final": 0.0546,
+      "won_third_place_match": 0.0583,
+      "won_tournament": 0.0231
     },
     "France": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.9233,
-      "reached_qf": 0.7243,
-      "reached_sf": 0.5128,
-      "won_third_place_match": 0.181,
-      "reached_final": 0.2826,
-      "won_tournament": 0.1823
+      "reached_r16": 0.9376,
+      "reached_qf": 0.7663,
+      "reached_sf": 0.5399,
+      "won_third_place_match": 0.1803,
+      "reached_final": 0.3135,
+      "won_tournament": 0.2009
     },
     "Germany": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.9038,
-      "reached_qf": 0.5653,
-      "reached_sf": 0.2377,
-      "reached_final": 0.0639,
-      "won_third_place_match": 0.0439,
-      "won_tournament": 0.0116
+      "reached_r16": 0.9116,
+      "reached_qf": 0.5868,
+      "reached_sf": 0.2261,
+      "won_third_place_match": 0.0384,
+      "reached_final": 0.051,
+      "won_tournament": 0.0081
     },
     "Ghana": {
       "group_third": 1.0,
       "group_third_advanced": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.0254,
-      "reached_qf": 0.0048,
+      "reached_r16": 0.0231,
+      "reached_qf": 0.0039,
       "reached_sf": 0.0
     },
     "Haiti": {
@@ -195,22 +194,22 @@
     "Ivory Coast": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.2101,
-      "reached_qf": 0.0337,
-      "reached_sf": 0.0101,
-      "won_third_place_match": 0.0008,
-      "reached_final": 0.0013,
-      "won_tournament": 0.0001
+      "reached_r16": 0.1252,
+      "reached_qf": 0.0199,
+      "reached_sf": 0.0058,
+      "won_third_place_match": 0.0003,
+      "reached_final": 0.0005,
+      "won_tournament": 0.0
     },
     "Japan": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.3544,
-      "reached_qf": 0.1941,
-      "reached_sf": 0.1098,
-      "reached_final": 0.0312,
-      "won_third_place_match": 0.0198,
-      "won_tournament": 0.006
+      "reached_r16": 0.345,
+      "reached_qf": 0.1409,
+      "reached_sf": 0.0768,
+      "won_third_place_match": 0.0134,
+      "reached_final": 0.0168,
+      "won_tournament": 0.0028
     },
     "Jordan": {
       "group_fourth": 1.0
@@ -218,32 +217,32 @@
     "Mexico": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.8938,
-      "reached_qf": 0.4965,
-      "reached_sf": 0.1953,
-      "won_third_place_match": 0.078,
-      "reached_final": 0.0707,
-      "won_tournament": 0.0318
+      "reached_r16": 0.9264,
+      "reached_qf": 0.5421,
+      "reached_sf": 0.2202,
+      "won_third_place_match": 0.0847,
+      "reached_final": 0.0894,
+      "won_tournament": 0.0424
     },
     "Morocco": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.2951,
-      "reached_qf": 0.0446,
-      "reached_sf": 0.0119,
-      "won_third_place_match": 0.0039,
-      "reached_final": 0.0023,
-      "won_tournament": 0.0006
+      "reached_r16": 0.3844,
+      "reached_qf": 0.0651,
+      "reached_sf": 0.021,
+      "won_third_place_match": 0.0074,
+      "reached_final": 0.004,
+      "won_tournament": 0.0012
     },
     "Netherlands": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.7049,
-      "reached_qf": 0.209,
-      "reached_sf": 0.0965,
-      "reached_final": 0.0306,
-      "won_tournament": 0.0119,
-      "won_third_place_match": 0.0368
+      "reached_r16": 0.6156,
+      "reached_qf": 0.1508,
+      "reached_sf": 0.0632,
+      "won_third_place_match": 0.0241,
+      "reached_final": 0.0198,
+      "won_tournament": 0.0072
     },
     "New Zealand": {
       "group_fourth": 1.0
@@ -251,12 +250,12 @@
     "Norway": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.7899,
-      "reached_qf": 0.3292,
-      "reached_sf": 0.1921,
-      "won_third_place_match": 0.0379,
-      "reached_final": 0.0552,
-      "won_tournament": 0.0114
+      "reached_r16": 0.8748,
+      "reached_qf": 0.4721,
+      "reached_sf": 0.3243,
+      "reached_final": 0.1093,
+      "won_tournament": 0.029,
+      "won_third_place_match": 0.0729
     },
     "Panama": {
       "group_fourth": 1.0
@@ -265,22 +264,21 @@
       "group_third": 1.0,
       "group_third_advanced": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.0767,
-      "reached_qf": 0.0221,
-      "reached_sf": 0.0048,
-      "won_third_place_match": 0.0014,
-      "reached_final": 0.0006,
-      "won_tournament": 0.0002
+      "reached_r16": 0.0624,
+      "reached_qf": 0.0178,
+      "reached_sf": 0.0028,
+      "won_third_place_match": 0.0006,
+      "reached_final": 0.0002
     },
     "Portugal": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.649,
-      "reached_qf": 0.198,
-      "reached_sf": 0.1425,
-      "reached_final": 0.0878,
-      "won_third_place_match": 0.0225,
-      "won_tournament": 0.0276
+      "reached_r16": 0.7247,
+      "reached_qf": 0.2282,
+      "reached_sf": 0.1675,
+      "reached_final": 0.1078,
+      "won_third_place_match": 0.0251,
+      "won_tournament": 0.0361
     },
     "Qatar": {
       "group_fourth": 1.0
@@ -295,20 +293,19 @@
       "group_third": 1.0,
       "group_third_advanced": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.4317,
-      "reached_qf": 0.2186,
-      "reached_sf": 0.0349,
-      "reached_final": 0.0127,
-      "won_tournament": 0.0019,
-      "won_third_place_match": 0.0043
+      "reached_r16": 0.3596,
+      "reached_qf": 0.1553,
+      "reached_sf": 0.0167,
+      "won_third_place_match": 0.0018,
+      "reached_final": 0.0051,
+      "won_tournament": 0.0003
     },
     "South Africa": {
       "group_runner_up": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.1024,
+      "reached_r16": 0.1071,
       "reached_qf": 0.0097,
-      "reached_sf": 0.0005,
-      "won_third_place_match": 0.0
+      "reached_sf": 0.0002
     },
     "South Korea": {
       "group_third": 1.0
@@ -316,33 +313,32 @@
     "Spain": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.9152,
-      "reached_qf": 0.7099,
-      "reached_sf": 0.6327,
-      "reached_final": 0.5167,
-      "won_tournament": 0.2871,
-      "won_third_place_match": 0.071
+      "reached_r16": 0.9322,
+      "reached_qf": 0.7173,
+      "reached_sf": 0.6408,
+      "reached_final": 0.5316,
+      "won_tournament": 0.2971,
+      "won_third_place_match": 0.0668
     },
     "Sweden": {
       "group_third": 1.0,
       "group_third_advanced": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.1062,
-      "reached_qf": 0.0172,
-      "reached_sf": 0.0014,
-      "reached_final": 0.0001,
-      "won_third_place_match": 0.0002,
-      "won_tournament": 0.0
+      "reached_r16": 0.0736,
+      "reached_qf": 0.0098,
+      "reached_sf": 0.0008,
+      "won_third_place_match": 0.0001,
+      "reached_final": 0.0
     },
     "Switzerland": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.5187,
-      "reached_qf": 0.0753,
-      "reached_sf": 0.03,
-      "won_third_place_match": 0.0099,
-      "reached_final": 0.0076,
-      "won_tournament": 0.0023
+      "reached_r16": 0.6258,
+      "reached_qf": 0.1083,
+      "reached_sf": 0.05,
+      "won_third_place_match": 0.0178,
+      "reached_final": 0.0131,
+      "won_tournament": 0.0039
     },
     "Tunisia": {
       "group_fourth": 1.0
@@ -353,12 +349,12 @@
     "United States": {
       "group_winner": 1.0,
       "advanced_to_r32": 1.0,
-      "reached_r16": 0.5683,
-      "reached_qf": 0.325,
-      "reached_sf": 0.0635,
-      "reached_final": 0.0265,
-      "won_third_place_match": 0.0088,
-      "won_tournament": 0.0044
+      "reached_r16": 0.6404,
+      "reached_qf": 0.3608,
+      "reached_sf": 0.0675,
+      "reached_final": 0.0294,
+      "won_third_place_match": 0.0083,
+      "won_tournament": 0.0053
     },
     "Uruguay": {
       "group_third": 1.0
@@ -367,5 +363,5 @@
       "group_fourth": 1.0
     }
   },
-  "generated_at": "2026-06-28T16:12:15.406739+00:00"
+  "generated_at": "2026-07-06T01:47:27.139283+00:00"
 }

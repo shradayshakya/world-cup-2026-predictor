@@ -2,105 +2,105 @@
   "teams": [
     {
       "rank": 1,
-      "code": "AR",
-      "name": "Argentina",
-      "rating": 2148
+      "code": "ES",
+      "name": "Spain",
+      "rating": 2159
     },
     {
       "rank": 2,
-      "code": "ES",
-      "name": "Spain",
-      "rating": 2144
+      "code": "AR",
+      "name": "Argentina",
+      "rating": 2151
     },
     {
       "rank": 3,
       "code": "FR",
       "name": "France",
-      "rating": 2123
+      "rating": 2143
     },
     {
       "rank": 4,
       "code": "EN",
       "name": "England",
-      "rating": 2038
+      "rating": 2046
     },
     {
       "rank": 5,
-      "code": "BR",
-      "name": "Brazil",
-      "rating": 2009
+      "code": "PT",
+      "name": "Portugal",
+      "rating": 2013
     },
     {
       "rank": 6,
       "code": "CO",
       "name": "Colombia",
-      "rating": 2004
+      "rating": 2009
     },
     {
       "rank": 7,
-      "code": "PT",
-      "name": "Portugal",
-      "rating": 1990
+      "code": "BR",
+      "name": "Brazil",
+      "rating": 1993
     },
     {
       "rank": 8,
-      "code": "NL",
-      "name": "Netherlands",
-      "rating": 1980
+      "code": "NO",
+      "name": "Norway",
+      "rating": 1972
     },
     {
       "rank": 9,
-      "code": "NO",
-      "name": "Norway",
-      "rating": 1918
+      "code": "NL",
+      "name": "Netherlands",
+      "rating": 1971
     },
     {
       "rank": 10,
-      "code": "DE",
-      "name": "Germany",
-      "rating": 1916
+      "code": "MX",
+      "name": "Mexico",
+      "rating": 1943
     },
     {
-      "rank": 11,
+      "rank": 10,
       "code": "CH",
       "name": "Switzerland",
-      "rating": 1914
+      "rating": 1943
     },
     {
       "rank": 12,
-      "code": "MX",
-      "name": "Mexico",
-      "rating": 1912
+      "code": "MA",
+      "name": "Morocco",
+      "rating": 1921
     },
     {
       "rank": 13,
-      "code": "JP",
-      "name": "Japan",
+      "code": "BE",
+      "name": "Belgium",
       "rating": 1910
     },
     {
       "rank": 14,
-      "code": "HR",
-      "name": "Croatia",
-      "rating": 1905
+      "code": "DE",
+      "name": "Germany",
+      "rating": 1908
     },
     {
       "rank": 15,
-      "code": "EC",
-      "name": "Ecuador",
-      "rating": 1902
+      "code": "JP",
+      "name": "Japan",
+      "rating": 1888
     },
     {
       "rank": 16,
-      "code": "BE",
-      "name": "Belgium",
-      "rating": 1884
+      "code": "HR",
+      "name": "Croatia",
+      "rating": 1882
     },
     {
       "rank": 17,
-      "code": "MA",
-      "name": "Morocco",
-      "rating": 1877
+      "code": "EC",
+      "name": "Ecuador",
+      "rating": 1871
     },
     {
       "rank": 18,
@@ -122,75 +122,75 @@
     },
     {
       "rank": 21,
-      "code": "SN",
-      "name": "Senegal",
-      "rating": 1842
-    },
-    {
-      "rank": 22,
       "code": "UY",
       "name": "Uruguay",
       "rating": 1841
     },
     {
-      "rank": 23,
+      "rank": 22,
       "code": "AT",
       "name": "Austria",
-      "rating": 1836
+      "rating": 1821
+    },
+    {
+      "rank": 23,
+      "code": "SN",
+      "name": "Senegal",
+      "rating": 1816
     },
     {
       "rank": 24,
       "code": "PY",
       "name": "Paraguay",
-      "rating": 1815
+      "rating": 1814
     },
     {
       "rank": 25,
-      "code": "AU",
-      "name": "Australia",
-      "rating": 1800
+      "code": "US",
+      "name": "United States",
+      "rating": 1798
     },
     {
       "rank": 26,
-      "code": "DZ",
-      "name": "Algeria",
-      "rating": 1785
+      "code": "AU",
+      "name": "Australia",
+      "rating": 1795
     },
     {
       "rank": 27,
-      "code": "US",
-      "name": "United States",
-      "rating": 1781
-    },
-    {
-      "rank": 28,
       "code": "UA",
       "name": "Ukraine",
       "rating": 1780
     },
     {
-      "rank": 29,
+      "rank": 28,
       "code": "RU",
       "name": "Russia",
       "rating": 1772
     },
     {
-      "rank": 30,
+      "rank": 29,
       "code": "NG",
       "name": "Nigeria",
       "rating": 1767
     },
     {
-      "rank": 31,
+      "rank": 30,
       "code": "IR",
       "name": "Iran",
       "rating": 1764
     },
     {
+      "rank": 31,
+      "code": "DZ",
+      "name": "Algeria",
+      "rating": 1756
+    },
+    {
       "rank": 32,
-      "code": "CA",
-      "name": "Canada",
-      "rating": 1748
+      "code": "EG",
+      "name": "Egypt",
+      "rating": 1747
     },
     {
       "rank": 33,
@@ -206,33 +206,33 @@
     },
     {
       "rank": 35,
-      "code": "CI",
-      "name": "Ivory Coast",
-      "rating": 1743
-    },
-    {
-      "rank": 36,
-      "code": "SE",
-      "name": "Sweden",
-      "rating": 1742
-    },
-    {
-      "rank": 36,
-      "code": "EG",
-      "name": "Egypt",
-      "rating": 1742
-    },
-    {
-      "rank": 38,
       "code": "RS",
       "name": "Serbia",
       "rating": 1734
     },
     {
-      "rank": 39,
+      "rank": 36,
       "code": "VE",
       "name": "Venezuela",
       "rating": 1733
+    },
+    {
+      "rank": 37,
+      "code": "SE",
+      "name": "Sweden",
+      "rating": 1731
+    },
+    {
+      "rank": 38,
+      "code": "CA",
+      "name": "Canada",
+      "rating": 1729
+    },
+    {
+      "rank": 39,
+      "code": "CI",
+      "name": "Ivory Coast",
+      "rating": 1727
     },
     {
       "rank": 40,
@@ -254,21 +254,21 @@
     },
     {
       "rank": 43,
-      "code": "CD",
-      "name": "DR Congo",
-      "rating": 1712
-    },
-    {
-      "rank": 44,
       "code": "HU",
       "name": "Hungary",
       "rating": 1710
     },
     {
-      "rank": 44,
+      "rank": 43,
       "code": "PL",
       "name": "Poland",
       "rating": 1710
+    },
+    {
+      "rank": 45,
+      "code": "CD",
+      "name": "DR Congo",
+      "rating": 1704
     },
     {
       "rank": 46,
@@ -344,44 +344,44 @@
     },
     {
       "rank": 58,
-      "code": "BA",
-      "name": "Bosnia and Herzegovina",
-      "rating": 1622
-    },
-    {
-      "rank": 58,
-      "code": "CV",
-      "name": "Cape Verde",
-      "rating": 1622
-    },
-    {
-      "rank": 60,
       "code": "BO",
       "name": "Bolivia",
       "rating": 1621
     },
     {
-      "rank": 61,
+      "rank": 59,
+      "code": "CV",
+      "name": "Cape Verde",
+      "rating": 1619
+    },
+    {
+      "rank": 60,
       "code": "AL",
       "name": "Albania",
       "rating": 1616
     },
     {
-      "rank": 62,
+      "rank": 61,
       "code": "CM",
       "name": "Cameroon",
       "rating": 1614
     },
     {
-      "rank": 63,
+      "rank": 62,
       "code": "CR",
       "name": "Costa Rica",
       "rating": 1608
     },
     {
-      "rank": 64,
+      "rank": 63,
       "code": "EI",
       "name": "Northern Ireland",
+      "rating": 1605
+    },
+    {
+      "rank": 63,
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
       "rating": 1605
     },
     {
@@ -406,37 +406,37 @@
       "rank": 68,
       "code": "GH",
       "name": "Ghana",
-      "rating": 1575
+      "rating": 1570
     },
     {
       "rank": 68,
-      "code": "ZA",
-      "name": "South Africa",
-      "rating": 1575
-    },
-    {
-      "rank": 70,
       "code": "HN",
       "name": "Honduras",
       "rating": 1570
     },
     {
-      "rank": 71,
+      "rank": 70,
       "code": "IS",
       "name": "Iceland",
       "rating": 1568
     },
     {
-      "rank": 72,
+      "rank": 71,
       "code": "TN",
       "name": "Tunisia",
       "rating": 1562
     },
     {
-      "rank": 73,
+      "rank": 72,
       "code": "IQ",
       "name": "Iraq",
       "rating": 1561
+    },
+    {
+      "rank": 73,
+      "code": "ZA",
+      "name": "South Africa",
+      "rating": 1559
     },
     {
       "rank": 74,
@@ -494,14 +494,14 @@
     },
     {
       "rank": 83,
-      "code": "OM",
-      "name": "Oman",
-      "rating": 1480
-    },
-    {
-      "rank": 84,
       "code": "SY",
       "name": "Syria",
+      "rating": 1479
+    },
+    {
+      "rank": 83,
+      "code": "OM",
+      "name": "Oman",
       "rating": 1479
     },
     {
@@ -1124,15 +1124,15 @@
     },
     {
       "rank": 188,
-      "code": "SO",
-      "name": "Somalia",
+      "code": "AW",
+      "name": "Aruba",
       "rating": 979
     },
     {
-      "rank": 189,
-      "code": "AW",
-      "name": "Aruba",
-      "rating": 978
+      "rank": 188,
+      "code": "SO",
+      "name": "Somalia",
+      "rating": 979
     },
     {
       "rank": 190,
@@ -1465,5 +1465,5 @@
       "rating": 369
     }
   ],
-  "scraped_at": "2026-06-28T16:12:15.406739+00:00"
+  "scraped_at": "2026-07-06T01:47:27.139283+00:00"
 }

@@ -1,27 +1,13 @@
 {
-  "generated_at": "2026-06-28T16:12:15.406739+00:00",
+  "generated_at": "2026-07-06T01:47:27.139283+00:00",
   "movers": [
     {
-      "team": "France",
-      "previous_pct": 14.360000000000001,
-      "current_pct": 18.23,
-      "delta_pp": 3.869999999999999,
-      "direction": "gainer",
-      "blurb": "The shift in France's predicted winning probability is based on an internal refinement of our model's calculations, as there have been no relevant match results or changes in player availability since the last assessment.",
-      "sources": [
-        {
-          "label": "France",
-          "href": "/teams/france"
-        }
-      ]
-    },
-    {
       "team": "Argentina",
-      "previous_pct": 32.550000000000004,
-      "current_pct": 29.26,
-      "delta_pp": -3.2900000000000027,
+      "previous_pct": 29.26,
+      "current_pct": 26.729999999999997,
+      "delta_pp": -2.5300000000000047,
       "direction": "loser",
-      "blurb": "The probability shift reflects an internal model adjustment. Since no relevant matches have been played and there are no reported injuries, the decline in estimated chances is based on algorithmic reassessment rather than specific team events.",
+      "blurb": "Our predictive model reflects a slight shift in the probability calculation, as there have been no recent results or changes in squad availability to justify a specific decrease in Argentina's title chances.",
       "sources": [
         {
           "label": "Argentina",
@@ -30,12 +16,40 @@
       ]
     },
     {
-      "team": "Brazil",
-      "previous_pct": 1.79,
-      "current_pct": 4.07,
-      "delta_pp": 2.2800000000000002,
+      "team": "France",
+      "previous_pct": 18.23,
+      "current_pct": 20.09,
+      "delta_pp": 1.8599999999999994,
       "direction": "gainer",
-      "blurb": "Our model has adjusted its forecast for Brazil's World Cup chances. Although Neymar is currently listed as absent, the predictive probability has increased since the last update without a specific performance event influencing the shift.",
+      "blurb": "Our model adjusted its projection for France, raising their chances from 18.2% to 20.1%. As there have been no reported results or changes in the squad since the last update, this increase reflects a subtle shift within our predictive matrix, based purely on internal calculation recalibration.",
+      "sources": [
+        {
+          "label": "France",
+          "href": "/teams/france"
+        }
+      ]
+    },
+    {
+      "team": "Norway",
+      "previous_pct": 1.1400000000000001,
+      "current_pct": 2.9000000000000004,
+      "delta_pp": 1.7600000000000002,
+      "direction": "gainer",
+      "blurb": "Our prediction model estimates a rise in Norway's title probability from 1.1% to 2.9%. As there have been no relevant results or injuries reported since the last update, this shift represents an internal adjustment within our model parameters rather than a response to specific performance changes.",
+      "sources": [
+        {
+          "label": "Norway",
+          "href": "/teams/norway"
+        }
+      ]
+    },
+    {
+      "team": "Brazil",
+      "previous_pct": 4.07,
+      "current_pct": 2.42,
+      "delta_pp": -1.6500000000000004,
+      "direction": "loser",
+      "blurb": "Brazil's probability of winning the World Cup decreased as a result of Neymar being reported as an absentee due to injury. The model registered this key absence, shifting the assessment and resulting in the reduction of Brazil's projected title odds.",
       "sources": [
         {
           "label": "Brazil",
@@ -48,30 +62,16 @@
       ]
     },
     {
-      "team": "United States",
-      "previous_pct": 1.6,
-      "current_pct": 0.44,
-      "delta_pp": -1.1600000000000001,
-      "direction": "loser",
-      "blurb": "The model's estimate shifted despite there being no relevant results or reported injuries for United States since the previous evaluation, indicating an internal calculation adjustment.",
+      "team": "Mexico",
+      "previous_pct": 3.18,
+      "current_pct": 4.24,
+      "delta_pp": 1.06,
+      "direction": "gainer",
+      "blurb": "Mexico's probability increased by 1.1 percentage points. Given that there are no relevant results or reported injuries since the last update, this shift reflects an internal refinement within our predictive model, adjusting the team's likelihood of winning the tournament.",
       "sources": [
         {
-          "label": "United States",
-          "href": "/teams/united-states"
-        }
-      ]
-    },
-    {
-      "team": "Norway",
-      "previous_pct": 2.27,
-      "current_pct": 1.1400000000000001,
-      "delta_pp": -1.13,
-      "direction": "loser",
-      "blurb": "Norway's probability decline was noted. Since there have been neither relevant results nor reported injuries, the drop in the model's estimate reflects an internal adjustment to baseline projections rather than a response to specific recent events.",
-      "sources": [
-        {
-          "label": "Norway",
-          "href": "/teams/norway"
+          "label": "Mexico",
+          "href": "/teams/mexico"
         }
       ]
     }

@@ -165,81 +165,81 @@
     {
       "home": {
         "team": "Canada",
-        "probability": 0.8976
+        "probability": 0.8929
       },
       "away": {
         "team": "Germany",
-        "probability": 0.9038
+        "probability": 0.9116
       }
     },
     {
       "home": {
         "team": "Brazil",
-        "probability": 0.6456
+        "probability": 0.655
       },
       "away": {
         "team": "Norway",
-        "probability": 0.7899
+        "probability": 0.8748
       }
     },
     {
       "home": {
         "team": "Netherlands",
-        "probability": 0.7049
+        "probability": 0.6156
       },
       "away": {
         "team": "France",
-        "probability": 0.9233
+        "probability": 0.9376
       }
     },
     {
       "home": {
         "team": "Mexico",
-        "probability": 0.8938
+        "probability": 0.9264
       },
       "away": {
         "team": "England",
-        "probability": 0.9113
+        "probability": 0.9202
       }
     },
     {
       "home": {
         "team": "Spain",
-        "probability": 0.9152
+        "probability": 0.9322
       },
       "away": {
         "team": "Portugal",
-        "probability": 0.649
+        "probability": 0.7247
       }
     },
     {
       "home": {
         "team": "Belgium",
-        "probability": 0.6446
+        "probability": 0.7389
       },
       "away": {
         "team": "United States",
-        "probability": 0.5683
+        "probability": 0.6404
       }
     },
     {
       "home": {
         "team": "Australia",
-        "probability": 0.6115
+        "probability": 0.5979
       },
       "away": {
         "team": "Colombia",
-        "probability": 0.9746
+        "probability": 0.9769
       }
     },
     {
       "home": {
         "team": "Switzerland",
-        "probability": 0.5187
+        "probability": 0.6258
       },
       "away": {
         "team": "Argentina",
-        "probability": 0.9903
+        "probability": 0.9908
       }
     }
   ],
@@ -247,85 +247,85 @@
     {
       "home": {
         "team": "Germany",
-        "probability": 0.5653
+        "probability": 0.5868
       },
       "away": {
-        "team": "Brazil",
-        "probability": 0.443
+        "team": "Norway",
+        "probability": 0.4721
       }
     },
     {
       "home": {
         "team": "Spain",
-        "probability": 0.7099
+        "probability": 0.7173
       },
       "away": {
         "team": "Belgium",
-        "probability": 0.3276
+        "probability": 0.4032
       }
     },
     {
       "home": {
         "team": "France",
-        "probability": 0.7243
+        "probability": 0.7663
       },
       "away": {
         "team": "Mexico",
-        "probability": 0.4965
+        "probability": 0.5421
       }
     },
     {
       "home": {
         "team": "Colombia",
-        "probability": 0.83
+        "probability": 0.8432
       },
       "away": {
         "team": "Argentina",
-        "probability": 0.8602
+        "probability": 0.8529
       }
     }
   ],
   "semi_finals": [
     {
       "home": {
-        "team": "Brazil",
-        "probability": 0.3123
+        "team": "Norway",
+        "probability": 0.3243
       },
       "away": {
         "team": "Spain",
-        "probability": 0.6327
+        "probability": 0.6408
       }
     },
     {
       "home": {
         "team": "France",
-        "probability": 0.5128
+        "probability": 0.5399
       },
       "away": {
         "team": "Argentina",
-        "probability": 0.6698
+        "probability": 0.6637
       }
     }
   ],
   "final": {
     "home": {
       "team": "Spain",
-      "probability": 0.5167
+      "probability": 0.5316
     },
     "away": {
       "team": "Argentina",
-      "probability": 0.4328
+      "probability": 0.4042
     }
   },
   "third_place": {
     "home": {
-      "team": "Brazil",
-      "probability": 0.1863
+      "team": "Norway",
+      "probability": 0.2149
     },
     "away": {
       "team": "Argentina",
-      "probability": 0.237
+      "probability": 0.2595
     }
   },
-  "generated_at": "2026-06-28T16:12:15.406739+00:00"
+  "generated_at": "2026-07-06T01:47:27.139283+00:00"
 }

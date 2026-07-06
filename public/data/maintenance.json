@@ -1,4 +1,77 @@
 {
-  "generated_at": "2026-06-28T16:12:15.406739+00:00",
-  "issues": []
+  "generated_at": "2026-07-06T01:47:27.139283+00:00",
+  "issues": [
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group A: South Africa: goals_for-goals_against != goal_difference; South Korea: goals_for-goals_against != goal_difference; Czech Republic: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group B: Bosnia and Herzegovina: goals_for-goals_against != goal_difference; Qatar: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group C: Scotland: goals_for-goals_against != goal_difference; Haiti: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group D: Paraguay: goals_for-goals_against != goal_difference; Turkey: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group E: Curaçao: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group F: Tunisia: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group G: New Zealand: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group H: Uruguay: goals_for-goals_against != goal_difference; Saudi Arabia: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group I: Iraq: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group J: Algeria: goals_for-goals_against != goal_difference; Jordan: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group K: Uzbekistan: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_groups",
+      "detail": "Group L: Panama: goals_for-goals_against != goal_difference",
+      "fallback_attempted": true,
+      "fallback_succeeded": true
+    }
+  ]
 }
