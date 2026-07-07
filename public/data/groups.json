@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-06T06:15:03.313374+00:00",
+  "scraped_at": "2026-07-07T06:15:00.895783+00:00",
   "groups": {
     "A": [
       {
@@ -434,7 +434,7 @@
         "goals_against": 2,
         "goal_difference": 0,
         "points": 3,
-        "qualification_note": ""
+        "qualification_note": "Advance to knockout stage"
       },
       {
         "position": 3,
@@ -446,7 +446,7 @@
         "lost": 1,
         "goals_for": 3,
         "goals_against": 4,
-        "goal_difference": -1,
+        "goal_difference": 1,
         "points": 2,
         "qualification_note": ""
       },
@@ -460,7 +460,7 @@
         "lost": 1,
         "goals_for": 1,
         "goals_against": 5,
-        "goal_difference": -4,
+        "goal_difference": 4,
         "points": 2,
         "qualification_note": ""
       }

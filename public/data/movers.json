@@ -1,4 +1,107 @@
 {
-  "generated_at": "2026-07-06T06:15:03.313374+00:00",
-  "movers": []
+  "generated_at": "2026-07-07T06:15:00.895783+00:00",
+  "movers": [
+    {
+      "team": "Spain",
+      "previous_pct": 30.099999999999998,
+      "current_pct": 35.25,
+      "delta_pp": 5.150000000000002,
+      "direction": "gainer",
+      "blurb": "Despite reporting significant injuries to key players like Nico Williams and Yéremy Pino, our model determined a rise in Spain's championship probability. This shift is not based on recent match results or performance metrics, but represents an internal update to the team’s standing.",
+      "sources": [
+        {
+          "label": "Spain",
+          "href": "/teams/spain"
+        },
+        {
+          "label": "Spain's Williams criticises tackle that injured him",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
+          "href": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams"
+        },
+        {
+          "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
+        }
+      ]
+    },
+    {
+      "team": "Mexico",
+      "previous_pct": 4.34,
+      "current_pct": 2.32,
+      "delta_pp": -2.02,
+      "direction": "loser",
+      "blurb": "Mexico's probability of winning the 2026 FIFA World Cup has decreased to 2.3%. As there have been no reported team results or injury changes since our last update, this shift reflects an internal recalibration within our predictive model based on evolving global performance metrics.",
+      "sources": [
+        {
+          "label": "Mexico",
+          "href": "/teams/mexico"
+        }
+      ]
+    },
+    {
+      "team": "Argentina",
+      "previous_pct": 26.419999999999998,
+      "current_pct": 25.05,
+      "delta_pp": -1.3699999999999974,
+      "direction": "loser",
+      "blurb": "Despite receiving no updated results and having no reported injuries, our model calculates a slight decrease in Argentina's winning probability. This adjustment reflects internal probabilistic recalibration based on the current dataset leading to a marginal downturn in their estimated title chances.",
+      "sources": [
+        {
+          "label": "Argentina",
+          "href": "/teams/argentina"
+        }
+      ]
+    },
+    {
+      "team": "Portugal",
+      "previous_pct": 3.46,
+      "current_pct": 2.45,
+      "delta_pp": -1.0099999999999998,
+      "direction": "loser",
+      "blurb": "Although there have been no reported results or injuries, our internal prediction model has adjusted Portugal's probability of winning the 2026 FIFA World Cup. The shift reflects a necessary reevaluation within the system parameters, resulting in a lower calculated chance for the team.",
+      "sources": [
+        {
+          "label": "Portugal",
+          "href": "/teams/portugal"
+        }
+      ]
+    },
+    {
+      "team": "England",
+      "previous_pct": 2.2399999999999998,
+      "current_pct": 2.97,
+      "delta_pp": 0.7300000000000004,
+      "direction": "gainer",
+      "blurb": "Although the team faces significant absences and doubts regarding players like Saka, our internal prediction model slightly increased England's probability of winning. This minor shift reflects an updated assessment of the squad's potential that supersedes factors such as recent match results or external events.",
+      "sources": [
+        {
+          "label": "England",
+          "href": "/teams/england"
+        },
+        {
+          "label": "Henderson expected to have surgery on injured wrist",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cvgmmm5923yo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Tuchel worried about right-back situation",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cj9gyp71ge4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "England winger Saka unlikely to start against Ghana",
+          "href": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        }
+      ]
+    }
+  ]
 }

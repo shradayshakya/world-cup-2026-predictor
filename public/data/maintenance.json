@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T06:15:03.313374+00:00",
+  "generated_at": "2026-07-07T06:15:00.895783+00:00",
   "issues": [
     {
       "source": "wikipedia_groups",
@@ -47,7 +47,7 @@
       "source": "wikipedia_groups",
       "detail": "Group H: Uruguay: goals_for-goals_against != goal_difference; Saudi Arabia: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": true
+      "fallback_succeeded": false
     },
     {
       "source": "wikipedia_groups",

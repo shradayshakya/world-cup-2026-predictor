@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-06T06:15:03.313374+00:00",
+  "scraped_at": "2026-07-07T06:15:00.895783+00:00",
   "matches": [
     {
       "round": "Group stage",
@@ -1203,11 +1203,11 @@
       "date": "2026-07-06",
       "home_team": "Portugal",
       "away_team": "Spain",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 0,
+      "away_score": 1,
       "venue": "AT&T Stadium, Arlington",
-      "attendance": null,
+      "attendance": 70649,
       "referee": "Anthony Taylor (England)"
     },
     {
@@ -1216,11 +1216,11 @@
       "date": "2026-07-06",
       "home_team": "United States",
       "away_team": "Belgium",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 4,
       "venue": "Lumen Field, Seattle",
-      "attendance": null,
+      "attendance": 66925,
       "referee": "Adham Makhadmeh (Jordan)"
     },
     {
@@ -1266,8 +1266,8 @@
       "round": "Quarter-finals",
       "group": null,
       "date": "2026-07-10",
-      "home_team": "Winner Match 93",
-      "away_team": "Winner Match 94",
+      "home_team": "Spain",
+      "away_team": "Belgium",
       "played": false,
       "home_score": null,
       "away_score": null,

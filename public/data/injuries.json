@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-07-06T06:15:03.313374+00:00",
+  "generated_at": "2026-07-07T06:15:00.895783+00:00",
   "teams": {
     "England": {
-      "elo_penalty": -37.5,
+      "elo_penalty": -52.5,
       "absences": [
+        {
+          "player": "Jordan Henderson",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Henderson expected to have surgery on injured wrist",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cvgmmm5923yo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-07",
+          "expires_on": null
+        },
         {
           "player": "Jarell Quansah",
           "status": "out",
@@ -42,6 +52,21 @@
           "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
           "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
           "first_reported": "2026-06-20",
+          "expires_on": null
+        }
+      ]
+    },
+    "United States": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Christian Pulisic",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Pulisic forced off injured for USMNT vs. Belgium",
+          "source_link": "https://www.espn.com/soccer/story/_/id/49291866/christian-pulisic-injury-usa-belgium-2026-world-cup",
+          "first_reported": "2026-07-07",
           "expires_on": null
         }
       ]

@@ -4,7 +4,7 @@
       "rank": 1,
       "code": "ES",
       "name": "Spain",
-      "rating": 2159
+      "rating": 2177
     },
     {
       "rank": 2,
@@ -22,19 +22,19 @@
       "rank": 4,
       "code": "EN",
       "name": "England",
-      "rating": 2046
+      "rating": 2076
     },
     {
       "rank": 5,
-      "code": "PT",
-      "name": "Portugal",
-      "rating": 2013
-    },
-    {
-      "rank": 6,
       "code": "CO",
       "name": "Colombia",
       "rating": 2009
+    },
+    {
+      "rank": 6,
+      "code": "PT",
+      "name": "Portugal",
+      "rating": 1995
     },
     {
       "rank": 7,
@@ -56,21 +56,21 @@
     },
     {
       "rank": 10,
-      "code": "MX",
-      "name": "Mexico",
-      "rating": 1943
-    },
-    {
-      "rank": 10,
       "code": "CH",
       "name": "Switzerland",
       "rating": 1943
     },
     {
-      "rank": 12,
+      "rank": 11,
       "code": "MA",
       "name": "Morocco",
       "rating": 1921
+    },
+    {
+      "rank": 12,
+      "code": "MX",
+      "name": "Mexico",
+      "rating": 1913
     },
     {
       "rank": 13,
@@ -82,7 +82,7 @@
       "rank": 14,
       "code": "DE",
       "name": "Germany",
-      "rating": 1908
+      "rating": 1907
     },
     {
       "rank": 15,
@@ -94,7 +94,7 @@
       "rank": 16,
       "code": "HR",
       "name": "Croatia",
-      "rating": 1882
+      "rating": 1881
     },
     {
       "rank": 17,
@@ -364,22 +364,22 @@
       "rank": 61,
       "code": "CM",
       "name": "Cameroon",
-      "rating": 1614
+      "rating": 1613
     },
     {
       "rank": 62,
       "code": "CR",
       "name": "Costa Rica",
-      "rating": 1608
+      "rating": 1609
     },
     {
       "rank": 63,
       "code": "EI",
       "name": "Northern Ireland",
-      "rating": 1605
+      "rating": 1606
     },
     {
-      "rank": 63,
+      "rank": 64,
       "code": "BA",
       "name": "Bosnia and Herzegovina",
       "rating": 1605
@@ -436,7 +436,7 @@
       "rank": 73,
       "code": "ZA",
       "name": "South Africa",
-      "rating": 1559
+      "rating": 1560
     },
     {
       "rank": 74,
@@ -490,7 +490,7 @@
       "rank": 82,
       "code": "GT",
       "name": "Guatemala",
-      "rating": 1505
+      "rating": 1504
     },
     {
       "rank": 83,
@@ -520,7 +520,7 @@
       "rank": 87,
       "code": "ME",
       "name": "Montenegro",
-      "rating": 1461
+      "rating": 1460
     },
     {
       "rank": 88,
@@ -823,10 +823,10 @@
       "rating": 1293
     },
     {
-      "rank": 138,
+      "rank": 137,
       "code": "GY",
       "name": "Guyana",
-      "rating": 1292
+      "rating": 1293
     },
     {
       "rank": 139,
@@ -854,15 +854,15 @@
     },
     {
       "rank": 143,
-      "code": "TJ",
-      "name": "Tajikistan",
-      "rating": 1285
-    },
-    {
-      "rank": 143,
       "code": "BI",
       "name": "Burundi",
       "rating": 1285
+    },
+    {
+      "rank": 144,
+      "code": "TJ",
+      "name": "Tajikistan",
+      "rating": 1284
     },
     {
       "rank": 145,
@@ -1078,7 +1078,7 @@
       "rank": 180,
       "code": "MF",
       "name": "Saint Martin",
-      "rating": 1042
+      "rating": 1043
     },
     {
       "rank": 181,
@@ -1144,7 +1144,7 @@
       "rank": 191,
       "code": "MS",
       "name": "Montserrat",
-      "rating": 972
+      "rating": 971
     },
     {
       "rank": 192,
@@ -1174,7 +1174,7 @@
       "rank": 196,
       "code": "DM",
       "name": "Dominica",
-      "rating": 934
+      "rating": 935
     },
     {
       "rank": 197,
@@ -1360,7 +1360,7 @@
       "rank": 227,
       "code": "AI",
       "name": "Anguilla",
-      "rating": 646
+      "rating": 647
     },
     {
       "rank": 228,
@@ -1465,5 +1465,5 @@
       "rating": 369
     }
   ],
-  "scraped_at": "2026-07-06T06:15:03.313374+00:00"
+  "scraped_at": "2026-07-07T06:15:00.895783+00:00"
 }
