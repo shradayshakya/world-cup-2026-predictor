@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T06:15:00.895783+00:00",
+  "generated_at": "2026-07-08T06:15:01.461425+00:00",
   "issues": [
     {
       "source": "wikipedia_groups",
@@ -47,7 +47,7 @@
       "source": "wikipedia_groups",
       "detail": "Group H: Uruguay: goals_for-goals_against != goal_difference; Saudi Arabia: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": false
+      "fallback_succeeded": true
     },
     {
       "source": "wikipedia_groups",
@@ -72,6 +72,12 @@
       "detail": "Group L: Panama: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
       "fallback_succeeded": true
+    },
+    {
+      "source": "wikipedia_matches",
+      "detail": "expected 104 total matches, got 32",
+      "fallback_attempted": false,
+      "fallback_succeeded": null
     }
   ]
 }

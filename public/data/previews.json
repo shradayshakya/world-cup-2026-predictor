@@ -1,21 +1,8 @@
 {
-  "generated_at": "2026-07-07T06:15:00.895783+00:00",
+  "generated_at": "2026-07-08T06:15:01.461425+00:00",
   "previews": {
-    "Argentina|Egypt|2026-07-07": {
-      "text": "A contrast in form faces off as Argentina (Elo 2151) prepares to meet Egypt (Elo 1740). Argentina boasts flawless recent form, with all five last results resulting in a win. Egypt’s recent record is mixed, complicated by the possible absence of Mohamed Salah. With Argentina heavily favored, our model predicts a dominant 3-0 victory for the Argentine side.",
-      "sources": [
-        {
-          "label": "Salah an injury doubt for Egypt's last-32 tie",
-          "href": "https://www.bbc.co.uk/sport/football/articles/c0mypyw1130o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    "Switzerland|Colombia|2026-07-07": {
-      "text": "The matchup pits Switzerland (Elo 1943) against the favored Colombia (Elo 2009). Both sides arrive with strong recent form, yet no head-to-head meetings are on file. Switzerland has secured three wins in its last five results, while Colombia boasts three victories in their recent fixtures. Our model predicts a close affair, estimating a narrow victory for Colombia at 46%.",
-      "sources": []
-    },
     "France|Morocco|2026-07-09": {
-      "text": "A clash of contrasts awaits as Elo 2143 France faces Elo 1906 Morocco. France boasts five consecutive World Cup victories, while Morocco enters with recent form including three wins and two draws. Despite the head-to-head history being clear, expectations are set high for this fixture. With Achraf Hakimi suspended for Morocco, France is favored to secure a win in this highly anticipated match.",
+      "text": "France faces Morocco in an anticipated clash, with France holding a slight Elo advantage. Both teams display strong form, though Morocco must contend with the absence of Achraf Hakimi due to suspension. France boasts a streak of five World Cup wins, while Morocco also holds impressive tournament results. Our model suggests a decisive victory for France, predicting a 2-0 result (75%).",
       "sources": [
         {
           "label": "Morocco captain Hakimi to stand trial for rape",
@@ -23,33 +10,12 @@
         }
       ]
     },
-    "Spain|Belgium|2026-07-10": {
-      "text": "Spain (Elo 2162) faces Belgium (Elo 1895) in an upcoming World Cup fixture. Spain boasts strong recent form, including multiple wins against other nations. While Belgium's results have been mixed, the matchup features key absences for both sides, with Spain missing three players and Belgium missing one. Our model predicts a 2-0 victory for Spain.",
-      "sources": [
-        {
-          "label": "Spain's Williams criticises tackle that injured him",
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "label": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
-          "href": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams"
-        },
-        {
-          "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
-        },
-        {
-          "label": "Doku returning to World Cup after birth of first child",
-          "href": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
     "Norway|England|2026-07-11": {
-      "text": "Norway takes on England in a highly anticipated clash at the 2026 FIFA World Cup. While both sides boast strong recent form, England faces significant hurdles with key absences including Declan Rice, Harry Kane, and Jordan Henderson. With ratings placing them far apart (1972 vs 2024), the match is predicted to be tight, with our model leaning toward a draw or a narrow victory for England.",
+      "text": "A clash between Norway (Elo 1972) and England (Elo 2024) promises drama. While Norway boasts a strong run of form, England looks formidable despite absences including Henderson, Rice, and Kane. With both sides showing recent World Cup experience, the match remains unpredictable. Our model predicts a draw or narrow victory for either side, giving English the highest probability of winning (44%).",
       "sources": [
         {
-          "label": "Henderson expected to have surgery on injured wrist",
-          "href": "https://www.bbc.co.uk/sport/football/articles/cvgmmm5923yo?at_medium=RSS&at_campaign=rss"
+          "label": "England players to get hoarding warning after freak Henderson injury",
+          "href": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss"
         },
         {
           "label": "Tuchel worried about right-back situation",
@@ -68,6 +34,10 @@
           "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
         }
       ]
+    },
+    "Argentina|Switzerland|2026-07-11": {
+      "text": "Argentina (Elo 2156) meets Switzerland (Elo 1949). Argentina arrives in strong form, having secured five consecutive wins in World Cup matches. Switzerland’s recent record shows mixed results, including victories over Algeria and Canada. With no head-to-head meetings on file and both teams reporting no key absences, the model favors an Argentine win (70%).",
+      "sources": []
     }
   }
 }

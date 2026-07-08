@@ -1,6 +1,31 @@
 {
-  "generated_at": "2026-07-07T06:15:00.895783+00:00",
+  "generated_at": "2026-07-08T06:15:01.461425+00:00",
   "teams": {
+    "Belgium": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Amadou Onana",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Villa and Belgium midfielder Onana ruptures ACL",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/c862nw2xj0jo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-08",
+          "expires_on": null
+        },
+        {
+          "player": "Jérémy Doku",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Doku returning to World Cup after birth of first child",
+          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-23",
+          "expires_on": null
+        }
+      ]
+    },
     "England": {
       "elo_penalty": -52.5,
       "absences": [
@@ -9,9 +34,9 @@
           "status": "out",
           "until": null,
           "key_player": true,
-          "source_title": "Henderson expected to have surgery on injured wrist",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/cvgmmm5923yo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-07-07",
+          "source_title": "England players to get hoarding warning after freak Henderson injury",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-08",
           "expires_on": null
         },
         {
@@ -52,6 +77,21 @@
           "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
           "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
           "first_reported": "2026-06-20",
+          "expires_on": null
+        }
+      ]
+    },
+    "Portugal": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Cristiano Ronaldo",
+          "status": "out",
+          "until": "For good",
+          "key_player": true,
+          "source_title": "USA fall asleep in Seattle and it’s tchau Ronaldo | World Cup Daily – video",
+          "source_link": "https://www.theguardian.com/football/video/2026/jul/07/usa-fall-asleep-in-seattle-and-its-tchau-ronaldo-world-cup-daily-video",
+          "first_reported": "2026-07-08",
           "expires_on": null
         }
       ]
@@ -117,21 +157,6 @@
           "source_title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
           "source_link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
           "first_reported": "2026-06-21",
-          "expires_on": null
-        }
-      ]
-    },
-    "Belgium": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Jérémy Doku",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Doku returning to World Cup after birth of first child",
-          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-23",
           "expires_on": null
         }
       ]
