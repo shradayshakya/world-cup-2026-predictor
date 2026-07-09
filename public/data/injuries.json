@@ -1,34 +1,19 @@
 {
-  "generated_at": "2026-07-08T06:15:01.461425+00:00",
+  "generated_at": "2026-07-09T06:15:04.907062+00:00",
   "teams": {
-    "Belgium": {
-      "elo_penalty": -15.0,
+    "England": {
+      "elo_penalty": -60.0,
       "absences": [
         {
-          "player": "Amadou Onana",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "Villa and Belgium midfielder Onana ruptures ACL",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/c862nw2xj0jo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-07-08",
-          "expires_on": null
-        },
-        {
-          "player": "Jérémy Doku",
-          "status": "out",
+          "player": "Reece James",
+          "status": "doubt",
           "until": null,
           "key_player": true,
-          "source_title": "Doku returning to World Cup after birth of first child",
-          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-23",
+          "source_title": "Reece James remains injury doubt as England’s World Cup right-back woes go on",
+          "source_link": "https://www.theguardian.com/football/2026/jul/08/reece-james-remains-injury-doubt-england-right-back-woes-norway-world-cup-quarter-final",
+          "first_reported": "2026-07-09",
           "expires_on": null
-        }
-      ]
-    },
-    "England": {
-      "elo_penalty": -52.5,
-      "absences": [
+        },
         {
           "player": "Jordan Henderson",
           "status": "out",
@@ -81,6 +66,56 @@
         }
       ]
     },
+    "United States": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Folarin Balogun",
+          "status": "suspended",
+          "until": null,
+          "key_player": false,
+          "source_title": "White House’s World Cup head defends Trump lobbying Fifa over red card",
+          "source_link": "https://www.theguardian.com/us-news/2026/jul/08/trump-fifa-red-card",
+          "first_reported": "2026-07-09",
+          "expires_on": null
+        },
+        {
+          "player": "Christian Pulisic",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Pulisic forced off injured for USMNT vs. Belgium",
+          "source_link": "https://www.espn.com/soccer/story/_/id/49291866/christian-pulisic-injury-usa-belgium-2026-world-cup",
+          "first_reported": "2026-07-07",
+          "expires_on": null
+        }
+      ]
+    },
+    "Belgium": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Amadou Onana",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Villa and Belgium midfielder Onana ruptures ACL",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/c862nw2xj0jo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-08",
+          "expires_on": null
+        },
+        {
+          "player": "Jérémy Doku",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Doku returning to World Cup after birth of first child",
+          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-23",
+          "expires_on": null
+        }
+      ]
+    },
     "Portugal": {
       "elo_penalty": -15.0,
       "absences": [
@@ -92,21 +127,6 @@
           "source_title": "USA fall asleep in Seattle and it’s tchau Ronaldo | World Cup Daily – video",
           "source_link": "https://www.theguardian.com/football/video/2026/jul/07/usa-fall-asleep-in-seattle-and-its-tchau-ronaldo-world-cup-daily-video",
           "first_reported": "2026-07-08",
-          "expires_on": null
-        }
-      ]
-    },
-    "United States": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Christian Pulisic",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Pulisic forced off injured for USMNT vs. Belgium",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49291866/christian-pulisic-injury-usa-belgium-2026-world-cup",
-          "first_reported": "2026-07-07",
           "expires_on": null
         }
       ]

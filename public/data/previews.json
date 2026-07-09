@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-08T06:15:01.461425+00:00",
+  "generated_at": "2026-07-09T06:15:04.907062+00:00",
   "previews": {
     "France|Morocco|2026-07-09": {
-      "text": "France faces Morocco in an anticipated clash, with France holding a slight Elo advantage. Both teams display strong form, though Morocco must contend with the absence of Achraf Hakimi due to suspension. France boasts a streak of five World Cup wins, while Morocco also holds impressive tournament results. Our model suggests a decisive victory for France, predicting a 2-0 result (75%).",
+      "text": "France hosts Morocco in a contest where form clashes with focus. France boasts solid recent World Cup results, while Morocco's record includes wins but also draws against top-tier opponents. The Moroccan side must manage the absence of Achraf Hakimi. Our model slightly favors France, projecting a 2-0 victory as they look to capitalize on their consistent performance.",
       "sources": [
         {
           "label": "Morocco captain Hakimi to stand trial for rape",
@@ -10,9 +10,38 @@
         }
       ]
     },
-    "Norway|England|2026-07-11": {
-      "text": "A clash between Norway (Elo 1972) and England (Elo 2024) promises drama. While Norway boasts a strong run of form, England looks formidable despite absences including Henderson, Rice, and Kane. With both sides showing recent World Cup experience, the match remains unpredictable. Our model predicts a draw or narrow victory for either side, giving English the highest probability of winning (44%).",
+    "Spain|Belgium|2026-07-10": {
+      "text": "Spain and Belgium face off in this World Cup match. Spain, ranked higher at Elo 2162, boasts strong recent form but faces absences including Nico Williams. Belgium's record includes several wins, despite missing key players like Amadou Onana. With no prior meetings between the teams on file, the model predicts a tight contest, leaning towards a 2-0 victory for Spain.",
       "sources": [
+        {
+          "label": "Spain's Williams criticises tackle that injured him",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
+          "href": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams"
+        },
+        {
+          "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
+        },
+        {
+          "label": "Villa and Belgium midfielder Onana ruptures ACL",
+          "href": "https://www.bbc.co.uk/sport/football/articles/c862nw2xj0jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Doku returning to World Cup after birth of first child",
+          "href": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    "Norway|England|2026-07-11": {
+      "text": "A clash of contrasts awaits as Elo 1972 Norway takes on Elo 2016 England. While both teams have strong recent World Cup form, England faces a significant injury hurdle with several key players missing or doubtful. Norway has demonstrated solid performance in their recent fixtures. With the model predicting a high-scoring draw (1-1), all eyes will be on which side can capitalize on their opposition's challenges to secure three points.",
+      "sources": [
+        {
+          "label": "Reece James remains injury doubt as England’s World Cup right-back woes go on",
+          "href": "https://www.theguardian.com/football/2026/jul/08/reece-james-remains-injury-doubt-england-right-back-woes-norway-world-cup-quarter-final"
+        },
         {
           "label": "England players to get hoarding warning after freak Henderson injury",
           "href": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss"
@@ -36,7 +65,7 @@
       ]
     },
     "Argentina|Switzerland|2026-07-11": {
-      "text": "Argentina (Elo 2156) meets Switzerland (Elo 1949). Argentina arrives in strong form, having secured five consecutive wins in World Cup matches. Switzerland’s recent record shows mixed results, including victories over Algeria and Canada. With no head-to-head meetings on file and both teams reporting no key absences, the model favors an Argentine win (70%).",
+      "text": "Argentina faces a contrasting opponent in Switzerland. Argentina arrives with strong form, boasting five consecutive World Cup victories listed in their recent history. Switzerland's last five results include both wins and draws. Although there is no head-to-head record on file, the model favors Argentina, predicting a 70% chance of an Argentine win, potentially securing a 2-0 victory.",
       "sources": []
     }
   }

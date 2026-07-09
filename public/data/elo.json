@@ -94,7 +94,7 @@
       "rank": 16,
       "code": "HR",
       "name": "Croatia",
-      "rating": 1882
+      "rating": 1881
     },
     {
       "rank": 17,
@@ -274,10 +274,10 @@
       "rank": 46,
       "code": "PE",
       "name": "Peru",
-      "rating": 1699
+      "rating": 1700
     },
     {
-      "rank": 46,
+      "rank": 47,
       "code": "IE",
       "name": "Ireland",
       "rating": 1699
@@ -370,7 +370,7 @@
       "rank": 62,
       "code": "CR",
       "name": "Costa Rica",
-      "rating": 1609
+      "rating": 1608
     },
     {
       "rank": 63,
@@ -520,7 +520,7 @@
       "rank": 87,
       "code": "ME",
       "name": "Montenegro",
-      "rating": 1460
+      "rating": 1461
     },
     {
       "rank": 88,
@@ -1144,7 +1144,7 @@
       "rank": 191,
       "code": "MS",
       "name": "Montserrat",
-      "rating": 971
+      "rating": 972
     },
     {
       "rank": 192,
@@ -1246,7 +1246,7 @@
       "rank": 208,
       "code": "BQ",
       "name": "Bonaire",
-      "rating": 817
+      "rating": 816
     },
     {
       "rank": 209,
@@ -1465,5 +1465,5 @@
       "rating": 369
     }
   ],
-  "scraped_at": "2026-07-08T06:15:01.461425+00:00"
+  "scraped_at": "2026-07-09T06:15:04.907062+00:00"
 }

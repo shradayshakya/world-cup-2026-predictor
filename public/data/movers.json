@@ -1,71 +1,21 @@
 {
-  "generated_at": "2026-07-08T06:15:01.461425+00:00",
+  "generated_at": "2026-07-09T06:15:04.907062+00:00",
   "movers": [
     {
-      "team": "Spain",
-      "previous_pct": 35.25,
-      "current_pct": 23.0,
-      "delta_pp": -12.25,
-      "direction": "loser",
-      "blurb": "Spain's diminished title prospects are attributed to squad availability concerns. The absence of Nico Williams, Yéremy Pino, and Borja Iglesias negatively impacts the team structure and anticipated performance metrics within our model.",
-      "sources": [
-        {
-          "label": "Spain",
-          "href": "/teams/spain"
-        },
-        {
-          "label": "Spain's Williams criticises tackle that injured him",
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "label": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
-          "href": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams"
-        },
-        {
-          "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
-        }
-      ]
-    },
-    {
-      "team": "Mexico",
-      "previous_pct": 2.32,
-      "current_pct": 4.83,
-      "delta_pp": 2.5100000000000002,
-      "direction": "gainer",
-      "blurb": "Since there have been no relevant results or injuries reported, our prediction model attributes this increase in probability to an internal recalculation of team strengths and dynamics.",
-      "sources": [
-        {
-          "label": "Mexico",
-          "href": "/teams/mexico"
-        }
-      ]
-    },
-    {
-      "team": "Argentina",
-      "previous_pct": 25.05,
-      "current_pct": 22.55,
-      "delta_pp": -2.5,
-      "direction": "loser",
-      "blurb": "The decline in probability reflects an internal adjustment within our predictive model's assessment. As there have been no recent results, injuries, or absences reported for Argentina, the shift is based purely on a subtle recalibration of our overall structural estimates going into the 2026 World Cup.",
-      "sources": [
-        {
-          "label": "Argentina",
-          "href": "/teams/argentina"
-        }
-      ]
-    },
-    {
       "team": "England",
-      "previous_pct": 2.97,
-      "current_pct": 5.13,
-      "delta_pp": 2.1599999999999997,
-      "direction": "gainer",
-      "blurb": "England’s odds rose despite having no relevant results since the last update. Given multiple key players—including Kane and Rice—are injured or doubtful, there is no specific performance event in this data set to justify the model's increased probability estimate.",
+      "previous_pct": 5.13,
+      "current_pct": 4.55,
+      "delta_pp": -0.5800000000000001,
+      "direction": "loser",
+      "blurb": "England's win probability decreased following several high-profile player absences. With Jordan Henderson, Declan Rice, and Harry Kane all ruled out, alongside other key players in doubt, our model assesses a reduction in the team's potential impact.",
       "sources": [
         {
           "label": "England",
           "href": "/teams/england"
+        },
+        {
+          "label": "Reece James remains injury doubt as England’s World Cup right-back woes go on",
+          "href": "https://www.theguardian.com/football/2026/jul/08/reece-james-remains-injury-doubt-england-right-back-woes-norway-world-cup-quarter-final"
         },
         {
           "label": "England players to get hoarding warning after freak Henderson injury",
@@ -86,20 +36,6 @@
         {
           "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
           "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
-        }
-      ]
-    },
-    {
-      "team": "Netherlands",
-      "previous_pct": 0.64,
-      "current_pct": 2.48,
-      "delta_pp": 1.8399999999999999,
-      "direction": "gainer",
-      "blurb": "Our internal predictive model has increased the probability of the Netherlands winning the 2026 FIFA World Cup. As there are no new results or reported injuries since the last update, this shift represents a strengthening within our overall statistical evaluation, independent of recent events.",
-      "sources": [
-        {
-          "label": "Netherlands",
-          "href": "/teams/netherlands"
         }
       ]
     }
