@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-07-09T06:15:04.907062+00:00",
+  "generated_at": "2026-07-10T06:15:01.212519+00:00",
   "teams": {
     "England": {
-      "elo_penalty": -60.0,
+      "elo_penalty": -60,
       "absences": [
+        {
+          "player": "Marc Guéhi",
+          "status": "doubt",
+          "until": null,
+          "key_player": true,
+          "source_title": "Guehi a doubt for Norway game and Rice ill with bug",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-10",
+          "expires_on": "2026-07-13"
+        },
+        {
+          "player": "Jarell Quansah",
+          "status": "suspended",
+          "until": "two games",
+          "key_player": false,
+          "source_title": "Quansah banned for two games after Mexico red card",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cjdgvrnn5n3o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-10",
+          "expires_on": "2026-07-12"
+        },
         {
           "player": "Reece James",
           "status": "doubt",
@@ -22,16 +42,6 @@
           "source_title": "England players to get hoarding warning after freak Henderson injury",
           "source_link": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-07-08",
-          "expires_on": null
-        },
-        {
-          "player": "Jarell Quansah",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "Tuchel worried about right-back situation",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/cj9gyp71ge4o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-28",
           "expires_on": null
         },
         {
@@ -70,6 +80,16 @@
       "elo_penalty": -15.0,
       "absences": [
         {
+          "player": "Christian Pulisic",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "US confirm Pulisic leg fracture in defeat by Belgium",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cq613v53emlo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-10",
+          "expires_on": null
+        },
+        {
           "player": "Folarin Balogun",
           "status": "suspended",
           "until": null,
@@ -78,15 +98,20 @@
           "source_link": "https://www.theguardian.com/us-news/2026/jul/08/trump-fifa-red-card",
           "first_reported": "2026-07-09",
           "expires_on": null
-        },
+        }
+      ]
+    },
+    "Switzerland": {
+      "elo_penalty": 0.0,
+      "absences": [
         {
-          "player": "Christian Pulisic",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Pulisic forced off injured for USMNT vs. Belgium",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49291866/christian-pulisic-injury-usa-belgium-2026-world-cup",
-          "first_reported": "2026-07-07",
+          "player": "Johan Manzambi",
+          "status": "doubt",
+          "until": "Quarter-final against Argentina",
+          "key_player": false,
+          "source_title": "Newcastle agree £51.5m Johan Manzambi deal and insist Bruno Guimarães not for sale",
+          "source_link": "https://www.theguardian.com/football/2026/jul/09/newcastle-agree-johan-manzambi-deal-and-insist-bruno-guimaraes-not-for-sale-transfer-window",
+          "first_reported": "2026-07-10",
           "expires_on": null
         }
       ]

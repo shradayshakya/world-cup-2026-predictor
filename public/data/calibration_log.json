@@ -1241,13 +1241,31 @@
       "brier_score": 0.8165,
       "log_loss": 1.3067,
       "scoreline_correct": false
+    },
+    {
+      "date": "2026-07-09",
+      "home_team": "France",
+      "away_team": "Morocco",
+      "predicted_home_score": 2,
+      "predicted_away_score": 0,
+      "home_win_probability": 0.7458,
+      "draw_probability": 0.1621,
+      "away_win_probability": 0.0921,
+      "predicted_outcome": "home",
+      "actual_home_score": 2,
+      "actual_away_score": 0,
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "brier_score": 0.0994,
+      "log_loss": 0.2933,
+      "scoreline_correct": true
     }
   ],
   "summary": {
-    "n": 69,
-    "avg_brier_score": 0.4171,
-    "avg_log_loss": 0.7351,
-    "scoreline_accuracy": 0.1884,
-    "outcome_accuracy": 0.6812
+    "n": 70,
+    "avg_brier_score": 0.4126,
+    "avg_log_loss": 0.7288,
+    "scoreline_accuracy": 0.2,
+    "outcome_accuracy": 0.6857
   }
 }

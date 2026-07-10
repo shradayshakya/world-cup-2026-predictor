@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-09T06:15:04.907062+00:00",
+  "scraped_at": "2026-07-10T06:15:01.212519+00:00",
   "matches": [
     {
       "round": "Round of 32",
@@ -319,11 +319,11 @@
       "date": "2026-07-09",
       "home_team": "France",
       "away_team": "Morocco",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 0,
       "venue": "Gillette Stadium, Foxborough",
-      "attendance": null,
+      "attendance": 63811,
       "referee": "Facundo Tello (Argentina)"
     },
     {
@@ -350,7 +350,7 @@
       "away_score": null,
       "venue": "Hard Rock Stadium, Miami Gardens",
       "attendance": null,
-      "referee": null
+      "referee": "Clément Turpin (France)"
     },
     {
       "round": "Quarter-finals",
@@ -363,13 +363,13 @@
       "away_score": null,
       "venue": "Arrowhead Stadium, Kansas City",
       "attendance": null,
-      "referee": null
+      "referee": "João Pinheiro (Portugal)"
     },
     {
       "round": "Semi-finals",
       "group": null,
       "date": "2026-07-14",
-      "home_team": "Winner Match 97",
+      "home_team": "France",
       "away_team": "Winner Match 98",
       "played": false,
       "home_score": null,

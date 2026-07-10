@@ -8,15 +8,15 @@
     },
     {
       "rank": 2,
-      "code": "AR",
-      "name": "Argentina",
-      "rating": 2156
+      "code": "FR",
+      "name": "France",
+      "rating": 2163
     },
     {
       "rank": 3,
-      "code": "FR",
-      "name": "France",
-      "rating": 2143
+      "code": "AR",
+      "name": "Argentina",
+      "rating": 2156
     },
     {
       "rank": 4,
@@ -68,21 +68,21 @@
     },
     {
       "rank": 12,
-      "code": "MA",
-      "name": "Morocco",
-      "rating": 1921
-    },
-    {
-      "rank": 13,
       "code": "MX",
       "name": "Mexico",
       "rating": 1913
     },
     {
-      "rank": 14,
+      "rank": 13,
       "code": "DE",
       "name": "Germany",
       "rating": 1907
+    },
+    {
+      "rank": 14,
+      "code": "MA",
+      "name": "Morocco",
+      "rating": 1901
     },
     {
       "rank": 15,
@@ -1465,5 +1465,5 @@
       "rating": 369
     }
   ],
-  "scraped_at": "2026-07-09T06:15:04.907062+00:00"
+  "scraped_at": "2026-07-10T06:15:01.212519+00:00"
 }
