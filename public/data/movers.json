@@ -1,41 +1,13 @@
 {
-  "generated_at": "2026-07-10T06:15:01.212519+00:00",
+  "generated_at": "2026-07-15T17:44:37.796078+00:00",
   "movers": [
     {
-      "team": "France",
-      "previous_pct": 20.849999999999998,
-      "current_pct": 23.919999999999998,
-      "delta_pp": 3.0700000000000003,
-      "direction": "gainer",
-      "blurb": "As no relevant results or reported injury changes have occurred since the last update, this increase reflects an internal shift within our model's underlying probability calculations for France securing the 2026 FIFA World Cup title.",
-      "sources": [
-        {
-          "label": "France",
-          "href": "/teams/france"
-        }
-      ]
-    },
-    {
-      "team": "Argentina",
-      "previous_pct": 22.220000000000002,
-      "current_pct": 21.18,
-      "delta_pp": -1.0400000000000027,
-      "direction": "loser",
-      "blurb": "The model registered a marginal decrease in Argentina's title chances. Despite no reported changes in form or squad status since the last assessment, the probability has been adjusted downward from 22.2% to 21.2%.",
-      "sources": [
-        {
-          "label": "Argentina",
-          "href": "/teams/argentina"
-        }
-      ]
-    },
-    {
       "team": "Spain",
-      "previous_pct": 23.04,
-      "current_pct": 22.45,
-      "delta_pp": -0.5899999999999999,
-      "direction": "loser",
-      "blurb": "Spain's predicted probability decreased due to current squad availability issues. The absence of players such as Nico Williams, Yéremy Pino, and Borja Iglesias impacts available options for the team. This reduction in depth contributed to the slight shift in our model’s estimate.",
+      "previous_pct": 22.45,
+      "current_pct": 31.72,
+      "delta_pp": 9.27,
+      "direction": "gainer",
+      "blurb": "Our probability model has increased Spain's chances of winning. Given the current absences of key players such as Nico Williams and Yéremy Pino, this upward adjustment occurs without a corresponding event or result to explain the positive shift in our model's estimate.",
       "sources": [
         {
           "label": "Spain",
@@ -52,6 +24,82 @@
         {
           "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
           "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "previous_pct": 23.919999999999998,
+      "current_pct": 14.92,
+      "delta_pp": -8.999999999999998,
+      "direction": "loser",
+      "blurb": "France's title probability has decreased since the last update. Given that there have been no relevant results or reported injuries, this decline reflects a generalized internal reassessment by our model regarding the team's overall projected performance leading up to the tournament.",
+      "sources": [
+        {
+          "label": "France",
+          "href": "/teams/france"
+        }
+      ]
+    },
+    {
+      "team": "Argentina",
+      "previous_pct": 21.18,
+      "current_pct": 23.77,
+      "delta_pp": 2.59,
+      "direction": "gainer",
+      "blurb": "Argentina's odds shifted within our proprietary model, resulting in an increase in probability. As no new results or reported injuries have occurred since the last update, this adjustment reflects a recalibration of our internal estimations.",
+      "sources": [
+        {
+          "label": "Argentina",
+          "href": "/teams/argentina"
+        }
+      ]
+    },
+    {
+      "team": "Norway",
+      "previous_pct": 2.73,
+      "current_pct": 1.83,
+      "delta_pp": -0.8999999999999999,
+      "direction": "loser",
+      "blurb": "Norway's probability of winning has declined from 2.7% to 1.8%. Since there are no reported results or player injuries, this shift reflects a general recalibration within our predictive model regarding Norway's overall standing against the competition.",
+      "sources": [
+        {
+          "label": "Norway",
+          "href": "/teams/norway"
+        }
+      ]
+    },
+    {
+      "team": "England",
+      "previous_pct": 4.63,
+      "current_pct": 5.390000000000001,
+      "delta_pp": 0.7600000000000007,
+      "direction": "gainer",
+      "blurb": "Our model indicates a slight shift in England's probability, rising from 4.6% to 5.4%. As no relevant results have been reported since the last update, this upward movement is not attributable to specific on-pitch events.",
+      "sources": [
+        {
+          "label": "England",
+          "href": "/teams/england"
+        },
+        {
+          "label": "Reece James remains injury doubt as England’s World Cup right-back woes go on",
+          "href": "https://www.theguardian.com/football/2026/jul/08/reece-james-remains-injury-doubt-england-right-back-woes-norway-world-cup-quarter-final"
+        },
+        {
+          "label": "England players to get hoarding warning after freak Henderson injury",
+          "href": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "England winger Saka unlikely to start against Ghana",
+          "href": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
         }
       ]
     }

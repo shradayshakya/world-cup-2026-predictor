@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-10T06:15:01.212519+00:00",
+  "scraped_at": "2026-07-15T17:44:37.796078+00:00",
   "matches": [
     {
       "round": "Round of 32",
@@ -332,11 +332,11 @@
       "date": "2026-07-10",
       "home_team": "Spain",
       "away_team": "Belgium",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 2,
+      "away_score": 1,
       "venue": "SoFi Stadium, Inglewood",
-      "attendance": null,
+      "attendance": 70492,
       "referee": "Michael Oliver (England)"
     },
     {
@@ -345,11 +345,11 @@
       "date": "2026-07-11",
       "home_team": "Norway",
       "away_team": "England",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 2,
       "venue": "Hard Rock Stadium, Miami Gardens",
-      "attendance": null,
+      "attendance": 64478,
       "referee": "Clément Turpin (France)"
     },
     {
@@ -358,11 +358,11 @@
       "date": "2026-07-11",
       "home_team": "Argentina",
       "away_team": "Switzerland",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 3,
+      "away_score": 1,
       "venue": "Arrowhead Stadium, Kansas City",
-      "attendance": null,
+      "attendance": 69045,
       "referee": "João Pinheiro (Portugal)"
     },
     {
@@ -370,32 +370,32 @@
       "group": null,
       "date": "2026-07-14",
       "home_team": "France",
-      "away_team": "Winner Match 98",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "away_team": "Spain",
+      "played": true,
+      "home_score": 0,
+      "away_score": 2,
       "venue": "AT&T Stadium, Arlington",
-      "attendance": null,
-      "referee": null
+      "attendance": 70176,
+      "referee": "Iván Barton (El Salvador)"
     },
     {
       "round": "Semi-finals",
       "group": null,
       "date": "2026-07-15",
-      "home_team": "Winner Match 99",
-      "away_team": "Winner Match 100",
+      "home_team": "England",
+      "away_team": "Argentina",
       "played": false,
       "home_score": null,
       "away_score": null,
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "attendance": null,
-      "referee": null
+      "referee": "Ismail Elfath (United States)"
     },
     {
       "round": "Third place play-off",
       "group": null,
       "date": "2026-07-18",
-      "home_team": "Loser Match 101",
+      "home_team": "France",
       "away_team": "Loser Match 102",
       "played": false,
       "home_score": null,
@@ -408,7 +408,7 @@
       "round": "Final",
       "group": null,
       "date": "2026-07-19",
-      "home_team": "Winner Match 101",
+      "home_team": "Spain",
       "away_team": "Winner Match 102",
       "played": false,
       "home_score": null,

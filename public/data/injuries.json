@@ -1,29 +1,24 @@
 {
-  "generated_at": "2026-07-10T06:15:01.212519+00:00",
+  "generated_at": "2026-07-15T17:44:37.796078+00:00",
   "teams": {
-    "England": {
-      "elo_penalty": -60,
+    "Uruguay": {
+      "elo_penalty": -15.0,
       "absences": [
         {
-          "player": "Marc Guéhi",
-          "status": "doubt",
+          "player": "Manuel Ugarte",
+          "status": "out",
           "until": null,
           "key_player": true,
-          "source_title": "Guehi a doubt for Norway game and Rice ill with bug",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/c3eyqdwq392o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-07-10",
-          "expires_on": "2026-07-13"
-        },
-        {
-          "player": "Jarell Quansah",
-          "status": "suspended",
-          "until": "two games",
-          "key_player": false,
-          "source_title": "Quansah banned for two games after Mexico red card",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/cjdgvrnn5n3o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-07-10",
-          "expires_on": "2026-07-12"
-        },
+          "source_title": "Man United's Ugarte undergoes knee surgery",
+          "source_link": "https://www.espn.com/soccer/story/_/id/49366171/man-united-manuel-ugarte-undergoes-successful-knee-surgery",
+          "first_reported": "2026-07-15",
+          "expires_on": null
+        }
+      ]
+    },
+    "England": {
+      "elo_penalty": -60.0,
+      "absences": [
         {
           "player": "Reece James",
           "status": "doubt",

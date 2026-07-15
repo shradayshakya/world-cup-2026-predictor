@@ -1259,13 +1259,67 @@
       "brier_score": 0.0994,
       "log_loss": 0.2933,
       "scoreline_correct": true
+    },
+    {
+      "date": "2026-07-10",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "predicted_home_score": 2,
+      "predicted_away_score": 0,
+      "home_win_probability": 0.7156,
+      "draw_probability": 0.1766,
+      "away_win_probability": 0.1078,
+      "predicted_outcome": "home",
+      "actual_home_score": 2,
+      "actual_away_score": 1,
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "brier_score": 0.1237,
+      "log_loss": 0.3346,
+      "scoreline_correct": false
+    },
+    {
+      "date": "2026-07-11",
+      "home_team": "Norway",
+      "away_team": "England",
+      "predicted_home_score": 1,
+      "predicted_away_score": 1,
+      "home_win_probability": 0.2958,
+      "draw_probability": 0.2807,
+      "away_win_probability": 0.4235,
+      "predicted_outcome": "away",
+      "actual_home_score": 1,
+      "actual_away_score": 2,
+      "actual_outcome": "away",
+      "outcome_correct": true,
+      "brier_score": 0.4986,
+      "log_loss": 0.8592,
+      "scoreline_correct": false
+    },
+    {
+      "date": "2026-07-11",
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "predicted_home_score": 2,
+      "predicted_away_score": 0,
+      "home_win_probability": 0.702,
+      "draw_probability": 0.1828,
+      "away_win_probability": 0.1151,
+      "predicted_outcome": "home",
+      "actual_home_score": 3,
+      "actual_away_score": 1,
+      "actual_outcome": "home",
+      "outcome_correct": true,
+      "brier_score": 0.1355,
+      "log_loss": 0.3538,
+      "scoreline_correct": false
     }
   ],
   "summary": {
-    "n": 70,
-    "avg_brier_score": 0.4126,
-    "avg_log_loss": 0.7288,
-    "scoreline_accuracy": 0.2,
-    "outcome_accuracy": 0.6857
+    "n": 73,
+    "avg_brier_score": 0.406,
+    "avg_log_loss": 0.72,
+    "scoreline_accuracy": 0.1918,
+    "outcome_accuracy": 0.6986
   }
 }
