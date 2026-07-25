@@ -1,6 +1,91 @@
 {
-  "generated_at": "2026-07-15T17:44:37.796078+00:00",
+  "generated_at": "2026-07-25T06:15:03.100373+00:00",
   "teams": {
+    "Spain": {
+      "elo_penalty": -30.0,
+      "absences": [
+        {
+          "player": "Rodri",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Rodri to have back surgery but Maresca brushes off transfer speculation",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-25",
+          "expires_on": null
+        },
+        {
+          "player": "Nico Williams",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Spain's Williams criticises tackle that injured him",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-28",
+          "expires_on": null
+        },
+        {
+          "player": "Yéremy Pino",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
+          "source_link": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams",
+          "first_reported": "2026-06-28",
+          "expires_on": "2026-08-27"
+        },
+        {
+          "player": "Borja Iglesias",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+          "source_link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
+          "first_reported": "2026-06-21",
+          "expires_on": null
+        }
+      ]
+    },
+    "Australia": {
+      "elo_penalty": 0.0,
+      "absences": [
+        {
+          "player": "Cristian Volpato",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Australia star allegedly tests positive for cocaine after speeding",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cm2gdnz5x50o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-25",
+          "expires_on": null
+        }
+      ]
+    },
+    "Brazil": {
+      "elo_penalty": -30.0,
+      "absences": [
+        {
+          "player": "Casemiro",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Football Daily | Manchester United and the quest to make mythical midfield a reality",
+          "source_link": "https://www.theguardian.com/football/2026/jul/24/manchester-united-midfield-football-daily-newsletter",
+          "first_reported": "2026-07-25",
+          "expires_on": null
+        },
+        {
+          "player": "Neymar",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
+          "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
+          "first_reported": "2026-06-18",
+          "expires_on": null
+        }
+      ]
+    },
     "Uruguay": {
       "elo_penalty": -15.0,
       "absences": [
@@ -9,9 +94,9 @@
           "status": "out",
           "until": null,
           "key_player": true,
-          "source_title": "Man United's Ugarte undergoes knee surgery",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49366171/man-united-manuel-ugarte-undergoes-successful-knee-surgery",
-          "first_reported": "2026-07-15",
+          "source_title": "Football Daily | Manchester United and the quest to make mythical midfield a reality",
+          "source_link": "https://www.theguardian.com/football/2026/jul/24/manchester-united-midfield-football-daily-newsletter",
+          "first_reported": "2026-07-25",
           "expires_on": null
         }
       ]
@@ -166,41 +251,6 @@
         }
       ]
     },
-    "Spain": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Nico Williams",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Spain's Williams criticises tackle that injured him",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-28",
-          "expires_on": null
-        },
-        {
-          "player": "Yéremy Pino",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
-          "source_link": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams",
-          "first_reported": "2026-06-28",
-          "expires_on": "2026-08-27"
-        },
-        {
-          "player": "Borja Iglesias",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-          "source_link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
-          "first_reported": "2026-06-21",
-          "expires_on": null
-        }
-      ]
-    },
     "Germany": {
       "elo_penalty": -15.0,
       "absences": [
@@ -227,21 +277,6 @@
           "source_title": "Morocco captain Hakimi to stand trial for rape",
           "source_link": "https://www.bbc.com/sport/football/articles/c20y18z7le1o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-06-20",
-          "expires_on": null
-        }
-      ]
-    },
-    "Brazil": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Neymar",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
-          "first_reported": "2026-06-18",
           "expires_on": null
         }
       ]

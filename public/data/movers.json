@@ -1,17 +1,35 @@
 {
-  "generated_at": "2026-07-15T17:44:37.796078+00:00",
+  "generated_at": "2026-07-25T06:15:03.100373+00:00",
   "movers": [
     {
+      "team": "France",
+      "previous_pct": 14.92,
+      "current_pct": 9.11,
+      "delta_pp": -5.8100000000000005,
+      "direction": "loser",
+      "blurb": "Our model adjusted France's title probability from 14.9% to 9.1%. As there are no reported injuries or recent results affecting the squad, this reduction reflects a statistical recalibration across our entire predictive matrix without specific event input.",
+      "sources": [
+        {
+          "label": "France",
+          "href": "/teams/france"
+        }
+      ]
+    },
+    {
       "team": "Spain",
-      "previous_pct": 22.45,
-      "current_pct": 31.72,
-      "delta_pp": 9.27,
+      "previous_pct": 31.72,
+      "current_pct": 35.120000000000005,
+      "delta_pp": 3.4000000000000057,
       "direction": "gainer",
-      "blurb": "Our probability model has increased Spain's chances of winning. Given the current absences of key players such as Nico Williams and Yéremy Pino, this upward adjustment occurs without a corresponding event or result to explain the positive shift in our model's estimate.",
+      "blurb": "Despite the reported absences of key players, including Rodri and Yéremy Pino, our prediction model calculated an increase in Spain's likelihood of winning the World Cup since the last update. This upward shift is derived from changes within the model parameters, independent of specific recent results or events.",
       "sources": [
         {
           "label": "Spain",
           "href": "/teams/spain"
+        },
+        {
+          "label": "Rodri to have back surgery but Maresca brushes off transfer speculation",
+          "href": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss"
         },
         {
           "label": "Spain's Williams criticises tackle that injured him",
@@ -28,54 +46,12 @@
       ]
     },
     {
-      "team": "France",
-      "previous_pct": 23.919999999999998,
-      "current_pct": 14.92,
-      "delta_pp": -8.999999999999998,
-      "direction": "loser",
-      "blurb": "France's title probability has decreased since the last update. Given that there have been no relevant results or reported injuries, this decline reflects a generalized internal reassessment by our model regarding the team's overall projected performance leading up to the tournament.",
-      "sources": [
-        {
-          "label": "France",
-          "href": "/teams/france"
-        }
-      ]
-    },
-    {
-      "team": "Argentina",
-      "previous_pct": 21.18,
-      "current_pct": 23.77,
-      "delta_pp": 2.59,
-      "direction": "gainer",
-      "blurb": "Argentina's odds shifted within our proprietary model, resulting in an increase in probability. As no new results or reported injuries have occurred since the last update, this adjustment reflects a recalibration of our internal estimations.",
-      "sources": [
-        {
-          "label": "Argentina",
-          "href": "/teams/argentina"
-        }
-      ]
-    },
-    {
-      "team": "Norway",
-      "previous_pct": 2.73,
-      "current_pct": 1.83,
-      "delta_pp": -0.8999999999999999,
-      "direction": "loser",
-      "blurb": "Norway's probability of winning has declined from 2.7% to 1.8%. Since there are no reported results or player injuries, this shift reflects a general recalibration within our predictive model regarding Norway's overall standing against the competition.",
-      "sources": [
-        {
-          "label": "Norway",
-          "href": "/teams/norway"
-        }
-      ]
-    },
-    {
       "team": "England",
-      "previous_pct": 4.63,
-      "current_pct": 5.390000000000001,
-      "delta_pp": 0.7600000000000007,
+      "previous_pct": 5.390000000000001,
+      "current_pct": 7.75,
+      "delta_pp": 2.3599999999999994,
       "direction": "gainer",
-      "blurb": "Our model indicates a slight shift in England's probability, rising from 4.6% to 5.4%. As no relevant results have been reported since the last update, this upward movement is not attributable to specific on-pitch events.",
+      "blurb": "Our model registered an upward shift in England's title probability despite several key players being listed as out or doubtful due to injury. The computational adjustment moved the team's chances higher, irrespective of recent results or squad availability.",
       "sources": [
         {
           "label": "England",
@@ -100,6 +76,28 @@
         {
           "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
           "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        }
+      ]
+    },
+    {
+      "team": "Brazil",
+      "previous_pct": 2.5100000000000002,
+      "current_pct": 1.95,
+      "delta_pp": -0.5600000000000003,
+      "direction": "loser",
+      "blurb": "Our model incorporates changes in team availability. The current report detailing that both Casemiro and Neymar are out of action has negatively impacted our assessment of Brazil's strength, contributing to the revised probability estimate.",
+      "sources": [
+        {
+          "label": "Brazil",
+          "href": "/teams/brazil"
+        },
+        {
+          "label": "Football Daily | Manchester United and the quest to make mythical midfield a reality",
+          "href": "https://www.theguardian.com/football/2026/jul/24/manchester-united-midfield-football-daily-newsletter"
+        },
+        {
+          "label": "Brazil's Neymar (calf injury) also out vs. Haiti",
+          "href": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages"
         }
       ]
     }

@@ -4,25 +4,25 @@
       "rank": 1,
       "code": "ES",
       "name": "Spain",
-      "rating": 2232
+      "rating": 2259
     },
     {
       "rank": 2,
       "code": "AR",
       "name": "Argentina",
-      "rating": 2177
+      "rating": 2173
     },
     {
       "rank": 3,
-      "code": "FR",
-      "name": "France",
-      "rating": 2121
+      "code": "EN",
+      "name": "England",
+      "rating": 2125
     },
     {
       "rank": 4,
-      "code": "EN",
-      "name": "England",
-      "rating": 2097
+      "code": "FR",
+      "name": "France",
+      "rating": 2070
     },
     {
       "rank": 5,
@@ -370,7 +370,7 @@
       "rank": 62,
       "code": "CR",
       "name": "Costa Rica",
-      "rating": 1609
+      "rating": 1608
     },
     {
       "rank": 63,
@@ -436,7 +436,7 @@
       "rank": 73,
       "code": "ZA",
       "name": "South Africa",
-      "rating": 1560
+      "rating": 1559
     },
     {
       "rank": 74,
@@ -490,18 +490,18 @@
       "rank": 82,
       "code": "GT",
       "name": "Guatemala",
-      "rating": 1504
-    },
-    {
-      "rank": 83,
-      "code": "SY",
-      "name": "Syria",
-      "rating": 1479
+      "rating": 1505
     },
     {
       "rank": 83,
       "code": "OM",
       "name": "Oman",
+      "rating": 1480
+    },
+    {
+      "rank": 84,
+      "code": "SY",
+      "name": "Syria",
       "rating": 1479
     },
     {
@@ -662,14 +662,14 @@
     },
     {
       "rank": 111,
-      "code": "KM",
-      "name": "Comoros",
-      "rating": 1374
-    },
-    {
-      "rank": 112,
       "code": "AM",
       "name": "Armenia",
+      "rating": 1373
+    },
+    {
+      "rank": 111,
+      "code": "KM",
+      "name": "Comoros",
       "rating": 1373
     },
     {
@@ -706,7 +706,7 @@
       "rank": 118,
       "code": "VN",
       "name": "Vietnam",
-      "rating": 1351
+      "rating": 1355
     },
     {
       "rank": 119,
@@ -980,27 +980,27 @@
     },
     {
       "rank": 164,
+      "code": "SG",
+      "name": "Singapore",
+      "rating": 1145
+    },
+    {
+      "rank": 165,
       "code": "VC",
       "name": "Saint Vincent and the Grenadines",
       "rating": 1141
     },
     {
-      "rank": 165,
+      "rank": 166,
       "code": "PG",
       "name": "Papua New Guinea",
       "rating": 1135
     },
     {
-      "rank": 165,
+      "rank": 166,
       "code": "PR",
       "name": "Puerto Rico",
       "rating": 1135
-    },
-    {
-      "rank": 167,
-      "code": "SG",
-      "name": "Singapore",
-      "rating": 1134
     },
     {
       "rank": 168,
@@ -1120,7 +1120,7 @@
       "rank": 187,
       "code": "MM",
       "name": "Myanmar",
-      "rating": 984
+      "rating": 982
     },
     {
       "rank": 188,
@@ -1216,7 +1216,7 @@
       "rank": 203,
       "code": "KH",
       "name": "Cambodia",
-      "rating": 871
+      "rating": 860
     },
     {
       "rank": 204,
@@ -1288,13 +1288,13 @@
       "rank": 215,
       "code": "LA",
       "name": "Laos",
-      "rating": 734
+      "rating": 735
     },
     {
-      "rank": 215,
+      "rank": 216,
       "code": "TL",
       "name": "East Timor",
-      "rating": 734
+      "rating": 732
     },
     {
       "rank": 217,
@@ -1465,5 +1465,5 @@
       "rating": 369
     }
   ],
-  "scraped_at": "2026-07-15T17:44:37.796078+00:00"
+  "scraped_at": "2026-07-25T06:15:03.100373+00:00"
 }

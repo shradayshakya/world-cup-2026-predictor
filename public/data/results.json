@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-15T17:44:37.796078+00:00",
+  "scraped_at": "2026-07-25T06:15:03.100373+00:00",
   "matches": [
     {
       "round": "Round of 32",
@@ -384,11 +384,11 @@
       "date": "2026-07-15",
       "home_team": "England",
       "away_team": "Argentina",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "played": true,
+      "home_score": 1,
+      "away_score": 2,
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "attendance": null,
+      "attendance": 68239,
       "referee": "Ismail Elfath (United States)"
     },
     {
@@ -396,26 +396,26 @@
       "group": null,
       "date": "2026-07-18",
       "home_team": "France",
-      "away_team": "Loser Match 102",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "away_team": "England",
+      "played": true,
+      "home_score": 4,
+      "away_score": 6,
       "venue": "Hard Rock Stadium, Miami Gardens",
-      "attendance": null,
-      "referee": null
+      "attendance": 64478,
+      "referee": "Jesús Valenzuela (Venezuela)"
     },
     {
       "round": "Final",
       "group": null,
       "date": "2026-07-19",
       "home_team": "Spain",
-      "away_team": "Winner Match 102",
-      "played": false,
-      "home_score": null,
-      "away_score": null,
+      "away_team": "Argentina",
+      "played": true,
+      "home_score": 1,
+      "away_score": 0,
       "venue": "MetLife Stadium, East Rutherford",
-      "attendance": null,
-      "referee": null
+      "attendance": 80663,
+      "referee": "Slavko Vinčić (Slovenia)"
     }
   ]
 }
