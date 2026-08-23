@@ -1,6 +1,21 @@
 {
-  "generated_at": "2026-08-02T06:15:02.472260+00:00",
+  "generated_at": "2026-08-23T06:15:06.280772+00:00",
   "teams": {
+    "Argentina": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Lionel Messi",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Messi fined for slapping opponent in MLS game",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cz05k0j72p5o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-08-23",
+          "expires_on": null
+        }
+      ]
+    },
     "Spain": {
       "elo_penalty": -30.0,
       "absences": [
