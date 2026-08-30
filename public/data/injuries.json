@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:15:06.280772+00:00",
+  "generated_at": "2026-08-30T06:15:02.474840+00:00",
   "teams": {
     "Argentina": {
       "elo_penalty": -15.0,
@@ -38,16 +38,6 @@
           "source_link": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-06-28",
           "expires_on": null
-        },
-        {
-          "player": "Yéremy Pino",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "Spain’s Nico Williams hits out at ‘completely unnecessary’ Uruguay tackle that injured him",
-          "source_link": "https://www.theguardian.com/football/2026/jun/27/spain-injuries-yeremy-pino-miss-world-cup-nico-williams",
-          "first_reported": "2026-06-28",
-          "expires_on": "2026-08-27"
         },
         {
           "player": "Borja Iglesias",

@@ -506,33 +506,33 @@
     },
     {
       "rank": 85,
-      "code": "VN",
-      "name": "Vietnam",
-      "rating": 1467
-    },
-    {
-      "rank": 86,
       "code": "PS",
       "name": "Palestine",
       "rating": 1465
     },
     {
-      "rank": 87,
+      "rank": 86,
       "code": "GN",
       "name": "Guinea",
       "rating": 1464
     },
     {
-      "rank": 88,
+      "rank": 87,
       "code": "ME",
       "name": "Montenegro",
       "rating": 1461
     },
     {
-      "rank": 89,
+      "rank": 88,
       "code": "BG",
       "name": "Bulgaria",
       "rating": 1458
+    },
+    {
+      "rank": 89,
+      "code": "VN",
+      "name": "Vietnam",
+      "rating": 1456
     },
     {
       "rank": 90,
@@ -686,21 +686,21 @@
     },
     {
       "rank": 115,
+      "code": "TH",
+      "name": "Thailand",
+      "rating": 1367
+    },
+    {
+      "rank": 116,
       "code": "KE",
       "name": "Kenya",
       "rating": 1363
     },
     {
-      "rank": 116,
+      "rank": 117,
       "code": "EE",
       "name": "Estonia",
       "rating": 1360
-    },
-    {
-      "rank": 117,
-      "code": "TH",
-      "name": "Thailand",
-      "rating": 1356
     },
     {
       "rank": 118,
@@ -1465,5 +1465,5 @@
       "rating": 370
     }
   ],
-  "scraped_at": "2026-08-23T06:15:06.280772+00:00"
+  "scraped_at": "2026-08-30T06:15:02.474840+00:00"
 }

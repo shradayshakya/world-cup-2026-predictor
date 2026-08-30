@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:15:06.280772+00:00",
+  "generated_at": "2026-08-30T06:15:02.474840+00:00",
   "issues": [
     {
       "source": "wikipedia_groups",
@@ -29,7 +29,7 @@
       "source": "wikipedia_groups",
       "detail": "Group E: Curaçao: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": true
+      "fallback_succeeded": false
     },
     {
       "source": "wikipedia_groups",
