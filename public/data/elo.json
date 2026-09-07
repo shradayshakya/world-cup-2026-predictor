@@ -70,7 +70,7 @@
       "rank": 12,
       "code": "MX",
       "name": "Mexico",
-      "rating": 1914
+      "rating": 1913
     },
     {
       "rank": 13,
@@ -820,7 +820,7 @@
       "rank": 137,
       "code": "GY",
       "name": "Guyana",
-      "rating": 1292
+      "rating": 1293
     },
     {
       "rank": 138,
@@ -904,10 +904,10 @@
       "rank": 151,
       "code": "CU",
       "name": "Cuba",
-      "rating": 1239
+      "rating": 1240
     },
     {
-      "rank": 151,
+      "rank": 152,
       "code": "MW",
       "name": "Malawi",
       "rating": 1239
@@ -1144,7 +1144,7 @@
       "rank": 191,
       "code": "MS",
       "name": "Montserrat",
-      "rating": 972
+      "rating": 971
     },
     {
       "rank": 192,
@@ -1216,7 +1216,7 @@
       "rank": 203,
       "code": "KH",
       "name": "Cambodia",
-      "rating": 871
+      "rating": 870
     },
     {
       "rank": 204,
@@ -1390,7 +1390,7 @@
       "rank": 232,
       "code": "MO",
       "name": "Macao",
-      "rating": 588
+      "rating": 589
     },
     {
       "rank": 233,
@@ -1465,5 +1465,5 @@
       "rating": 370
     }
   ],
-  "scraped_at": "2026-09-01T06:15:00.478635+00:00"
+  "scraped_at": "2026-09-07T06:15:02.585963+00:00"
 }
