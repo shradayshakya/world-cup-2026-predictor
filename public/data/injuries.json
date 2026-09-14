@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-09-07T06:15:02.585963+00:00",
+  "generated_at": "2026-09-14T06:15:00.668377+00:00",
   "teams": {
     "Argentina": {
       "elo_penalty": -15.0,
       "absences": [
+        {
+          "player": "Enzo Fernández",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "‘An error of judgement’: Pro Ref admits mistake in awarding Haaland’s derby winner",
+          "source_link": "https://www.theguardian.com/football/2026/sep/13/michael-carrick-var-erling-haaland-manchester-derby",
+          "first_reported": "2026-09-14",
+          "expires_on": null
+        },
         {
           "player": "Lionel Messi",
           "status": "out",
