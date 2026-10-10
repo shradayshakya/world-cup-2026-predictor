@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T06:15:00.668377+00:00",
+  "generated_at": "2026-10-10T06:15:02.649317+00:00",
   "issues": [
     {
       "source": "wikipedia_groups",
@@ -53,7 +53,7 @@
       "source": "wikipedia_groups",
       "detail": "Group I: Iraq: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": false
+      "fallback_succeeded": true
     },
     {
       "source": "wikipedia_groups",

@@ -1,4 +1,99 @@
 {
-  "generated_at": "2026-09-14T06:15:00.668377+00:00",
-  "movers": []
+  "generated_at": "2026-10-10T06:15:02.649317+00:00",
+  "movers": [
+    {
+      "team": "Mexico",
+      "previous_pct": 4.77,
+      "current_pct": 2.08,
+      "delta_pp": -2.6899999999999995,
+      "direction": "loser",
+      "blurb": "As there have been neither relevant match results nor any reported injuries or absences, our prediction model has internally adjusted Mexico's probability without specific external events to explain the shift.",
+      "sources": [
+        {
+          "label": "Mexico",
+          "href": "/teams/mexico"
+        }
+      ]
+    },
+    {
+      "team": "Portugal",
+      "previous_pct": 2.9000000000000004,
+      "current_pct": 5.58,
+      "delta_pp": 2.6799999999999997,
+      "direction": "gainer",
+      "blurb": "Our model’s estimate shifted, increasing Portugal's projected probability of winning the 2026 World Cup. This reassessment reflects an internal adjustment based on current team status and projections, despite reported absences.",
+      "sources": [
+        {
+          "label": "Portugal",
+          "href": "/teams/portugal"
+        },
+        {
+          "label": "‘Portugal’s greatest symbol’: Bruno Fernandes backs Cristiano Ronaldo despite walkout",
+          "href": "https://www.theguardian.com/football/2026/oct/03/cristiano-ronaldo-portugal-bruno-fernandes-jorge-jesus-nations-league"
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "previous_pct": 9.29,
+      "current_pct": 11.81,
+      "delta_pp": 2.5200000000000014,
+      "direction": "gainer",
+      "blurb": "France's probability of winning the World Cup rose as our internal model recalibrated its assessment. Since the last update, there have been no reported results or injuries for the team, meaning this shift is based purely on an internal re-evaluation and not a reaction to specific game events.",
+      "sources": [
+        {
+          "label": "France",
+          "href": "/teams/france"
+        }
+      ]
+    },
+    {
+      "team": "Argentina",
+      "previous_pct": 21.34,
+      "current_pct": 18.87,
+      "delta_pp": -2.469999999999999,
+      "direction": "loser",
+      "blurb": "The probability decrease stems from reported squad changes. With key players Enzo Fernández and Lionel Messi currently marked as out, the loss of this talent impacts our model's projection for Argentina's championship contention.",
+      "sources": [
+        {
+          "label": "Argentina",
+          "href": "/teams/argentina"
+        },
+        {
+          "label": "‘An error of judgement’: Pro Ref admits mistake in awarding Haaland’s derby winner",
+          "href": "https://www.theguardian.com/football/2026/sep/13/michael-carrick-var-erling-haaland-manchester-derby"
+        },
+        {
+          "label": "Messi fined for slapping opponent in MLS game",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cz05k0j72p5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "team": "Spain",
+      "previous_pct": 35.510000000000005,
+      "current_pct": 37.24,
+      "delta_pp": 1.7299999999999969,
+      "direction": "gainer",
+      "blurb": "Spain's probability increased by 1.7 percentage points, even with multiple players sidelined. As there have been no relevant results since the last update, our model estimate shifts despite the absences of Rodri, Nico Williams, and Borja Iglesias.",
+      "sources": [
+        {
+          "label": "Spain",
+          "href": "/teams/spain"
+        },
+        {
+          "label": "Rodri to have back surgery but Maresca brushes off transfer speculation",
+          "href": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Spain's Williams criticises tackle that injured him",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
+        }
+      ]
+    }
+  ]
 }
