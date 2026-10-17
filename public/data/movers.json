@@ -1,63 +1,21 @@
 {
-  "generated_at": "2026-10-10T06:15:02.649317+00:00",
+  "generated_at": "2026-10-17T11:02:45.372176+00:00",
   "movers": [
     {
-      "team": "Mexico",
-      "previous_pct": 4.77,
-      "current_pct": 2.08,
-      "delta_pp": -2.6899999999999995,
-      "direction": "loser",
-      "blurb": "As there have been neither relevant match results nor any reported injuries or absences, our prediction model has internally adjusted Mexico's probability without specific external events to explain the shift.",
-      "sources": [
-        {
-          "label": "Mexico",
-          "href": "/teams/mexico"
-        }
-      ]
-    },
-    {
-      "team": "Portugal",
-      "previous_pct": 2.9000000000000004,
-      "current_pct": 5.58,
-      "delta_pp": 2.6799999999999997,
-      "direction": "gainer",
-      "blurb": "Our model’s estimate shifted, increasing Portugal's projected probability of winning the 2026 World Cup. This reassessment reflects an internal adjustment based on current team status and projections, despite reported absences.",
-      "sources": [
-        {
-          "label": "Portugal",
-          "href": "/teams/portugal"
-        },
-        {
-          "label": "‘Portugal’s greatest symbol’: Bruno Fernandes backs Cristiano Ronaldo despite walkout",
-          "href": "https://www.theguardian.com/football/2026/oct/03/cristiano-ronaldo-portugal-bruno-fernandes-jorge-jesus-nations-league"
-        }
-      ]
-    },
-    {
-      "team": "France",
-      "previous_pct": 9.29,
-      "current_pct": 11.81,
-      "delta_pp": 2.5200000000000014,
-      "direction": "gainer",
-      "blurb": "France's probability of winning the World Cup rose as our internal model recalibrated its assessment. Since the last update, there have been no reported results or injuries for the team, meaning this shift is based purely on an internal re-evaluation and not a reaction to specific game events.",
-      "sources": [
-        {
-          "label": "France",
-          "href": "/teams/france"
-        }
-      ]
-    },
-    {
       "team": "Argentina",
-      "previous_pct": 21.34,
-      "current_pct": 18.87,
-      "delta_pp": -2.469999999999999,
+      "previous_pct": 18.87,
+      "current_pct": 17.02,
+      "delta_pp": -1.8500000000000014,
       "direction": "loser",
-      "blurb": "The probability decrease stems from reported squad changes. With key players Enzo Fernández and Lionel Messi currently marked as out, the loss of this talent impacts our model's projection for Argentina's championship contention.",
+      "blurb": "Argentina's predicted chances have slightly declined due to squad strain resulting from key player absences. The unavailability of Lionel Messi, Lautaro Martínez, and Enzo Fernández reduces the team's available options heading into the competition.",
       "sources": [
         {
           "label": "Argentina",
           "href": "/teams/argentina"
+        },
+        {
+          "label": "Inter rocked as captain Lautaro Martínez set to miss 7 games",
+          "href": "https://www.espn.com/soccer/story/_/id/50196980/inter-milan-lautaro-martinez-injury-serie-a"
         },
         {
           "label": "‘An error of judgement’: Pro Ref admits mistake in awarding Haaland’s derby winner",
@@ -70,12 +28,42 @@
       ]
     },
     {
-      "team": "Spain",
-      "previous_pct": 35.510000000000005,
-      "current_pct": 37.24,
-      "delta_pp": 1.7299999999999969,
+      "team": "England",
+      "previous_pct": 9.0,
+      "current_pct": 9.790000000000001,
+      "delta_pp": 0.7900000000000009,
       "direction": "gainer",
-      "blurb": "Spain's probability increased by 1.7 percentage points, even with multiple players sidelined. As there have been no relevant results since the last update, our model estimate shifts despite the absences of Rodri, Nico Williams, and Borja Iglesias.",
+      "blurb": "Our model's internal probability estimation has slightly shifted upwards, reflecting a marginal increase in England's perceived chances for the tournament.",
+      "sources": [
+        {
+          "label": "England",
+          "href": "/teams/england"
+        },
+        {
+          "label": "Chelsea's James out for three months after knee surgery",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cq073d9l0ly9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "England winger Saka unlikely to start against Ghana",
+          "href": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        }
+      ]
+    },
+    {
+      "team": "Spain",
+      "previous_pct": 37.24,
+      "current_pct": 37.91,
+      "delta_pp": 0.6699999999999946,
+      "direction": "gainer",
+      "blurb": "Our prediction model increased Spain's probability of winning despite the reported absences of key players like Rodri and Nico Williams. This slight shift reflects an internal adjustment in the team's potential performance given no relevant results were logged.",
       "sources": [
         {
           "label": "Spain",

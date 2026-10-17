@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:15:02.649317+00:00",
+  "generated_at": "2026-10-17T11:02:45.372176+00:00",
   "issues": [
     {
       "source": "wikipedia_groups",
@@ -71,7 +71,7 @@
       "source": "wikipedia_groups",
       "detail": "Group L: Panama: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": true
+      "fallback_succeeded": false
     },
     {
       "source": "wikipedia_matches",

@@ -1,24 +1,64 @@
 {
-  "generated_at": "2026-10-10T06:15:02.649317+00:00",
+  "generated_at": "2026-10-17T11:02:45.372176+00:00",
   "teams": {
-    "Portugal": {
-      "elo_penalty": -15.0,
+    "England": {
+      "elo_penalty": -52.5,
       "absences": [
         {
-          "player": "Cristiano Ronaldo",
+          "player": "Reece James",
+          "status": "out",
+          "until": "three months",
+          "key_player": true,
+          "source_title": "Chelsea's James out for three months after knee surgery",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cq073d9l0ly9o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-10-17",
+          "expires_on": "2027-01-15"
+        },
+        {
+          "player": "Bukayo Saka",
+          "status": "doubt",
+          "until": "Against Ghana on Tuesday",
+          "key_player": true,
+          "source_title": "England winger Saka unlikely to start against Ghana",
+          "source_link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-20",
+          "expires_on": null
+        },
+        {
+          "player": "Declan Rice",
           "status": "out",
           "until": null,
           "key_player": true,
-          "source_title": "‘Portugal’s greatest symbol’: Bruno Fernandes backs Cristiano Ronaldo despite walkout",
-          "source_link": "https://www.theguardian.com/football/2026/oct/03/cristiano-ronaldo-portugal-bruno-fernandes-jorge-jesus-nations-league",
-          "first_reported": "2026-10-04",
+          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
+          "first_reported": "2026-06-20",
+          "expires_on": null
+        },
+        {
+          "player": "Harry Kane",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
+          "first_reported": "2026-06-20",
           "expires_on": null
         }
       ]
     },
     "Argentina": {
-      "elo_penalty": -15.0,
+      "elo_penalty": -30.0,
       "absences": [
+        {
+          "player": "Lautaro Martínez",
+          "status": "out",
+          "until": "next seven matches",
+          "key_player": true,
+          "source_title": "Inter rocked as captain Lautaro Martínez set to miss 7 games",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50196980/inter-milan-lautaro-martinez-injury-serie-a",
+          "first_reported": "2026-10-17",
+          "expires_on": null
+        },
         {
           "player": "Enzo Fernández",
           "status": "out",
@@ -37,6 +77,21 @@
           "source_title": "Messi fined for slapping opponent in MLS game",
           "source_link": "https://www.bbc.co.uk/sport/football/articles/cz05k0j72p5o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-08-23",
+          "expires_on": null
+        }
+      ]
+    },
+    "Portugal": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Cristiano Ronaldo",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "‘Portugal’s greatest symbol’: Bruno Fernandes backs Cristiano Ronaldo despite walkout",
+          "source_link": "https://www.theguardian.com/football/2026/oct/03/cristiano-ronaldo-portugal-bruno-fernandes-jorge-jesus-nations-league",
+          "first_reported": "2026-10-04",
           "expires_on": null
         }
       ]
@@ -127,61 +182,6 @@
           "source_title": "Football Daily | Manchester United and the quest to make mythical midfield a reality",
           "source_link": "https://www.theguardian.com/football/2026/jul/24/manchester-united-midfield-football-daily-newsletter",
           "first_reported": "2026-07-25",
-          "expires_on": null
-        }
-      ]
-    },
-    "England": {
-      "elo_penalty": -60.0,
-      "absences": [
-        {
-          "player": "Reece James",
-          "status": "doubt",
-          "until": null,
-          "key_player": true,
-          "source_title": "Reece James remains injury doubt as England’s World Cup right-back woes go on",
-          "source_link": "https://www.theguardian.com/football/2026/jul/08/reece-james-remains-injury-doubt-england-right-back-woes-norway-world-cup-quarter-final",
-          "first_reported": "2026-07-09",
-          "expires_on": null
-        },
-        {
-          "player": "Jordan Henderson",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "England players to get hoarding warning after freak Henderson injury",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/czx5qev7nqno?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-07-08",
-          "expires_on": null
-        },
-        {
-          "player": "Bukayo Saka",
-          "status": "doubt",
-          "until": "Against Ghana on Tuesday",
-          "key_player": true,
-          "source_title": "England winger Saka unlikely to start against Ghana",
-          "source_link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-20",
-          "expires_on": null
-        },
-        {
-          "player": "Declan Rice",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
-          "first_reported": "2026-06-20",
-          "expires_on": null
-        },
-        {
-          "player": "Harry Kane",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
-          "first_reported": "2026-06-20",
           "expires_on": null
         }
       ]
