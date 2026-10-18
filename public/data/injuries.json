@@ -1,6 +1,31 @@
 {
-  "generated_at": "2026-10-17T11:02:45.372176+00:00",
+  "generated_at": "2026-10-18T06:15:03.814329+00:00",
   "teams": {
+    "Uruguay": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Emiliano Martínez",
+          "status": "doubt",
+          "until": null,
+          "key_player": false,
+          "source_title": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/c6rryqq00yp4o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-10-18",
+          "expires_on": null
+        },
+        {
+          "player": "Manuel Ugarte",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Football Daily | Manchester United and the quest to make mythical midfield a reality",
+          "source_link": "https://www.theguardian.com/football/2026/jul/24/manchester-united-midfield-football-daily-newsletter",
+          "first_reported": "2026-07-25",
+          "expires_on": null
+        }
+      ]
+    },
     "England": {
       "elo_penalty": -52.5,
       "absences": [
@@ -167,21 +192,6 @@
           "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
           "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
           "first_reported": "2026-06-18",
-          "expires_on": null
-        }
-      ]
-    },
-    "Uruguay": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Manuel Ugarte",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Football Daily | Manchester United and the quest to make mythical midfield a reality",
-          "source_link": "https://www.theguardian.com/football/2026/jul/24/manchester-united-midfield-football-daily-newsletter",
-          "first_reported": "2026-07-25",
           "expires_on": null
         }
       ]
