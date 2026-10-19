@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-18T06:15:03.814329+00:00",
+  "generated_at": "2026-10-19T06:15:01.087108+00:00",
   "teams": {
     "Uruguay": {
       "elo_penalty": -15.0,
       "absences": [
         {
           "player": "Emiliano Martínez",
-          "status": "doubt",
-          "until": null,
+          "status": "out",
+          "until": "a few weeks",
           "key_player": false,
-          "source_title": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/c6rryqq00yp4o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-10-18",
-          "expires_on": null
+          "source_title": "Martinez breaks jaw in Chelsea win at Everton",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-10-19",
+          "expires_on": "2026-11-02"
         },
         {
           "player": "Manuel Ugarte",
@@ -22,6 +22,66 @@
           "source_title": "Football Daily | Manchester United and the quest to make mythical midfield a reality",
           "source_link": "https://www.theguardian.com/football/2026/jul/24/manchester-united-midfield-football-daily-newsletter",
           "first_reported": "2026-07-25",
+          "expires_on": null
+        }
+      ]
+    },
+    "Spain": {
+      "elo_penalty": -30.0,
+      "absences": [
+        {
+          "player": "Eric García",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "García, Koundé to miss PSG-Barça ahead of Clásico",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50211229/barcelona-eric-garcia-jules-kounde-ruled-psg-injury",
+          "first_reported": "2026-10-19",
+          "expires_on": null
+        },
+        {
+          "player": "Rodri",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Rodri to have back surgery but Maresca brushes off transfer speculation",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-25",
+          "expires_on": null
+        },
+        {
+          "player": "Nico Williams",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Spain's Williams criticises tackle that injured him",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-28",
+          "expires_on": null
+        },
+        {
+          "player": "Borja Iglesias",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+          "source_link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
+          "first_reported": "2026-06-21",
+          "expires_on": null
+        }
+      ]
+    },
+    "France": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Jules Koundé",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "García, Koundé to miss PSG-Barça ahead of Clásico",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50211229/barcelona-eric-garcia-jules-kounde-ruled-psg-injury",
+          "first_reported": "2026-10-19",
           "expires_on": null
         }
       ]
@@ -117,41 +177,6 @@
           "source_title": "‘Portugal’s greatest symbol’: Bruno Fernandes backs Cristiano Ronaldo despite walkout",
           "source_link": "https://www.theguardian.com/football/2026/oct/03/cristiano-ronaldo-portugal-bruno-fernandes-jorge-jesus-nations-league",
           "first_reported": "2026-10-04",
-          "expires_on": null
-        }
-      ]
-    },
-    "Spain": {
-      "elo_penalty": -30.0,
-      "absences": [
-        {
-          "player": "Rodri",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Rodri to have back surgery but Maresca brushes off transfer speculation",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-07-25",
-          "expires_on": null
-        },
-        {
-          "player": "Nico Williams",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Spain's Williams criticises tackle that injured him",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-28",
-          "expires_on": null
-        },
-        {
-          "player": "Borja Iglesias",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-          "source_link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
-          "first_reported": "2026-06-21",
           "expires_on": null
         }
       ]
