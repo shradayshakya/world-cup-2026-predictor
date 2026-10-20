@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-10-19T06:15:01.087108+00:00",
+  "generated_at": "2026-10-20T06:15:01.329595+00:00",
   "teams": {
+    "Portugal": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Cristiano Ronaldo",
+          "status": "suspended",
+          "until": "30-day suspension",
+          "key_player": true,
+          "source_title": "Ronaldo given 30-day suspension and £215 fine by Portuguese FA",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/ck9qznlywy8no?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-10-20",
+          "expires_on": "2026-11-19"
+        }
+      ]
+    },
+    "Ghana": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Antoine Semenyo",
+          "status": "out",
+          "until": "eight weeks",
+          "key_player": true,
+          "source_title": "Semenyo’s eight-week injury absence leaves Manchester City short on cover for Haaland",
+          "source_link": "https://www.theguardian.com/football/2026/oct/19/antoine-semenyo-eight-week-knee-injury-absence-manchester-city-short-cover-erling-haaland",
+          "first_reported": "2026-10-20",
+          "expires_on": "2026-12-15"
+        }
+      ]
+    },
+    "Norway": {
+      "elo_penalty": -7.5,
+      "absences": [
+        {
+          "player": "Erling Haaland",
+          "status": "doubt",
+          "until": null,
+          "key_player": true,
+          "source_title": "Semenyo’s eight-week injury absence leaves Manchester City short on cover for Haaland",
+          "source_link": "https://www.theguardian.com/football/2026/oct/19/antoine-semenyo-eight-week-knee-injury-absence-manchester-city-short-cover-erling-haaland",
+          "first_reported": "2026-10-20",
+          "expires_on": null
+        }
+      ]
+    },
     "Uruguay": {
       "elo_penalty": -15.0,
       "absences": [
@@ -162,21 +207,6 @@
           "source_title": "Messi fined for slapping opponent in MLS game",
           "source_link": "https://www.bbc.co.uk/sport/football/articles/cz05k0j72p5o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-08-23",
-          "expires_on": null
-        }
-      ]
-    },
-    "Portugal": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Cristiano Ronaldo",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "‘Portugal’s greatest symbol’: Bruno Fernandes backs Cristiano Ronaldo despite walkout",
-          "source_link": "https://www.theguardian.com/football/2026/oct/03/cristiano-ronaldo-portugal-bruno-fernandes-jorge-jesus-nations-league",
-          "first_reported": "2026-10-04",
           "expires_on": null
         }
       ]
