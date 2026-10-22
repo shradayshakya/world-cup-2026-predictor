@@ -1,6 +1,86 @@
 {
-  "generated_at": "2026-10-20T06:15:01.329595+00:00",
+  "generated_at": "2026-10-22T06:15:02.913049+00:00",
   "teams": {
+    "England": {
+      "elo_penalty": -60.0,
+      "absences": [
+        {
+          "player": "Bukayo Saka",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "‘It doesn’t look good’: Arteta concerned as Saka limps off against Bayern Munich",
+          "source_link": "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury",
+          "first_reported": "2026-10-22",
+          "expires_on": null
+        },
+        {
+          "player": "Reece James",
+          "status": "out",
+          "until": "three months",
+          "key_player": true,
+          "source_title": "Chelsea's James out for three months after knee surgery",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cq073d9l0ly9o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-10-17",
+          "expires_on": "2027-01-15"
+        },
+        {
+          "player": "Declan Rice",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
+          "first_reported": "2026-06-20",
+          "expires_on": null
+        },
+        {
+          "player": "Harry Kane",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
+          "first_reported": "2026-06-20",
+          "expires_on": null
+        }
+      ]
+    },
+    "Brazil": {
+      "elo_penalty": -45.0,
+      "absences": [
+        {
+          "player": "Marquinhos",
+          "status": "out",
+          "until": "weeks",
+          "key_player": true,
+          "source_title": "'Why me?': PSG star Kvaratskhelia ruptures ACL; Dembélé, Marquinhos out 'weeks'",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50235833/khvicha-kvaratskhelia-ruptured-acl-paris-saint-germain-confirm",
+          "first_reported": "2026-10-22",
+          "expires_on": "2026-12-03"
+        },
+        {
+          "player": "Casemiro",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Football Daily | Manchester United and the quest to make mythical midfield a reality",
+          "source_link": "https://www.theguardian.com/football/2026/jul/24/manchester-united-midfield-football-daily-newsletter",
+          "first_reported": "2026-07-25",
+          "expires_on": null
+        },
+        {
+          "player": "Neymar",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
+          "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
+          "first_reported": "2026-06-18",
+          "expires_on": null
+        }
+      ]
+    },
     "Portugal": {
       "elo_penalty": -15.0,
       "absences": [
@@ -131,51 +211,6 @@
         }
       ]
     },
-    "England": {
-      "elo_penalty": -52.5,
-      "absences": [
-        {
-          "player": "Reece James",
-          "status": "out",
-          "until": "three months",
-          "key_player": true,
-          "source_title": "Chelsea's James out for three months after knee surgery",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/cq073d9l0ly9o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-10-17",
-          "expires_on": "2027-01-15"
-        },
-        {
-          "player": "Bukayo Saka",
-          "status": "doubt",
-          "until": "Against Ghana on Tuesday",
-          "key_player": true,
-          "source_title": "England winger Saka unlikely to start against Ghana",
-          "source_link": "https://www.bbc.com/sport/football/articles/crm0kg22m9jo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-20",
-          "expires_on": null
-        },
-        {
-          "player": "Declan Rice",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
-          "first_reported": "2026-06-20",
-          "expires_on": null
-        },
-        {
-          "player": "Harry Kane",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
-          "first_reported": "2026-06-20",
-          "expires_on": null
-        }
-      ]
-    },
     "Argentina": {
       "elo_penalty": -30.0,
       "absences": [
@@ -222,31 +257,6 @@
           "source_title": "Australia star allegedly tests positive for cocaine after speeding",
           "source_link": "https://www.bbc.co.uk/sport/football/articles/cm2gdnz5x50o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-07-25",
-          "expires_on": null
-        }
-      ]
-    },
-    "Brazil": {
-      "elo_penalty": -30.0,
-      "absences": [
-        {
-          "player": "Casemiro",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Football Daily | Manchester United and the quest to make mythical midfield a reality",
-          "source_link": "https://www.theguardian.com/football/2026/jul/24/manchester-united-midfield-football-daily-newsletter",
-          "first_reported": "2026-07-25",
-          "expires_on": null
-        },
-        {
-          "player": "Neymar",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Brazil's Neymar (calf injury) also out vs. Haiti",
-          "source_link": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages",
-          "first_reported": "2026-06-18",
           "expires_on": null
         }
       ]

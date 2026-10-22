@@ -1,4 +1,35 @@
 {
-  "generated_at": "2026-10-20T06:15:01.329595+00:00",
-  "movers": []
+  "generated_at": "2026-10-22T06:15:02.913049+00:00",
+  "movers": [
+    {
+      "team": "England",
+      "previous_pct": 10.17,
+      "current_pct": 9.15,
+      "delta_pp": -1.0199999999999996,
+      "direction": "loser",
+      "blurb": "The decrease in projected winning probability is directly tied to key player absences. With Bukayo Saka, Reece James, Declan Rice, and Harry Kane all reported injured or unavailable, the squad's availability has been reduced in our model estimate.",
+      "sources": [
+        {
+          "label": "England",
+          "href": "/teams/england"
+        },
+        {
+          "label": "‘It doesn’t look good’: Arteta concerned as Saka limps off against Bayern Munich",
+          "href": "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury"
+        },
+        {
+          "label": "Chelsea's James out for three months after knee surgery",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cq073d9l0ly9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        },
+        {
+          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+        }
+      ]
+    }
+  ]
 }
