@@ -1,33 +1,29 @@
 {
-  "generated_at": "2026-10-22T06:15:02.913049+00:00",
+  "generated_at": "2026-10-25T06:15:01.238094+00:00",
   "movers": [
     {
-      "team": "England",
-      "previous_pct": 10.17,
-      "current_pct": 9.15,
-      "delta_pp": -1.0199999999999996,
+      "team": "Argentina",
+      "previous_pct": 17.53,
+      "current_pct": 17.02,
+      "delta_pp": -0.5100000000000016,
       "direction": "loser",
-      "blurb": "The decrease in projected winning probability is directly tied to key player absences. With Bukayo Saka, Reece James, Declan Rice, and Harry Kane all reported injured or unavailable, the squad's availability has been reduced in our model estimate.",
+      "blurb": "Argentina's title probability decreased as a result of key player absences. Lautaro Martínez, Enzo Fernández, and Lionel Messi are currently listed as injured or unavailable, impacting the team's strength heading into the next stage.",
       "sources": [
         {
-          "label": "England",
-          "href": "/teams/england"
+          "label": "Argentina",
+          "href": "/teams/argentina"
         },
         {
-          "label": "‘It doesn’t look good’: Arteta concerned as Saka limps off against Bayern Munich",
-          "href": "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury"
+          "label": "Inter rocked as captain Lautaro Martínez set to miss 7 games",
+          "href": "https://www.espn.com/soccer/story/_/id/50196980/inter-milan-lautaro-martinez-injury-serie-a"
         },
         {
-          "label": "Chelsea's James out for three months after knee surgery",
-          "href": "https://www.bbc.co.uk/sport/football/articles/cq073d9l0ly9o?at_medium=RSS&at_campaign=rss"
+          "label": "‘An error of judgement’: Pro Ref admits mistake in awarding Haaland’s derby winner",
+          "href": "https://www.theguardian.com/football/2026/sep/13/michael-carrick-var-erling-haaland-manchester-derby"
         },
         {
-          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
-        },
-        {
-          "label": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "href": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable"
+          "label": "Messi fined for slapping opponent in MLS game",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cz05k0j72p5o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }

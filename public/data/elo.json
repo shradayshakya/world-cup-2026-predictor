@@ -148,7 +148,7 @@
       "rank": 25,
       "code": "US",
       "name": "United States",
-      "rating": 1792
+      "rating": 1793
     },
     {
       "rank": 26,
@@ -598,7 +598,7 @@
       "rank": 100,
       "code": "FO",
       "name": "Faroe Islands",
-      "rating": 1398
+      "rating": 1397
     },
     {
       "rank": 101,
@@ -934,10 +934,10 @@
       "rank": 156,
       "code": "TM",
       "name": "Turkmenistan",
-      "rating": 1209
+      "rating": 1208
     },
     {
-      "rank": 157,
+      "rank": 156,
       "code": "CF",
       "name": "Central African Republic",
       "rating": 1208
@@ -1126,7 +1126,7 @@
       "rank": 188,
       "code": "GD",
       "name": "Grenada",
-      "rating": 998
+      "rating": 999
     },
     {
       "rank": 189,
@@ -1465,5 +1465,5 @@
       "rating": 370
     }
   ],
-  "scraped_at": "2026-10-22T06:15:02.913049+00:00"
+  "scraped_at": "2026-10-25T06:15:01.238094+00:00"
 }
