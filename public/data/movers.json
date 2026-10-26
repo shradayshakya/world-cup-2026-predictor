@@ -1,31 +1,4 @@
 {
-  "generated_at": "2026-10-25T06:15:01.238094+00:00",
-  "movers": [
-    {
-      "team": "Argentina",
-      "previous_pct": 17.53,
-      "current_pct": 17.02,
-      "delta_pp": -0.5100000000000016,
-      "direction": "loser",
-      "blurb": "Argentina's title probability decreased as a result of key player absences. Lautaro Martínez, Enzo Fernández, and Lionel Messi are currently listed as injured or unavailable, impacting the team's strength heading into the next stage.",
-      "sources": [
-        {
-          "label": "Argentina",
-          "href": "/teams/argentina"
-        },
-        {
-          "label": "Inter rocked as captain Lautaro Martínez set to miss 7 games",
-          "href": "https://www.espn.com/soccer/story/_/id/50196980/inter-milan-lautaro-martinez-injury-serie-a"
-        },
-        {
-          "label": "‘An error of judgement’: Pro Ref admits mistake in awarding Haaland’s derby winner",
-          "href": "https://www.theguardian.com/football/2026/sep/13/michael-carrick-var-erling-haaland-manchester-derby"
-        },
-        {
-          "label": "Messi fined for slapping opponent in MLS game",
-          "href": "https://www.bbc.co.uk/sport/football/articles/cz05k0j72p5o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    }
-  ]
+  "generated_at": "2026-10-26T06:15:01.090616+00:00",
+  "movers": []
 }
