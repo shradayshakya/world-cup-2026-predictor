@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:15:01.090616+00:00",
+  "generated_at": "2026-10-27T06:15:02.151750+00:00",
   "scorers": [
     {
       "player": "Kylian Mbappé",
@@ -27,21 +27,21 @@
       "team": "Mexico",
       "position": "FW",
       "historical_goals": 45,
-      "predicted_goals": 1.59
+      "predicted_goals": 1.6
     },
     {
       "player": "Memphis Depay",
       "team": "Netherlands",
       "position": "FW",
       "historical_goals": 55,
-      "predicted_goals": 1.43
+      "predicted_goals": 1.41
     },
     {
       "player": "Romelu Lukaku",
       "team": "Belgium",
       "position": "FW",
       "historical_goals": 90,
-      "predicted_goals": 1.37
+      "predicted_goals": 1.27
     },
     {
       "player": "Enner Valencia",
@@ -55,7 +55,7 @@
       "team": "Colombia",
       "position": "MF",
       "historical_goals": 31,
-      "predicted_goals": 1.2
+      "predicted_goals": 1.21
     },
     {
       "player": "Edin Džeko",
@@ -76,21 +76,21 @@
       "team": "Morocco",
       "position": "FW",
       "historical_goals": 35,
-      "predicted_goals": 0.94
+      "predicted_goals": 0.95
     },
     {
       "player": "Sadio Mané",
       "team": "Senegal",
       "position": "FW",
       "historical_goals": 55,
-      "predicted_goals": 0.88
+      "predicted_goals": 0.89
     },
     {
       "player": "Luis Díaz",
       "team": "Colombia",
       "position": "FW",
       "historical_goals": 22,
-      "predicted_goals": 0.85
+      "predicted_goals": 0.86
     },
     {
       "player": "Mikel Merino",
@@ -149,18 +149,18 @@
       "predicted_goals": 0.63
     },
     {
-      "player": "Kai Havertz",
-      "team": "Germany",
-      "position": "FW",
-      "historical_goals": 22,
-      "predicted_goals": 0.59
-    },
-    {
       "player": "Granit Xhaka",
       "team": "Switzerland",
       "position": "MF",
       "historical_goals": 17,
       "predicted_goals": 0.59
+    },
+    {
+      "player": "Kai Havertz",
+      "team": "Germany",
+      "position": "FW",
+      "historical_goals": 22,
+      "predicted_goals": 0.58
     },
     {
       "player": "Mehdi Taremi",
@@ -170,11 +170,11 @@
       "predicted_goals": 0.57
     },
     {
-      "player": "Kevin De Bruyne",
-      "team": "Belgium",
+      "player": "Bruno Fernandes",
+      "team": "Portugal",
       "position": "MF",
-      "historical_goals": 37,
-      "predicted_goals": 0.56
+      "historical_goals": 29,
+      "predicted_goals": 0.57
     },
     {
       "player": "Cyle Larin",
@@ -188,14 +188,7 @@
       "team": "Croatia",
       "position": "FW",
       "historical_goals": 38,
-      "predicted_goals": 0.56
-    },
-    {
-      "player": "Bruno Fernandes",
-      "team": "Portugal",
-      "position": "MF",
-      "historical_goals": 29,
-      "predicted_goals": 0.56
+      "predicted_goals": 0.55
     },
     {
       "player": "Cody Gakpo",
@@ -212,11 +205,25 @@
       "predicted_goals": 0.54
     },
     {
+      "player": "Kevin De Bruyne",
+      "team": "Belgium",
+      "position": "MF",
+      "historical_goals": 37,
+      "predicted_goals": 0.52
+    },
+    {
       "player": "Andrej Kramarić",
       "team": "Croatia",
       "position": "FW",
       "historical_goals": 36,
-      "predicted_goals": 0.53
+      "predicted_goals": 0.52
+    },
+    {
+      "player": "Riyad Mahrez",
+      "team": "Algeria",
+      "position": "FW",
+      "historical_goals": 38,
+      "predicted_goals": 0.5
     },
     {
       "player": "Fabián Ruiz",
@@ -238,13 +245,6 @@
       "position": "MF",
       "historical_goals": 6,
       "predicted_goals": 0.5
-    },
-    {
-      "player": "Riyad Mahrez",
-      "team": "Algeria",
-      "position": "FW",
-      "historical_goals": 38,
-      "predicted_goals": 0.49
     },
     {
       "player": "Alexander Isak",
@@ -303,6 +303,13 @@
       "predicted_goals": 0.44
     },
     {
+      "player": "Orbelín Pineda",
+      "team": "Mexico",
+      "position": "MF",
+      "historical_goals": 12,
+      "predicted_goals": 0.43
+    },
+    {
       "player": "Luka Modrić",
       "team": "Croatia",
       "position": "MF",
@@ -314,13 +321,6 @@
       "team": "Japan",
       "position": "FW",
       "historical_goals": 16,
-      "predicted_goals": 0.42
-    },
-    {
-      "player": "Orbelín Pineda",
-      "team": "Mexico",
-      "position": "MF",
-      "historical_goals": 12,
       "predicted_goals": 0.42
     },
     {

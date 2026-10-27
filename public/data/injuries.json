@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-10-26T06:15:01.090616+00:00",
+  "generated_at": "2026-10-27T06:15:02.151750+00:00",
   "teams": {
+    "Belgium": {
+      "elo_penalty": -30.0,
+      "absences": [
+        {
+          "player": "Thibaut Courtois",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Mourinho’s plan comes together as Real Madrid relaunch with clásico statement | Sid Lowe",
+          "source_link": "https://www.theguardian.com/football/2026/oct/26/mourinhos-plan-comes-together-as-real-madrid-relaunch-with-clasico-statement",
+          "first_reported": "2026-10-27",
+          "expires_on": null
+        },
+        {
+          "player": "Amadou Onana",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Villa and Belgium midfielder Onana ruptures ACL",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/c862nw2xj0jo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-08",
+          "expires_on": null
+        },
+        {
+          "player": "Jérémy Doku",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Doku returning to World Cup after birth of first child",
+          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-23",
+          "expires_on": null
+        }
+      ]
+    },
     "England": {
       "elo_penalty": -60.0,
       "absences": [
@@ -297,31 +332,6 @@
           "source_title": "Newcastle agree £51.5m Johan Manzambi deal and insist Bruno Guimarães not for sale",
           "source_link": "https://www.theguardian.com/football/2026/jul/09/newcastle-agree-johan-manzambi-deal-and-insist-bruno-guimaraes-not-for-sale-transfer-window",
           "first_reported": "2026-07-10",
-          "expires_on": null
-        }
-      ]
-    },
-    "Belgium": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Amadou Onana",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "Villa and Belgium midfielder Onana ruptures ACL",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/c862nw2xj0jo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-07-08",
-          "expires_on": null
-        },
-        {
-          "player": "Jérémy Doku",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Doku returning to World Cup after birth of first child",
-          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-23",
           "expires_on": null
         }
       ]
