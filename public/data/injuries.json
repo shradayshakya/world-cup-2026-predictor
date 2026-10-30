@@ -1,44 +1,19 @@
 {
-  "generated_at": "2026-10-28T06:15:01.734419+00:00",
+  "generated_at": "2026-10-30T06:15:01.572299+00:00",
   "teams": {
-    "Belgium": {
-      "elo_penalty": -30.0,
-      "absences": [
-        {
-          "player": "Thibaut Courtois",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Mourinho’s plan comes together as Real Madrid relaunch with clásico statement | Sid Lowe",
-          "source_link": "https://www.theguardian.com/football/2026/oct/26/mourinhos-plan-comes-together-as-real-madrid-relaunch-with-clasico-statement",
-          "first_reported": "2026-10-27",
-          "expires_on": null
-        },
-        {
-          "player": "Amadou Onana",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "Villa and Belgium midfielder Onana ruptures ACL",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/c862nw2xj0jo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-07-08",
-          "expires_on": null
-        },
-        {
-          "player": "Jérémy Doku",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Doku returning to World Cup after birth of first child",
-          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-06-23",
-          "expires_on": null
-        }
-      ]
-    },
     "England": {
       "elo_penalty": -60.0,
       "absences": [
+        {
+          "player": "Ivan Toney",
+          "status": "out",
+          "until": "Trial on 12 June 2028",
+          "key_player": false,
+          "source_title": "England’s Ivan Toney to stand trial during Euro 2028 after denying assault charge",
+          "source_link": "https://www.theguardian.com/football/2026/oct/29/ivan-toney-trial-during-euro-2028-denies-assault-charge",
+          "first_reported": "2026-10-30",
+          "expires_on": null
+        },
         {
           "player": "Bukayo Saka",
           "status": "out",
@@ -77,6 +52,41 @@
           "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
           "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
           "first_reported": "2026-06-20",
+          "expires_on": null
+        }
+      ]
+    },
+    "Belgium": {
+      "elo_penalty": -30.0,
+      "absences": [
+        {
+          "player": "Thibaut Courtois",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Mourinho’s plan comes together as Real Madrid relaunch with clásico statement | Sid Lowe",
+          "source_link": "https://www.theguardian.com/football/2026/oct/26/mourinhos-plan-comes-together-as-real-madrid-relaunch-with-clasico-statement",
+          "first_reported": "2026-10-27",
+          "expires_on": null
+        },
+        {
+          "player": "Amadou Onana",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Villa and Belgium midfielder Onana ruptures ACL",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/c862nw2xj0jo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-07-08",
+          "expires_on": null
+        },
+        {
+          "player": "Jérémy Doku",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Doku returning to World Cup after birth of first child",
+          "source_link": "https://www.bbc.com/sport/football/articles/cly01kjqdnpo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-06-23",
           "expires_on": null
         }
       ]

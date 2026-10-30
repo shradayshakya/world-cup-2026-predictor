@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T06:15:01.734419+00:00",
+  "generated_at": "2026-10-30T06:15:01.572299+00:00",
   "issues": [
     {
       "source": "wikipedia_groups",
@@ -11,7 +11,7 @@
       "source": "wikipedia_groups",
       "detail": "Group B: Bosnia and Herzegovina: goals_for-goals_against != goal_difference; Qatar: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": true
+      "fallback_succeeded": false
     },
     {
       "source": "wikipedia_groups",
