@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-01T06:15:01.131329+00:00",
+  "generated_at": "2026-11-02T06:15:01.156378+00:00",
   "scorers": [
     {
       "player": "Kylian Mbappé",
       "team": "France",
       "position": "FW",
       "historical_goals": 56,
-      "predicted_goals": 3.63
+      "predicted_goals": 3.64
     },
     {
       "player": "Mikel Oyarzabal",
       "team": "Spain",
       "position": "FW",
       "historical_goals": 25,
-      "predicted_goals": 2.09
+      "predicted_goals": 2.1
     },
     {
       "player": "Ferran Torres",
       "team": "Spain",
       "position": "FW",
       "historical_goals": 24,
-      "predicted_goals": 2.01
+      "predicted_goals": 2.02
     },
     {
       "player": "Raúl Jiménez",
@@ -41,34 +41,34 @@
       "team": "Belgium",
       "position": "FW",
       "historical_goals": 90,
-      "predicted_goals": 1.27
+      "predicted_goals": 1.28
     },
     {
       "player": "Enner Valencia",
       "team": "Ecuador",
       "position": "FW",
       "historical_goals": 49,
-      "predicted_goals": 1.27
+      "predicted_goals": 1.28
     },
     {
       "player": "James Rodríguez",
       "team": "Colombia",
       "position": "MF",
       "historical_goals": 31,
-      "predicted_goals": 1.23
-    },
-    {
-      "player": "Edin Džeko",
-      "team": "Bosnia and Herzegovina",
-      "position": "FW",
-      "historical_goals": 73,
-      "predicted_goals": 1.01
+      "predicted_goals": 1.21
     },
     {
       "player": "Dani Olmo",
       "team": "Spain",
       "position": "FW",
       "historical_goals": 12,
+      "predicted_goals": 1.01
+    },
+    {
+      "player": "Edin Džeko",
+      "team": "Bosnia and Herzegovina",
+      "position": "FW",
+      "historical_goals": 73,
       "predicted_goals": 1.0
     },
     {
@@ -90,7 +90,7 @@
       "team": "Colombia",
       "position": "FW",
       "historical_goals": 22,
-      "predicted_goals": 0.87
+      "predicted_goals": 0.86
     },
     {
       "player": "Mikel Merino",
@@ -111,14 +111,14 @@
       "team": "Austria",
       "position": "FW",
       "historical_goals": 47,
-      "predicted_goals": 0.74
+      "predicted_goals": 0.73
     },
     {
       "player": "Jonathan David",
       "team": "Canada",
       "position": "FW",
       "historical_goals": 39,
-      "predicted_goals": 0.73
+      "predicted_goals": 0.72
     },
     {
       "player": "Erling Haaland",
@@ -135,17 +135,17 @@
       "predicted_goals": 0.66
     },
     {
-      "player": "Alexander Sørloth",
-      "team": "Norway",
-      "position": "FW",
-      "historical_goals": 26,
-      "predicted_goals": 0.65
-    },
-    {
       "player": "Son Heung-min",
       "team": "South Korea",
       "position": "FW",
       "historical_goals": 56,
+      "predicted_goals": 0.65
+    },
+    {
+      "player": "Alexander Sørloth",
+      "team": "Norway",
+      "position": "FW",
+      "historical_goals": 26,
       "predicted_goals": 0.64
     },
     {
@@ -153,7 +153,7 @@
       "team": "Switzerland",
       "position": "MF",
       "historical_goals": 17,
-      "predicted_goals": 0.6
+      "predicted_goals": 0.59
     },
     {
       "player": "Kai Havertz",
@@ -191,6 +191,13 @@
       "predicted_goals": 0.55
     },
     {
+      "player": "Viktor Gyökeres",
+      "team": "Sweden",
+      "position": "FW",
+      "historical_goals": 20,
+      "predicted_goals": 0.55
+    },
+    {
       "player": "Cody Gakpo",
       "team": "Netherlands",
       "position": "FW",
@@ -198,18 +205,11 @@
       "predicted_goals": 0.54
     },
     {
-      "player": "Viktor Gyökeres",
-      "team": "Sweden",
-      "position": "FW",
-      "historical_goals": 20,
-      "predicted_goals": 0.54
-    },
-    {
       "player": "Kevin De Bruyne",
       "team": "Belgium",
       "position": "MF",
       "historical_goals": 37,
-      "predicted_goals": 0.52
+      "predicted_goals": 0.53
     },
     {
       "player": "Andrej Kramarić",
@@ -217,13 +217,6 @@
       "position": "FW",
       "historical_goals": 36,
       "predicted_goals": 0.52
-    },
-    {
-      "player": "Riyad Mahrez",
-      "team": "Algeria",
-      "position": "FW",
-      "historical_goals": 38,
-      "predicted_goals": 0.5
     },
     {
       "player": "Fabián Ruiz",
@@ -247,45 +240,45 @@
       "predicted_goals": 0.5
     },
     {
+      "player": "Riyad Mahrez",
+      "team": "Algeria",
+      "position": "FW",
+      "historical_goals": 38,
+      "predicted_goals": 0.49
+    },
+    {
       "player": "Alexander Isak",
       "team": "Sweden",
       "position": "FW",
       "historical_goals": 17,
-      "predicted_goals": 0.46
+      "predicted_goals": 0.47
     },
     {
       "player": "Ousmane Dembélé",
       "team": "France",
       "position": "FW",
       "historical_goals": 7,
-      "predicted_goals": 0.45
+      "predicted_goals": 0.46
     },
     {
       "player": "Michael Olise",
       "team": "France",
       "position": "FW",
       "historical_goals": 7,
-      "predicted_goals": 0.45
+      "predicted_goals": 0.46
     },
     {
       "player": "Adrien Rabiot",
       "team": "France",
       "position": "MF",
       "historical_goals": 7,
-      "predicted_goals": 0.45
+      "predicted_goals": 0.46
     },
     {
       "player": "Leroy Sané",
       "team": "Germany",
       "position": "MF",
       "historical_goals": 17,
-      "predicted_goals": 0.45
-    },
-    {
-      "player": "Eldor Shomurodov",
-      "team": "Uzbekistan",
-      "position": "FW",
-      "historical_goals": 44,
       "predicted_goals": 0.45
     },
     {
@@ -300,6 +293,13 @@
       "team": "Paraguay",
       "position": "MF",
       "historical_goals": 10,
+      "predicted_goals": 0.44
+    },
+    {
+      "player": "Eldor Shomurodov",
+      "team": "Uzbekistan",
+      "position": "FW",
+      "historical_goals": 44,
       "predicted_goals": 0.44
     },
     {
@@ -335,7 +335,7 @@
       "team": "Austria",
       "position": "MF",
       "historical_goals": 26,
-      "predicted_goals": 0.41
+      "predicted_goals": 0.4
     },
     {
       "player": "Leon Goretzka",
@@ -345,10 +345,10 @@
       "predicted_goals": 0.4
     },
     {
-      "player": "Junya Itō",
-      "team": "Japan",
+      "player": "Hakan Çalhanoğlu",
+      "team": "Turkey",
       "position": "MF",
-      "historical_goals": 15,
+      "historical_goals": 22,
       "predicted_goals": 0.4
     }
   ]

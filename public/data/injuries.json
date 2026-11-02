@@ -1,6 +1,21 @@
 {
-  "generated_at": "2026-11-01T06:15:01.131329+00:00",
+  "generated_at": "2026-11-02T06:15:01.156378+00:00",
   "teams": {
+    "Portugal": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Cristiano Ronaldo",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Ronaldo off Al Nassr's ACL squad due to Saudi security concerns",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50353917/ronaldo-al-nassr-acl-squad-saudi-security-concerns",
+          "first_reported": "2026-11-02",
+          "expires_on": null
+        }
+      ]
+    },
     "Argentina": {
       "elo_penalty": -30.0,
       "absences": [
@@ -196,21 +211,6 @@
         }
       ]
     },
-    "Portugal": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Cristiano Ronaldo",
-          "status": "suspended",
-          "until": "30-day suspension",
-          "key_player": true,
-          "source_title": "Ronaldo given 30-day suspension and £215 fine by Portuguese FA",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/ck9qznlywy8no?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-10-20",
-          "expires_on": "2026-11-19"
-        }
-      ]
-    },
     "Ghana": {
       "elo_penalty": -15.0,
       "absences": [
@@ -244,16 +244,6 @@
     "Uruguay": {
       "elo_penalty": -15.0,
       "absences": [
-        {
-          "player": "Emiliano Martínez",
-          "status": "out",
-          "until": "a few weeks",
-          "key_player": false,
-          "source_title": "Martinez breaks jaw in Chelsea win at Everton",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-10-19",
-          "expires_on": "2026-11-02"
-        },
         {
           "player": "Manuel Ugarte",
           "status": "out",
