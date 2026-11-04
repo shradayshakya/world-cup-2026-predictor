@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:15:01.156378+00:00",
+  "generated_at": "2026-11-04T06:15:01.513241+00:00",
   "issues": [
     {
       "source": "wikipedia_groups",
@@ -17,7 +17,7 @@
       "source": "wikipedia_groups",
       "detail": "Group C: Scotland: goals_for-goals_against != goal_difference; Haiti: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": false
+      "fallback_succeeded": true
     },
     {
       "source": "wikipedia_groups",
@@ -71,7 +71,7 @@
       "source": "wikipedia_groups",
       "detail": "Group L: Panama: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": true
+      "fallback_succeeded": false
     },
     {
       "source": "wikipedia_matches",
