@@ -1,35 +1,4 @@
 {
-  "generated_at": "2026-11-04T06:15:01.513241+00:00",
-  "movers": [
-    {
-      "team": "Spain",
-      "previous_pct": 39.47,
-      "current_pct": 38.86,
-      "delta_pp": -0.6099999999999994,
-      "direction": "loser",
-      "blurb": "The decrease in Spain's projected title probability is attributed to several key absences. The current roster status lists multiple unavailable players, including Eric García, Rodri, Nico Williams, and Borja Iglesias. These accumulated injuries and player shortages negatively affect the model’s estimation of the team’s competitive viability.",
-      "sources": [
-        {
-          "label": "Spain",
-          "href": "/teams/spain"
-        },
-        {
-          "label": "García, Koundé to miss PSG-Barça ahead of Clásico",
-          "href": "https://www.espn.com/soccer/story/_/id/50211229/barcelona-eric-garcia-jules-kounde-ruled-psg-injury"
-        },
-        {
-          "label": "Rodri to have back surgery but Maresca brushes off transfer speculation",
-          "href": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "label": "Spain's Williams criticises tackle that injured him",
-          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
-          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
-        }
-      ]
-    }
-  ]
+  "generated_at": "2026-11-05T06:15:06.922618+00:00",
+  "movers": []
 }

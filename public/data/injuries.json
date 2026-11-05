@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:15:01.513241+00:00",
+  "generated_at": "2026-11-05T06:15:06.922618+00:00",
   "teams": {
     "Portugal": {
       "elo_penalty": -15.0,
@@ -312,31 +312,6 @@
           "source_title": "Australia star allegedly tests positive for cocaine after speeding",
           "source_link": "https://www.bbc.co.uk/sport/football/articles/cm2gdnz5x50o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-07-25",
-          "expires_on": null
-        }
-      ]
-    },
-    "United States": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Christian Pulisic",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "US confirm Pulisic leg fracture in defeat by Belgium",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/cq613v53emlo?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-07-10",
-          "expires_on": null
-        },
-        {
-          "player": "Folarin Balogun",
-          "status": "suspended",
-          "until": null,
-          "key_player": false,
-          "source_title": "White House’s World Cup head defends Trump lobbying Fifa over red card",
-          "source_link": "https://www.theguardian.com/us-news/2026/jul/08/trump-fifa-red-card",
-          "first_reported": "2026-07-09",
           "expires_on": null
         }
       ]
