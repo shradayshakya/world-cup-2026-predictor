@@ -70,7 +70,7 @@
       "rank": 12,
       "code": "NO",
       "name": "Norway",
-      "rating": 1900
+      "rating": 1901
     },
     {
       "rank": 13,
@@ -998,15 +998,15 @@
     },
     {
       "rank": 167,
-      "code": "FJ",
-      "name": "Fiji",
-      "rating": 1136
+      "code": "IN",
+      "name": "India",
+      "rating": 1144
     },
     {
       "rank": 168,
-      "code": "IN",
-      "name": "India",
-      "rating": 1135
+      "code": "FJ",
+      "name": "Fiji",
+      "rating": 1136
     },
     {
       "rank": 169,
@@ -1126,7 +1126,7 @@
       "rank": 188,
       "code": "GD",
       "name": "Grenada",
-      "rating": 999
+      "rating": 998
     },
     {
       "rank": 189,
@@ -1174,19 +1174,19 @@
       "rank": 196,
       "code": "BD",
       "name": "Bangladesh",
-      "rating": 919
-    },
-    {
-      "rank": 197,
-      "code": "PK",
-      "name": "Pakistan",
-      "rating": 913
+      "rating": 923
     },
     {
       "rank": 197,
       "code": "AG",
       "name": "Antigua and Barbuda",
       "rating": 913
+    },
+    {
+      "rank": 198,
+      "code": "PK",
+      "name": "Pakistan",
+      "rating": 904
     },
     {
       "rank": 199,
@@ -1378,7 +1378,7 @@
       "rank": 230,
       "code": "BT",
       "name": "Bhutan",
-      "rating": 622
+      "rating": 618
     },
     {
       "rank": 231,
@@ -1465,5 +1465,5 @@
       "rating": 370
     }
   ],
-  "scraped_at": "2026-11-05T06:15:06.922618+00:00"
+  "scraped_at": "2026-11-08T06:15:00.963914+00:00"
 }

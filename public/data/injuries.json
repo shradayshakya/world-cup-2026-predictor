@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-11-05T06:15:06.922618+00:00",
+  "generated_at": "2026-11-08T06:15:00.963914+00:00",
   "teams": {
+    "Ecuador": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Moisés Caicedo",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Chelsea’s Alonso identity still to form in a midfield that remains a problem",
+          "source_link": "https://www.theguardian.com/football/2026/nov/07/chelsea-xabi-alonso-midfield-problem-area",
+          "first_reported": "2026-11-08",
+          "expires_on": null
+        }
+      ]
+    },
+    "United States": {
+      "elo_penalty": 0.0,
+      "absences": [
+        {
+          "player": "Giovanni Reyna",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Gio Reyna was fit and firing for Strasbourg. His latest injury is a heartbreaker for the USMNT star",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50410844/gio-reyna-was-fit-firing-strasbourg-latest-injury-heartbreaker-usmnt-star",
+          "first_reported": "2026-11-08",
+          "expires_on": null
+        }
+      ]
+    },
     "Portugal": {
       "elo_penalty": -15.0,
       "absences": [
