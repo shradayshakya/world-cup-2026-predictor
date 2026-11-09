@@ -70,7 +70,7 @@
       "rank": 12,
       "code": "NO",
       "name": "Norway",
-      "rating": 1901
+      "rating": 1900
     },
     {
       "rank": 13,
@@ -154,7 +154,7 @@
       "rank": 26,
       "code": "AU",
       "name": "Australia",
-      "rating": 1786
+      "rating": 1787
     },
     {
       "rank": 27,
@@ -1172,21 +1172,21 @@
     },
     {
       "rank": 196,
+      "code": "PK",
+      "name": "Pakistan",
+      "rating": 928
+    },
+    {
+      "rank": 197,
       "code": "BD",
       "name": "Bangladesh",
       "rating": 923
     },
     {
-      "rank": 197,
+      "rank": 198,
       "code": "AG",
       "name": "Antigua and Barbuda",
       "rating": 913
-    },
-    {
-      "rank": 198,
-      "code": "PK",
-      "name": "Pakistan",
-      "rating": 904
     },
     {
       "rank": 199,
@@ -1202,27 +1202,27 @@
     },
     {
       "rank": 201,
-      "code": "LK",
-      "name": "Sri Lanka",
-      "rating": 889
-    },
-    {
-      "rank": 202,
       "code": "LI",
       "name": "Liechtenstein",
       "rating": 887
     },
     {
-      "rank": 203,
+      "rank": 202,
       "code": "DM",
       "name": "Dominica",
       "rating": 885
     },
     {
-      "rank": 204,
+      "rank": 203,
       "code": "KH",
       "name": "Cambodia",
       "rating": 882
+    },
+    {
+      "rank": 204,
+      "code": "LK",
+      "name": "Sri Lanka",
+      "rating": 876
     },
     {
       "rank": 205,
@@ -1256,15 +1256,15 @@
     },
     {
       "rank": 210,
-      "code": "MV",
-      "name": "Maldives",
-      "rating": 793
-    },
-    {
-      "rank": 211,
       "code": "HG",
       "name": "Chagos Islands",
       "rating": 782
+    },
+    {
+      "rank": 211,
+      "code": "MV",
+      "name": "Maldives",
+      "rating": 769
     },
     {
       "rank": 212,
@@ -1369,16 +1369,16 @@
       "rating": 631
     },
     {
-      "rank": 229,
-      "code": "TE",
-      "name": "Tibet",
-      "rating": 628
+      "rank": 228,
+      "code": "BT",
+      "name": "Bhutan",
+      "rating": 631
     },
     {
       "rank": 230,
-      "code": "BT",
-      "name": "Bhutan",
-      "rating": 618
+      "code": "TE",
+      "name": "Tibet",
+      "rating": 628
     },
     {
       "rank": 231,
@@ -1465,5 +1465,5 @@
       "rating": 370
     }
   ],
-  "scraped_at": "2026-11-08T06:15:00.963914+00:00"
+  "scraped_at": "2026-11-09T06:15:02.619931+00:00"
 }

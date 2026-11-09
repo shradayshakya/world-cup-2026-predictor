@@ -1,17 +1,67 @@
 {
-  "generated_at": "2026-11-08T06:15:00.963914+00:00",
+  "generated_at": "2026-11-09T06:15:02.619931+00:00",
   "teams": {
-    "Ecuador": {
-      "elo_penalty": -15.0,
+    "England": {
+      "elo_penalty": -60,
       "absences": [
         {
-          "player": "Moisés Caicedo",
+          "player": "Marc Guéhi",
+          "status": "doubt",
+          "until": null,
+          "key_player": true,
+          "source_title": "England await Guehi scan results after injury concern",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cmwyq8x6nx5lo?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-11-09",
+          "expires_on": null
+        },
+        {
+          "player": "Ivan Toney",
+          "status": "out",
+          "until": "Trial on 12 June 2028",
+          "key_player": false,
+          "source_title": "England’s Ivan Toney to stand trial during Euro 2028 after denying assault charge",
+          "source_link": "https://www.theguardian.com/football/2026/oct/29/ivan-toney-trial-during-euro-2028-denies-assault-charge",
+          "first_reported": "2026-10-30",
+          "expires_on": null
+        },
+        {
+          "player": "Bukayo Saka",
           "status": "out",
           "until": null,
           "key_player": true,
-          "source_title": "Chelsea’s Alonso identity still to form in a midfield that remains a problem",
-          "source_link": "https://www.theguardian.com/football/2026/nov/07/chelsea-xabi-alonso-midfield-problem-area",
-          "first_reported": "2026-11-08",
+          "source_title": "‘It doesn’t look good’: Arteta concerned as Saka limps off against Bayern Munich",
+          "source_link": "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury",
+          "first_reported": "2026-10-22",
+          "expires_on": null
+        },
+        {
+          "player": "Reece James",
+          "status": "out",
+          "until": "three months",
+          "key_player": true,
+          "source_title": "Chelsea's James out for three months after knee surgery",
+          "source_link": "https://www.bbc.co.uk/sport/football/articles/cq073d9l0ly9o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-10-17",
+          "expires_on": "2027-01-15"
+        },
+        {
+          "player": "Declan Rice",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
+          "first_reported": "2026-06-20",
+          "expires_on": null
+        },
+        {
+          "player": "Harry Kane",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
+          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
+          "first_reported": "2026-06-20",
           "expires_on": null
         }
       ]
@@ -24,8 +74,23 @@
           "status": "out",
           "until": null,
           "key_player": false,
-          "source_title": "Gio Reyna was fit and firing for Strasbourg. His latest injury is a heartbreaker for the USMNT star",
+          "source_title": "Gio Reyna was fit, firing for Strasbourg. His latest injury is a heartbreaker",
           "source_link": "https://www.espn.com/soccer/story/_/id/50410844/gio-reyna-was-fit-firing-strasbourg-latest-injury-heartbreaker-usmnt-star",
+          "first_reported": "2026-11-09",
+          "expires_on": null
+        }
+      ]
+    },
+    "Ecuador": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Moisés Caicedo",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Chelsea’s Alonso identity still to form in a midfield that remains a problem",
+          "source_link": "https://www.theguardian.com/football/2026/nov/07/chelsea-xabi-alonso-midfield-problem-area",
           "first_reported": "2026-11-08",
           "expires_on": null
         }
@@ -112,61 +177,6 @@
           "source_title": "García, Koundé to miss PSG-Barça ahead of Clásico",
           "source_link": "https://www.espn.com/soccer/story/_/id/50211229/barcelona-eric-garcia-jules-kounde-ruled-psg-injury",
           "first_reported": "2026-10-19",
-          "expires_on": null
-        }
-      ]
-    },
-    "England": {
-      "elo_penalty": -60.0,
-      "absences": [
-        {
-          "player": "Ivan Toney",
-          "status": "out",
-          "until": "Trial on 12 June 2028",
-          "key_player": false,
-          "source_title": "England’s Ivan Toney to stand trial during Euro 2028 after denying assault charge",
-          "source_link": "https://www.theguardian.com/football/2026/oct/29/ivan-toney-trial-during-euro-2028-denies-assault-charge",
-          "first_reported": "2026-10-30",
-          "expires_on": null
-        },
-        {
-          "player": "Bukayo Saka",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "‘It doesn’t look good’: Arteta concerned as Saka limps off against Bayern Munich",
-          "source_link": "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury",
-          "first_reported": "2026-10-22",
-          "expires_on": null
-        },
-        {
-          "player": "Reece James",
-          "status": "out",
-          "until": "three months",
-          "key_player": true,
-          "source_title": "Chelsea's James out for three months after knee surgery",
-          "source_link": "https://www.bbc.co.uk/sport/football/articles/cq073d9l0ly9o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-10-17",
-          "expires_on": "2027-01-15"
-        },
-        {
-          "player": "Declan Rice",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
-          "first_reported": "2026-06-20",
-          "expires_on": null
-        },
-        {
-          "player": "Harry Kane",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "Elliot Anderson is England’s spirit animal – and is now indispensable",
-          "source_link": "https://www.theguardian.com/football/2026/jun/19/elliot-anderson-is-englands-spirit-animal-and-is-now-indispensable",
-          "first_reported": "2026-06-20",
           "expires_on": null
         }
       ]
