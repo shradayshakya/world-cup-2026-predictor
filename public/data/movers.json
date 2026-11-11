@@ -1,4 +1,35 @@
 {
-  "generated_at": "2026-11-10T06:15:02.511323+00:00",
-  "movers": []
+  "generated_at": "2026-11-11T06:15:06.702399+00:00",
+  "movers": [
+    {
+      "team": "France",
+      "previous_pct": 10.43,
+      "current_pct": 8.92,
+      "delta_pp": -1.5099999999999998,
+      "direction": "loser",
+      "blurb": "France's title probability declined following several critical squad changes. The combined absences of Marcus Thuram, Aurélien Tchouaméni, and Jules Koundé, alongside Jean-Philippe Mateta's suspension, reduces the expected overall performance and depth in our predictive model.",
+      "sources": [
+        {
+          "label": "France",
+          "href": "/teams/france"
+        },
+        {
+          "label": "France woes mount as Tchouaméni, Thuram leave squad due to injuries",
+          "href": "https://www.espn.com/soccer/story/_/id/50446771/france-thuram-tchouameni-leave-squad-injuries"
+        },
+        {
+          "label": "France woes mount as Tchouaméni, Thuram leave squad due to injuries",
+          "href": "https://www.espn.com/soccer/story/_/id/50446771/france-thuram-tchouameni-leave-squad-injuries"
+        },
+        {
+          "label": "Spurs revival continues with victory over 10-man Crystal Palace",
+          "href": "https://www.bbc.co.uk/sport/football/videos/cxvgdrg33m72o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "García, Koundé to miss PSG-Barça ahead of Clásico",
+          "href": "https://www.espn.com/soccer/story/_/id/50211229/barcelona-eric-garcia-jules-kounde-ruled-psg-injury"
+        }
+      ]
+    }
+  ]
 }

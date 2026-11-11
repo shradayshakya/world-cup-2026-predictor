@@ -1,6 +1,81 @@
 {
-  "generated_at": "2026-11-10T06:15:02.511323+00:00",
+  "generated_at": "2026-11-11T06:15:06.702399+00:00",
   "teams": {
+    "France": {
+      "elo_penalty": -30.0,
+      "absences": [
+        {
+          "player": "Marcus Thuram",
+          "status": "out",
+          "until": "Nations League",
+          "key_player": false,
+          "source_title": "France woes mount as Tchouaméni, Thuram leave squad due to injuries",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50446771/france-thuram-tchouameni-leave-squad-injuries",
+          "first_reported": "2026-11-11",
+          "expires_on": null
+        },
+        {
+          "player": "Aurélien Tchouaméni",
+          "status": "out",
+          "until": "Nations League",
+          "key_player": true,
+          "source_title": "France woes mount as Tchouaméni, Thuram leave squad due to injuries",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50446771/france-thuram-tchouameni-leave-squad-injuries",
+          "first_reported": "2026-11-11",
+          "expires_on": null
+        },
+        {
+          "player": "Jean-Philippe Mateta",
+          "status": "suspended",
+          "until": null,
+          "key_player": false,
+          "source_title": "Spurs revival continues with victory over 10-man Crystal Palace",
+          "source_link": "https://www.bbc.co.uk/sport/football/videos/cxvgdrg33m72o?at_medium=RSS&at_campaign=rss",
+          "first_reported": "2026-11-01",
+          "expires_on": null
+        },
+        {
+          "player": "Jules Koundé",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "García, Koundé to miss PSG-Barça ahead of Clásico",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50211229/barcelona-eric-garcia-jules-kounde-ruled-psg-injury",
+          "first_reported": "2026-10-19",
+          "expires_on": null
+        }
+      ]
+    },
+    "Scotland": {
+      "elo_penalty": -15.0,
+      "absences": [
+        {
+          "player": "Scott McTominay",
+          "status": "out",
+          "until": "N/A",
+          "key_player": true,
+          "source_title": "'Not ideal': McTominay had heart shocked 2 days before Scotland's WC opener",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50444096/scott-mctominay-scotland-2026-world-cup-heart-shock",
+          "first_reported": "2026-11-11",
+          "expires_on": null
+        }
+      ]
+    },
+    "United States": {
+      "elo_penalty": 0.0,
+      "absences": [
+        {
+          "player": "Giovanni Reyna",
+          "status": "out",
+          "until": null,
+          "key_player": false,
+          "source_title": "Gio Reyna was fit, firing for Strasbourg. His latest injury is a heartbreaker",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50410844/gio-reyna-was-fit-firing-strasbourg-latest-injury-heartbreaker-usmnt-star",
+          "first_reported": "2026-11-11",
+          "expires_on": null
+        }
+      ]
+    },
     "England": {
       "elo_penalty": -60,
       "absences": [
@@ -121,21 +196,6 @@
         }
       ]
     },
-    "United States": {
-      "elo_penalty": 0.0,
-      "absences": [
-        {
-          "player": "Giovanni Reyna",
-          "status": "out",
-          "until": null,
-          "key_player": false,
-          "source_title": "Gio Reyna was fit, firing for Strasbourg. His latest injury is a heartbreaker",
-          "source_link": "https://www.espn.com/soccer/story/_/id/50410844/gio-reyna-was-fit-firing-strasbourg-latest-injury-heartbreaker-usmnt-star",
-          "first_reported": "2026-11-09",
-          "expires_on": null
-        }
-      ]
-    },
     "Ecuador": {
       "elo_penalty": -15.0,
       "absences": [
@@ -207,31 +267,6 @@
           "source_title": "Messi fined for slapping opponent in MLS game",
           "source_link": "https://www.bbc.co.uk/sport/football/articles/cz05k0j72p5o?at_medium=RSS&at_campaign=rss",
           "first_reported": "2026-08-23",
-          "expires_on": null
-        }
-      ]
-    },
-    "France": {
-      "elo_penalty": -15.0,
-      "absences": [
-        {
-          "player": "Jean-Philippe Mateta",
-          "status": "suspended",
-          "until": null,
-          "key_player": false,
-          "source_title": "Spurs revival continues with victory over 10-man Crystal Palace",
-          "source_link": "https://www.bbc.co.uk/sport/football/videos/cxvgdrg33m72o?at_medium=RSS&at_campaign=rss",
-          "first_reported": "2026-11-01",
-          "expires_on": null
-        },
-        {
-          "player": "Jules Koundé",
-          "status": "out",
-          "until": null,
-          "key_player": true,
-          "source_title": "García, Koundé to miss PSG-Barça ahead of Clásico",
-          "source_link": "https://www.espn.com/soccer/story/_/id/50211229/barcelona-eric-garcia-jules-kounde-ruled-psg-injury",
-          "first_reported": "2026-10-19",
           "expires_on": null
         }
       ]

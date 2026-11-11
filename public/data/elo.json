@@ -70,7 +70,7 @@
       "rank": 12,
       "code": "NO",
       "name": "Norway",
-      "rating": 1900
+      "rating": 1901
     },
     {
       "rank": 13,
@@ -148,7 +148,7 @@
       "rank": 25,
       "code": "US",
       "name": "United States",
-      "rating": 1793
+      "rating": 1792
     },
     {
       "rank": 26,
@@ -574,7 +574,7 @@
       "rank": 96,
       "code": "KD",
       "name": "Kurdistan",
-      "rating": 1424
+      "rating": 1423
     },
     {
       "rank": 97,
@@ -808,7 +808,7 @@
       "rank": 135,
       "code": "NA",
       "name": "Namibia",
-      "rating": 1305
+      "rating": 1306
     },
     {
       "rank": 136,
@@ -922,7 +922,7 @@
       "rank": 154,
       "code": "YT",
       "name": "Mayotte",
-      "rating": 1216
+      "rating": 1217
     },
     {
       "rank": 155,
@@ -1210,7 +1210,7 @@
       "rank": 202,
       "code": "DM",
       "name": "Dominica",
-      "rating": 885
+      "rating": 884
     },
     {
       "rank": 203,
@@ -1465,5 +1465,5 @@
       "rating": 370
     }
   ],
-  "scraped_at": "2026-11-10T06:15:02.511323+00:00"
+  "scraped_at": "2026-11-11T06:15:06.702399+00:00"
 }
