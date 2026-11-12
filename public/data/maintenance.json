@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:15:06.702399+00:00",
+  "generated_at": "2026-11-12T06:15:01.154612+00:00",
   "issues": [
     {
       "source": "wikipedia_groups",
@@ -23,13 +23,13 @@
       "source": "wikipedia_groups",
       "detail": "Group D: Paraguay: goals_for-goals_against != goal_difference; Turkey: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": false
+      "fallback_succeeded": true
     },
     {
       "source": "wikipedia_groups",
       "detail": "Group E: Curaçao: goals_for-goals_against != goal_difference",
       "fallback_attempted": true,
-      "fallback_succeeded": true
+      "fallback_succeeded": false
     },
     {
       "source": "wikipedia_groups",

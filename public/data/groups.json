@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-11T06:15:06.702399+00:00",
+  "scraped_at": "2026-11-12T06:15:01.154612+00:00",
   "groups": {
     "A": [
       {
@@ -28,7 +28,7 @@
         "goals_against": 3,
         "goal_difference": -1,
         "points": 4,
-        "qualification_note": ""
+        "qualification_note": "Advance to knockout stage"
       },
       {
         "position": 3,
@@ -202,7 +202,7 @@
         "goals_against": 2,
         "goal_difference": 0,
         "points": 4,
-        "qualification_note": "Advance to knockout stage"
+        "qualification_note": ""
       },
       {
         "position": 3,
@@ -214,9 +214,9 @@
         "lost": 1,
         "goals_for": 2,
         "goals_against": 4,
-        "goal_difference": 2,
+        "goal_difference": -2,
         "points": 4,
-        "qualification_note": "Advance to knockout stage"
+        "qualification_note": ""
       },
       {
         "position": 4,
@@ -228,7 +228,7 @@
         "lost": 2,
         "goals_for": 3,
         "goals_against": 5,
-        "goal_difference": 2,
+        "goal_difference": -2,
         "points": 3,
         "qualification_note": ""
       }
@@ -260,7 +260,7 @@
         "goals_against": 2,
         "goal_difference": 2,
         "points": 6,
-        "qualification_note": ""
+        "qualification_note": "Advance to knockout stage"
       },
       {
         "position": 3,
@@ -274,7 +274,7 @@
         "goals_against": 2,
         "goal_difference": 0,
         "points": 4,
-        "qualification_note": ""
+        "qualification_note": "Advance to knockout stage"
       },
       {
         "position": 4,
@@ -286,7 +286,7 @@
         "lost": 2,
         "goals_for": 1,
         "goals_against": 9,
-        "goal_difference": -8,
+        "goal_difference": 8,
         "points": 1,
         "qualification_note": ""
       }

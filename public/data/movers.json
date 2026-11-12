@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-11-11T06:15:06.702399+00:00",
+  "generated_at": "2026-11-12T06:15:01.154612+00:00",
   "movers": [
     {
       "team": "France",
-      "previous_pct": 10.43,
-      "current_pct": 8.92,
-      "delta_pp": -1.5099999999999998,
+      "previous_pct": 8.92,
+      "current_pct": 7.969999999999999,
+      "delta_pp": -0.9500000000000011,
       "direction": "loser",
-      "blurb": "France's title probability declined following several critical squad changes. The combined absences of Marcus Thuram, Aurélien Tchouaméni, and Jules Koundé, alongside Jean-Philippe Mateta's suspension, reduces the expected overall performance and depth in our predictive model.",
+      "blurb": "The decrease in France's probability is attributed to multiple key player absences. Significant injuries include Kylian Mbappé, Marcus Thuram, Tchouaméni, and Jules Koundé. Furthermore, Jean-Philippe Mateta is currently suspended, leading our model to adjust the team's projected success rate.",
       "sources": [
         {
           "label": "France",
           "href": "/teams/france"
+        },
+        {
+          "label": "Kylian Mbappé (hamstring) to miss France clash with Italy",
+          "href": "https://www.espn.com/soccer/story/_/id/50452835/kylian-mbappe-hamstring-miss-france-clash-italy"
         },
         {
           "label": "France woes mount as Tchouaméni, Thuram leave squad due to injuries",
@@ -28,6 +32,40 @@
         {
           "label": "García, Koundé to miss PSG-Barça ahead of Clásico",
           "href": "https://www.espn.com/soccer/story/_/id/50211229/barcelona-eric-garcia-jules-kounde-ruled-psg-injury"
+        }
+      ]
+    },
+    {
+      "team": "Spain",
+      "previous_pct": 39.45,
+      "current_pct": 39.98,
+      "delta_pp": 0.529999999999994,
+      "direction": "gainer",
+      "blurb": "Despite significant absences of key players like Rodri, Lamine Yamal, and Nico Williams, Spain's probability saw a slight increase. This upward adjustment is attributable to an internal shift in our predictive model's systemic projection parameters rather than specific on-field events or performance updates.",
+      "sources": [
+        {
+          "label": "Spain",
+          "href": "/teams/spain"
+        },
+        {
+          "label": "Barça's Lamine Yamal (knee) to miss next Spain Nations League game",
+          "href": "https://www.espn.com/soccer/story/_/id/50431764/barcelona-lamine-yamal-knee-nations-league-spain"
+        },
+        {
+          "label": "García, Koundé to miss PSG-Barça ahead of Clásico",
+          "href": "https://www.espn.com/soccer/story/_/id/50211229/barcelona-eric-garcia-jules-kounde-ruled-psg-injury"
+        },
+        {
+          "label": "Rodri to have back surgery but Maresca brushes off transfer speculation",
+          "href": "https://www.bbc.co.uk/sport/football/articles/c36dw0nwexxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "Spain's Williams criticises tackle that injured him",
+          "href": "https://www.bbc.co.uk/sport/football/articles/cx2j5j9xgp4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "label": "‘Stung’ Spain have digested shock start but know repeat is not an option",
+          "href": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option"
         }
       ]
     }

@@ -592,7 +592,7 @@
       "rank": 99,
       "code": "VN",
       "name": "Vietnam",
-      "rating": 1399
+      "rating": 1400
     },
     {
       "rank": 100,
@@ -1000,7 +1000,7 @@
       "rank": 167,
       "code": "IN",
       "name": "India",
-      "rating": 1144
+      "rating": 1148
     },
     {
       "rank": 168,
@@ -1154,33 +1154,33 @@
     },
     {
       "rank": 193,
+      "code": "BD",
+      "name": "Bangladesh",
+      "rating": 946
+    },
+    {
+      "rank": 194,
       "code": "GL",
       "name": "Greenland",
       "rating": 945
     },
     {
-      "rank": 194,
+      "rank": 195,
       "code": "DJ",
       "name": "Djibouti",
       "rating": 941
     },
     {
-      "rank": 195,
+      "rank": 196,
       "code": "SX",
       "name": "Sint Maarten",
-      "rating": 929
-    },
-    {
-      "rank": 196,
-      "code": "PK",
-      "name": "Pakistan",
-      "rating": 928
+      "rating": 932
     },
     {
       "rank": 197,
-      "code": "BD",
-      "name": "Bangladesh",
-      "rating": 923
+      "code": "PK",
+      "name": "Pakistan",
+      "rating": 928
     },
     {
       "rank": 198,
@@ -1220,24 +1220,24 @@
     },
     {
       "rank": 204,
-      "code": "LK",
-      "name": "Sri Lanka",
-      "rating": 876
-    },
-    {
-      "rank": 205,
       "code": "BQ",
       "name": "Bonaire",
       "rating": 856
     },
     {
+      "rank": 205,
+      "code": "LK",
+      "name": "Sri Lanka",
+      "rating": 853
+    },
+    {
       "rank": 206,
       "code": "TW",
       "name": "Taiwan",
-      "rating": 821
+      "rating": 820
     },
     {
-      "rank": 207,
+      "rank": 206,
       "code": "SM",
       "name": "San Marino",
       "rating": 820
@@ -1264,7 +1264,7 @@
       "rank": 211,
       "code": "MV",
       "name": "Maldives",
-      "rating": 769
+      "rating": 765
     },
     {
       "rank": 212,
@@ -1384,7 +1384,7 @@
       "rank": 231,
       "code": "AI",
       "name": "Anguilla",
-      "rating": 615
+      "rating": 612
     },
     {
       "rank": 232,
@@ -1465,5 +1465,5 @@
       "rating": 370
     }
   ],
-  "scraped_at": "2026-11-11T06:15:06.702399+00:00"
+  "scraped_at": "2026-11-12T06:15:01.154612+00:00"
 }

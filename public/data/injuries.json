@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-11-11T06:15:06.702399+00:00",
+  "generated_at": "2026-11-12T06:15:01.154612+00:00",
   "teams": {
     "France": {
-      "elo_penalty": -30.0,
+      "elo_penalty": -45.0,
       "absences": [
+        {
+          "player": "Kylian Mbappé",
+          "status": "out",
+          "until": null,
+          "key_player": true,
+          "source_title": "Kylian Mbappé (hamstring) to miss France clash with Italy",
+          "source_link": "https://www.espn.com/soccer/story/_/id/50452835/kylian-mbappe-hamstring-miss-france-clash-italy",
+          "first_reported": "2026-11-12",
+          "expires_on": null
+        },
         {
           "player": "Marcus Thuram",
           "status": "out",
