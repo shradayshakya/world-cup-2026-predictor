@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T06:15:01.154612+00:00",
+  "generated_at": "2026-11-13T06:15:02.260274+00:00",
   "teams": {
     "France": {
       "elo_penalty": -45.0,
@@ -154,16 +154,6 @@
     "Spain": {
       "elo_penalty": -30.0,
       "absences": [
-        {
-          "player": "Lamine Yamal",
-          "status": "out",
-          "until": "next Spain Nations League game",
-          "key_player": false,
-          "source_title": "Barça's Lamine Yamal (knee) to miss next Spain Nations League game",
-          "source_link": "https://www.espn.com/soccer/story/_/id/50431764/barcelona-lamine-yamal-knee-nations-league-spain",
-          "first_reported": "2026-11-10",
-          "expires_on": null
-        },
         {
           "player": "Eric García",
           "status": "out",

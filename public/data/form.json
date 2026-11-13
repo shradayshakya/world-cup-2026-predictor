@@ -1,45 +1,63 @@
 {
-  "generated_at": "2026-11-12T06:15:01.154612+00:00",
+  "generated_at": "2026-11-13T06:15:02.260274+00:00",
   "teams": {
-    "Croatia": [
+    "Czech Republic": [
       {
-        "date": "2026-10-06",
+        "date": "2026-11-12",
         "opponent": "Spain",
-        "goals_for": 1,
+        "goals_for": 0,
         "goals_against": 2,
         "result": "L",
         "tournament": "European Nations League A",
-        "venue": "Croatia"
+        "venue": "Czech Republic"
+      },
+      {
+        "date": "2026-10-06",
+        "opponent": "England",
+        "goals_for": 0,
+        "goals_against": 3,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "England"
       },
       {
         "date": "2026-10-03",
-        "opponent": "England",
-        "goals_for": 0,
-        "goals_against": 7,
-        "result": "L",
-        "tournament": "European Nations League A",
-        "venue": "Croatia"
-      },
-      {
-        "date": "2026-09-29",
         "opponent": "Spain",
         "goals_for": 1,
-        "goals_against": 4,
+        "goals_against": 3,
         "result": "L",
         "tournament": "European Nations League A",
         "venue": "Spain"
       },
       {
+        "date": "2026-09-29",
+        "opponent": "England",
+        "goals_for": 0,
+        "goals_against": 2,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "Czech Republic"
+      },
+      {
         "date": "2026-09-26",
-        "opponent": "Czech Republic",
-        "goals_for": 2,
-        "goals_against": 1,
-        "result": "W",
+        "opponent": "Croatia",
+        "goals_for": 1,
+        "goals_against": 2,
+        "result": "L",
         "tournament": "European Nations League A",
         "venue": "Czech Republic"
       }
     ],
     "Spain": [
+      {
+        "date": "2026-11-12",
+        "opponent": "Czech Republic",
+        "goals_for": 2,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "European Nations League A",
+        "venue": "Czech Republic"
+      },
       {
         "date": "2026-10-06",
         "opponent": "Croatia",
@@ -79,6 +97,15 @@
     ],
     "England": [
       {
+        "date": "2026-11-12",
+        "opponent": "Croatia",
+        "goals_for": 2,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "European Nations League A",
+        "venue": "England"
+      },
+      {
         "date": "2026-10-06",
         "opponent": "Czech Republic",
         "goals_for": 3,
@@ -115,42 +142,429 @@
         "venue": "England"
       }
     ],
-    "Czech Republic": [
+    "Croatia": [
       {
-        "date": "2026-10-06",
+        "date": "2026-11-12",
         "opponent": "England",
-        "goals_for": 0,
-        "goals_against": 3,
+        "goals_for": 1,
+        "goals_against": 2,
         "result": "L",
         "tournament": "European Nations League A",
         "venue": "England"
       },
       {
-        "date": "2026-10-03",
+        "date": "2026-10-06",
         "opponent": "Spain",
         "goals_for": 1,
-        "goals_against": 3,
+        "goals_against": 2,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "Croatia"
+      },
+      {
+        "date": "2026-10-03",
+        "opponent": "England",
+        "goals_for": 0,
+        "goals_against": 7,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "Croatia"
+      },
+      {
+        "date": "2026-09-29",
+        "opponent": "Spain",
+        "goals_for": 1,
+        "goals_against": 4,
         "result": "L",
         "tournament": "European Nations League A",
         "venue": "Spain"
       },
       {
-        "date": "2026-09-29",
-        "opponent": "England",
-        "goals_for": 0,
-        "goals_against": 2,
-        "result": "L",
+        "date": "2026-09-26",
+        "opponent": "Czech Republic",
+        "goals_for": 2,
+        "goals_against": 1,
+        "result": "W",
         "tournament": "European Nations League A",
         "venue": "Czech Republic"
+      }
+    ],
+    "France": [
+      {
+        "date": "2026-11-12",
+        "opponent": "Italy",
+        "goals_for": 1,
+        "goals_against": 3,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "Italy"
       },
       {
-        "date": "2026-09-26",
-        "opponent": "Croatia",
+        "date": "2026-10-05",
+        "opponent": "Belgium",
+        "goals_for": 4,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "European Nations League A",
+        "venue": "France"
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Italy",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "European Nations League A",
+        "venue": "France"
+      },
+      {
+        "date": "2026-09-28",
+        "opponent": "Belgium",
+        "goals_for": 1,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "European Nations League A",
+        "venue": "Belgium"
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Turkey",
+        "goals_for": 1,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "European Nations League A",
+        "venue": "Turkey"
+      }
+    ],
+    "Turkey": [
+      {
+        "date": "2026-11-12",
+        "opponent": "Belgium",
         "goals_for": 1,
         "goals_against": 2,
         "result": "L",
         "tournament": "European Nations League A",
-        "venue": "Czech Republic"
+        "venue": "Turkey"
+      },
+      {
+        "date": "2026-10-05",
+        "opponent": "Italy",
+        "goals_for": 1,
+        "goals_against": 3,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "Italy"
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Belgium",
+        "goals_for": 0,
+        "goals_against": 3,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "Belgium"
+      },
+      {
+        "date": "2026-09-28",
+        "opponent": "Italy",
+        "goals_for": 1,
+        "goals_against": 4,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "Turkey"
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "France",
+        "goals_for": 0,
+        "goals_against": 1,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "Turkey"
+      }
+    ],
+    "Belgium": [
+      {
+        "date": "2026-11-12",
+        "opponent": "Turkey",
+        "goals_for": 2,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "European Nations League A",
+        "venue": "Turkey"
+      },
+      {
+        "date": "2026-10-05",
+        "opponent": "France",
+        "goals_for": 1,
+        "goals_against": 4,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "France"
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Turkey",
+        "goals_for": 3,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "European Nations League A",
+        "venue": "Belgium"
+      },
+      {
+        "date": "2026-09-28",
+        "opponent": "France",
+        "goals_for": 0,
+        "goals_against": 1,
+        "result": "L",
+        "tournament": "European Nations League A",
+        "venue": "Belgium"
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Italy",
+        "goals_for": 2,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "European Nations League A",
+        "venue": "Italy"
+      }
+    ],
+    "DR Congo": [
+      {
+        "date": "2026-11-12",
+        "opponent": "Sierra Leone",
+        "goals_for": 3,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "DR Congo"
+      },
+      {
+        "date": "2026-10-05",
+        "opponent": "Uganda",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "Friendly",
+        "venue": "South Africa"
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Uganda",
+        "goals_for": 0,
+        "goals_against": 2,
+        "result": "L",
+        "tournament": "Friendly",
+        "venue": "South Africa"
+      },
+      {
+        "date": "2026-09-28",
+        "opponent": "Zimbabwe",
+        "goals_for": 2,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Zimbabwe"
+      },
+      {
+        "date": "2026-09-24",
+        "opponent": "Equatorial Guinea",
+        "goals_for": 2,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "DR Congo"
+      }
+    ],
+    "Ghana": [
+      {
+        "date": "2026-11-12",
+        "opponent": "Somalia",
+        "goals_for": 2,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Ghana"
+      },
+      {
+        "date": "2026-09-29",
+        "opponent": "Gambia",
+        "goals_for": 2,
+        "goals_against": 4,
+        "result": "L",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Ghana"
+      },
+      {
+        "date": "2026-09-24",
+        "opponent": "Ivory Coast",
+        "goals_for": 0,
+        "goals_against": 2,
+        "result": "L",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Ivory Coast"
+      }
+    ],
+    "Ivory Coast": [
+      {
+        "date": "2026-11-12",
+        "opponent": "Gambia",
+        "goals_for": 2,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Ivory Coast"
+      },
+      {
+        "date": "2026-10-03",
+        "opponent": "Cameroon",
+        "goals_for": 0,
+        "goals_against": 1,
+        "result": "L",
+        "tournament": "Friendly",
+        "venue": "Ivory Coast"
+      },
+      {
+        "date": "2026-09-29",
+        "opponent": "Somalia",
+        "goals_for": 2,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Ivory Coast"
+      },
+      {
+        "date": "2026-09-24",
+        "opponent": "Ghana",
+        "goals_for": 2,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Ivory Coast"
+      }
+    ],
+    "Senegal": [
+      {
+        "date": "2026-11-12",
+        "opponent": "Sudan",
+        "goals_for": 4,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Senegal"
+      },
+      {
+        "date": "2026-10-04",
+        "opponent": "Comoros",
+        "goals_for": 1,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "Friendly",
+        "venue": "France"
+      },
+      {
+        "date": "2026-09-29",
+        "opponent": "Ethiopia",
+        "goals_for": 1,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Ethiopia"
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Mozambique",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "African Nations Cup qualifier",
+        "venue": "Mozambique"
+      }
+    ],
+    "New Zealand": [
+      {
+        "date": "2026-11-12",
+        "opponent": "India",
+        "goals_for": 5,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "Friendly",
+        "venue": "New Zealand"
+      },
+      {
+        "date": "2026-10-05",
+        "opponent": "Japan",
+        "goals_for": 1,
+        "goals_against": 2,
+        "result": "L",
+        "tournament": "Friendly tournament",
+        "venue": "Japan"
+      },
+      {
+        "date": "2026-10-01",
+        "opponent": "Panama",
+        "goals_for": 1,
+        "goals_against": 1,
+        "result": "D",
+        "tournament": "Friendly tournament",
+        "venue": "Japan"
+      },
+      {
+        "date": "2026-09-27",
+        "opponent": "China",
+        "goals_for": 3,
+        "goals_against": 0,
+        "result": "W",
+        "tournament": "Friendly tournament",
+        "venue": "China"
+      },
+      {
+        "date": "2026-09-24",
+        "opponent": "Palestine",
+        "goals_for": 2,
+        "goals_against": 2,
+        "result": "D",
+        "tournament": "Friendly tournament",
+        "venue": "China"
+      }
+    ],
+    "Uzbekistan": [
+      {
+        "date": "2026-11-12",
+        "opponent": "Russia",
+        "goals_for": 2,
+        "goals_against": 3,
+        "result": "L",
+        "tournament": "Friendly",
+        "venue": "Uzbekistan"
+      },
+      {
+        "date": "2026-10-06",
+        "opponent": "South Korea",
+        "goals_for": 0,
+        "goals_against": 2,
+        "result": "L",
+        "tournament": "Friendly",
+        "venue": "South Korea"
+      },
+      {
+        "date": "2026-10-01",
+        "opponent": "Syria",
+        "goals_for": 4,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "Friendly",
+        "venue": "Uzbekistan"
+      },
+      {
+        "date": "2026-09-24",
+        "opponent": "Iran",
+        "goals_for": 3,
+        "goals_against": 1,
+        "result": "W",
+        "tournament": "Friendly",
+        "venue": "Uzbekistan"
       }
     ],
     "Scotland": [
@@ -488,35 +902,6 @@
         "venue": "South Korea"
       }
     ],
-    "Uzbekistan": [
-      {
-        "date": "2026-10-06",
-        "opponent": "South Korea",
-        "goals_for": 0,
-        "goals_against": 2,
-        "result": "L",
-        "tournament": "Friendly",
-        "venue": "South Korea"
-      },
-      {
-        "date": "2026-10-01",
-        "opponent": "Syria",
-        "goals_for": 4,
-        "goals_against": 1,
-        "result": "W",
-        "tournament": "Friendly",
-        "venue": "Uzbekistan"
-      },
-      {
-        "date": "2026-09-24",
-        "opponent": "Iran",
-        "goals_for": 3,
-        "goals_against": 1,
-        "result": "W",
-        "tournament": "Friendly",
-        "venue": "Uzbekistan"
-      }
-    ],
     "United States": [
       {
         "date": "2026-10-06",
@@ -582,120 +967,6 @@
         "result": "W",
         "tournament": "Friendly",
         "venue": "Canada"
-      }
-    ],
-    "France": [
-      {
-        "date": "2026-10-05",
-        "opponent": "Belgium",
-        "goals_for": 4,
-        "goals_against": 1,
-        "result": "W",
-        "tournament": "European Nations League A",
-        "venue": "France"
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "Italy",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "European Nations League A",
-        "venue": "France"
-      },
-      {
-        "date": "2026-09-28",
-        "opponent": "Belgium",
-        "goals_for": 1,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "European Nations League A",
-        "venue": "Belgium"
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Turkey",
-        "goals_for": 1,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "European Nations League A",
-        "venue": "Turkey"
-      }
-    ],
-    "Belgium": [
-      {
-        "date": "2026-10-05",
-        "opponent": "France",
-        "goals_for": 1,
-        "goals_against": 4,
-        "result": "L",
-        "tournament": "European Nations League A",
-        "venue": "France"
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "Turkey",
-        "goals_for": 3,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "European Nations League A",
-        "venue": "Belgium"
-      },
-      {
-        "date": "2026-09-28",
-        "opponent": "France",
-        "goals_for": 0,
-        "goals_against": 1,
-        "result": "L",
-        "tournament": "European Nations League A",
-        "venue": "Belgium"
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Italy",
-        "goals_for": 2,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "European Nations League A",
-        "venue": "Italy"
-      }
-    ],
-    "Turkey": [
-      {
-        "date": "2026-10-05",
-        "opponent": "Italy",
-        "goals_for": 1,
-        "goals_against": 3,
-        "result": "L",
-        "tournament": "European Nations League A",
-        "venue": "Italy"
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "Belgium",
-        "goals_for": 0,
-        "goals_against": 3,
-        "result": "L",
-        "tournament": "European Nations League A",
-        "venue": "Belgium"
-      },
-      {
-        "date": "2026-09-28",
-        "opponent": "Italy",
-        "goals_for": 1,
-        "goals_against": 4,
-        "result": "L",
-        "tournament": "European Nations League A",
-        "venue": "Turkey"
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "France",
-        "goals_for": 0,
-        "goals_against": 1,
-        "result": "L",
-        "tournament": "European Nations League A",
-        "venue": "Turkey"
       }
     ],
     "Bosnia and Herzegovina": [
@@ -772,44 +1043,6 @@
         "result": "W",
         "tournament": "European Nations League B",
         "venue": "Sweden"
-      }
-    ],
-    "DR Congo": [
-      {
-        "date": "2026-10-05",
-        "opponent": "Uganda",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "Friendly",
-        "venue": "South Africa"
-      },
-      {
-        "date": "2026-10-02",
-        "opponent": "Uganda",
-        "goals_for": 0,
-        "goals_against": 2,
-        "result": "L",
-        "tournament": "Friendly",
-        "venue": "South Africa"
-      },
-      {
-        "date": "2026-09-28",
-        "opponent": "Zimbabwe",
-        "goals_for": 2,
-        "goals_against": 1,
-        "result": "W",
-        "tournament": "African Nations Cup qualifier",
-        "venue": "Zimbabwe"
-      },
-      {
-        "date": "2026-09-24",
-        "opponent": "Equatorial Guinea",
-        "goals_for": 2,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "African Nations Cup qualifier",
-        "venue": "DR Congo"
       }
     ],
     "Ecuador": [
@@ -906,44 +1139,6 @@
         "result": "W",
         "tournament": "Friendly",
         "venue": "Japan"
-      }
-    ],
-    "New Zealand": [
-      {
-        "date": "2026-10-05",
-        "opponent": "Japan",
-        "goals_for": 1,
-        "goals_against": 2,
-        "result": "L",
-        "tournament": "Friendly tournament",
-        "venue": "Japan"
-      },
-      {
-        "date": "2026-10-01",
-        "opponent": "Panama",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "Friendly tournament",
-        "venue": "Japan"
-      },
-      {
-        "date": "2026-09-27",
-        "opponent": "China",
-        "goals_for": 3,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "Friendly tournament",
-        "venue": "China"
-      },
-      {
-        "date": "2026-09-24",
-        "opponent": "Palestine",
-        "goals_for": 2,
-        "goals_against": 2,
-        "result": "D",
-        "tournament": "Friendly tournament",
-        "venue": "China"
       }
     ],
     "Haiti": [
@@ -1299,35 +1494,6 @@
         "venue": "Morocco"
       }
     ],
-    "Senegal": [
-      {
-        "date": "2026-10-04",
-        "opponent": "Comoros",
-        "goals_for": 1,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "Friendly",
-        "venue": "France"
-      },
-      {
-        "date": "2026-09-29",
-        "opponent": "Ethiopia",
-        "goals_for": 1,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "African Nations Cup qualifier",
-        "venue": "Ethiopia"
-      },
-      {
-        "date": "2026-09-25",
-        "opponent": "Mozambique",
-        "goals_for": 1,
-        "goals_against": 1,
-        "result": "D",
-        "tournament": "African Nations Cup qualifier",
-        "venue": "Mozambique"
-      }
-    ],
     "Qatar": [
       {
         "date": "2026-10-03",
@@ -1395,35 +1561,6 @@
         "venue": "Australia"
       }
     ],
-    "Ivory Coast": [
-      {
-        "date": "2026-10-03",
-        "opponent": "Cameroon",
-        "goals_for": 0,
-        "goals_against": 1,
-        "result": "L",
-        "tournament": "Friendly",
-        "venue": "Ivory Coast"
-      },
-      {
-        "date": "2026-09-29",
-        "opponent": "Somalia",
-        "goals_for": 2,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "African Nations Cup qualifier",
-        "venue": "Ivory Coast"
-      },
-      {
-        "date": "2026-09-24",
-        "opponent": "Ghana",
-        "goals_for": 2,
-        "goals_against": 0,
-        "result": "W",
-        "tournament": "African Nations Cup qualifier",
-        "venue": "Ivory Coast"
-      }
-    ],
     "Paraguay": [
       {
         "date": "2026-10-02",
@@ -1462,26 +1599,6 @@
         "result": "L",
         "tournament": "African Nations Cup qualifier",
         "venue": "Mali"
-      }
-    ],
-    "Ghana": [
-      {
-        "date": "2026-09-29",
-        "opponent": "Gambia",
-        "goals_for": 2,
-        "goals_against": 4,
-        "result": "L",
-        "tournament": "African Nations Cup qualifier",
-        "venue": "Ghana"
-      },
-      {
-        "date": "2026-09-24",
-        "opponent": "Ivory Coast",
-        "goals_for": 0,
-        "goals_against": 2,
-        "result": "L",
-        "tournament": "African Nations Cup qualifier",
-        "venue": "Ivory Coast"
       }
     ],
     "Iraq": [
